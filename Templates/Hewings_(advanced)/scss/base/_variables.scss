@@ -1,0 +1,66 @@
+
+// Descriptive Color Variables
+
+$white							:#fff;
+$black							:#000;
+$grey								:#878787;
+$red								:#dc322f;
+//red
+$fun-green					:#00803F;
+$japanese-Laurel		:#077a09;
+$mountain-meadow		:#1dd16e;
+$Panache						:#e5f3e8;
+$flamingo						:#ed5a3d;
+$celadon						:#a6dd9e;
+//text
+$linen							:#FAF4E5;
+$mine-shaft					:#3b3b3b;
+$golden-grass				:#da9729;
+$givry							:#f7deb7;
+
+$fuscous-gray				:#4e4e4e;
+
+// Functional Color Variables
+
+$color-prim						:	$fun-green;
+$color-sec						:	$japanese-Laurel;
+$color-bright					: $mountain-meadow;
+$select-light					:	$celadon;
+$select-light-main		:	$givry;
+
+$background-app				: $fuscous-gray;
+$background-table			: $Panache;
+$background-light			: $Panache;
+
+$color-text-base			: $mine-shaft;
+$color-text-light			: $linen;
+
+//$color-border-light : $flamingo;
+$color-border-light  	: lighten($grey, 25%);
+$color-border-bright	: $mountain-meadow;
+
+$color-shadow					: rgba($fun-green,.7);
+
+// Font Stacks
+
+$button-fonts 				: Verdana, serif;
+
+ // Media Query
+$brk-wide   								: '(max-width: 1025px)';
+$brk-wide-appButtons   			: '(max-width: 855px)';
+$brk-narrow 								: '(max-width: 769px)';
+$brk-iPhone6sPlus-wide 			: '(max-width: 737px)';
+$brk-iPhone6s-wide   				: '(max-width: 668px)';
+$brk-iPhone-wide   					: '(max-width: 569px)';
+$brk-iPhone6sPlus-portrait  : '(max-width: 438px)';
+$brk-iPhone6s-portrait  		: '(max-width: 376px)';
+$brk-extra-narrow 					: '(max-width: 321px)';
+
+
+
+//@media only screen 
+//  and (min-device-width: 768px) 
+////  and (max-device-width: 1024px) 
+//  and (orientation: portrait) 
+////  and (-webkit-min-device-pixel-ratio: 1)
+//{

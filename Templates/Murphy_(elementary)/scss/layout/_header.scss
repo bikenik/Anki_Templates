@@ -1,0 +1,44 @@
+/*==================================== 
+  Header
+=====================================*/
+.background_header {
+	background: white;
+}
+
+.unit_table {
+	@extend %align;
+	display: block;
+	z-index: 0;
+	margin-top: 0px;
+	width: 70%;
+	max-width: 910px;
+	max-height: 0;
+	opacity: 0;
+	-webkit-transition-property: max-height, opacity;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 100ms;
+	transition-delay: 100ms;
+}
+
+.un_table{
+	width: 100%;
+}
+
+.header {
+	@extend %alignBase;
+	display: inline-block;
+	z-index: 13;
+	width: 70%;
+	max-width: 910px;
+	display: block;
+	background-color: $background-app; /*rgba(0, 0, 0, .65);*/
+	overflow: hidden;
+	position: relative;
+	max-height: 0;
+	-webkit-transition-property: max-height, width, max-width;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 100ms;
+	transition-delay: 100ms;
+}

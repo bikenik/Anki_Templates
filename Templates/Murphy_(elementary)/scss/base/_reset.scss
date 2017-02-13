@@ -1,0 +1,131 @@
+/*==================================== 
+  Reset
+=====================================*/
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+dfn,
+del,
+p,
+blockquote,
+fieldset,
+input,
+textarea,
+select,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+button,
+canvas {
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+address,
+caption,
+cite,
+code,
+th,
+dfn,
+del {
+	font-weight: normal;
+	font-style: normal;
+}
+ul,
+ol {
+	list-style: none;
+}
+fieldset,
+img {
+	border: none;
+}
+caption,
+th {
+    text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+	cursor: pointer;
+	line-height: normal;
+}
+button,
+input {
+	line-height: normal;
+}
+input[type="hidden"],
+[hidden],
+.hidden {
+	display: none;
+}
+textarea {
+	overflow: auto;
+	resize: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+.clearfix {
+	display: block;
+}
+audio,
+canvas,
+video {
+	display: inline-block;
+}
+a > img {
+	vertical-align: bottom;
+}
+strong,
+b {
+	font-weight: bold;
+}
+em,
+i {
+	font-style: italic;
+}
+del {
+	text-decoration: line-through;
+}
+:focus {
+	outline: none;
+}

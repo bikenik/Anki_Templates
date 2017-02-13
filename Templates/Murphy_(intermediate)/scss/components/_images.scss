@@ -1,0 +1,89 @@
+/*==================================== 
+   Images
+=====================================*/
+img {
+	min-height: 30px;
+	border-radius: 5px;
+	margin: 0 auto;
+	vertical-align: bottom;
+//	width: 100%;
+}
+
+.picture_1 {
+	width: 74%;
+}
+.img_front > img {
+	max-width: 70%;
+}
+.img_ap {
+	float: right;
+	margin-right: 0px;
+	width: 20%;
+}
+.img-appendixes{
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+//	float: left;
+}
+.img_front {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.img_example > div > img,
+.img_example > img {
+	border-radius: 0;
+
+	@media #{$brk-iPhone6s-wide} {
+		max-width:650px;
+	}
+	@media #{$brk-iPhone-wide} {
+	max-width:500px;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+//	max-width: 98%;
+	max-width:400px;
+	}
+}
+
+.img_example {
+	display: block;
+	position: relative;
+	opacity: 0;
+	max-height: 0px;
+	padding-bottom: 1em;
+	background: $white;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;	
+	-webkit-transition-property: max-height, opacity;
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 100ms;
+//	transition-delay: 100ms; 
+}
+.grid > img {
+	max-width: 1024px;
+	max-height: 6500px;
+}
+
+.modal__wrap > img {
+
+	@media #{$brk-iPhone6s-wide} {
+max-width:700px;
+	}
+	@media #{$brk-iPhone-wide} {
+max-width:550px;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+max-width:550px;
+	}
+	@media #{$brk-iPhone6s-portrait} {
+max-width:600px;
+	}
+	
+	@media #{$brk-extra-narrow} {
+max-width:350px;
+	
+	}
+}

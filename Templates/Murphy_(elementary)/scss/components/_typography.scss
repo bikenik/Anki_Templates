@@ -1,0 +1,367 @@
+/*==================================== 
+  Typography
+=====================================*/
+@font-face{font-family:"ZiptyDoStd";src:url('_ZiptyDoStd.ttf');}
+@font-face{font-family:"TektonPro-Regular";src:url('_TektonPro-Regular.ttf');}
+@font-face{font-family:"CronosPro-Semibold";src:url('_CronosPro-Semibold.ttf');}
+@font-face{font-family:"CronosPro-Regular";src:url('_CronosPro-Regular.ttf');}
+@font-face{font-family:"CronosPro-LtIt";src:url('_CronosPro-LtIt.ttf');}
+@font-face{font-family:"CronosPro-Lt";src:url('_CronosPro-Lt.ttf');}
+@font-face{font-family:"CronosPro-Bold";src:url('_CronosPro-Bold.ttf');}
+
+.card {	
+	font-size: 1.125em;
+
+	@media #{$brk-wide} {
+		font-size: .925em;
+	}
+	@media #{$brk-narrow} {
+		font-size: .925em;
+	}
+	@media #{$brk-iPhone6s-wide} {
+		font-size: .825em;
+	}
+	@media #{$brk-iPhone-wide} {
+		font-size: .825em;
+	}
+	@media #{$brk-iPhone6s-portrait} {
+		font-size: .625em;
+	}
+	@media #{$brk-extra-narrow} {
+		font-size: .625em;
+	}
+}
+
+.exercises {
+	font-family: "CronosPro-Regular";
+	font-size: 2em;
+	line-height: 1em;
+}
+
+.mac .exercises,
+.win .exercises {
+	font-family: "Cronos Pro";
+}
+.win .exercises {
+	font-size: 2.5em;
+}
+
+.question {
+	font-family:"CronosPro-LtIt";
+//  font-style: italic;
+	font-weight: 100;
+	word-spacing: 0px;
+	font-size: 2em;
+}
+.win .question,
+.mac .question {
+	font-family: "Cronos Pro";
+	font-style: italic;
+}
+
+.win .question {
+	font-family:"Cronos Pro";
+	word-spacing: 0px;
+	font-size: 2em;
+}
+
+/* ------------------------------- Add words Fonts---------------------------------- */
+.add_words1,
+.add_words2 {
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+}
+
+.choices_words {
+	font-family: "CronosPro-Regular";
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.win .choices_words,
+.mac .choices_words {
+	font-family: "Cronos Pro";
+	font-style: normal;
+}
+
+.choices_words li {
+  font-size: 1.1em;
+}
+.win .choices_words li,
+.win .choices_words {
+	font-size: 1.3em;
+}
+
+/* ------------------------------- Header Fonts---------------------------------- */
+.unit_table, .th_1,
+.td_1 {
+	font-family:"CronosPro-Semibold";
+	font-size: 1.5em;
+
+	@media #{$brk-iPhone6s-wide} {
+
+	}
+}
+
+.win .unit_table, .win .th_1,
+.win .td_1,
+.mac .unit_table, .mac .th_1,
+.mac .td_1 {
+	font-family:"Cronos Pro";
+	font-weight: 600;
+	font-style: bold;
+}
+
+.th_2 {
+	color: #3b3b3b;
+	font-family: $color-text-base;
+	font-weight: 800;
+}
+
+.win .th_2 {
+	font-family:"CronosPro-Semibold";
+}
+
+.add_words {
+  font-family: Helvetica;
+}
+
+#typeans,
+#typeans1,
+#typeans2,
+#typeans3,
+#typeans4,
+#typeans5,
+#typeans6,
+#typeans7 {
+	font-family: "TektonPro-Regular" !important;
+	font-style: normal;
+}
+.win #typeans, .mac #typeans,
+.win #typeans1,.mac #typeans1,
+.win #typeans2,.mac #typeans2,
+.win #typeans3,.mac #typeans3,
+.win #typeans4,.mac #typeans4,
+.win #typeans5,.mac #typeans5,
+.win #typeans6,.mac #typeans6,
+.win #typeans7 .mac #typeans7 {
+	font-family:"Tekton Pro" !important;
+	font-style: normal;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+/* ------------------------------- type Fonts---------------------------------- */
+#typeans {
+	font-family: "TektonPro-Regular" !important;
+	font-style: normal;
+}
+.win #typeans, .mac #typeans {
+	font-family:"Tekton Pro" !important;
+}
+
+.cloze {
+	font-family: "TektonPro-Regular";
+}
+.win .cloze,
+.mac .cloze {
+	font-family:"Tekton Pro";
+}
+
+code#typeans {
+	font-family: "TektonPro-Regular";
+	font-size: 1.2em;
+
+	@media #{$brk-wide} {
+		font-size: 1em;
+	}
+	@media #{$brk-narrow} {
+		font-size: .875em;
+	}
+}
+
+.win code#typeans,
+.mac code#typeans {
+	font-family: "Tekton Pro" !important;
+	ont-size: 1.2em;
+
+	@media #{$brk-wide} {
+		font-size: 1em;
+	}
+	@media #{$brk-narrow} {
+		font-size: .575em;
+	}
+}
+
+input {
+	max-width: 100%; 
+	max-height: 1.5em;
+	border: none;
+	border-bottom: 2px solid $color-sec;
+	border-radius: .3em;
+	-webkit-transition: width .5s;
+	outline: 0;
+}
+
+#typeans {
+	display: inline-block;
+	min-width: 5%;
+	max-width: 99.99% !important;
+	margin: -2px auto;
+	text-align: center;
+	box-sizing: border-box;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+}
+
+.cloze {
+	text-align: center;
+	line-height: 0;
+	color: $color-sec;
+}
+
+
+input#typeans {
+	border-radius: 6px;
+	background: transparent;
+	color: black;
+	align-content: stretch;
+	vertical-align: text-top;
+}
+
+code#typeans {
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	color: $color-prim;
+	background-color: $white;
+}
+
+.ipad .table_answer {
+	background-color: $white;
+	width: 70%;
+	max-width: 910px;
+	height: min-content;
+	margin: 0 auto;
+	box-sizing: border-box;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+}
+
+.td_back {
+	width: 70%;
+	max-width: 910px;
+//	width: intrinsic;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#typeans span {
+	background: $white;
+	text-align: center;
+}
+.ipad .typeBad {
+	background-color: red;
+}
+.typeBad {
+	color: #dc322f;
+	font-weight: normal;
+}
+
+.typeMissed,
+.typePass {
+	color: #268bd2;
+	font-weight: normal;
+}
+
+.typeGood {
+	color: #2ed85a;
+	font-weight: normal;
+}
+
+
+/* ------------------------------- Buttons Fonts---------------------------------- */
+#overlay_title_close #p_button_close {
+	text-align: center;
+	color: bisque;
+	font-family: Verdana, serif;
+	font-size: 3em;
+}
+
+
+#overlay_title #p_button,
+.overlay .p_app_button {
+	font-family: "CronosPro-Regular";
+	text-align: center;
+	color: bisque;
+}
+.mac #overlay_title #p_button,
+.mac .p_app_button,
+.win #overlay_title #p_button,
+.win .p_app_button {
+	font-family:"Cronos Pro";
+}
+
+.overlay .p_app_button {
+	font-size: 3rem;
+	line-height: 170%;
+
+	@media #{$brk-narrow} {
+		font-size: 2.5em;
+		margin-bottom: 0;
+		line-height: 160%;
+	}
+}
+
+#overlay_title #p_button {
+	font-size: 4rem;
+	line-height: 120%;
+
+	@media #{$brk-narrow} {
+		font-size: 3.5em;
+		margin-bottom: 0;
+	}
+	@media #{$brk-iPhone6s-wide} {
+		font-size: 3em;
+		margin-top: 2.5px;
+	}
+	@media #{$brk-iPhone-wide} {
+		font-size: 2.8em;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		font-size: 3em;
+	}
+}
+
+span.close {
+	color: white;
+	font-size: 4rem;
+	text-align: center;
+
+	@media #{$brk-narrow} {
+		font-size: 4em;
+	}
+	@media #{$brk-iPhone6sPlus-wide} {
+		font-size: 3rem;
+	}
+	@media #{$brk-iPhone-wide} {
+		font-size: 2.5rem;
+	}
+	@media #{$brk-extra-narrow} {
+		font-size: 2rem;
+	}
+}
+
+// Footer
+
+.deck {
+	font-size: 1.3rem;
+
+	@media #{$brk-wide} {
+		font-size: 1.2em;
+	}
+}

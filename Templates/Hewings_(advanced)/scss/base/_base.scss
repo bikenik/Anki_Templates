@@ -1,0 +1,89 @@
+/*==================================== 
+   Basic card options
+=====================================*/
+
+/* --------------------- Basic card option ------------------------------ */
+html { display: table; height: 100%; width: 100%; }
+
+.ipad .card {
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+}
+
+/* --------------------- Additional option ------------------------------ */
+.G 	{ color: gray; }
+.q0 { color: indigo; }
+.q1 { color: black; }
+.q2 { color: darkgreen; }
+
+/* --------------- Center content vertically on page ---------------------- */
+.browserhide {
+
+}
+
+body {
+	z-index: 100;
+	background-image: -webkit-linear-gradient(top, #f1ffef 0%,#ffffff 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-backface-visibility: hidden;
+}
+
+.card_1 {z-index: 100;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.card {
+	@extend %alignBase;
+	width: 100%;
+	max-width: 1440px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+//	overflow: hidden;
+}
+
+.hr_style {
+	margin-bottom: 0%;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	border: 0;
+	background: -webkit-linear-gradient(left, #ffffff 1%,#00803f 50%,#ffffff 100%);
+	margin-top: -0.2em;
+}
+
+.normalize {
+	margin: 0 auto;
+}
+
+#copyright {
+	position: absolute;
+	right: 15px;
+	margin-top: -7px;
+}
+
+a {
+	color: rgba(255, 0, 0, 0.0);
+	text-decoration: none
+}
+
+a {
+	color: rgba(255, 0, 0, 0.0);
+	text-decoration: none
+}
+
+.add-space-for-mobile {
+	@media #{$brk-wide} {
+	height: 450px;
+	}
+}
