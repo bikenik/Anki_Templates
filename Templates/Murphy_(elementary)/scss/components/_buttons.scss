@@ -1,8 +1,9 @@
+
 /*==================================== 
-  Buttons
+   Buttons
 =====================================*/
 .arrow_06B13_line,
-.arrow_06B13_line_back{
+.arrow_06B13_line_back {
 	z-index: 0; 
 	display: block;
 	background: url(_arrow_06B13_lines_elementary.png) no-repeat 0 0;
@@ -14,23 +15,23 @@
 	opacity: 1;
 	-webkit-transition: opacity.5s ease-in-out;
 
-	@media #{$brk-narrow} {
-		width: 65px;
-		top: 16px;
-}
-	@media #{$brk-iPhone6s-wide} {
-		top: 10px;
-		width: 44px;
-		height: 100px;
+		@media #{$brk-narrow} {
+			width: 65px;
+			top: 16px;
 	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		top: 10px;
-		width: 44px;
-		height: 100px;
-	}
+		@media #{$brk-iPhone6s-wide} {
+			top: 10px;
+			width: 44px;
+			height: 100px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			top: 10px;
+			width: 44px;
+			height: 100px;
+		}
 } 
 
-.arrow_06B13_line{
+.arrow_06B13_line {
 	left: 30px;
 
 	@media #{$brk-narrow} {
@@ -42,13 +43,13 @@
 }
 
 .arrow_06B13_line_back {
-	right: 30px;
+   right: 30px;
 
-	@media #{$brk-narrow} {
-		right: 25px;
+		@media #{$brk-narrow} {
+			right: 25px;
 	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		right: 5px;
+		@media #{$brk-iPhone6sPlus-portrait} {
+			right: 5px;
 	}
 }
 
@@ -58,19 +59,19 @@
 
 /*----------- Buttons---------------------*/
 .circle{
-
-	@media #{$brk-narrow} {
-		width: 100%;
-		margin: 0 auto;
-		padding: 0 .1em;
+		@media #{$brk-narrow} {
+			width: 100%;
+			margin: 0 auto;
+//			height: 57px;
+			padding: 0 .1em;
+		}
+		@media #{$brk-extra-narrow} {
+			width: 100%;
+			margin: 0 auto;
+			height: 30px;
+			padding: 0 .5em;
+		}
 	}
-	@media #{$brk-extra-narrow} {
-		width: 100%;
-		margin: 0 auto;
-		height: 30px;
-		padding: 0 .5em;
-	}
-}
 
 button.header-close {
 	z-index: 200;
@@ -86,48 +87,48 @@ button.header-close {
 	height: 75px;
 	background: $color-bright;
 	-webkit-transition: 1000ms ease-out;
-
+	
 	@media #{$brk-narrow} {
 		top: 1em;
 		width: 60px;
 		height: 60px;
-	}
+		}
 	@media #{$brk-iPhone6sPlus-wide} {
 		width: 55px;
 		height: 55px;
 		top: 1.3em;
-	}
+		}
 	@media #{$brk-iPhone6s-wide} {
 		width: 50px;
 		height: 50px;
 		top: .8em;
-	}
+		}
 	@media #{$brk-iPhone-wide} {
 		width: 45px;
 		height: 45px;
-	}
+		}
 	@media #{$brk-iPhone6s-portrait} {
 		width: 42px;
 		height: 42px;
 		top: .5em;
-	}
+		}
 	@media #{$brk-extra-narrow} {
 		width: 38px;
 		height: 38px;
 		top: .7em;
-	}
+		}
 }
 
 span.close {
-	-webkit-transition: 1000ms ease-out;
 
-	@media #{$brk-narrow} {
-		bottom: 50px;
-		transform: rotate(77deg);
-	}
+		@media #{$brk-narrow} {
+			bottom: 50px;
+			transform: rotate(77deg);
+		}
 }
 
 /*_____________________button title____________________*/
+
 .buttons {
 	padding: .3em;
 //	min-width: 854px;
@@ -139,28 +140,29 @@ span.close {
 
 .circlePositioner_title, 
 .circlePositioner_title_back {
-	z-index: 1;
-	display: block;
-	position: absolute;
+  z-index: 1;
+  display: block;
+  position: absolute;
+//  margin-right: auto;
 	margin-top: 0;
-	width: 66px;
-	text-align: center;
+  width: 66px;
+  text-align: center;
 	top: 133px;
-	background-color: transparent;
-	-webkit-transition: 1000ms ease-out;
+  background-color: transparent;
+   -webkit-transition: 1000ms ease-out;
 
 	@media #{$brk-narrow} {
 			width: 	46px;
 			top: 		109px;
-	}
+		}
 	@media #{$brk-iPhone6s-wide} {
 			top: 72px;
 			width:37px;
-	}
+		}
 	@media #{$brk-iPhone6sPlus-portrait} {
 			top: 72px;
 			width:37px;
-	}
+		}
 }
 
 .circlePositioner_title {
@@ -184,87 +186,88 @@ span.close {
 }
 
 .circlePositioner_title_back {
-	right: 42px;
+	right: 43px;
 
 	@media #{$brk-narrow} {
-		right: 39px;
+		right: 39.5px;
 		top: 107px;
 	}
 	@media #{$brk-iPhone6s-wide} {
 		top: 72px;
-		right: 28px;
+		right: 28.5px;
 	}
 	@media #{$brk-iPhone6sPlus-portrait} {
-		right: 8px;
+		right: 8.5px;
 	}
 }
 
 .circlePositioner_title_close {
-	z-index: 100;
-	display: block;
-	position: absolute;
-	margin-right: auto;
+  z-index: 100;
+  display: block;
+  position: absolute;
+  margin-right: auto;
 	margin-top: -15px;
-	margin-left: -15px;
-	width: 75px;
-	text-align: center;
+  margin-left: -15px;
+  width: 75px;
+  text-align: center;
 	-webkit-transform: scale(.6);
-	background-color: transparent;
+  background-color: transparent;
 	-webkit-transition: 1000ms ease-out;
 }
 
 .mainCircle_title {
 /*  background-color: cadetblue;*/
-	width: 68px;
-	height: 68px;
-	border-radius: 50%;
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	opacity: .99;
-	-webkit-transition: all 1s;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: .99;
+  -webkit-transition: all 1s;
 	-webkit-transition-timing-function: ease-in-out;
-
-	@media #{$brk-narrow} {
+		@media #{$brk-narrow} {
 		width: 52px;
 		height: 52px;
 	}
-	@media #{$brk-iPhone6s-wide} {
-		width: 34px;
-		height: 34px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		width: 34px;
-		height: 34px;
-	}
+
+		@media #{$brk-iPhone6s-wide} {
+			width: 34px;
+			height: 34px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			width: 34px;
+			height: 34px;
+		}
 }
 
 #overlay_title {
-	background-color: $color-sec;
-	height: 64px;
-	width: 64px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -47px;
-	border-radius: 50%;
-	-webkit-transition: all .3s;
+  background-color: $color-sec;
+  height: 64px;
+  width: 64px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -47px;
+  border-radius: 50%;
+  -webkit-transition: all .3s;
 	-webkit-transition-timing-function: ease-in-out;
-
+	
 	@media #{$brk-narrow} {
 		width: 48.5px;
 		height: 48.5px;
 	}
-	@media #{$brk-iPhone6s-wide} {
-	width: 31px;
-	height: 31px;
-	margin-top: -47.5px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-	width: 31px;
-	height: 31px;
-	margin-top: -47.5px;
-	}
+
+		@media #{$brk-iPhone6s-wide} {
+		width: 31px;
+		height: 31px;
+		margin-top: -47.5px;
+  	}
+		@media #{$brk-iPhone6sPlus-portrait} {
+		width: 31px;
+		height: 31px;
+		margin-top: -47.5px;
+		}
 }
 
 .spinningContainer_title {
@@ -308,35 +311,37 @@ span.close {
 }
 
 #overlay_title_close #p_button_close {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 	background: none;
-	display: inline-block;
-	-webkit-transition: all .3s;
+  display: inline-block;
+  -webkit-transition: all .3s;
 	-webkit-transition-timing-function: ease-in-out;
 }
 
 /*-----------------------------------Appendix Buttons-----------------------*/
 .circlePositioner {
-	display: inline-block;
-	position: relative;
-	margin-left: 5px;
-	margin-top: 0px;
-	margin-right: auto;
-	width: 75px;
-	text-align: center;
+		display: inline-block;
+		position: relative;
+		margin-left: 5px;
+		margin-top: 0px;
+		margin-right: auto;
+		width: 75px;
+		text-align: center;
 
-	@media #{$brk-narrow} {
-		width: 93%;
-		height: auto;
-		padding: 0 auto;
-		margin-bottom: -2px;
-	}
-	@media #{$brk-extra-narrow} {
-		height: auto;
-	}
+		@media #{$brk-narrow} {
+			width: 93%;
+			height: auto;
+			padding: 0 auto;
+			margin-bottom: -2px;
+//			padding-bottom: 10px;
+		}
+		@media #{$brk-extra-narrow} {
+			height: auto;
+		}
 }
 
 .mainCircle {
@@ -349,27 +354,32 @@ span.close {
   cursor: pointer;
   opacity: .99;
   -webkit-transition: all 1s ease-in-out;
-
-	@media #{$brk-narrow} {
-		border-radius: 4px;
-		width: 100%;
-		height: 55px;
-	}
-	@media #{$brk-iPhone6s-wide} {
-		height: 45px;
-	}
-	@media #{$brk-iPhone-wide} {
-		height: 40px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		height: 37px;
-	}
-	@media #{$brk-iPhone6s-portrait} {
-		height: 35px;
-	}
-	@media #{$brk-extra-narrow} {
-		height: 35px;
-	}
+		
+//		@media #{$brk-wide-appButtons} {
+//			border-radius: 4px;
+//			width: 100%;
+//			height: 55px;
+//		}
+		@media #{$brk-narrow} {
+			border-radius: 4px;
+			width: 100%;
+			height: 55px;
+		}
+		@media #{$brk-iPhone6s-wide} {
+			height: 45px;
+		}
+		@media #{$brk-iPhone-wide} {
+			height: 40px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			height: 37px;
+		}
+		@media #{$brk-iPhone6s-portrait} {
+			height: 35px;
+		}
+		@media #{$brk-extra-narrow} {
+			height: 35px;
+		}
 }
 
 .overlay {
@@ -383,43 +393,49 @@ span.close {
 	border-radius: 50%;
 	-webkit-transition: all .3s;
 	-webkit-transition-timing-function: ease-in-out;
-
-	@media #{$brk-narrow} {
-		margin-top: -46.5px;
-		border-radius: 4px;
-		width: 99%;
-		height: 50px;
-		margin-bottom: 0;
-	}
-	@media #{$brk-iPhone6s-wide} {
-		height: 40px;
-	}
-	@media #{$brk-iPhone-wide} {
-		height: 35px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		height: 32px;
-	}
-	@media #{$brk-iPhone6s-portrait} {
-		height: 30px;
-	}
-	@media #{$brk-extra-narrow} {
-		height: 30px;
-	}
+//		@media #{$brk-wide-appButtons} {
+//			margin-top: -46.5px;
+//			border-radius: 4px;
+//			width: 98%;
+//			height: 50px;
+//			margin-bottom: 0;
+//		}
+		@media #{$brk-narrow} {
+			margin-top: -46.5px;
+			border-radius: 4px;
+			width: 99%;
+			height: 50px;
+			margin-bottom: 0;
+  	}
+		@media #{$brk-iPhone6s-wide} {
+			height: 40px;
+  	}
+		@media #{$brk-iPhone-wide} {
+			height: 35px;
+  	}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			height: 32px;
+  	}
+		@media #{$brk-iPhone6s-portrait} {
+			height: 30px;
+  	}
+		@media #{$brk-extra-narrow} {
+			height: 30px;
+		}
 }
 
 #overlay_title #p_button,
-.overlay .p_app_button {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	background: none;
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transition: all .3s;
-	-webkit-transition-timing-function: ease-in-out;
-}
+	.overlay .p_app_button {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		background: none;
+		display: inline-block;
+		vertical-align: middle;
+		-webkit-transition: all .3s;
+		-webkit-transition-timing-function: ease-in-out;
+	}
 
 .mainCircle:hover {
 //  background-color: white;
@@ -439,29 +455,28 @@ span.close {
 	-webkit-transition-timing-function: cubic-bezier(.18, 1.51, .85, 1.4);
 }
 
-.mainCircle:hover .overlay,
- {
-  background-color: $color-bright;
-	 -webkit-transition: all .3s ease-in-out;
+.mainCircle:hover .overlay {
+	background-color: $color-bright;
+	-webkit-transition: all .3s ease-in-out;
 }
-.ipad .mainCircle:hover .overlay,{
+.ipad .mainCircle:hover .overlay {
 	background-color: $color-sec;
 	-webkit-transition: all .3s ease-in-out;
 }
 
-.mainCircle:hover .overlay .p_app_button,{
+.mainCircle:hover .overlay .p_app_button {
 	color: white;
 	-webkit-transition: all .3s ease-in-out;
 }
 
-.ipad .mainCircle:hover .overlay .p_app_button,{
+.ipad .mainCircle:hover .overlay .p_app_button {
 	color: bisque;
 	-webkit-transition: all .3s ease-in-out;
 }
 
-.mainCircle:hover .spinningContainer,{
-  -webkit-filter: blur(10px);
-  animation: mymove 2s cubic-bezier(1, .22, 1, .92), myscale 4s 1s ease-in-out;
+.mainCircle:hover .spinningContainer {
+	-webkit-filter: blur(10px);
+	animation: mymove 2s cubic-bezier(1, .22, 1, .92), myscale 4s 1s ease-in-out;
 }
 
 .leftContainer {
@@ -479,7 +494,7 @@ span.close {
 		transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 	}
-  to {
+	to {
 		transform: rotate(1080deg);
 		-webkit-transform: rotate(1080deg);
 	}
@@ -490,7 +505,7 @@ span.close {
 		transform: rotate(1080deg);
 		-webkit-transform: rotate(1080deg);
 	}
-	to {
+  to {
 		transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 	}
@@ -501,7 +516,7 @@ span.close {
 		transform: scaleY(2);
 		-webkit-transform: scaleY(2);
 	}
-  25% {
+	25% {
 		transform: scaleY(2.5);
 		-webkit-transform: scaleY(2.5);
 	}
@@ -518,8 +533,3 @@ span.close {
 		-webkit-transform: scaleY(4);
 	}
 }
-
-
-//$brk-extra-narrow 			: '(max-width: 320px)';
-//$brk-narrow 						: '(max-width: 768px)';
-//$brk-wide   						: '(max-width: 1024px)'; 
