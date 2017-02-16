@@ -1,24 +1,24 @@
 /*==================================== 
-  Basic card option
+   Basic card options
 =====================================*/
-body { display: table; height: 100%; width: 100%; }
+html { display: table; height: 100%; width: 100%; }
 
-.ipad .card {
-	position: absolute;
-	-webkit-font-smoothing: antialiased;
-	-webkit-backface-visibility: hidden;
-}
+//.ipad .card {
+//	position: absolute;
+//	-webkit-font-smoothing: antialiased;
+//	-webkit-backface-visibility: hidden;
+//}
 
 /* --------------------- Additional option ------------------------------ */
+
 .G { color: gray; }
 .q0 { color: indigo; }
 .q1 { color: black; }
 .q2 { color: darkgreen; }
 
 /* --------------- Center content vertically on page ---------------------- */
-.browserhide {
 
-}
+.browserhide {}
 
 body {
 	z-index: 100;
@@ -33,7 +33,8 @@ body {
 	-webkit-backface-visibility: hidden;
 }
 
-.card_1 {z-index: 100;
+.card_1 {
+	z-index: 100;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }

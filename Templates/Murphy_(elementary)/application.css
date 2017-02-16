@@ -331,18 +331,12 @@ del {
 }
 
 /*==================================== 
-  Basic card option
+   Basic card options
 =====================================*/
-body {
+html {
   display: table;
   height: 100%;
   width: 100%;
-}
-
-.ipad .card {
-  position: absolute;
-  -webkit-font-smoothing: antialiased;
-  -webkit-backface-visibility: hidden;
 }
 
 /* --------------------- Additional option ------------------------------ */
@@ -1575,6 +1569,12 @@ span.close {
   transition-delay: 100ms;
 }
 
+@media (max-width: 1025px) {
+  .ipad .modal__overlay {
+    height: 100%;
+  }
+}
+
 .modal__wrap {
   position: relative;
   margin: 1.5em auto 1em 8%;
@@ -1704,7 +1704,7 @@ img {
 }
 
 /*==================================== 
-  Buttons
+   Buttons
 =====================================*/
 .arrow_06B13_line,
 .arrow_06B13_line_back {
@@ -1849,9 +1849,6 @@ button.header-close {
   }
 }
 
-span.close {
-  -webkit-transition: 1000ms ease-out;
-}
 @media (max-width: 769px) {
   span.close {
     bottom: 50px;
@@ -1931,23 +1928,23 @@ span.close {
 }
 
 .circlePositioner_title_back {
-  right: 42px;
+  right: 43px;
 }
 @media (max-width: 769px) {
   .circlePositioner_title_back {
-    right: 39px;
+    right: 39.5px;
     top: 107px;
   }
 }
 @media (max-width: 668px) {
   .circlePositioner_title_back {
     top: 72px;
-    right: 28px;
+    right: 28.5px;
   }
 }
 @media (max-width: 438px) {
   .circlePositioner_title_back {
-    right: 8px;
+    right: 8.5px;
   }
 }
 
@@ -2073,6 +2070,7 @@ span.close {
 
 #overlay_title_close #p_button_close {
   position: relative;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;

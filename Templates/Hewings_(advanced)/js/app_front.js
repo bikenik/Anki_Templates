@@ -28,7 +28,7 @@ circlePositioner	= document.getElementsByClassName('circlePositioner');
 
 var buttonsClass 			= document.querySelector('.buttons'),
 buttonAllClose 				= document.querySelector('.header-close'),
-bodyCardIpad 					= document.querySelector('.card'),
+bodyCard 					= document.querySelector('.card'),
 circlePositionerTitle = document.querySelector('.circlePositioner_title'),
 arrowLine 						= document.querySelector('.arrow_06B13_line'),
 overlayTitleM 				= document.querySelector('#overlay_title'),
@@ -87,7 +87,7 @@ circlePositionerTitle.addEventListener('click', function() {
 		buttonsColorDefault();
 		hideHeader();
 		textP_Title.textContent = 'A';
-		bodyCardIpad.style.position = 'absolute';
+		bodyCard.style.position = null;
 
 	} else {
 		header.style.maxHeight = '500px';
@@ -155,7 +155,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			header.style.maxWidth = '910px';
 			header.style.width = '70%';
 			buttonAllClose.style.display = 'none';
-			bodyCardIpad.style.position = 'absolute';
+			bodyCard.style.position = null;
 			arrowLine.style.opacity = '1';
 			circlePaddingNone ();
 			buttonsColorDefault();
@@ -171,7 +171,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			appendix.style.webkitTransform = 'scale(1)';
 			header.style.maxWidth = '100%';
 			header.style.width = '100%';
-			bodyCardIpad.style.position = 'fixed';
+			bodyCard.style.position = 'fixed';
 			unitTableDiv.style.maxHeight = '0';
 			unitTableDiv.style.opacity = '0';
 			appendixesHide(appendix);
@@ -197,7 +197,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			buttonsColorDefault();
 			hideHeader();
 			circlePositionerTitle.style.display = 'block';
-			bodyCardIpad.style.position = 'absolute';
+			bodyCard.style.position = null;
 		};
 		
 		
@@ -232,14 +232,14 @@ modalButton.addEventListener('click', function(){
 	modalOverlay.style.zIndex = '800';
 	modalOverlay.style.height = '100%';
 	modalOverlay.style.webkitTransform = 'scale(1)';
-	bodyCardIpad.style.position = 'fixed';
+	bodyCard.style.position = 'fixed';
 });
 
 materialIcons.addEventListener('click', function(){
 	modalOverlay.style.opacity = '0';
 	modalOverlay.style.zIndex = '-100';
 	modalOverlay.style.webkitTransform = 'scale(.5)';
-	bodyCardIpad.style.position = 'absolute';
+	bodyCard.style.position = null;
 });
 
 /*--------------------Hide Fields-------------------------*/
