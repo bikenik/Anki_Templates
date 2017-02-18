@@ -79,7 +79,7 @@
   padding: .25em .2em 0;
   border-style: solid;
 	background: white;
-  border-width: 0.1em;
+  border-width: 1px;
   margin: 2px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .choices_words ul:nth-child(3) li {
-  background: $select-light;
+  background: $givry;
 }
 
 /*--------------- input type ---------------------- */

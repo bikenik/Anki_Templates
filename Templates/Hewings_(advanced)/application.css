@@ -439,7 +439,7 @@ a {
   padding: .25em .2em 0;
   border-style: solid;
   background: white;
-  border-width: 0.1em;
+  border-width: 1px;
   margin: 2px; }
 
 .choices-box-delimiter {
@@ -447,7 +447,7 @@ a {
   margin: 0px; }
 
 .choices_words ul:nth-child(3) li {
-  background: #a6dd9e; }
+  background: #f7deb7; }
 
 /*--------------- input type ---------------------- */
 input {
