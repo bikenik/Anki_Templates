@@ -51,6 +51,8 @@ font-family: "Cronos Pro";
 	font-weight: 100;
 	word-spacing: 0px;
 	font-size: 2em;
+	color: $color-text-base;
+	text-align: left;
 }
 .win .question,
 .mac .question {
@@ -62,6 +64,12 @@ font-family: "Cronos Pro";
 font-family:"Cronos Pro";
   word-spacing: 0px;
   font-size: 2em;
+}
+
+/*--------------- field "Example" ---------------------- */
+.img_example {
+	font-family: tahoma;
+	font-size: 1.5em;
 }
 
 /* ------------------------------- Add words Fonts---------------------------------- */
@@ -170,8 +178,8 @@ body {
 code#typeans {
 	font-family: "TektonPro-Regular";
 	font-size: 1.2em;
-		@media #{$brk-wide} {
-			font-size: 1em;
+	@media #{$brk-wide} {
+		font-size: 1em;
 	}
 	@media #{$brk-narrow} {
 		font-size: .875em;
@@ -189,24 +197,8 @@ code#typeans {
 	}
 }
 
-input {
-	max-width: 100%; 
-	max-height: 1.5em;
-	border: none;
-	border-bottom: 2px solid $color-sec;
-	border-radius: .3em;
-	-webkit-transition: width .5s;
-	outline: 0;
-}
-
 #typeans {
-	display: inline-block;
-	min-width: 5%;
-	max-width: 99.99% !important;
-	margin: -2px auto;
 	text-align: center;
-	box-sizing: border-box;
-	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
 }
 
 .cloze {
@@ -220,41 +212,17 @@ input {
 
 
 input#typeans {
-	border-radius: 6px;
-	background: transparent;
 	color: black;
-	align-content: stretch;
-	vertical-align: text-top;
 }
 
 code#typeans {
 	line-height: 1.5;
 	text-align: center;
-	padding: 10px;
-	border: none;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
 	color: $color-prim;
-	background-color: $white;
-}
-
-.ipad .table_answer {
-	background-color: $white;
-	width: 70%;
-	max-width: 910px;
-	height: min-content;
-	margin: 0 auto;
-	box-sizing: border-box;
-	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
 }
 
 .td_back {
-	width: 70%;
-	max-width: 910px;
-//	width: intrinsic;
-//	border: none;
 	text-align: center;
-	margin: 0 auto;
 }
 
 #typeans span {
@@ -320,20 +288,19 @@ code#typeans {
 	font-size: 4rem;
 	line-height: 120%;
 
-		@media #{$brk-narrow} {
-		font-size: 3.5em;
-		margin-bottom: 0;
-		 }
-
+	@media #{$brk-narrow} {
+	font-size: 3.5em;
+	margin-bottom: 0;
+	}
 	@media #{$brk-iPhone6s-wide} {
-		font-size: 3rem;
+		font-size: 3em;
 		margin-top: 2.5px;
-  	}
+  }
 	@media #{$brk-iPhone-wide} {
 		font-size: 2.8em;
 	}
 	@media #{$brk-iPhone6sPlus-portrait} {
-		font-size: 3em;
+		font-size: 2rem;
 	}
 }
 
@@ -341,6 +308,7 @@ span.close {
 	color: white;
 	font-size: 4rem;
 	text-align: center;
+	line-height: 90%;
 
 		@media #{$brk-narrow} {
 			font-size: 4em;

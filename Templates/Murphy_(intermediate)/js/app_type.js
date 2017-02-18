@@ -89,7 +89,7 @@ textbox.style.fontSize = '1em';
 textbox.style.textAlign = 'center';
 textbox.style.minWidth = typeansWidth;
 textbox.style.boxShadow = '0 1px 14px rgba(0, 0, 0, 0.12)';
-resizable(textbox,0.4); // change it for different fonts
+resizable(textbox,0.42); // change it for different fonts
 span2.style.overflow = 'hidden';
 span2.style.textOverflow = 'ellipsis';
 		textbox.style.textAlign = 'center';

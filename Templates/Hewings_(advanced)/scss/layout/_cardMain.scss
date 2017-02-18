@@ -1,5 +1,5 @@
 /*==================================== 
-   Card main
+   Card Main
 =====================================*/
 .main_table {
 	position: relative;
@@ -15,9 +15,9 @@
 	box-sizing: border-box;
 	background:$color-prim;
 	border: solid 0px;
-	border-radius: 4px;
+	border-radius: .25em;
 	box-sizing: border-box;
-	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.22);
 }
 .main_table_back {
 	border-bottom-left-radius: 0px;
@@ -27,35 +27,22 @@
 /* ------------------------------------ question---------------------------------- */
 .question {
 	display: inline-block;
-//	position: relative;
-//	float: left;
 	z-index: 100;
 	background: $background-light;
 	width: 95%;
 	padding: .3em;
-//	padding-top: 0;
-	margin-top: 2.5%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto .3em;
 	-webkit-perspective: 800px;
 	-webkit-transition: all 0.4s ease-in-out;
 	cursor: pointer;
 	box-sizing: border-box;
-	border-radius: 0.2em;
-	border: 1px outset rgba(158, 129, 115, .3);
-	color: $color-text-base;
-	text-align: left;
+	border-radius: 0.15em;
+//	border: .15em outset rgba(158, 129, 115, .3);
 	box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
 }
 
-.question_front {
-	margin-top: 0%;
-	margin-bottom: .5em;
-}
-
 .question_back {
-	font-size: 2em;
-	margin-bottom: .5em;
+	margin-top: 2.5%;
 }
 
 .question:active {
@@ -68,41 +55,97 @@
 	display: inline-block;
 	position: relative;
 	margin: .7em auto .6em;
+//	padding: 5px;
 	padding: 0 5px;
-	border: solid $color-sec 1px;
-	border-radius: 3px;
+	border: solid $color-sec 0.15em;
+	border-radius: .22em;
 	background: white;
 	width: 95%;
-
 }
 
 #choices {
-	background: white;
-	margin-bottom: .3em;
+	display: block;
+	margin: 0 auto .4em;
 }
 
 .choices ul {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .choices_words li {
-	display: inline-block;
-	border-radius: 0.2em;
-	padding: 0 .2em;
-	border-style: solid;
+  display: inline-block;
+  border-radius: 0.2em;
+  padding: .25em .2em 0;
+  border-style: solid;
 	background: white;
-	border-width: 1px;
-	margin: 2px;
+  border-width: 0.1em;
+  margin: 2px;
 }
 
 .choices-box-delimiter {
-	height: .3em;
-	margin: 0px;
+  height: .3em;
+  margin: 0px;
 }
 
 .choices_words ul:nth-child(3) li {
-	background: $select-light-main;
+  background: $select-light;
+}
+
+/*--------------- input type ---------------------- */
+input {
+	max-width: 100%; 
+	max-height: 1.5em;
+	border: none;
+	border-bottom: .2rem solid $color-sec;
+	border-radius: .3em;
+	-webkit-transition: width .5s;
+	outline: 0;
+
+	@media #{$brk-wide} {
+		border-bottom-width: 0.1em;
+	}
+}
+
+#typeans {
+	display: inline-block;
+	min-width: 5%;
+	max-width: 99.99% !important;
+	margin: -2px auto;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+}
+
+input#typeans {
+	border-radius: .3em;
+	background: transparent;
+	align-content: stretch;
+	vertical-align: text-top;
+}
+
+code#typeans{
+	background-color: $white;
+	padding: 10px;
+	border: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.ipad .table_answer {
+	background-color: $white;
+	width: 70%;
+	max-width: 910px;
+	height: min-content;
+	margin: 0 auto;
+	box-sizing: border-box;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+}
+.td_back {
+	width: 70%;
+	max-width: 910px;
+	margin: 0 auto;
+//	width: intrinsic;
+//	border: none;
 }
 /*--------------- exercises ---------------------- */
 .exercises {
@@ -120,29 +163,30 @@
 }
 /*--------------- Audio Buttons ---------------------- */
 .replaybutton {
-	display: block;
-	vertical-align: middle;
+  display: block;
+  vertical-align: middle;
 	margin-top: 30px;
 }
 
 .replaybutton span svg {
-	display: block;
-	stroke: none;
-	fill: $background-light;
+//		position: fixed;
+  display: block;
+  stroke: none;
+  fill: $background-light;
 	background: $color-sec;
-	display: inline;
-	height: 3em;
-	width: 3em;
-	min-width: 12px;
-	min-height: 12px;
-//	border: solid .2em $color-red-bright;
+  display: inline;
+  height: 3em;
+  width: 3em;
+  min-width: 12px;
+  min-height: 12px;
 	border-radius: 50%;
 	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.44);
 }
 
+
 .sound_main {
-	z-index: 0;
-	position: fixed;
+z-index: 0;
+position: fixed;
 }
 
 .sound_front {
@@ -151,7 +195,6 @@
 	position: absolute;
 	margin-left: 20%;
 	top: 20px;
-
 	@media(max-width: 1866px){
 		margin-left: 15%
 	}
@@ -187,36 +230,32 @@
 	position: relative;
 	padding: 0;
 	background: $background-app;
-	border-radius: 4px;
 	box-shadow: none;
 }
-
 #question-audio > .replaybutton{
 	width: 100%;
 	margin-left: 0;
 }
 
 #question-audio > svg{
-//	width: 100%;
-//	margin-left: 160px;
+
 }
 
 .ipad .sound_front {
 	margin-left: 5px;
 }
-//.audio {
-//	z-index: 200;
-//	position: fixed;
-//	top: 3%;
-//	margin: 0 auto;
-////	color: black;
-//}
 
 .question_answer {
 	z-index: 0;
 	position: absolute;
-	top: 5%;
+	top: 15px;
 	margin-left: 20px;
-//	margin: 0 auto;
 	color: $black;
+
+	@media #{$brk-extra-narrow} {
+		margin-left: 5px;
+	}
+	@media #{$brk-iPhone-wide} {
+		top: 0;
+	}
 }

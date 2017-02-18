@@ -1,7 +1,11 @@
 /*==================================== 
    Basic card options
 =====================================*/
-html { display: table; height: 100%; width: 100%; }
+html { 
+//	display: table; 
+	height: 100%; 
+	width: 100%; 
+}
 
 //.ipad .card {
 //	position: absolute;
@@ -47,9 +51,11 @@ body {
 	left: 0;
 	bottom: 0;
 	right: 0;
-//	overflow: hidden;
 }
-
+.mac .card,
+.win .card {
+	overflow-x: hidden;
+}
 .hr_style {
 	margin-bottom: 0%;
 }

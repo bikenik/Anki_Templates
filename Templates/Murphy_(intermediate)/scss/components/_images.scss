@@ -34,16 +34,20 @@ img {
 .img_example > div > img,
 .img_example > img {
 	border-radius: 0;
+	max-width:810px;
 
-	@media #{$brk-iPhone6s-wide} {
-		max-width:650px;
+	@media #{$brk-wide} {
+		max-width:710px;
+	}
+	@media #{$brk-narrow} {
+		max-width:530px;
 	}
 	@media #{$brk-iPhone-wide} {
-	max-width:500px;
+		max-width:400px;
 	}
 	@media #{$brk-iPhone6sPlus-portrait} {
 //	max-width: 98%;
-	max-width:400px;
+	max-width:300px;
 	}
 }
 
@@ -52,15 +56,14 @@ img {
 	position: relative;
 	opacity: 0;
 	max-height: 0px;
-	padding-bottom: 1em;
 	background: $white;
+	padding-bottom: .5em;
 	overflow: auto;
-	-webkit-overflow-scrolling: touch;	
+	-webkit-overflow-scrolling: touch;
 	-webkit-transition-property: max-height, opacity;
 	-webkit-transition-duration: 300ms;
 	-webkit-transition-timing-function: ease;
 	-webkit-transition-delay: 100ms;
-//	transition-delay: 100ms; 
 }
 .grid > img {
 	max-width: 1024px;
