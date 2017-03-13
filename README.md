@@ -16,7 +16,7 @@ Creating your own deck is the most effective way to learn a complex subject. Sub
  > Do not learn if you do not understand.
 —[SuperMemo](https://www.supermemo.com/en/articles/20rules)
 
-![Preview image1](./readmeImg/preview_1.jpg)![Preview image2](./readmeImg/preview_2.jpg)
+![Preview image1](./readmeImg/preview_1.jpg)![Preview image2](./readmeImg/preview_2.jpg)![Preview image2](./readmeImg/preview_4.jpg)
 
 ### Notes
 >Each Anki client and each Anki version may implement card display differently, so you will need to test the behaviour across platforms. 
