@@ -1683,13 +1683,6 @@ button.header-close {
   -webkit-transition: all .3s;
   -webkit-transition-timing-function: ease-in-out; }
 
-#overlay_title #p_button {
-  line-height: 130%; }
-
-.ipad #overlay_title #p_button,
-.iphone #overlay_title #p_button {
-  line-height: 100%; }
-
 .mainCircle:hover {
   -webkit-transition: all 1s ease-in-out;
   transition-delay: .8s; }
