@@ -73,7 +73,7 @@ textbox.style.width = typeansWidth;
 span1.style.webkitTransition = 'width 0.25s';
 var span2 = document.createElement('span');
 span2.style.position = 'absolute';
-// span2.style.top = '-5px';
+span2.style.top = '4px';
 span2.style.left = '1px';
 span2.style.color = '#00803F';
 		textbox.parentNode.insertBefore(span1, textbox);
@@ -84,16 +84,14 @@ span1.appendChild(span2);
 		 "this.style.backgroundColor='default';");
 span2.style.width =  '100%';
 span2.style.height = '1.5em';
-	
 		textbox.style.backgroundColor = 'transparent !important';
 		textbox.style.borderRadius = '2px';
 		textbox.style.color = '#00803F';
 //textbox.style.fontFamily = 'Hipsta';
 textbox.style.fontStyle = 'italic';
-textbox.style.fontSize = '1em'; 
+textbox.style.fontSize = '1em';
 textbox.style.textAlign = 'center';
 textbox.style.minWidth = typeansWidth;
-textbox.style.boxShadow = '0 1px 14px rgba(0, 0, 0, 0.12)';
 resizable(textbox,0.42); // change it for different fonts
 span2.style.overflow = 'hidden';
 span2.style.textOverflow = 'ellipsis';

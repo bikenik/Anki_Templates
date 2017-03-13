@@ -34,6 +34,44 @@ overlayTitleM 				= document.querySelector('#overlay_title'),
 overlayTitleL 				= document.querySelector('.mainCircle_title');
 
 var textP_Title = document.getElementById('p_button');
+var hamburger = document.querySelector('.hamburger--arrowalt');
+
+/*--------------------Media Query responsive-------------------------*/
+// media query change
+function widthChange(mq) {
+  if (mq.matches) {
+   circlePositionerTitle.style.display = 'none'; // window width is less than 768px
+  } else {
+   circlePositionerTitle.style.display = 'block'; // window width is at least 768px 
+  }
+}
+
+if (matchMedia) {
+  var mq = window.matchMedia("(max-width: 737px)");
+  mq.addListener(widthChange);
+  widthChange(mq);
+}
+
+// media query change
+function widthChange(mqNarrow) {
+	var header = document.querySelector('.header');
+	var unitTableDiv = document.querySelector('.unit_table'); 
+  if (mqNarrow.matches) {
+		header.style.width = '80%'; // window width is less than 438px
+		unitTableDiv.style.display = 'none';
+  } else {
+		if (mq.matches) {
+			unitTableDiv.style.display = null;// window width is less than 768px
+		} else {
+			header.style.width = '70%';
+		}
+  }
+}
+if (matchMedia) {
+  var mqNarrow = window.matchMedia("(max-width: 438px)");
+  mqNarrow.addListener(widthChange);
+  widthChange(mqNarrow);
+}
 
 /*--------------------Common Reset to Default-------------------------*/
 var appendixesHideAll = function(){	 
@@ -64,21 +102,30 @@ var buttonsColorDefault = function(){
 var header = document.querySelector('.header'); 
 var unitTableDiv = document.querySelector('.unit_table'); 
 var mainTable = document.querySelector('.main_table');
-
 		function hideHeader() {
 			header.style.maxHeight = '0';
 			header.style.maxWidth = '910px';
-			header.style.width = '70%';
+//			header.style.width = '70%';
+			if (mq.matches) {
+				 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+					header.style.width = '80%';
+				} else {
+				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+					header.style.width = '70%';
+				}
 			unitTableDiv.style.maxHeight = '0';
 			unitTableDiv.style.opacity = '0';
-			mainTable.style.margin = '1em auto 0 auto';
-			mainTable.style.borderRadius = '4px';
-			overlayTitleM.style.backgroundColor = '#9c061b';
+			mainTable.style.margin = null;
+			mainTable.style.width = null;
+			mainTable.style.borderTopLeftRadius = '.25em';
+			mainTable.style.borderTopRightRadius = '.25em';
+			mainTable.style.borderBottomLeftRadius = '0';
+			mainTable.style.borderBottomRightRadius = '0';
+			overlayTitleM.style.backgroundColor = '#9c061b'; //077a09
 			overlayTitleL.style.backgroundColor = 'transparent';
 			arrowLine.style.opacity = '1';
 			textP_Title.style.color = 'bisque';		
 		}
-	
 
 circlePositionerTitle.addEventListener('click', function() {
 
@@ -104,7 +151,7 @@ circlePositionerTitle.addEventListener('click', function() {
 
 /*--------------------show Appendix-------------------------*/
 function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
-	
+
 /*--------------------Conditions for Responsive drop down appendixes-------------------------*/
 	function app() {
 		function responsiveCirclePosition(targetCircle) {
@@ -170,13 +217,21 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			appendix.style.maxHeight = '0';
 			appendix.style.webkitTransform = 'scale(0.5)';
 			header.style.maxWidth = '910px';
-			header.style.width = '70%';
+//			header.style.width = '70%';
+			if (mq.matches) {
+				 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+					header.style.width = '80%';
+				} else {
+				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+					header.style.width = '70%';
+				}
 			buttonAllClose.style.display = 'none';
 			bodyCard.style.position = 'absolute';
 			arrowLine.style.opacity = '1';
 			circlePaddingNone ();
 			buttonsColorDefault();
-			circlePositionerTitle.style.display = 'block';
+			if (window.innerWidth > 768) {
+				circlePositionerTitle.style.display = 'block';}
 			responsiveCirclePositionRef(circle, beforeEl);
 			if (circle === buttons[6])
 			{responsiveCirclePositionLast(circle);}
@@ -210,7 +265,8 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			appendixesHideAll();
 			buttonsColorDefault();
 			hideHeader();
-			circlePositionerTitle.style.display = 'block';
+			if (window.innerWidth > 768) {
+			circlePositionerTitle.style.display = 'block';}
 			bodyCard.style.position = 'absolute';
 		};
 }
@@ -233,6 +289,9 @@ var modalOverlay = document.querySelector('.modal__overlay');
 var unitNumber = document.querySelector('.th_1');
 
 modalButton.addEventListener('click', function(){
+	if (header.style.maxHeight === '500px'){
+	hamburger.classList.toggle("is-active");
+	}
 	hideHeader();
 	modalOverlay.style.opacity = '1';
 	modalOverlay.style.zIndex = '800';
@@ -246,6 +305,42 @@ materialIcons.addEventListener('click', function(){
 	modalOverlay.style.zIndex = '-100';
 	modalOverlay.style.webkitTransform = 'scale(.5)';
 	bodyCard.style.position = null;
+	if(overlayTitleM.style.backgroundColor === '#D32F2F'){
+	hamburger.classList.toggle("is-active");
+	}
+	overlayTitleM.style.backgroundColor = '#9c061b';
+});
+
+/*--------------------hamburgers-------------------------*/
+var buttonGambur = document.querySelector('.gamb-wrap-back'); 	// change for back side add "-back"
+buttonGambur.addEventListener('click', function() {
+
+	if (header.style.maxHeight === '500px'){
+
+		hideHeader();
+		bodyCard.style.position = null;
+
+	} else {
+		header.style.maxHeight = '500px';
+		unitTableDiv.style.maxHeight = '300px';
+		unitTableDiv.style.opacity = '1';
+		mainTable.style.margin = '0 auto';
+//		mainTable.style.width = '70%';
+		if (mq.matches) {
+				 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+					header.style.width = '80%';
+				} else {
+				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+					header.style.width = '70%';
+				}
+		widthChange(mqNarrow);
+		mainTable.style.borderRadius = '0 0 4px 4px';
+		overlayTitleM.style.backgroundColor = '#D32F2F';
+		textP_Title.style.color = 'white';
+		overlayTitleL.style.backgroundColor = 'white';
+//		bodyCard.style.position = 'fixed';
+		buttonAllClose.style.display = 'none';
+		}
 });
 
 /*--------------------Hide Fields-------------------------*/

@@ -39,7 +39,9 @@ $color-text-light			: $linen;
 $color-border-light  	: lighten($grey, 25%);
 $color-border-bright	: $mountain-meadow;
 
-$color-shadow					: rgba($fun-green,.7);
+$color-shadow					: rgba($black,.30);
+$color-shadow-text		: rgba($color-sec,.40);
+$color-shadow-input		: rgba($color-prim,.60);
 
 // Font Stacks
 

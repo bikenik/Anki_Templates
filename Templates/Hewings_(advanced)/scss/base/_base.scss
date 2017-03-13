@@ -9,11 +9,11 @@ html {
 	width: 	100%; 
 }
 
-.ipad .card {
-	position: absolute;
-	-webkit-font-smoothing: antialiased;
-	-webkit-backface-visibility: hidden;
-}
+//.ipad .card {
+//	position: absolute;
+//	-webkit-font-smoothing: antialiased;
+//	-webkit-backface-visibility: hidden;
+//}
 
 /* --------------------- Additional option ------------------------------ */
 .G 	{ color: gray; }
@@ -32,6 +32,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding: 0;
+	line-height: 1.5;
 	height: 100%;
 	margin: 0;
 	-webkit-font-smoothing: subpixel-antialiased !important;
@@ -51,6 +52,7 @@ body {
 	left: 0;
 	bottom: 0;
 	right: 0;
+	-webkit-overflow-scrolling: touch;
 }
 .mac .card,
 .win .card {

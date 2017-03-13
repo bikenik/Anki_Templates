@@ -28,13 +28,67 @@ appendixes 	 = document.getElementsByClassName('appendixes');
 
 var buttonsClass 			= document.querySelector('.buttons'),
 buttonAllClose 				= document.querySelector('.header-close'),
-bodyCard 					= document.querySelector('.card'),
+bodyCard 							= document.querySelector('.card'),
 circlePositionerTitle = document.querySelector('.circlePositioner_title'), 	// change for back side add "_back"
 arrowLine 						= document.querySelector('.arrow_06B13_line'), 				// change for back side add "_back"
 overlayTitleM 				= document.querySelector('#overlay_title'),
 overlayTitleL 				= document.querySelector('.mainCircle_title');
 
+var header = document.querySelector('.header'); 
+
 var textP_Title = document.getElementById('p_button');
+var hamburger = document.querySelector('.hamburger--arrowalt-r');
+
+/*--------------------Media Query responsive-------------------------*/
+//		// media query change 769
+//				function widthChange(mqiPad) {
+//			if (mqiPad.matches) {
+//			 buttonsClass.insertBefore(circle, buttonsClass.firstChild); // window width is less than 768px
+//			} else {
+//			 buttonsClass.insertBefore(circle, beforeEl); // window width is at least 768px 
+//				}
+//			} 
+//			if (matchMedia) {
+//				var mqiPad = window.matchMedia("(max-width: 769px)");
+//				mqiPad.addListener(widthChange);
+//				widthChange(mqiPad);
+//			}
+
+// media query change 737
+function widthChange(mq) {
+  if (mq.matches) {
+   circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+  } else {
+   circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+  }
+}
+
+if (matchMedia) {
+  var mq = window.matchMedia("(max-width: 737px)");
+  mq.addListener(widthChange);
+  widthChange(mq);
+}
+// media query change 438
+function widthChange(mqNarrow) {
+	var unitTableDiv = document.querySelector('.unit_table'); 
+  if (mqNarrow.matches) {
+		header.style.width = '90%'; // window width is less than 438px
+		unitTableDiv.style.display = 'none';
+  } else {
+		if (mq.matches) {
+   header.style.width = '80%'; // window width is less than 768px 
+		unitTableDiv.style.display = null;
+		} else {
+			header.style.width = '70%';
+		}
+  }
+}
+
+if (matchMedia) {
+  var mqNarrow = window.matchMedia("(max-width: 438px)");
+  mqNarrow.addListener(widthChange);
+  widthChange(mqNarrow);
+}
 
 /*--------------------Common Reset to Default-------------------------*/
 var appendixesHideAll = function(){	 
@@ -62,23 +116,29 @@ var buttonsColorDefault = function(){
 };
 
 /*--------------------Hide Header-------------------------*/
-var header = document.querySelector('.header'); 
 var unitTableDiv = document.querySelector('.unit_table'); 
 var mainTable = document.querySelector('.main_table');
-
 
 		function hideHeader() {
 			header.style.maxHeight = '0';
 			header.style.maxWidth = '910px';
-			header.style.width = '70%';
+//			header.style.width = '70%';
+				if (mq.matches) {
+				 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+					header.style.width = '80%';
+				} else {
+				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+					header.style.width = '70%';
+				}
 			unitTableDiv.style.maxHeight = '0';
 			unitTableDiv.style.opacity = '0';
-			mainTable.style.margin = '1em auto 0 auto';
-			mainTable.style.borderRadius = '4px';
-			overlayTitleM.style.backgroundColor = '#9c061b';
+			mainTable.style.margin = null;
+			mainTable.style.width = null;
+			mainTable.style.borderRadius = null;
+			overlayTitleM.style.backgroundColor = '#9c061b';//'#077a09'
 			overlayTitleL.style.backgroundColor = 'transparent';
 			arrowLine.style.opacity = '1';
-			textP_Title.style.color = 'bisque';		
+			textP_Title.style.color = 'bisque';
 		}
 
 circlePositionerTitle.addEventListener('click', function() {
@@ -89,7 +149,6 @@ circlePositionerTitle.addEventListener('click', function() {
 		hideHeader();
 		textP_Title.textContent = 'A';
 		bodyCard.style.position = null;
-		
 
 	} else {
 		header.style.maxHeight = '500px';
@@ -107,11 +166,11 @@ circlePositionerTitle.addEventListener('click', function() {
 /*--------------------show Appendix-------------------------*/
 function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 	
+
 /*--------------------Conditions for Responsive drop down appendixes-------------------------*/
 	function app() {
 		
 		function responsiveCirclePosition(targetCircle) {
-					
 			if (window.innerWidth < 769){
 				buttonsClass.insertBefore(targetCircle, buttonsClass.firstChild);
 			}
@@ -174,22 +233,32 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			appendix.style.maxHeight = '0';
 			appendix.style.webkitTransform = 'scale(0.5)';
 			header.style.maxWidth = '910px';
-			header.style.width = '70%';
+//			header.style.width = '70%';
+				if (mq.matches) {
+			 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+				header.style.width = '80%';
+			} else {
+			 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+				header.style.width = '70%';
+			}
+			widthChange(mqNarrow);
 			buttonAllClose.style.display = 'none';
 			bodyCard.style.position = null;
 			arrowLine.style.opacity = '1';
 			circlePaddingNone ();
 			buttonsColorDefault();
-			circlePositionerTitle.style.display = 'block';
+			if (window.innerWidth > 768) {
+				circlePositionerTitle.style.display = 'block';}
 			responsiveCirclePositionRef(circle, beforeEl);
 			if (circle === buttons[6])
 			{responsiveCirclePositionLast(circle);}
 	} else {
 			appendix.style.maxHeight = '100%';
-			responsiveCirclePosition(circle);
+			responsiveCirclePosition(circle, beforeEl);
 			appendix.style.webkitTransform = 'scale(1)';
 			header.style.maxWidth = '100%';
 			header.style.width = '100%';
+//			width100(mqNarrow);
 			bodyCard.style.position = 'fixed';
 			unitTableDiv.style.maxHeight = '0';
 			unitTableDiv.style.opacity = '0';
@@ -202,7 +271,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			circlePaddingDone();
 			circlePositionerTitle.style.display = 'none';
 			arrowLine.style.opacity = '0';
-	} // End of function app()
+	}
 
 /*--------------------Reset button-------------------------*/
 		buttonAllClose.onclick = function () {
@@ -214,10 +283,11 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			appendixesHideAll();
 			buttonsColorDefault();
 			hideHeader();
-			circlePositionerTitle.style.display = 'block';
+			if (window.innerWidth > 768) {
+			circlePositionerTitle.style.display = 'block';}
 			bodyCard.style.position = null;
 		};
-}
+} // End of function app()
 circle.addEventListener('click', app);
 } // End of function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP)
 
@@ -236,6 +306,9 @@ var materialIcons = document.querySelector('.material-icons');
 var modalOverlay = document.querySelector('.modal__overlay');
 
 modalButton.addEventListener('click', function(){
+	if (header.style.maxHeight === '500px'){
+	hamburger.classList.toggle("is-active");
+	}
 	hideHeader();
 	modalOverlay.style.opacity = '1';
 	modalOverlay.style.zIndex = '800';
@@ -250,6 +323,39 @@ materialIcons.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(.5)';
 	bodyCard.style.position = null;
 });
+
+/*--------------------hamburgers-------------------------*/
+var buttonGambur = document.querySelector('.gamb-wrap'); 	// change for back side add "_back"
+buttonGambur.addEventListener('click', function() {
+
+	if (header.style.maxHeight === '500px'){
+
+		hideHeader();
+		bodyCard.style.position = null;
+
+	} else {
+		header.style.maxHeight = '500px';
+		unitTableDiv.style.maxHeight = '300px';
+		unitTableDiv.style.opacity = '1';
+		mainTable.style.margin = '0 auto';
+//		mainTable.style.width = '70%';
+					if (mq.matches) {
+				 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
+					header.style.width = '80%';
+				} else {
+				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
+					header.style.width = '70%';
+				}
+		widthChange(mqNarrow);
+		mainTable.style.borderRadius = '0 0 4px 4px';
+		overlayTitleM.style.backgroundColor = '#D32F2F';
+		textP_Title.style.color = 'white';
+		overlayTitleL.style.backgroundColor = 'white';
+//		bodyCard.style.position = 'fixed';
+		buttonAllClose.style.display = 'none';
+		}
+});
+
 
 /*--------------------Hide Fields-------------------------*/
 var addWordsBox1 = document.querySelector('div.add_words1');

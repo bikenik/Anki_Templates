@@ -1,0 +1,48 @@
+@if index($hamburger-types, vortex) {
+  /*
+   * Vortex
+   */
+  .hamburger--vortex {
+    .hamburger-inner {
+      -webkit-transition-duration: 0.3s;
+      -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+      &::before,
+      &::after {
+        -webkit-transition-duration: 0s;
+        -webkit-transition-delay: 0.1s;
+        -webkit-transition-timing-function: linear;
+      }
+
+      &::before {
+        -webkit-transition-property: top, opacity;
+      }
+
+      &::after {
+        -webkit-transition-property: bottom, transform;
+      }
+    }
+
+    &.is-active {
+      .hamburger-inner {
+        -webkit-transform: rotate(765deg);
+        -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+        &::before,
+        &::after {
+          -webkit-transition-delay: 0s;
+        }
+
+        &::before {
+          top: 0;
+          opacity: 0;
+        }
+
+        &::after {
+          bottom: 0;
+          -webkit-transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

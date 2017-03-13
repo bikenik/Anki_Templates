@@ -21,15 +21,6 @@
 	@media #{$brk-iPhone6s-wide} {
 		font-size: .825em;
   }
-	@media #{$brk-iPhone-wide} {
-		font-size: .825em;
-  }
-	@media #{$brk-iPhone6s-portrait} {
-		font-size: .625em;
-  }
-	@media #{$brk-extra-narrow} {
-		font-size: .625em;
-	}
 }
 
 .exercises {
@@ -47,21 +38,24 @@ font-family: "Cronos Pro";
 }
 
 .question {
-	font-family:"CronosPro-LtIt";
+	font-family:"TektonPro-Regular";
 	font-weight: 100;
 	word-spacing: 0px;
 	font-size: 2em;
+	line-height: 1.5em;
 	color: $color-text-base;
 	text-align: left;
+	@media #{$brk-iPhone6s-wide} {
+		line-height: 1.3em;
+	}
 }
 .win .question,
 .mac .question {
-	font-family: "Cronos Pro";
-	font-style: italic;
+	font-family: "Tekton Pro";
 }
 
 .win .question {
-font-family:"Cronos Pro";
+	font-family:"Tekton Pro";
   word-spacing: 0px;
   font-size: 2em;
 }
@@ -94,6 +88,7 @@ font-family:"Cronos Pro";
 
 .choices_words li {
   font-size: 1.1em;
+	line-height: 100%;
 }
 .win .choices_words li,
 .win .choices_words {
@@ -103,11 +98,13 @@ font-family:"Cronos Pro";
 /* ------------------------------- Header Fonts---------------------------------- */
 .unit_table, .th_1,
 .td_1 {
-	font-family:"CronosPro-Semibold";
+	font-family:"CronosPro-Regular";
 //  font-weight: 600;
 	font-size: 1.5em;
+	line-height: 1em;
 	
 	@media #{$brk-iPhone6s-wide} {
+
 	}
 }
 
@@ -116,41 +113,27 @@ font-family:"Cronos Pro";
 .mac .unit_table, .mac .th_1,
 .mac .td_1 {
 	font-family:"Cronos Pro";
-	font-weight: 600;
+	font-weight: 500;
 	font-style: bold;
 }
 
 .th_2 {
 	color: #3b3b3b;
 	font-family: $color-text-base;
-//  line-height: 1.1;
 	font-weight: 800;
-//	font-size: 2em;
 }
 
 .add_words {
 	font-family: Helvetica;
 }
 
-#typeans,
-#typeans1,
-#typeans2,
-#typeans3,
-#typeans4,
-#typeans5,
-#typeans6,
-#typeans7 {
+#typeans,#typeans1,#typeans2,#typeans3,#typeans4,#typeans5,#typeans6,#typeans7,#typeans8,
+#typeans9,#typeans10,#typeans11,#typeans12,#typeans13,#typeans14,#typeans15
+{
 	font-family: "TektonPro-Regular" !important;
 	font-style: normal;
 }
-.win #typeans, .mac #typeans,
-.win #typeans1,.mac #typeans1,
-.win #typeans2,.mac #typeans2,
-.win #typeans3,.mac #typeans3,
-.win #typeans4,.mac #typeans4,
-.win #typeans5,.mac #typeans5,
-.win #typeans6,.mac #typeans6,
-.win #typeans7 .mac #typeans7 {
+.win #typeans, .mac #typeans,.win #typeans1,.mac #typeans1,.win #typeans2,.mac #typeans2,.win #typeans3,.mac #typeans3,.win #typeans4,.mac #typeans4,.win #typeans5,.mac #typeans5,.win #typeans6,.mac #typeans6,.win #typeans7 .mac #typeans7,.win #typeans7 .mac #typeans8,.win #typeans7 .mac #typeans9,.win #typeans7 .mac #typeans10,.win #typeans7 .mac #typeans11,.win #typeans7 .mac #typeans12,.win #typeans7 .mac #typeans13,.win #typeans7 .mac #typeans14,.win #typeans7 .mac #typeans15 {
 	font-family:"Tekton Pro" !important;
 	font-style: normal;
 }
@@ -161,11 +144,13 @@ body {
 
 /* ------------------------------- type Fonts---------------------------------- */
 #typeans {
-	font-family: "TektonPro-Regular" !important;
+	font-family: "CronosPro-LtIt" !important;
 	font-style: normal;
 }
 .win #typeans, .mac #typeans {
-	font-family:"Tekton Pro" !important;
+	font-family:"Cronos Pro" !important;
+//	font-family:"Tekton Pro" !important;
+	font-style: italic;
 }
 
 .cloze {
@@ -173,26 +158,37 @@ body {
 }
 .win .cloze, .mac .cloze {
 	font-family:"Tekton Pro";
+	font-style: italic;
 }
 
 code#typeans {
-	font-family: "TektonPro-Regular";
+	font-family: "TektonPro-Regular" !important;
 	font-size: 1.2em;
+
 	@media #{$brk-wide} {
 		font-size: 1em;
 	}
 	@media #{$brk-narrow} {
 		font-size: .875em;
 	}
+	@media #{$brk-extra-narrow} {
+		font-size: .575em;
+	}
 }
 
-.win code#typeans, .mac code#typeans {
+.win code#typeans,
+.mac code#typeans {
 	font-family: "Tekton Pro" !important;
 	font-size: 1.2em;
+	letter-spacing: .1em;
+
 	@media #{$brk-wide} {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 	@media #{$brk-narrow} {
+		font-size: 1em;
+	}
+	@media #{$brk-extra-narrow} {
 		font-size: .575em;
 	}
 }
@@ -204,7 +200,7 @@ code#typeans {
 .cloze {
 	text-align: center;
 	line-height: 0;
-	color: $color-sec;;
+	color: $color-sec;
 }
 .win .cloze, .mac .cloze {
 	color: $red;
@@ -213,12 +209,6 @@ code#typeans {
 
 input#typeans {
 	color: black;
-}
-
-code#typeans {
-	line-height: 1.5;
-	text-align: center;
-	color: $color-prim;
 }
 
 .td_back {
@@ -250,7 +240,6 @@ code#typeans {
 	font-weight: normal;
 }
 
-
 /* ------------------------------- Buttons Fonts---------------------------------- */
 #overlay_title_close #p_button_close {
 	text-align: center;
@@ -275,12 +264,18 @@ code#typeans {
 
 .overlay .p_app_button {
 	font-size: 2.5rem;
-	line-height: 120%;
+	line-height: 130%;
 
 	@media #{$brk-narrow} {
 		font-size: 2.5em;
 		margin-bottom: 0;
-		line-height: 160%;
+		line-height: 150%;
+	}
+	@media #{$brk-iPhone6s-wide} {
+	line-height: 140%;
+	}
+	@media #{$brk-iPhone-wide} {
+		line-height: 120%;
 	}
 }
 
@@ -292,21 +287,11 @@ code#typeans {
 	font-size: 3.5em;
 	margin-bottom: 0;
 	}
-	@media #{$brk-iPhone6s-wide} {
-		font-size: 3em;
-		margin-top: 2.5px;
-  }
-	@media #{$brk-iPhone-wide} {
-		font-size: 2.8em;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		font-size: 2rem;
-	}
 }
 
 span.close {
 	color: white;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	text-align: center;
 	line-height: 90%;
 
@@ -315,13 +300,13 @@ span.close {
 			font-size: 4em;
 		}
 		@media #{$brk-iPhone6sPlus-wide} {
-			font-size: 3rem;
+			font-size: 3em;
 			}
 		@media #{$brk-iPhone-wide} {
-			font-size: 2.5rem;
+			font-size: 2em;
 			}
 		@media #{$brk-extra-narrow} {
-			font-size: 2rem;
+			font-size: 1.5em;
 			}
 }
 

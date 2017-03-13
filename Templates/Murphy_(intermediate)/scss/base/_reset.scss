@@ -1,5 +1,5 @@
 /*==================================== 
-   Reset
+  Reset
 =====================================*/
 html,
 body,
@@ -37,10 +37,9 @@ hgroup,
 nav,
 section,
 button,
-canvas
-			{
-    margin: 0;
-    padding: 0;
+canvas {
+	margin: 0;
+	padding: 0;
 }
 h1,
 h2,
@@ -57,44 +56,44 @@ code,
 th,
 dfn,
 del {
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 ul,
 ol {
-    list-style: none;
+	list-style: none;
 }
 fieldset,
 img {
-    border: none;
+	border: none;
 }
 caption,
 th {
     text-align: left;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
 button {
-    cursor: pointer;
-    line-height: normal;
+	cursor: pointer;
+	line-height: normal;
 }
 button,
 input {
-    line-height: normal;
+	line-height: normal;
 }
 input[type="hidden"],
 [hidden],
 .hidden {
-    display: none;
+	display: none;
 }
 textarea {
-    overflow: auto;
-    resize: none;
+	overflow: auto;
+	resize: none;
 }
 article,
 aside,
@@ -106,27 +105,27 @@ header,
 nav,
 section,
 .clearfix {
-    display: block;
+	display: block;
 }
 audio,
 canvas,
 video {
-    display: inline-block;
+	display: inline-block;
 }
 a > img {
-    vertical-align: bottom;
+	vertical-align: bottom;
 }
 strong,
 b {
-    font-weight: bold;
+	font-weight: bold;
 }
 em,
 i {
-    font-style: italic;
+	font-style: italic;
 }
 del {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 :focus {
-    outline: none;
+	outline: none;
 }

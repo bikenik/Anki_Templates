@@ -19,6 +19,13 @@
 	-webkit-transition-timing-function: ease;
 	-webkit-transition-delay: 100ms;
 	transition-delay: 100ms;
+	
+	@media #{$brk-iPhone6sPlus-wide}{
+		width: 80%;
+	}
+	@media #{$brk-iPhone6sPlus-portrait}{
+		width: 90%;
+	}
 }
 
 .un_table{
@@ -29,7 +36,7 @@
 	@extend %alignBase;
 	display: inline-block;
 	z-index: 13;
-	width: 70%;
+	width: 70.5%;
 	max-width: 910px;
 	display: block;
 	background-color: $background-app; /*rgba(0, 0, 0, .65);*/

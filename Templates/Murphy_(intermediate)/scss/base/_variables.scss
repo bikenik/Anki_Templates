@@ -1,4 +1,3 @@
-
 // Descriptive Color Variables
 
 $white							:#fff;
@@ -40,7 +39,9 @@ $color-text-light			: $linen;
 $color-border-light  	: lighten($grey, 25%);
 $color-border-red		  : $Glacier;
 
-$color-shadow					: rgba($Azure,.75);
+$color-shadow					: rgba($black,.30);
+$color-shadow-text		: rgba($color-sec,.40);
+$color-shadow-input		: rgba($color-prim,.60);
 
 // Font Stacks
 
@@ -64,4 +65,4 @@ $brk-extra-narrow 					: '(max-width: 321px)';
 ////  and (max-device-width: 1024px) 
 //  and (orientation: portrait) 
 ////  and (-webkit-min-device-pixel-ratio: 1)
-//{
+//

@@ -1,12 +1,11 @@
 /*==================================== 
-   Simple Grid
+  Simple Grid
 =====================================*/
 /*
-	Simple Grid
-	Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
-	Project Page - http://thisisdallas.github.com/Simple-Grid/
-	Author - Dallas Bass
-	Site - dallasbass.com
+  Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
+  Project Page - http://thisisdallas.github.com/Simple-Grid/
+  Author - Dallas Bass
+  Site - dallasbass.com
 */
 
 *, *:after, *:before {
@@ -37,11 +36,10 @@
 }
 
 .grid-pad {
-//	padding-top: .5em;
+	padding-top: 10px;
 	padding-left: 0px; /* grid-space to left */
 	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 	padding-bottom: 25%; //90px
-	line-height: 1.5;
 }
 
 .push-right {

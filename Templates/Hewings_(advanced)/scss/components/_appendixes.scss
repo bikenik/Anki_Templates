@@ -6,47 +6,49 @@
 	display: block;
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
-	font-size: 1.3em;
-	line-height: 1.5;
 	width: 100%;
 	max-width: 1440px;
 	position: fixed;
-	margin: -345px auto 0;
-  z-index: 13;
+	margin:0 auto;
+	z-index: 13;
+	margin-top: -340px;
+	padding-left: 1.250em;
+	padding-right: 1.250em;
+	font-size: 1.3em;
+	line-height: 1.5;
 	max-height: 0;
-	-webkit-transform: scale(.5);
-	-webkit-transition-property: max-height, width, webkit-transition-scale;
-  -webkit-transition-duration: 0.95s;
+	-webkit-transform: scale(0.5);
+	-webkit-transition: all 0.95s;
 	-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	
 	@media #{$brk-narrow} {
-		margin-top: -325px;
+		margin-top: -380px;
 		font-size: 1.2em;
 	}
 	@media #{$brk-iPhone6sPlus-wide} {
-		margin-top: -330px;
+		margin-top: -380px;
 		font-size: 1.1em;
 	}
 	@media #{$brk-iPhone6s-wide} {
-		margin-top: -270px;
+		margin-top: -310px;
 	}
 	@media #{$brk-iPhone-wide} {
-		margin-top: -238px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		margin-top: -210px;
+		margin-top: -280px;
 		font-size: 1em;
 	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		margin-top: -263px;
+	}
 	@media #{$brk-iPhone6s-portrait} {
-		margin-top: -215px;
+		margin-top: -250px;
 		font-size: .925em;
 	}
 	@media #{$brk-extra-narrow} {
 		padding-left: .125em;
 		padding-right: .125em;
-		margin-top: -200px;
+		margin-top: -250px;
 	}
-} 
+}
 
 //.mac .appendixes {
 //@media #{$brk-narrow} {

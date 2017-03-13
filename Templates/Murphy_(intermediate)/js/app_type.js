@@ -1,10 +1,12 @@
 /* jshint browser: true */
-
+// color: $color-prim	= #a53f45
+//				$color-sec	= #D32F2F
 
 /*--------------------Variables-------------------------*/
 var textbox = document.getElementById("typeans");
 var clozes = document.getElementsByClassName("cloze");
 var skips = document.getElementsByClassName('cloze');
+var textbox = document.getElementById("typeans");
 
 /*--------------------comma place-------------------------*/
 var fields = [];
@@ -39,6 +41,9 @@ function resizable (el, factor) {
   for (var i in e) {el.addEventListener(e[i],resize,false);}
   resize(); 
 }
+//textbox.addEventListener('keypress', function() {
+//		this.style.width = ((this.value.length + 1) * 20) + 'px';
+//		});
 
 /*--------------------span1 and span2 function-------------------------*/
 var cloze = clozes[0];
@@ -68,7 +73,7 @@ textbox.style.width = typeansWidth;
 span1.style.webkitTransition = 'width 0.25s';
 var span2 = document.createElement('span');
 span2.style.position = 'absolute';
-// span2.style.top = '-5px';
+span2.style.top = '4px';
 span2.style.left = '1px';
 span2.style.color = '#336699';
 		textbox.parentNode.insertBefore(span1, textbox);
@@ -79,7 +84,6 @@ span1.appendChild(span2);
 		 "this.style.backgroundColor='default';");
 span2.style.width =  '100%';
 span2.style.height = '1.5em';
-	
 		textbox.style.backgroundColor = 'transparent !important';
 		textbox.style.borderRadius = '2px';
 		textbox.style.color = '#336699';
@@ -88,7 +92,7 @@ textbox.style.fontStyle = 'italic';
 textbox.style.fontSize = '1em'; 
 textbox.style.textAlign = 'center';
 textbox.style.minWidth = typeansWidth;
-textbox.style.boxShadow = '0 1px 14px rgba(0, 0, 0, 0.12)';
+//textbox.style.boxShadow = '0 1px 14px rgba(0, 0, 0, 0.12)';
 resizable(textbox,0.42); // change it for different fonts
 span2.style.overflow = 'hidden';
 span2.style.textOverflow = 'ellipsis';
@@ -98,11 +102,7 @@ span2.innerHTML = cloze.innerHTML.slice(1,-1);
 span2.style.zIndex = "-1";
 		span2.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
 }/* End span1 and span2 function*/
-//#336699
 
-//	if (cloze.textContent.length > 20){
-//		typeansWidth = '98%';
-//	}
 /*----------------------Main function---------------------*/
 var mungeCloze = function() {
 if(clozes.length === 0)
@@ -127,35 +127,36 @@ if(cloze !== null) {
 		textbox.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
 	span12(textbox);
 }
-} else {
-  //instead of inserting, we should clone the textbox and insert that into the deletions.
-  var length = clozes.length;
-  var originalTextbox = textbox;
-  for (var z = 0; z < length; z++) {
-      cloze = clozes[z];
-      if(cloze === null)
-			{continue;}
-      var textboxToReplace = originalTextbox.cloneNode(true);
-      textboxToReplace.id = "typeans" + (z+1);
-      textboxToReplace.setAttribute("class", "typeans");
-      textboxToReplace.onkeyup = updateMain;
-      //textboxToReplace.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
-      textboxToReplace.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
-      var containerElse = cloze.parentNode;
-      containerElse.insertBefore(textboxToReplace, cloze);
-      span12(textboxToReplace);
-      fields.push(textboxToReplace);
-  }
-  while(clozes.length > 0) {
-      cloze = clozes[0];
-      var containerAll = cloze.parentNode;
-      containerAll.removeChild(cloze);
-  }
-  originalTextbox.style.display = "none";
-  // -- фокус после всех этих хитростей оказывается на скрытом поле
-  // -- войти в первое поле с клавиатуры - нажатием Tab
-  document.getElementById('typeans1').focus();
-  // -- или пусть курсор сразу будет в этом поле, но тогда в нём не виден placeholder=
+}	else {
+      //instead of inserting, we should clone the textbox and insert that into the deletions.
+      var length = clozes.length;
+      var originalTextbox = textbox;
+      for (var z = 0; z < length; z++) {
+          cloze = clozes[z];
+          if(cloze === null)
+				{continue;}
+          var textboxToReplace = originalTextbox.cloneNode(true);
+          textboxToReplace.id = "typeans" + (z+1);
+          textboxToReplace.setAttribute("class", "typeans");
+          textboxToReplace.onkeyup = updateMain;
+          //textboxToReplace.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
+          textboxToReplace.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
+          var containerElse = cloze.parentNode;
+          containerElse.insertBefore(textboxToReplace, cloze);
+          span12(textboxToReplace);
+          fields.push(textboxToReplace);
+      }
+      while(clozes.length > 0) {
+          cloze = clozes[0];
+          var containerAll = cloze.parentNode;
+          containerAll.removeChild(cloze);
+      }
+      originalTextbox.style.display = "none";
+      // -- фокус после всех этих хитростей оказывается на скрытом поле
+      // -- войти в первое поле с клавиатуры - нажатием Tab
+      document.getElementById('typeans1').focus();
+      // -- или пусть курсор сразу будет в этом поле, но тогда в нём не виден placeholder=
     }
-};
+}; // End of mungeCloze
+
 mungeCloze();

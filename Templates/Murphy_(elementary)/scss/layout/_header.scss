@@ -19,6 +19,13 @@
 	-webkit-transition-timing-function: ease;
 	-webkit-transition-delay: 100ms;
 	transition-delay: 100ms;
+	
+	@media #{$brk-iPhone6sPlus-wide}{
+		width: 80%;
+	}
+	@media #{$brk-extra-narrow}{
+		width: 100%;
+	}
 }
 
 .un_table{
