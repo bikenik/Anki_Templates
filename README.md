@@ -28,7 +28,7 @@ There are currently one type of card.<br>
  **[Cloze]**
   - Freeform show/hide, question/answer, audio/subtitles fields.<br><br>
 
-####some necessary operations for this template:
+#### some necessary operations for this template:
 >- Anki doesn’t import fonts, so you need install these fonts **to your OS**:<br>
 _CronosPro-Bold.ttf<br>
 _CronosPro-Lt.ttf<br>
@@ -41,7 +41,7 @@ For instaling in a folder `Reference files/fonts`
 - On mobile version it is necessary switch off tap zones.
 - Instal a plug-in: [Replay buttons on card](https://ankiweb.net/shared/info/498789867) for sound fields.
 
-###Optional recommended
+### Optional recommended
 - For convenient filling of forms instal a plug-in: [Power Format Pack: Markdown, code blocks, lists, tables, syntax highlight & more](https://ankiweb.net/shared/info/162313389)
 - [Additional Card Fields](https://ankiweb.net/shared/info/441235634) for distinction by color text of question:<br>
 new card = blue<br>
@@ -53,7 +53,7 @@ Repeated card = green<br>
 
 ## Card Fields
 Fields marked **Optional** fields (♟ ♻ ✎ ♫ ♨) can be left blank and the template will ignore them. **Required** fields (✔) are required in order for a card to be generated.
-###✔ID: 
+### ✔ID: 
 Required
 > **example** - “3.4.9” = (3-unit); (4-exercise); (9-question).
 
@@ -62,7 +62,7 @@ Required / optional (hiding field by button)
 
 >**example** - “Unit 3”.
 
-###✔ Unit Name:
+### ✔ Unit Name:
 Required (hiding field by button)
 >**example** - _“Present continuous and present simple 1
 (I am doing and I do)”_.
@@ -114,7 +114,7 @@ use **“;”** for words split.
 > ![and use **“|”** for differentiation words.](./readmeImg/example_differentiation_coices_words.png)<br>
 and use **“|”** for differentiation of groups words.
 
-###✎ Add Words 1 box and ✎ Add Words 2 box
+### ✎ Add Words 1 box and ✎ Add Words 2 box
 Optional
 > **example** -<br>
 
@@ -153,7 +153,7 @@ on the card
 Optional
 > Use it for image.
 
-###♨ Hint Front
+### ♨ Hint Front
 Optional (hiding field by button)<br>
 as idea this field for the theory
 > If this field for image use - recommended width:  ~ 1000px;  
@@ -169,7 +169,7 @@ Optional (hiding field by button)
 
 ! [](./readmeImg/example_sound_hint2.png)
 
-###♨ Hint Back
+### ♨ Hint Back
 Optional <br>
 (hiding field by button for back side card)<br>
 as idea this field for the theory
