@@ -2032,17 +2032,28 @@ img {
 .picture_1 {
   width: 74%; }
 
+.img_front {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 70%; }
+  @media (max-width: 737px) {
+    .img_front {
+      max-width: 80%; } }
+  @media (max-width: 438px) {
+    .img_front {
+      max-width: 90%; } }
+
 .img_front > img,
 .img_front > div > img {
-  max-width: 70%; }
+  max-width: 956px; }
   @media (max-width: 737px) {
     .img_front > img,
     .img_front > div > img {
-      max-width: 80%; } }
+      max-width: 665px; } }
   @media (max-width: 438px) {
     .img_front > img,
     .img_front > div > img {
-      max-width: 90%; } }
+      max-width: 414px; } }
 
 .img_ap {
   float: right;

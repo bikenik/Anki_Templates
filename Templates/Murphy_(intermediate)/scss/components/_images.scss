@@ -10,14 +10,27 @@ img {
 .picture_1 {
 	width: 74%;
 }
-.img_front > img,
-.img_front > div > img {
+
+.img_front {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 	max-width: 70%;
 	@media #{$brk-iPhone6sPlus-wide} {
 		max-width: 80%;
 	}
 	@media #{$brk-iPhone6sPlus-portrait} {
 		max-width: 90%;
+	}
+}
+
+.img_front > img,
+.img_front > div > img {
+	max-width: 956px;
+	@media #{$brk-iPhone6sPlus-wide} {
+		max-width: 665px;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		max-width: 414px;
 	}
 }
 
