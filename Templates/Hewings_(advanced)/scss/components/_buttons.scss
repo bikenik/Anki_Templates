@@ -33,22 +33,6 @@
 }
 
 /*----------- Buttons---------------------*/
-.circle{
-//	margin-bottom: -2px;
-		@media #{$brk-narrow} {
-			width: 100%;
-			margin: 0 auto;
-//			height: 57px;
-//			padding: 0 .1em;
-		}
-		@media #{$brk-extra-narrow} {
-			width: 100%;
-			margin: 0 auto;
-			height: 30px;
-			padding: 0 .5em;
-		}
-	}
-
 button.header-close {
 	z-index: 200;
 	display: block;
@@ -104,11 +88,25 @@ span.close {
 }
 
 /*_____________________button title____________________*/
+.circle{
+//	margin-bottom: -2px;
+		@media #{$brk-narrow} {
+			width: 100%;
+			margin: 0 auto;
+//			height: 57px;
+//			padding: 0 .1em;
+		}
+		@media #{$brk-extra-narrow} {
+			width: 100%;
+			margin: 0 auto;
+			height: 30px;
+			padding: 0 .5em;
+		}
+	}
 
 .buttons {
-//	padding: .1em;
 	padding-top: 1em;
-	margin-bottom: .5em;
+	padding-bottom: .5em;
 }
 
 .circlePositioner_title, 
@@ -302,12 +300,10 @@ span.close {
 .circlePositioner {
 		display: inline-block;
 		position: relative;
-		width: 48%;
+		width: 49%;
 		text-align: center;
-	
-//	margin: auto;
 		margin-bottom: -2px;
-	padding: auto;
+		padding: auto;
 
 		@media #{$brk-narrow} {
 			height: auto;
@@ -321,6 +317,9 @@ span.close {
 .circlePositioner:nth-child(even){
 	margin-right: .2em !important;
 }
+//.circlePositioner:nth-child(odd){
+//	margin-right: .2em !important;
+//}
 
 .mainCircle {
 //  background-color: cadetblue;

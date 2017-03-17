@@ -28,10 +28,11 @@ circlePositioner	= document.getElementsByClassName('circlePositioner');
 
 var buttonsClass 			= document.querySelector('.buttons'),
 buttonAllClose 				= document.querySelector('.header-close'),
-bodyCard 					= document.querySelector('.card'),
+bodyCard 							= document.querySelector('.card'),
 circlePositionerTitle = document.querySelector('.circlePositioner_title'),
 arrowLine 						= document.querySelector('.arrow_06B13_line'),
 overlayTitleM 				= document.querySelector('#overlay_title'),
+//cols 									= document.querySelector('.col-1-2'),
 overlayTitleL 				= document.querySelector('.mainCircle_title');
 
 var textP_Title = document.getElementById('p_button');
@@ -153,7 +154,6 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 /*--------------------Conditions for Responsive drop down appendixes-------------------------*/
 	
 	function app() {
-
 
 		function circlePaddingNone (){
 				buttonsFirst[0].style.paddingBottom = "0";

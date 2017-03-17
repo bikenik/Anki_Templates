@@ -1352,17 +1352,6 @@ span.close {
   -webkit-transform: rotate(180deg); }
 
 /*----------- Buttons---------------------*/
-@media (max-width: 769px) {
-  .circle {
-    width: 100%;
-    margin: 0 auto; } }
-@media (max-width: 321px) {
-  .circle {
-    width: 100%;
-    margin: 0 auto;
-    height: 30px;
-    padding: 0 .5em; } }
-
 button.header-close {
   z-index: 200;
   display: block;
@@ -1413,9 +1402,20 @@ button.header-close {
     transform: rotate(77deg); } }
 
 /*_____________________button title____________________*/
+@media (max-width: 769px) {
+  .circle {
+    width: 100%;
+    margin: 0 auto; } }
+@media (max-width: 321px) {
+  .circle {
+    width: 100%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 0 .5em; } }
+
 .buttons {
   padding-top: 1em;
-  margin-bottom: .5em; }
+  padding-bottom: .5em; }
 
 .circlePositioner_title,
 .circlePositioner_title_back {
@@ -1594,7 +1594,7 @@ button.header-close {
 .circlePositioner {
   display: inline-block;
   position: relative;
-  width: 48%;
+  width: 49%;
   text-align: center;
   margin-bottom: -2px;
   padding: auto; }
