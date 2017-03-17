@@ -54,7 +54,7 @@ span1.style.position = 'relative';
 span1.style.display = 'inline-block';
 span1.style.whiteSpace = 'nowrap';
 span1.style.maxWidth = '100%';
-var typeansWidth = ((cloze.textContent.length + 1) * 0.35)+ 'em';
+var typeansWidth = ((cloze.textContent.length + 1) * 0.42)+ 'em'; // change it for different fonts
 span1.style.minWidth = typeansWidth;
 textbox.style.width = typeansWidth;
 		if 			(cloze.textContent.length > 70){

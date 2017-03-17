@@ -1106,7 +1106,7 @@ footer#back {
   font-weight: 100;
   word-spacing: 0px;
   font-size: 2em;
-  line-height: 1.2em;
+  line-height: 1.5em;
   color: #3b3b3b;
   text-align: left; }
   @media (max-width: 668px) {
@@ -1195,8 +1195,7 @@ body {
   font-style: normal; }
 
 .win #typeans, .mac #typeans {
-  font-family: "Cronos Pro" !important;
-  font-style: italic; }
+  font-family: "Cronos Pro" !important; }
 
 .cloze {
   font-family: "TektonPro-Regular"; }

@@ -53,7 +53,7 @@
 	font-weight: 100;
 	word-spacing: 0px;
 	font-size: 2em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	color: $color-text-base;
 	text-align: left;
 	@media #{$brk-iPhone6s-wide} {
@@ -169,12 +169,11 @@ body {
 }
 .win #typeans, .mac #typeans {
 	font-family:"Cronos Pro" !important;
-//	font-family:"Tekton Pro" !important;
-	font-style: italic;
 }
 
 .cloze {
-	font-family: "TektonPro-Regular";
+	font-family:"TektonPro-Regular";
+//	font-family: "TektonPro-Regular";
 }
 .win .cloze,
 .mac .cloze {
@@ -202,7 +201,7 @@ code#typeans {
 .mac code#typeans {
 	font-family: "Tekton Pro" !important;
 	font-size: 1.2em;
-	letter-spacing: .1em;
+//	letter-spacing: .1em;
 
 	@media #{$brk-wide} {
 		font-size: 1em;
