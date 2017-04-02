@@ -86,18 +86,12 @@ To choose typing area press tab - once or twice.
 > ![On the card](./readmeImg/example_by_hover.png)
 This field is button also. By the tap on this field `♟ Example` field opens
 
-> ![On the card](./readmeImg/sound_for_question.png)<br>
-You can add sound into this field: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}`.
+> ![back side view](./readmeImg/example_sound_for_backSide.png)You can add sound into this field: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}`.
+
 ### ♫ Answer
 Optional (on the back side of card)
 >recommended use [AwesomeTTS text-to-speech add-on](https://ankiweb.net/shared/info/301952613) for this field.
-
 > ![window of editing](./readmeImg/exmaple_for_sound.png)<br>
-window of editing
-
-
-> ![back side view](./readmeImg/example_sound_for_backSide.png)<br>
-back side view
 
 ### ✎ Choices 
 Optional
@@ -138,7 +132,8 @@ _the second field is empty_
 Optional
 > Sound for question if it necessary. In this case use `♟ Example` field for subtitles.
 
-
+> ![On the card](./readmeImg/sound_for_question.png)
+back side view
 
 ### ♟ Example
 Optional (hiding field by button)
