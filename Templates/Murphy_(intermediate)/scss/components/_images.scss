@@ -25,7 +25,7 @@ img {
 
 .img_front > img,
 .img_front > div > img {
-	max-width: 956px;
+	max-width: 910px;
 	@media #{$brk-iPhone6sPlus-wide} {
 		max-width: 665px;
 	}
@@ -64,7 +64,7 @@ img {
 		max-width:530px;
 	}
 	@media #{$brk-iPhone-wide} {
-//		max-width:400px;
+		max-width:400px;
 	}
 //	@media #{$brk-iPhone6sPlus-portrait} {
 ////	max-width: 98%;
@@ -78,13 +78,12 @@ img {
 	opacity: 0;
 	max-height: 0px;
 	background: $white;
-	padding-bottom: .5em;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	-webkit-transition-property: max-height, opacity;
-	-webkit-transition-duration: 300ms;
-	-webkit-transition-timing-function: ease;
-	-webkit-transition-delay: 100ms;
+	transition-property: max-height, opacity;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
+	transition-delay: 100ms;
 }
 
 .modal__wrap > img {

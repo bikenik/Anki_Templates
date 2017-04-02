@@ -26,15 +26,15 @@ html {
 
 body {
 	z-index: 100;
-	background-image:-webkit-linear-gradient(top, #e5f3ff 0%,#ffffff 100%);
+	background-image: linear-gradient(top, #e5f3ff 0%,#ffffff 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding: 0;
 	line-height: 1.5;
 	height: 100%;
 	margin: 0;
-	-webkit-font-smoothing: subpixel-antialiased !important;
-	-webkit-backface-visibility: hidden;
+	font-smoothing: subpixel-antialiased !important;
+	backface-visibility: hidden;
 }
 
 .card_1 {
@@ -65,7 +65,7 @@ hr {
 	width: 100%;
 	height: 2px;
 	border: 0;
-	background: -webkit-linear-gradient(left, #fcfcfc 0%,#cce8ff 25%,#0960a9 53%,#cce8ff 78%,#ffffff 100%);
+	background: linear-gradient(left, rgb(234,244,252) 0%,rgb(51,102,153) 50%,rgb(234,244,252) 100%);
 	margin-top: -0.2em;
 }
 
@@ -80,15 +80,13 @@ hr {
 }
 
 a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+	color: rgba(210, 76, 57, 0.39);
+	text-decoration: underline;
+	cursor: auto;
 }
-
-a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+a:hover {
+	color: #d24c39;
 }
-
 .add-space-for-mobile {
 	@media #{$brk-wide} {
 	height: 450px;

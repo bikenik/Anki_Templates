@@ -49,3 +49,19 @@
 	-webkit-transition-delay: 100ms;
 	transition-delay: 100ms;
 }
+
+.th_1 {
+	width: 10%;
+	background: #e30215;
+	color: $color-text-light;
+	font-size: 2em;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.th_2 {
+	background: #f6ab8a;
+	width: 90%;
+	border: 0px solid $black;
+	border-collapse: collapse;
+}

@@ -6,3 +6,6 @@
 
 
 README_ru.pdf
+*.sublime-workspace
+
+*.sublime-project

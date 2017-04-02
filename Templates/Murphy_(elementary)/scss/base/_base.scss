@@ -80,13 +80,12 @@ hr {
 }
 
 a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+	color: rgba(51, 102, 153, 0.36);
+	text-decoration: underline;
+	cursor: auto;
 }
-
-a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+a:hover {
+	color: #336699;
 }
 
 .add-space-for-mobile {

@@ -1,6 +1,4 @@
 /* jshint browser: true */
-// color: $color-prim	= #a53f45
-//				$color-sec	= #D32F2F
 
 /*--------------------Variables-------------------------*/
 var textbox = document.getElementById("typeans");
@@ -73,7 +71,7 @@ textbox.style.width = typeansWidth;
 span1.style.webkitTransition = 'width 0.25s';
 var span2 = document.createElement('span');
 span2.style.position = 'absolute';
-span2.style.top = '4px';
+// span2.style.marginTop = '0';
 span2.style.left = '1px';
 span2.style.color = '#336699';
 		textbox.parentNode.insertBefore(span1, textbox);

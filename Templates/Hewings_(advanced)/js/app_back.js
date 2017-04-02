@@ -1,23 +1,39 @@
 /* jshint browser: true */
 
-/*--------------------Hide example question-------------------------*/
-var question = document.querySelector('.question'); //for back side - ".question"
+var question = document.querySelector('.question'); // change for back side - ".question"
+
 var exampleAnswerHide = document.querySelector('.img_example'); 
+var hideExample = function () {
+exampleAnswerHide.style.maxHeight = '600px';
+exampleAnswerHide.style.opacity = '1';
+exampleAnswerHide.style.padding = '.5em';
+exampleAnswerHide.style.marginTop = '.3em';
+};
+var showExample = function () {
+exampleAnswerHide.style.maxHeight = null;
+exampleAnswerHide.style.opacity 	= null;
+exampleAnswerHide.style.padding 	= null;
+exampleAnswerHide.style.marginTop = null;
+};
 var el = question;
 if(el) {
 el.addEventListener('click', function() {
-
 if (exampleAnswerHide.style.maxHeight === '600px' && exampleAnswerHide.style.opacity === '1') {
-		exampleAnswerHide.style.maxHeight = '0';
-		exampleAnswerHide.style.opacity = '0'; 
+showExample();
 } else {
-exampleAnswerHide.style.maxHeight = '600px';
-exampleAnswerHide.style.opacity = '1';
+hideExample();
 }
 });
 }
 
+var elAhref = document.querySelectorAll('.question a');
+for (var x=0; x < elAhref.length; x++) {
+elAhref[x].addEventListener('click', hideExample);
+}
+
+
 /*--------------------variables-------------------------*/
+var header = document.querySelector('.header'); 
 var buttons  			= document.getElementsByClassName('circle'),
 buttonsFirst 			= document.getElementsByClassName('circle'),
 mainCircle 	 			= document.getElementsByClassName('mainCircle'),
@@ -38,31 +54,30 @@ var textP_Title = document.getElementById('p_button');
 var hamburger = document.querySelector('.hamburger--arrowalt');
 
 /*--------------------Media Query responsive-------------------------*/
-// media query change
-function widthChange(mq) {
+// media query change 737
+function hideCircleTitle(mq) {
   if (mq.matches) {
-   circlePositionerTitle.style.display = 'none'; // window width is less than 768px
+   circlePositionerTitle.style.display = 'none'; // window width is less than 737px
   } else {
-   circlePositionerTitle.style.display = 'block'; // window width is at least 768px 
+   circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
   }
 }
-
 if (matchMedia) {
   var mq = window.matchMedia("(max-width: 737px)");
-  mq.addListener(widthChange);
-  widthChange(mq);
+  mq.addListener(hideCircleTitle);
+  hideCircleTitle(mq);
 }
 
-// media query change
-function widthChange(mqNarrow) {
-	var header = document.querySelector('.header');
+// media query change 438
+function changeHeaderWidth(mqNarrow) {
 	var unitTableDiv = document.querySelector('.unit_table'); 
   if (mqNarrow.matches) {
-		header.style.width = '80%'; // window width is less than 438px
+		header.style.width = '90%'; // window width is less than 438px
 		unitTableDiv.style.display = 'none';
   } else {
 		if (mq.matches) {
-			unitTableDiv.style.display = null;// window width is less than 768px
+   header.style.width = '80%'; // window width is less than 768px 
+		unitTableDiv.style.display = null;
 		} else {
 			header.style.width = '70%';
 		}
@@ -70,8 +85,8 @@ function widthChange(mqNarrow) {
 }
 if (matchMedia) {
   var mqNarrow = window.matchMedia("(max-width: 438px)");
-  mqNarrow.addListener(widthChange);
-  widthChange(mqNarrow);
+  mqNarrow.addListener(changeHeaderWidth);
+  changeHeaderWidth(mqNarrow);
 }
 
 /*--------------------Common Reset to Default-------------------------*/
@@ -100,7 +115,6 @@ var buttonsColorDefault = function(){
 };
 
 /*--------------------Hide Header-------------------------*/
-var header = document.querySelector('.header'); 
 var unitTableDiv = document.querySelector('.unit_table'); 
 var mainTable = document.querySelector('.main_table');
 		function hideHeader() {
@@ -206,7 +220,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 				header.style.width = '70%';
 			}
-			widthChange(mqNarrow);
+			changeHeaderWidth(mqNarrow);
 			buttonAllClose.style.display = 'none';
 			bodyCard.style.position = null;
 			arrowLine.style.opacity = '1';
@@ -220,6 +234,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			{buttonsClass.appendChild(circle);}
 	} else {
 			appendix.style.maxHeight = '100%';
+			appendix.scrollTop=0;
 			buttonsClass.insertBefore(circle, buttonsClass.firstChild);
 			circleLayout.style.width = '94%';
 			appendix.style.webkitTransform = 'scale(1)';
@@ -325,7 +340,7 @@ buttonGambur.addEventListener('click', function() {
 				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 					header.style.width = '70%';
 				}
-		widthChange(mqNarrow);
+		changeHeaderWidth(mqNarrow);
 		mainTable.style.borderRadius = '0 0 4px 4px';
 		overlayTitleM.style.backgroundColor = '#1dd16e';
 		textP_Title.style.color = 'white';
@@ -359,3 +374,5 @@ for (var i = 0; i < cloze.length; i++) {
   cloze[i].textContent = cloze[i].textContent.replace(/^([^|]*).*$/, "$1");
   cloze[i].textContent = cloze[i].textContent.replace(/^([^/]*).*$/, "$1");
 }
+
+window.scrollTo(0, 0);

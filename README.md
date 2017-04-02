@@ -78,15 +78,16 @@ Required
 B: Not bad. It wasn't so good at first, but `{{c1::it's getting::(it / get)}}` better now. <br>
 A: What about Daniel? Is he OK? <br>
 B: Yes, but `{{c1::he isn't enjoying / he's not enjoying::(he / not / enjoy)}}` his work right now. He's been in the same job for a long time and `{{c1::he's beginning / he is beginning::(he / begin)}}` to get bored with it.”
-
 > ![On the card](./readmeImg/question_example.png)<br>
 To choose typing area press tab - once or twice.
 
 >When you start typing in field the cursive example disappear. But it can be displayed by hover on the input field.
 
-> ![On the card](./readmeImg/example_by_hover.png)<br>
+> ![On the card](./readmeImg/example_by_hover.png)
 This field is button also. By the tap on this field `♟ Example` field opens
 
+> ![On the card](./readmeImg/sound_for_question.png)<br>
+You can add sound into this field: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}`.
 ### ♫ Answer
 Optional (on the back side of card)
 >recommended use [AwesomeTTS text-to-speech add-on](https://ankiweb.net/shared/info/301952613) for this field.

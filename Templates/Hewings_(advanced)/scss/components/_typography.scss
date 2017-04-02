@@ -122,6 +122,9 @@ font-family: "Cronos Pro";
 	font-family: $color-text-base;
 	font-weight: 800;
 }
+.win .th_1 {
+	letter-spacing: 2px;
+}
 
 .add_words {
 	font-family: Helvetica;
@@ -278,12 +281,15 @@ input#typeans {
 
 #overlay_title #p_button {
 	font-size: 4rem;
-	line-height: 120%;
+	line-height: 100%;
 
 	@media #{$brk-narrow} {
 	font-size: 3.5em;
 	margin-bottom: 0;
 	}
+}
+.win #overlay_title #p_button {
+	line-height: 130%;
 }
 
 span.close {

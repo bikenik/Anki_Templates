@@ -21,15 +21,6 @@
 	@media #{$brk-iPhone6s-wide} {
 		font-size: .825em;
 	}
-//	@media #{$brk-iPhone-wide} {
-//		font-size: .825em;
-//	}
-//	@media #{$brk-iPhone6s-portrait} {
-//		font-size: .625em;
-//	}
-//	@media #{$brk-extra-narrow} {
-//		font-size: .625em;
-//	}
 }
 
 .exercises {
@@ -80,6 +71,8 @@
 .img_example {
 	font-family: tahoma;
 	font-size: 1.5em;
+	text-align: left;
+	padding: 0;
 }
 
 /* ------------------------------- Add words Fonts---------------------------------- */
@@ -138,6 +131,9 @@
 
 .win .th_2 {
 	font-family:"CronosPro-Semibold";
+}
+.win .th_1 {
+	letter-spacing: 2px;
 }
 
 .add_words {
@@ -285,28 +281,32 @@ code#typeans {
 	line-height: 170%;
 
 	@media #{$brk-narrow} {
-		font-size: 2.5em;
+		font-size: 1.5em;
 		margin-bottom: 0;
-		line-height: 150%;
+		line-height: 250%;
 	}
 	@media #{$brk-iPhone6s-wide} {
-	line-height: 140%;
+		font-size: 1.4em;
+		// line-height: 140%;
 	}
-	@media #{$brk-iPhone-wide} {
-		line-height: 120%;
+	@media #{$brk-extra-narrow} {
+		font-size: 1em;
+		// line-height: 140%;
 	}
 }
 
 #overlay_title #p_button {
 	font-size: 4rem;
-	line-height: 120%;
+	line-height: 100%;
 
 	@media #{$brk-narrow} {
 		font-size: 3.5em;
 		margin-bottom: 0;
 	}
 }
-
+.win #overlay_title #p_button {
+	line-height: 130%;
+}
 span.close {
 	color: white;
 	font-size: 4rem;
@@ -335,4 +335,18 @@ span.close {
 	@media #{$brk-wide} {
 		font-size: 1.2em;
 	}
+}
+
+pre.highlight {
+	font-family: "CronosPro-Regular";
+	font-weight: 100;
+	word-spacing: 0px;
+	font-size: 1.3em;
+	line-height: 100%;
+	text-align: left;
+	word-wrap: break-word;
+}
+.mac pre.highlight,
+.win pre.highlight {
+	font-family: "Cronos Pro";
 }

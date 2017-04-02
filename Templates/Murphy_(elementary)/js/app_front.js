@@ -2,20 +2,44 @@
 
 /*--------------------Hide example question-------------------------*/
 var question = document.querySelector('.question_front'); // change for back side - ".question"
-var exampleAnswerHide = document.querySelector('.img_example'); 
+var exampleAnswerHide = document.querySelector('.img_example');
+var hideExample = function () {
+exampleAnswerHide.style.maxHeight = '600px';
+exampleAnswerHide.style.opacity = '1';
+exampleAnswerHide.style.padding = '.5em';
+exampleAnswerHide.style.marginTop = '.3em';
+};
+var showExample = function () {
+		exampleAnswerHide.style.maxHeight = null;
+		exampleAnswerHide.style.opacity 	= null;
+		exampleAnswerHide.style.padding 	= null;
+		exampleAnswerHide.style.marginTop = null;
+};
 var el = question;
 if(el) {
 el.addEventListener('click', function() {
 
 if (exampleAnswerHide.style.maxHeight === '600px' && exampleAnswerHide.style.opacity === '1') {
-		exampleAnswerHide.style.maxHeight = '0';
-		exampleAnswerHide.style.opacity = '0';
+showExample();
 } else {
-exampleAnswerHide.style.maxHeight = '600px';
-exampleAnswerHide.style.opacity = '1';
+hideExample();
 }
 });
 }
+
+var textbox = document.querySelectorAll('.question input');
+for (var i=0; i < textbox.length; i++) {
+textbox[i].addEventListener('click', hideExample);
+}
+var elAhref = document.querySelectorAll('.question a');
+for (var x=0; x < elAhref.length; x++) {
+elAhref[x].addEventListener('click', hideExample);
+}
+
+var questionAudio = document.getElementById('question-audio');
+questionAudio.onclick = function() {
+showExample();
+};
 
 /*--------------------variables-------------------------*/
 var body 		 = document.getElementById(body);
@@ -38,38 +62,57 @@ var header = document.querySelector('.header');
 
 var textP_Title = document.getElementById('p_button');
 var hamburger = document.querySelector('.hamburger--arrowalt-r');
+var headingTable = document.getElementsByClassName('heading');
 
 /*--------------------Media Query responsive-------------------------*/
-//		// media query change 769
-//				function widthChange(mqiPad) {
-//			if (mqiPad.matches) {
-//			 buttonsClass.insertBefore(circle, buttonsClass.firstChild); // window width is less than 768px
-//			} else {
-//			 buttonsClass.insertBefore(circle, beforeEl); // window width is at least 768px 
-//				}
-//			} 
-//			if (matchMedia) {
-//				var mqiPad = window.matchMedia("(max-width: 769px)");
-//				mqiPad.addListener(widthChange);
-//				widthChange(mqiPad);
-//			}
+		// media query change 769
+	function appendixesChangeName(mqiPad) {
+			if (mqiPad.matches) {
+			 p_AppButton[0].textContent = '1. Active and passive'; // window width is less than 768px
+			 p_AppButton[1].textContent = '2. List of irregular verbs (~ Unit 24)';
+			 p_AppButton[2].textContent = '3. Irregular verbs in groups';
+			 p_AppButton[3].textContent = '4. Short forms (he’s / I’d / don’t etc.)';
+			 p_AppButton[4].textContent = '5. Spelling';
+			 p_AppButton[5].textContent = '6. Phrasal verbs (take off / give up etc.)';
+			 p_AppButton[6].textContent = '7. Phrasal verbs+object (put out a fire/give up your job etc.)';
+					for (var i=0; i < headingTable.length; i++) {
+					 headingTable[i].style.display = 'none';
+					}
+			} else {
+			 p_AppButton[0].textContent = '1'; // window width is at least 768px
+			 p_AppButton[1].textContent = '2';
+			 p_AppButton[2].textContent = '3';
+			 p_AppButton[3].textContent = '4';
+			 p_AppButton[4].textContent = '5';
+			 p_AppButton[5].textContent = '6';
+			 p_AppButton[6].textContent = '7';
+			 		for (var x=0; x < headingTable.length; x++) {
+					 headingTable[x].style.display = 'block';
+					}
+				}
+			}
+			if (matchMedia) {
+				var mqiPad = window.matchMedia("(max-width: 768px)");
+				mqiPad.addListener(appendixesChangeName);
+				appendixesChangeName(mqiPad);
+			}
 
 // media query change 737
-function widthChange(mq) {
+function hideCircleTitle(mq) {
   if (mq.matches) {
    circlePositionerTitle.style.display = 'none'; // window width is less than 737px
   } else {
    circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
   }
 }
-
 if (matchMedia) {
   var mq = window.matchMedia("(max-width: 737px)");
-  mq.addListener(widthChange);
-  widthChange(mq);
+  mq.addListener(hideCircleTitle);
+  hideCircleTitle(mq);
 }
+
 // media query change 438
-function widthChange(mqNarrow) {
+function changeHeaderWidth(mqNarrow) {
 	var unitTableDiv = document.querySelector('.unit_table'); 
   if (mqNarrow.matches) {
 		header.style.width = '90%'; // window width is less than 438px
@@ -83,11 +126,10 @@ function widthChange(mqNarrow) {
 		}
   }
 }
-
 if (matchMedia) {
   var mqNarrow = window.matchMedia("(max-width: 438px)");
-  mqNarrow.addListener(widthChange);
-  widthChange(mqNarrow);
+  mqNarrow.addListener(changeHeaderWidth);
+  changeHeaderWidth(mqNarrow);
 }
 
 /*--------------------Common Reset to Default-------------------------*/
@@ -241,7 +283,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 				header.style.width = '70%';
 			}
-			widthChange(mqNarrow);
+			changeHeaderWidth(mqNarrow);
 			buttonAllClose.style.display = 'none';
 			bodyCard.style.position = null;
 			arrowLine.style.opacity = '1';
@@ -254,11 +296,11 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			{responsiveCirclePositionLast(circle);}
 	} else {
 			appendix.style.maxHeight = '100%';
+			appendix.scrollTop=0;
 			responsiveCirclePosition(circle, beforeEl);
 			appendix.style.webkitTransform = 'scale(1)';
 			header.style.maxWidth = '100%';
 			header.style.width = '100%';
-//			width100(mqNarrow);
 			bodyCard.style.position = 'fixed';
 			unitTableDiv.style.maxHeight = '0';
 			unitTableDiv.style.opacity = '0';
@@ -346,7 +388,7 @@ buttonGambur.addEventListener('click', function() {
 				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 					header.style.width = '70%';
 				}
-		widthChange(mqNarrow);
+		changeHeaderWidth(mqNarrow);
 		mainTable.style.borderRadius = '0 0 4px 4px';
 		overlayTitleM.style.backgroundColor = '#D32F2F';
 		textP_Title.style.color = 'white';
@@ -355,7 +397,6 @@ buttonGambur.addEventListener('click', function() {
 		buttonAllClose.style.display = 'none';
 		}
 });
-
 
 /*--------------------Hide Fields-------------------------*/
 var addWordsBox1 = document.querySelector('div.add_words1');
@@ -366,12 +407,13 @@ var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
 var hr = document.getElementsByTagName('hr');
 
-//var questionAudio = document.getElementById('question-audio');
-
 var box1None = true, box2None = true;
 if (addWordsBox1.textContent === ''){
 	box1None = false;
 	addWordsBox1.style.display = 'none';
+}
+if (questionAudio.innerHTML === ''){
+	questionAudio.style.display = 'none';
 }
 if (addWordsBox2.textContent === ''){
 	box2None = false;

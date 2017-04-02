@@ -14,10 +14,9 @@
 	max-width: 910px;
 	max-height: 0;
 	opacity: 0;
-	-webkit-transition-property: max-height, opacity;
-	-webkit-transition-duration: 300ms;
-	-webkit-transition-timing-function: ease;
-	-webkit-transition-delay: 100ms;
+	transition-property: max-height, opacity;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
 	transition-delay: 100ms;
 	
 	@media #{$brk-iPhone6sPlus-wide}{
@@ -45,11 +44,10 @@
 	overflow: hidden;
 	position: relative;
 	max-height: 0;
-	-webkit-transition-property: max-height, width, max-width;
-	-webkit-transition-duration: 300ms;
-	-webkit-transition-timing-function: ease;
-	-webkit-transition-delay: 100ms;
+	transition-property: max-height, width, max-width;
+	transition-duration: 300ms;
+	transition-timing-function: ease;
 	transition-delay: 100ms; 
-	/*-webkit-transition: max-height 1000ms; */
-	/*-webkit-transition: all 1s ease-in-out; */
+	/*transition: max-height 1000ms; */
+	/*transition: all 1s ease-in-out; */
 }

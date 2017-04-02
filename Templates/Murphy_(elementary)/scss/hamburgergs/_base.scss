@@ -2,7 +2,7 @@
 // ==================================================
 .hamburger {
 //  padding: $hamburger-padding-y $hamburger-padding-x;
-	padding-right: 10px;
+  padding-right: 10px;
   display: inline-block;
   cursor: pointer;
 
@@ -29,17 +29,17 @@
 //  }
 }
 //.iphone .hamburger {
-//	position: fixed;
+//  position: fixed;
 //}
 .hamburger-box {
   width: $hamburger-layer-width;
-			@media #{$brk-iPhone-wide} {
-			width: $hamburger-layer-width-narrow;
-		}
+      @media #{$brk-iPhone-wide} {
+      width: $hamburger-layer-width-narrow;
+    }
   height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
-	@media #{$brk-iPhone-wide} {
-		height: $hamburger-layer-height-narrow * 3 + $hamburger-layer-spacing * 2;
-	}
+  @media #{$brk-iPhone-wide} {
+    height: $hamburger-layer-height-narrow * 3 + $hamburger-layer-spacing * 2;
+  }
   display: inline-block;
   position: relative;
 }
@@ -53,13 +53,13 @@
   &::before,
   &::after {
     width: $hamburger-layer-width;
-		@media #{$brk-iPhone-wide} {
-			width: $hamburger-layer-width-narrow;
-		}
+    @media #{$brk-iPhone-wide} {
+      width: $hamburger-layer-width-narrow;
+    }
     height: $hamburger-layer-height;
-		@media #{$brk-iPhone-wide} {
-			height: $hamburger-layer-height-narrow;
-		}
+    @media #{$brk-iPhone-wide} {
+      height: $hamburger-layer-height-narrow;
+    }
     background-color: $hamburger-layer-color;
     border-radius: $hamburger-layer-border-radius;
     position: absolute;
@@ -76,15 +76,15 @@
 
   &::before {
     top: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
-		@media #{$brk-iPhone-wide} {
-			top: ($hamburger-layer-spacing + $hamburger-layer-height-narrow) * -1;
-		}
+    @media #{$brk-iPhone-wide} {
+      top: ($hamburger-layer-spacing + $hamburger-layer-height-narrow) * -1;
+    }
   }
 
   &::after {
     bottom: ($hamburger-layer-spacing + $hamburger-layer-height) * -1;
-		@media #{$brk-iPhone-wide} {
-			bottom: ($hamburger-layer-spacing + $hamburger-layer-height-narrow) * -1;
-		}
+    @media #{$brk-iPhone-wide} {
+      bottom: ($hamburger-layer-spacing + $hamburger-layer-height-narrow) * -1;
+    }
   }
 }

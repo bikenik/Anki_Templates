@@ -17,9 +17,9 @@
 	font-size: 1.3em;
 	line-height: 1.5;
 	max-height: 0;
-	-webkit-transform: scale(0.5);
-	-webkit-transition: all 0.95s;
-	-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transform: scale(0.5);
+	transition: all 0.95s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	
 	@media #{$brk-narrow} {
 		margin-top: -380px;
@@ -50,8 +50,7 @@
 	}
 }
 
-//.mac .appendixes {
-//@media #{$brk-narrow} {
-//		margin-top: -330px;
-//	}
-//	}
+.mac .appendixes,
+.win .appendixes {
+		margin-top: -350px;
+	}

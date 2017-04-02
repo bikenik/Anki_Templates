@@ -5,13 +5,13 @@
   .hamburger--arrowalt-r {
     .hamburger-inner {
       &::before {
-        -webkit-transition: top 0.1s 0.15s ease,
-                    -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: top 0.1s 0.15s ease,
+                    transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
 
       &::after {
-        -webkit-transition: bottom 0.1s 0.15s ease,
-                    -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: bottom 0.1s 0.15s ease,
+                    transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
     }
 
@@ -19,21 +19,21 @@
       .hamburger-inner {
         &::before {
           top: 0;
-          -webkit-transform: translate3d($hamburger-layer-width * 0.2, $hamburger-layer-width * -0.25, 0) rotate(45deg) scale(0.7, 1);
-          -webkit-transition: top 0.1s ease,
-                      -webkit-transform 0.15s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+          transform: translate3d($hamburger-layer-width * 0.2, $hamburger-layer-width * -0.25, 0) rotate(45deg) scale(0.7, 1);
+          transition: top 0.1s ease,
+                      transform 0.15s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 					@media #{$brk-iPhone-wide} {
-						-webkit-transform: translate3d($hamburger-layer-width-narrow * 0.2, $hamburger-layer-width-narrow * -0.25, 0) rotate(45deg) scale(0.7, 1);
+						transform: translate3d($hamburger-layer-width-narrow * 0.2, $hamburger-layer-width-narrow * -0.25, 0) rotate(45deg) scale(0.7, 1);
 					}
         }
 
         &::after {
           bottom: 0;
-          -webkit-transform: translate3d($hamburger-layer-width * 0.2, $hamburger-layer-width * 0.25, 0) rotate(-45deg) scale(0.7, 1);
-          -webkit-transition: bottom 0.1s ease,
-                      -webkit-transform 0.15s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+          transform: translate3d($hamburger-layer-width * 0.2, $hamburger-layer-width * 0.25, 0) rotate(-45deg) scale(0.7, 1);
+          transition: bottom 0.1s ease,
+                      transform 0.15s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 					@media #{$brk-iPhone-wide} {
-						-webkit-transform: translate3d($hamburger-layer-width-narrow * 0.2, $hamburger-layer-width-narrow * 0.25, 0) rotate(-45deg) scale(0.7, 1);
+						transform: translate3d($hamburger-layer-width-narrow * 0.2, $hamburger-layer-width-narrow * 0.25, 0) rotate(-45deg) scale(0.7, 1);
 					}
         }
       }

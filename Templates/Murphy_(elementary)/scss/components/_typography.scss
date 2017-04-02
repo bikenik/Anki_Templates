@@ -141,6 +141,9 @@
 .win .th_2 {
 	font-family:"CronosPro-Semibold";
 }
+.win .th_1 {
+	letter-spacing: 2px;
+}
 
 .add_words {
   font-family: Helvetica;
@@ -288,26 +291,29 @@ code#typeans {
 	line-height: 170%;
 
 	@media #{$brk-narrow} {
-		font-size: 2.5em;
+		font-size: 1.5em;
 		margin-bottom: 0;
-		line-height: 150%;
+		line-height: 250%;
 	}
 	@media #{$brk-iPhone6s-wide} {
-	line-height: 140%;
+		font-size: 1.4em;
 	}
-	@media #{$brk-iPhone-wide} {
-		line-height: 120%;
+	@media #{$brk-extra-narrow} {
+		font-size: 1em;
 	}
 }
 
 #overlay_title #p_button {
 	font-size: 4rem;
-	line-height: 120%;
+	line-height: 100%;
 
 	@media #{$brk-narrow} {
 		font-size: 3.5em;
 		margin-bottom: 0;
 	}
+}
+.win #overlay_title #p_button {
+	line-height: 130%;
 }
 
 span.close {

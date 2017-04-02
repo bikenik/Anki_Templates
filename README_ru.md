@@ -85,7 +85,7 @@ Required
 
 ### ✔☛ Question:
 Required
-> **example** -<br> 
+> **example** -<br>
 “A: Hi, Nicola. How `{{c1::'s your new job going::(your new job / go)}}`? <br>
 B: Not bad. It wasn't so good at first, but `{{c1::it's getting::(it / get)}}` better now. <br>
 A: What about Daniel? Is he OK? <br>
@@ -96,8 +96,10 @@ B: Yes, but `{{c1::he isn't enjoying / he's not enjoying::(he / not / enjoy)}}` 
 
 > Когда вы начинаете печатать поле с курсивным примером исчезает. Но это может быть показано при нависании указателя мыши над полем.
 
-> ![On the card](./readmeImg/example_by_hover.png)<br>
-On the card
+> ![On the card](./readmeImg/example_by_hover.png)
+ On the card <br>
+> ![On the card](./readmeImg/sound_into_question.png)
+Так же, можно добавить звук в это поле: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}.`
 
 ### ♫ Answer
 Optional (для обратной стороны карточки)
@@ -148,7 +150,7 @@ _the second field is empty_
 ### ♫ Question
 Optional
 >Звук для вопроса, если это необходимо. В этом случае используйте `♟ Example` поле для субтитров.
-
+> ![On the card](./readmeImg/sound_for_question.png)
 
 
 ### ♟ Example

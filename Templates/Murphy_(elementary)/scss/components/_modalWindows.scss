@@ -25,10 +25,10 @@ max-height: 100%;
 	top: 0;
 	z-index: -100;
 	overflow: hidden;
-	-webkit-transform: scale(0.5);
-	-webkit-transition-property: opacity, webkit-transition-scale;
-	-webkit-transition-duration: 0.75s; //300ms
-	-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transform: scale(0.5);
+	transition-property: opacity, transition-scale;
+	transition-duration: 0.75s; //300ms
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 //	-webkit-transition-delay: 100ms;
 	transition-delay: 100ms;
 }
@@ -58,8 +58,7 @@ max-height: 100%;
 }
 
 .modal div#modal__trigger:focus ~ label {
-	-webkit-transform: scale(0.97);
-					transform: scale(0.97);
+	transform: scale(0.97);
 }
 
 input#modal__trigger {
@@ -79,7 +78,7 @@ max-height: 2500px;
 .material-icons {
 	z-index: 800;
 	font-size: 2em;
-	line-height: 1.5;
+	line-height: 1.6;
 	color: white;
 	position: absolute;
 	border-radius: 50%;
@@ -88,7 +87,7 @@ max-height: 2500px;
 	margin-left: 94%;
 	top: .6em;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	-webkit-transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+	transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
 		@media #{$brk-extra-narrow}{
 			font-size: 1.5em;
 			margin-left: 92%;
@@ -100,13 +99,13 @@ max-height: 2500px;
 	width: 100%;
 	height: 100%;
 	border: solid 2px;
-	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
 	position: absolute;
 	height: 1.5em;
 	top: 0px;
 	left: 0px;
 	border-radius: 50%;
-	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .material-icons {
@@ -124,48 +123,7 @@ max-height: 2500px;
 
 .material-icons:hover {
 	background-color: transparent;
-	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
 	cursor: pointer;
 	box-shadow: none
-}
-/*_____________________button hover over*/
-
-
-.myButt {
-	z-index: 0;
-	width: 10em;
-	outline: none;
-	border: none;
-	padding: .5em;
-	display: block;
-	margin: 50px auto;
-	cursor: pointer;
-	font-size: 1.6em;
-	text-align: center;
-	background-color: transparent;
-	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.17);
-	position: relative;
-	border: 1px solid $color-sec;
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-}
-
-.five {
-	overflow: hidden;
-	color: $color-shadow-text;
-}
-.five .layer {
-	color: $color-text-light;
-	text-align: center;
-	position: absolute;
-	top: -75px;
-	width: 100%;
-	left: 0;
-	padding: .5em 0;
-	background-color: $color-prim;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-}
-.five:hover .layer {
-	top: 0;
 }

@@ -2,22 +2,44 @@
 
 /*--------------------Hide example question-------------------------*/
 var question = document.querySelector('.question_front'); // change for back side - ".question"
-var exampleAnswerHide = document.querySelector('.img_example'); 
+var exampleAnswerHide = document.querySelector('.img_example');
+var hideExample = function () {
+exampleAnswerHide.style.maxHeight = '600px';
+exampleAnswerHide.style.opacity = '1';
+exampleAnswerHide.style.padding = '.5em';
+exampleAnswerHide.style.marginTop = '.3em';
+};
+var showExample = function () {
+		exampleAnswerHide.style.maxHeight = null;
+		exampleAnswerHide.style.opacity 	= null;
+		exampleAnswerHide.style.padding 	= null;
+		exampleAnswerHide.style.marginTop = null;
+};
 var el = question;
 if(el) {
 el.addEventListener('click', function() {
 
 if (exampleAnswerHide.style.maxHeight === '600px' && exampleAnswerHide.style.opacity === '1') {
-		exampleAnswerHide.style.maxHeight = '0';
-		exampleAnswerHide.style.opacity = '0';
+showExample();
 } else {
-exampleAnswerHide.style.maxHeight = '600px';
-exampleAnswerHide.style.opacity = '1';
+hideExample();
 }
 });
 }
 
+var textbox = document.querySelectorAll('.question input');
+for (var i=0; i < textbox.length; i++) {
+textbox[i].addEventListener('click', hideExample);
+}
+var elAhref = document.querySelectorAll('.question a');
+for (var x=0; x < elAhref.length; x++) {
+elAhref[x].addEventListener('click', hideExample);
+}
+
+var questionAudio = document.getElementById('question-audio');
+
 /*--------------------variables-------------------------*/
+var header = document.querySelector('.header'); 
 var body 		 = document.getElementById(body);
 var buttons  = document.getElementsByClassName('circle'),
 buttonsFirst = document.getElementsByClassName('circle'),
@@ -36,25 +58,57 @@ overlayTitleL 				= document.querySelector('.mainCircle_title');
 
 var textP_Title = document.getElementById('p_button');
 var hamburger = document.querySelector('.hamburger--arrowalt-r');
+var headingTable = document.getElementsByClassName('heading');
 
 /*--------------------Media Query responsive-------------------------*/
-// media query change
-function widthChange(mq) {
+		// media query change 769
+	function appendixesChangeName(mqiPad) {
+			if (mqiPad.matches) {
+			p_AppButton[0].textContent = "1. List of irregular verbs"; // window width is less than 768px
+			p_AppButton[1].textContent = "2. Present and Past tenses";
+			p_AppButton[2].textContent = "3. The Future";
+			p_AppButton[3].textContent = "4. Modal verbs (can/could/will/would etc.)";
+			p_AppButton[4].textContent = "5. Short forms (I'm/you've/didn't etc.)";
+			p_AppButton[5].textContent = "6. Spelling";
+			p_AppButton[6].textContent = "7. American English";
+					for (var i=0; i < headingTable.length; i++) {
+					 headingTable[i].style.display = 'none';
+					}
+			} else {
+			p_AppButton[0].textContent = '1'; // window width is at least 768px
+			p_AppButton[1].textContent = '2';
+			p_AppButton[2].textContent = '3';
+			p_AppButton[3].textContent = '4';
+			p_AppButton[4].textContent = '5';
+			p_AppButton[5].textContent = '6';
+			p_AppButton[6].textContent = '7';
+			 		for (var x=0; x < headingTable.length; x++) {
+					 headingTable[x].style.display = 'block';
+					}
+				}
+			}
+			if (matchMedia) {
+				var mqiPad = window.matchMedia("(max-width: 768px)");
+				mqiPad.addListener(appendixesChangeName);
+				appendixesChangeName(mqiPad);
+			}
+
+// media query change 737
+function hideCircleTitle(mq) {
   if (mq.matches) {
-   circlePositionerTitle.style.display = 'none'; // window width is less than 768px
+   circlePositionerTitle.style.display = 'none'; // window width is less than 737px
   } else {
-   circlePositionerTitle.style.display = 'block'; // window width is at least 768px 
+   circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
   }
 }
-
 if (matchMedia) {
   var mq = window.matchMedia("(max-width: 737px)");
-  mq.addListener(widthChange);
-  widthChange(mq);
+  mq.addListener(hideCircleTitle);
+  hideCircleTitle(mq);
 }
-// media query change
-function widthChange(mqNarrow) {
-	var header = document.querySelector('.header');
+
+// media query change 438
+function changeHeaderWidth(mqNarrow) {
 	var unitTableDiv = document.querySelector('.unit_table'); 
   if (mqNarrow.matches) {
 		header.style.width = '90%'; // window width is less than 438px
@@ -70,8 +124,8 @@ function widthChange(mqNarrow) {
 }
 if (matchMedia) {
   var mqNarrow = window.matchMedia("(max-width: 438px)");
-  mqNarrow.addListener(widthChange);
-  widthChange(mqNarrow);
+  mqNarrow.addListener(changeHeaderWidth);
+  changeHeaderWidth(mqNarrow);
 }
 
 /*--------------------Common Reset to Default-------------------------*/
@@ -100,7 +154,6 @@ var buttonsColorDefault = function(){
 };
 
 /*--------------------Hide Header-------------------------*/
-var header = document.querySelector('.header'); 
 var unitTableDiv = document.querySelector('.unit_table'); 
 var mainTable = document.querySelector('.main_table');
 
@@ -225,7 +278,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 				header.style.width = '70%';
 			}
-			widthChange(mqNarrow);
+			changeHeaderWidth(mqNarrow);
 			buttonAllClose.style.display = 'none';
 			bodyCard.style.position = null;
 			arrowLine.style.opacity = '1';
@@ -238,6 +291,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 			{responsiveCirclePositionLast(circle);}
 	} else {
 			appendix.style.maxHeight = '100%';
+			appendix.scrollTop=0;
 			responsiveCirclePosition(circle);
 			appendix.style.webkitTransform = 'scale(1)';
 			header.style.maxWidth = '100%';
@@ -335,7 +389,7 @@ buttonGambur.addEventListener('click', function() {
 				 circlePositionerTitle.style.display = 'block'; // window width is at least 737px 
 					header.style.width = '70%';
 				}
-		widthChange(mqNarrow);
+		changeHeaderWidth(mqNarrow);
 		mainTable.style.borderRadius = '0 0 4px 4px';
 		overlayTitleM.style.backgroundColor = '#77A7C4';
 		textP_Title.style.color = 'white';
@@ -355,8 +409,6 @@ var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
 var hr = document.getElementsByTagName('hr');
 
-//var questionAudio = document.getElementById('question-audio');
-
 var box1None = true, box2None = true;
 if (addWordsBox1.textContent === ''){
 	box1None = false;
@@ -375,6 +427,9 @@ if (box1None === true && box2None === true){
 if (modalWrap.innerHTML === ''){
 	modalButton.style.display = 'none';
 	hr[0].style.marginTop = '50px';
+}
+if (questionAudio.innerHTML === ''){
+	questionAudio.style.display = 'none';
 }
 if (exampleAnswerHide.innerHTML === ''){
 	exampleAnswerHide.style.display = 'none';

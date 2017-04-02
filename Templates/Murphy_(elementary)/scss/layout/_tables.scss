@@ -158,23 +158,6 @@ th,td {
 	border: 1px solid $color-border-red;
 }
 
-.th_1 {
-	width: 10%;
-	background: #e30215;
-	color: $color-text-light;
-	font-size: 2em;
-	padding-left: 10px;
-	padding-right: 10px
-}
-
-.th_2 {
-	background: #f6ab8a;
-	width: 90%;
-	border: 0px solid $black;
-	border-radius: 0 4px 0 0;
-	border-collapse: collapse;
-}
-
 td.coloumn {
 	width: 5%;
 	text-align: left;

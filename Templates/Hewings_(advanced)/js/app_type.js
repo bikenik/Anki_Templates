@@ -73,7 +73,6 @@ textbox.style.width = typeansWidth;
 span1.style.webkitTransition = 'width 0.25s';
 var span2 = document.createElement('span');
 span2.style.position = 'absolute';
-span2.style.top = '4px';
 span2.style.left = '1px';
 span2.style.color = '#00803F';
 		textbox.parentNode.insertBefore(span1, textbox);

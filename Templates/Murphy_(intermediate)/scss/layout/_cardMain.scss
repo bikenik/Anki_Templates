@@ -11,6 +11,7 @@
 	position: relative;
 	width: 70%;
 	max-width: 910px;
+	color: $color-prim;
 	height: auto;
 	padding: .5em 0;
 	box-sizing: border-box;
@@ -28,11 +29,8 @@
 //		margin-right: 1em;
 	}
 	@media #{$brk-iPhone6sPlus-portrait} {
-		margin: 1em auto 0 auto;
-		border-radius: 0.25em;
+		margin: 0 auto;
 		padding: .2em 0;
-	}
-	@media #{$brk-iPhone6sPlus-portrait}{
 		width: 90%;
 	}
 }
@@ -45,9 +43,7 @@
 	margin: 1em auto 0 auto;
 	
 	@media #{$brk-iPhone6sPlus-portrait} {
-		width: 80%;
-		margin: 1em 10% 0 auto;
-//			margin-left: 10%;
+		width: 90%;
 	}
 }
 
@@ -56,7 +52,6 @@
 	margin-bottom: -.5em;
 	padding: 0 .5em;
 	color: $color-text-light;
-	
 	@media #{$brk-iPhone6s-wide}{
 		margin-bottom: -1em;
 	}
@@ -78,25 +73,19 @@
 	display: inline-block;
 	z-index: 100;
 	background: $background-light;
-	width: 95%;
+	width: 98%;
 	padding: .3em;
-//	margin-top: 2.5%;
-	margin: 0 auto .3em;
 	cursor: pointer;
 	box-sizing: border-box;
 	border-radius: 0.15em;
 	border: 1px outset rgba(158, 129, 115, .3);
 	box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
-	-webkit-perspective: 800px;
-	-webkit-transition: all 0.4s ease-in-out;
-}
-
-.question_back {
-	margin-top: 2.5%;
+	perspective: 800px;
+	transition: all 0.4s ease-in-out;
 }
 
 .question:active {
-	-webkit-box-shadow: 0 1px 4px rgba(50, 23, 34, 3), 0 0 40px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 4px rgba(50, 23, 34, 3), 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
 /*--------------- Add words ---------------------- */
@@ -152,7 +141,7 @@ input {
 	border: none;
 	border-bottom: .1rem solid $color-sec;
 	border-radius: .3em;
-	-webkit-transition: width .5s;
+	transition: width .5s;
 	outline: 0;
 	
 	@media #{$brk-wide} {
@@ -164,11 +153,13 @@ input {
 	display: inline-block;
 	min-width: 5%;
 	max-width: 99.99% !important;
-	margin: -2px auto;
+	margin: -.25em auto;
 //	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 }
-
+.win .question > div > span > span {
+	margin-top: -5px;
+}
 
 /*--------------- input focus---------------------- */
 //inset 0 1px 1px rgba(0, 0, 0, 0.075), 
@@ -185,6 +176,9 @@ input#typeans {
 	background: transparent;
 	align-content: stretch;
 	vertical-align: text-top;
+}
+.win input#typeans {
+	margin-top: 0;
 }
 
 code#typeans{
@@ -207,6 +201,9 @@ code#typeans{
 		@media #{$brk-iPhone6sPlus-wide}{
 			width: 80%;
 	}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			width: 90%;
+		}
 }
 .td_back {
 //	width: 70%;
@@ -220,7 +217,7 @@ code#typeans{
 .replaybutton {
 	display: block;
 	vertical-align: middle;
-	margin-top: 30px;
+//	margin-top: 30px;
 }
 
 .replaybutton span svg {
@@ -274,13 +271,8 @@ code#typeans{
 	display: block;
 	position: relative;
 	padding: 0;
-	margin-top: 0;
-	margin-bottom: 10px;
+	margin-top: .5em;
 	background: $background-app;
-
-	@media #{$brk-iPhone-wide} {
-		margin-top: 13px;
-	}
 }
 
 #question-audio > .replaybutton span svg {
@@ -290,12 +282,50 @@ code#typeans{
 	background: $background-app;
 	box-shadow: none;
 	margin-top: 5px;
-	margin-bottom: -15px;
+	margin-bottom: -7px;
+}
+
+.question > div > .replaybutton {
+	display: inline;
+}
+.question > div > .replaybutton span svg {
+	position: relative;
+	display: block;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.iphone .question > div img,
+.ipad .question > div img {
+	max-width: 65px !important;
+	min-width: 65px !important;
+	margin-bottom: 9px;
+}
+
+.question > div > div > .replaybutton {
+	display: inline;
+}
+.question > div > div > .replaybutton span svg {
+	position: relative;
+	display: block;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.iphone .question > div > div  img,
+.ipad .question > div > div  img {
+	max-width: 65px !important;
+	min-width: 65px !important;
+	margin-bottom: 9px;
+}
+.answer_audio {
+	float: left;
 }
 
 #question-audio > .replaybutton{
 	width: 100%;
 	margin-left: 0;
+	border-bottom: solid .1em $color-prim;
 }
 #question-audio > svg{
 //	width: 100%;
@@ -306,7 +336,7 @@ code#typeans{
 .ipad #question-audio img {
 	max-width: 128px !important;
 	min-width: 128px !important;
-	padding: 7px 0 7px 0;
+	padding: 7px;
 	
 	@media #{$brk-narrow} {
 		max-width: 90px !important;
@@ -314,8 +344,8 @@ code#typeans{
 //		padding-left: 100px;
 	}
 	@media #{$brk-iPhone-wide} {
-		max-width: 50px !important;
-		min-width: 50px !important;
+		max-width: 65px !important;
+		min-width: 65px !important;
 	}
 }
 
@@ -344,6 +374,7 @@ code#typeans{
 	background: $background-app;
 	max-width: 128px !important;
 	min-width: 128px !important;
+	
 	
 	@media #{$brk-narrow}{
 		max-width: 90px !important;
