@@ -368,6 +368,11 @@ if (exampleAnswerHide.innerHTML === ''){
 if (unitNumber.innerHTML === ''){
 	unitNumber.innerHTML = '»»»» ♨';
 }
+var layerButton = document.querySelector('.layer');
+if (layerButton.innerHTML === ''){
+	layerButton.innerHTML = 'YEAH';
+}
+
 // Если cloze содержит несколько вариантов ответа, то оставляем только один вариант для лучшей читаемости, остальные и так будут показаны при сравнении введенного на клавиатуре ответа.
 var cloze = document.querySelectorAll(".cloze");
 for (var i = 0; i < cloze.length; i++) {

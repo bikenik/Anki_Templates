@@ -437,6 +437,10 @@ if (exampleAnswerHide.innerHTML === ''){
 if (unitNumber.innerHTML === ''){
 	unitNumber.innerHTML = '»»»» ♨';
 }
+var layerButton = document.querySelector('.layer');
+if (layerButton.innerHTML === ''){
+	layerButton.innerHTML = 'YEAH';
+}
 /*--------------------choices words field-------------------------*/
 var hint = document.querySelectorAll(".hint");
 if (hint.length > 0) {

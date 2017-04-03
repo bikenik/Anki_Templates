@@ -402,6 +402,7 @@ buttonGambur.addEventListener('click', function() {
 var addWordsBox1 = document.querySelector('div.add_words1');
 var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');
+var layerButton = document.querySelector('.layer');
 
 var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
@@ -434,6 +435,9 @@ if (exampleAnswerHide.innerHTML === ''){
 }
 if (unitNumber.innerHTML === ''){
 	unitNumber.innerHTML = '»»»» ♨';
+}
+if (layerButton.innerHTML === ''){
+	layerButton.innerHTML = 'YEAH';
 }
 /*--------------------choices words field-------------------------*/
 var hint = document.querySelectorAll(".hint");
