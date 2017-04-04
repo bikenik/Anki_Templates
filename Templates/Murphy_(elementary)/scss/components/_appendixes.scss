@@ -19,6 +19,7 @@
 	transform: scale(0.5);
 	transition: all 0.95s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition-delay: 100ms;
 
 	@media #{$brk-narrow} {
 		margin-top: -330px;
@@ -48,9 +49,3 @@
 		margin-top: -200px;
 	}
 }
-
-//.mac .appendixes {
-//@media #{$brk-narrow} {
-//		margin-top: -330px;
-//	}
-//	}

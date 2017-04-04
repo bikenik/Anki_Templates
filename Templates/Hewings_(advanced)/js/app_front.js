@@ -27,9 +27,9 @@ hideExample();
 });
 }
 
-var textbox = document.querySelectorAll('.question input');
-for (var i=0; i < textbox.length; i++) {
-textbox[i].addEventListener('click', hideExample);
+var textboxPlace = document.querySelectorAll('.question input');
+for (var i=0; i < textboxPlace.length; i++) {
+textboxPlace[i].addEventListener('click', hideExample);
 }
 var elAhref = document.querySelectorAll('.question a');
 for (var x=0; x < elAhref.length; x++) {
@@ -191,6 +191,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			appendixes[i].style.transform = 'scale(0.5)';
 			except.style.maxHeight = '100%';
 			except.style.webkitTransform = 'scale(1)';
+			except.style.transform = 'scale(1)';
 		}
 	};
 
@@ -213,10 +214,12 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 	};
 /*--------------------Conditions-------------------------*/
 	var appendixValue = appendix.style.maxHeight = Number(true);
-	if (appendixValue > 0 && appendix.style.webkitTransform === 'scale(1)') {
+	if (appendixValue > 0 && appendix.style.webkitTransform === 'scale(1)' ||
+		appendixValue > 0 && appendix.style.transform === 'scale(1)') {
 
 			appendix.style.maxHeight = '0';
 			appendix.style.webkitTransform = 'scale(0.5)';
+			appendix.style.transform = 'scale(0.5)';
 			header.style.maxWidth = '910px';
 			if (mq.matches) {
 			 circlePositionerTitle.style.display = 'none'; // window width is less than 737px
@@ -243,6 +246,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 			buttonsClass.insertBefore(circle, buttonsClass.firstChild);
 			circleLayout.style.width = '94%';
 			appendix.style.webkitTransform = 'scale(1)';
+			appendix.style.transform = 'scale(1)';
 			header.style.maxWidth = '100%';
 			header.style.width = '100%';
 			bodyCard.style.position = 'fixed';
@@ -308,6 +312,7 @@ modalButton.addEventListener('click', function(){
 	modalOverlay.style.zIndex = '800';
 	modalOverlay.style.height = '100%';
 	modalOverlay.style.webkitTransform = 'scale(1)';
+	modalOverlay.style.transform = 'scale(1)';
 	bodyCard.style.position = 'fixed';
 });
 
@@ -315,6 +320,7 @@ materialIcons.addEventListener('click', function(){
 	modalOverlay.style.opacity = '0';
 	modalOverlay.style.zIndex = '-100';
 	modalOverlay.style.webkitTransform = 'scale(.5)';
+	modalOverlay.style.transform = 'scale(.5)';
 	bodyCard.style.position = null;
 });
 

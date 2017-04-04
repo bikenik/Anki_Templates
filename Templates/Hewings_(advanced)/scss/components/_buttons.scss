@@ -13,7 +13,7 @@
 	width: 85px;
 	height: 198px;
 	opacity: 1;
-	transition: opacity.5s ease-in-out;
+	transition: all .5s ease-in-out;
 
 		@media #{$brk-narrow} {
 			display: none;
@@ -46,7 +46,7 @@ button.header-close {
 	width: 60px;
 	height: 60px;
 	background: $color-bright;
-	transition: 1000ms ease-out;
+	transition: all 1000ms ease-out;
 	
 	@media #{$brk-narrow} {
 		top: 1em;
@@ -117,11 +117,11 @@ span.close {
   margin-right: auto;
 	margin-left: auto;
 	margin-top: 0;
-  width: 67px;
-  text-align: center;
+	width: 67px;
+	text-align: center;
 	top: 133px;
-  background-color: transparent;
-   transition: 1000ms ease-out;
+	background-color: transparent;
+	transition: all 1000ms ease-out;
 
 	@media #{$brk-narrow} {
 			display: none;
@@ -188,7 +188,7 @@ span.close {
   text-align: center;
 	transform: scale(.6);
   background-color: transparent;
-	transition: 1000ms ease-out;
+	transition: all 1000ms ease-out;
 }
 
 .mainCircle_title {
@@ -317,9 +317,6 @@ span.close {
 .circlePositioner:nth-child(even){
 	margin-right: .2em !important;
 }
-//.circlePositioner:nth-child(odd){
-//	margin-right: .2em !important;
-//}
 
 .mainCircle {
 //  background-color: cadetblue;
@@ -461,10 +458,8 @@ span.close {
 @keyframes mymove {
 	from {
 		transform: rotate(0deg);
-		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(1080deg);
 		transform: rotate(1080deg);
 	}
 }
@@ -472,10 +467,8 @@ span.close {
 @keyframes mymoveR {
 	from {
 		transform: rotate(1080deg);
-		transform: rotate(1080deg);
 	}
   to {
-		transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
 }
@@ -483,22 +476,17 @@ span.close {
 @keyframes myscale {
 	0% {
 		transform: scaleY(2);
-		transform: scaleY(2);
 	}
 	25% {
-		transform: scaleY(2.5);
 		transform: scaleY(2.5);
 	}
 	50% {
 		transform: scaleY(3);
-		transform: scaleY(3);
 	}
 	75% {
 		transform: scaleY(3.5);
-		transform: scaleY(3.5);
 	}
 	100% {
-		transform: scaleY(4);
 		transform: scaleY(4);
 	}
 }

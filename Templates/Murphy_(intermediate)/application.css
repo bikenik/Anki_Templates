@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*==================================== 
-   Anki Template v1.0.3 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
+   Anki Template v1.0.4 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
 .card, .header {
   position: relative;
@@ -734,20 +734,20 @@ code#typeans {
 
 .unit_table {
   display: block;
-  z-index: 0;
   margin-top: 0px;
-  width: 70%;
-  max-width: 910px;
   max-height: 0;
+  max-width: 910px;
   opacity: 0;
-  -webkit-transition-property: max-height, opacity;
-  transition-property: max-height, opacity;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
+  -webkit-transition-property: all;
+  transition-property: all;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms; }
+  width: 70%;
+  z-index: 0; }
   @media (max-width: 737px) {
     .unit_table {
       width: 80%; } }
@@ -770,24 +770,24 @@ code#typeans {
   border-collapse: collapse; }
 
 .header {
-  display: inline-block;
-  z-index: 13;
-  width: 70%;
-  max-width: 910px;
-  display: block;
   background-color: #4e4e4e;
   /*rgba(0, 0, 0, .65);*/
+  display: block;
+  display: block;
+  max-height: 0;
+  max-width: 910px;
   overflow: hidden;
   position: relative;
-  max-height: 0;
-  -webkit-transition-property: max-height, width, max-width;
-  transition-property: max-height, width, max-width;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
+  -webkit-transition-property: all;
+  transition-property: all;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms; }
+  width: 70%;
+  z-index: 13; }
 
 /*==================================== 
    Tables
@@ -1250,8 +1250,8 @@ body {
   font-style: italic; }
 
 code#typeans {
-  font-family: "TektonPro-Regular";
-  font-size: 1.2em; }
+  font-family: "TektonPro-Regular" !important;
+  font-size: 1.5em; }
   @media (max-width: 1025px) {
     code#typeans {
       font-size: 1em; } }
@@ -1265,8 +1265,8 @@ code#typeans {
 .win code#typeans,
 .mac code#typeans {
   font-family: "Tekton Pro" !important;
-  font-size: 1.2em;
-  letter-spacing: .1em; }
+  font-size: 1.5em;
+  letter-spacing: .02em; }
   @media (max-width: 1025px) {
     .win code#typeans,
     .mac code#typeans {
@@ -1457,9 +1457,7 @@ pre.highlight {
 /*==================================== 
    Modal Window styles
 =====================================*/
-.mac .modal__overlay {
-  max-height: 100%; }
-
+.mac .modal__overlay,
 .win .modal__overlay {
   max-height: 100%; }
 
@@ -1479,14 +1477,10 @@ pre.highlight {
   overflow: hidden;
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  -webkit-transition-property: opacity, transition-scale;
-  transition-property: opacity, transition-scale;
-  -webkit-transition-duration: 0.75s;
-          transition-duration: 0.75s;
+  -webkit-transition: all 0.95s;
+  transition: all 0.95s;
   -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -webkit-transition-delay: 100ms;
-          transition-delay: 100ms; }
+          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 @media (max-width: 1025px) {
   .ipad .modal__overlay {
@@ -1534,31 +1528,32 @@ img {
   margin-left: 94%;
   top: .6em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: color 0.2s ease, background-color 0.2s ease, -webkit-transform 0.3s ease;
-  transition: color 0.2s ease, background-color 0.2s ease, -webkit-transform 0.3s ease;
-  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
-  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease, -webkit-transform 0.3s ease; }
+  -webkit-transition: all 0.5s ease, background-color 0.2s ease, -webkit-transform 0.3s ease;
+  transition: all 0.5s ease, background-color 0.2s ease, -webkit-transform 0.3s ease;
+  transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease;
+  transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease, -webkit-transform 0.3s ease; }
   @media (max-width: 321px) {
     .material-icons {
       font-size: 1.5em;
       margin-left: 92%; } }
 
-.material-icons :after {
+.material-icons:after {
   content: "";
   width: 100%;
   height: 100%;
   border: solid 2px;
   -webkit-transform: scale(0.8);
+          transform: scale(0.8);
   position: absolute;
   height: 1.5em;
+  line-height: 1.5;
   top: 0px;
   left: 0px;
   border-radius: 50%;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
 
 .material-icons {
-  /*		background-image:image('_close.svg');*/
   background-color: #2e528d; }
 
 .material-icons:hover {

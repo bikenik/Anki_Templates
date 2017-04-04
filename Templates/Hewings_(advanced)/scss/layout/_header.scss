@@ -8,16 +8,16 @@
 .unit_table {
 	@extend %align;
 	display: block;
-	z-index: 0;
 	margin-top: 0px;
-	width: 70%;
-	max-width: 910px;
 	max-height: 0;
+	max-width: 910px;
 	opacity: 0;
-	transition-property: max-height, opacity;
-	transition-duration: 300ms;
-	transition-timing-function: ease;
 	transition-delay: 100ms;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 70%;
+	z-index: 0;
 	
 	@media #{$brk-iPhone6sPlus-wide}{
 		width: 80%;
@@ -33,21 +33,17 @@
 
 .header {
 	@extend %alignBase;
-	display: inline-block;
-	z-index: 13;
-	width: 70.5%;
-	max-width: 910px;
-	display: block;
-//	padding-bottom: .5em;
 	background-color: $background-app; /*rgba(0, 0, 0, .65);*/
-//	padding: .3em;
+	display: block;
+	display: block;
+	max-height: 0;
+	max-width: 910px;
 	overflow: hidden;
 	position: relative;
-	max-height: 0;
-	transition-property: max-height, width, max-width;
-	transition-duration: 300ms;
-	transition-timing-function: ease;
 	transition-delay: 100ms; 
-	/*transition: max-height 1000ms; */
-	/*transition: all 1s ease-in-out; */
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 70.5%;
+	z-index: 13;
 }

@@ -19,7 +19,7 @@ for (var i = 0; i < maxLength; i++) {
 var toAdd = fields[i].value;
 var addComma = (i !== 0 && toAdd !== previous);
 if(addComma) {
-		str += ", ";
+    str += ", ";
 }
 if(toAdd === previous) {continue;} //do nothing if the same data is consecutive.
 str += toAdd;
@@ -33,15 +33,15 @@ return true;
 function resizable (el, factor) {
   var int = Number(factor) || 7.7;
   function resize() {
-		el.style.width = ((el.value.length+1) * int) + 'em';
-	}
+    el.style.width = ((el.value.length+1) * int) + 'em';
+  }
   var e = 'keyup,keypress,focus,blur,change,onresize'.split(',');
   for (var i in e) {el.addEventListener(e[i],resize,false);}
   resize(); 
 }
 //textbox.addEventListener('keypress', function() {
-//		this.style.width = ((this.value.length + 1) * 20) + 'px';
-//		});
+//    this.style.width = ((this.value.length + 1) * 20) + 'px';
+//    });
 
 /*--------------------span1 and span2 function-------------------------*/
 var cloze = clozes[0];
@@ -55,36 +55,36 @@ span1.style.maxWidth = '100%';
 var typeansWidth = ((cloze.textContent.length + 1) * 0.42)+ 'em'; // change it for different fonts
 span1.style.minWidth = typeansWidth;
 textbox.style.width = typeansWidth;
-		if 			(cloze.textContent.length > 70){
-			typeansWidth = '100%';
-		span1.style.minWidth = '99%';
-	} else if (cloze.textContent.length > 60){
-		typeansWidth = '100%';
-		span1.style.minWidth = '92%';
-	} else if (cloze.textContent.length > 50){
-		typeansWidth = '100%';
-		span1.style.minWidth = '87%';
-	} else if (cloze.textContent.length > 40){
-		typeansWidth = '100%';
-		span1.style.minWidth = '80%';
-	}
+    if      (cloze.textContent.length > 70){
+      typeansWidth = '100%';
+    span1.style.minWidth = '99%';
+  } else if (cloze.textContent.length > 60){
+    typeansWidth = '100%';
+    span1.style.minWidth = '92%';
+  } else if (cloze.textContent.length > 50){
+    typeansWidth = '100%';
+    span1.style.minWidth = '87%';
+  } else if (cloze.textContent.length > 40){
+    typeansWidth = '100%';
+    span1.style.minWidth = '80%';
+  }
 span1.style.webkitTransition = 'width 0.25s';
 var span2 = document.createElement('span');
 span2.style.position = 'absolute';
 // span2.style.marginTop = '0';
 span2.style.left = '1px';
 span2.style.color = '#336699';
-		textbox.parentNode.insertBefore(span1, textbox);
+    textbox.parentNode.insertBefore(span1, textbox);
 span1.appendChild(textbox);
 span1.appendChild(span2);
-		textbox.setAttribute("onkeydown",
-		 "this.nextSibling.style.visibility='hidden';"+
-		 "this.style.backgroundColor='default';");
+    textbox.setAttribute("onkeydown",
+     "this.nextSibling.style.visibility='hidden';"+
+     "this.style.backgroundColor='default';");
 span2.style.width =  '100%';
 span2.style.height = '1.5em';
-		textbox.style.backgroundColor = 'transparent !important';
-		textbox.style.borderRadius = '2px';
-		textbox.style.color = '#336699';
+    textbox.style.backgroundColor = 'transparent !important';
+    textbox.style.borderRadius = '2px';
+    textbox.style.color = '#336699';
 //textbox.style.fontFamily = 'Hipsta';
 textbox.style.fontStyle = 'italic';
 textbox.style.fontSize = '1em'; 
@@ -94,11 +94,11 @@ textbox.style.minWidth = typeansWidth;
 resizable(textbox,0.42); // change it for different fonts
 span2.style.overflow = 'hidden';
 span2.style.textOverflow = 'ellipsis';
-		textbox.style.textAlign = 'center';
+    textbox.style.textAlign = 'center';
 span2.style.textAlign = 'center'; // 'left';
 span2.innerHTML = cloze.innerHTML.slice(1,-1);
 span2.style.zIndex = "-1";
-		span2.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
+    span2.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
 }/* End span1 and span2 function*/
 
 /*----------------------Main function---------------------*/
@@ -107,7 +107,7 @@ if(clozes.length === 0)
 {return;}
 if(textbox === null) { // remove square brackets, if there is no type: on this side of the card
  for ( var i = 0; i < skips.length; i++ ) {
-	skips[i].innerHTML = skips[i].innerHTML.slice(1,-1);
+  skips[i].innerHTML = skips[i].innerHTML.slice(1,-1);
  }
 return;
 }
@@ -115,29 +115,29 @@ var needsWork = (clozes.length > 1);
 fields = [];
 if(!needsWork) {
 if(cloze !== null) {
-		textbox.removeAttribute("class");
-		var container = cloze.parentNode;
-		container.insertBefore(textbox, cloze);
-		container.removeChild(cloze);
-		textbox.style.display = ""; //make visible.
-		textbox.setAttribute("class", "typeans");
-		//textbox.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
-		textbox.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
-	span12(textbox);
+    textbox.removeAttribute("class");
+    var container = cloze.parentNode;
+    container.insertBefore(textbox, cloze);
+    container.removeChild(cloze);
+    textbox.style.display = ""; //make visible.
+    textbox.setAttribute("class", "typeans");
+    // textbox.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
+    textbox.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
+  span12(textbox);
 }
-}	else {
+} else {
       //instead of inserting, we should clone the textbox and insert that into the deletions.
       var length = clozes.length;
       var originalTextbox = textbox;
       for (var z = 0; z < length; z++) {
           cloze = clozes[z];
           if(cloze === null)
-				{continue;}
+        {continue;}
           var textboxToReplace = originalTextbox.cloneNode(true);
           textboxToReplace.id = "typeans" + (z+1);
           textboxToReplace.setAttribute("class", "typeans");
           textboxToReplace.onkeyup = updateMain;
-          //textboxToReplace.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
+          // textboxToReplace.setAttribute("placeholder", cloze.innerHTML.slice(1,-1));
           textboxToReplace.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
           var containerElse = cloze.parentNode;
           containerElse.insertBefore(textboxToReplace, cloze);

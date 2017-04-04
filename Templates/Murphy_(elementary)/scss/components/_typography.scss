@@ -186,8 +186,8 @@ body {
 }
 
 code#typeans {
-	font-family: "TektonPro-Regular";
-	font-size: 1.2em;
+	font-family: "TektonPro-Regular" !important;
+	font-size: 1.5em;
 
 	@media #{$brk-wide} {
 		font-size: 1em;
@@ -203,8 +203,8 @@ code#typeans {
 .win code#typeans,
 .mac code#typeans {
 	font-family: "Tekton Pro" !important;
-	font-size: 1.2em;
-//	letter-spacing: .1em;
+	font-size: 1.5em;
+	letter-spacing: .02em;
 
 	@media #{$brk-wide} {
 		font-size: 1em;
