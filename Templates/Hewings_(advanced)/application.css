@@ -1598,37 +1598,38 @@ input#typeans {
       margin-bottom: 0; } }
 
 /* line 291, scss/components/_typography.scss */
-.win #overlay_title #p_button {
-  line-height: 130%; }
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; }
 
-/* line 295, scss/components/_typography.scss */
+/* line 296, scss/components/_typography.scss */
 span.close {
   color: white;
   font-size: 3.5rem;
   text-align: center;
   line-height: 90%; }
   @media (max-width: 769px) {
-    /* line 295, scss/components/_typography.scss */
+    /* line 296, scss/components/_typography.scss */
     span.close {
       font-size: 4em; } }
   @media (max-width: 737px) {
-    /* line 295, scss/components/_typography.scss */
+    /* line 296, scss/components/_typography.scss */
     span.close {
       font-size: 3em; } }
   @media (max-width: 569px) {
-    /* line 295, scss/components/_typography.scss */
+    /* line 296, scss/components/_typography.scss */
     span.close {
       font-size: 2em; } }
   @media (max-width: 321px) {
-    /* line 295, scss/components/_typography.scss */
+    /* line 296, scss/components/_typography.scss */
     span.close {
       font-size: 1.5em; } }
 
-/* line 317, scss/components/_typography.scss */
+/* line 318, scss/components/_typography.scss */
 .deck {
   font-size: 1.3rem; }
   @media (max-width: 1025px) {
-    /* line 317, scss/components/_typography.scss */
+    /* line 318, scss/components/_typography.scss */
     .deck {
       font-size: 1.2em; } }
 

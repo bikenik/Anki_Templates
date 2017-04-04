@@ -304,8 +304,9 @@ code#typeans {
 		margin-bottom: 0;
 	}
 }
-.win #overlay_title #p_button {
-	line-height: 130%;
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+	line-height: 120%;
 }
 span.close {
 	color: white;
