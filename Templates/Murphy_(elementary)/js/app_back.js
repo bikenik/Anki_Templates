@@ -38,6 +38,7 @@ buttonsFirst = document.getElementsByClassName('circle'),
 mainCircle 	 = document.getElementsByClassName('mainCircle'),
 overlay 		 = document.getElementsByClassName('overlay'),
 p_AppButton  = document.getElementsByClassName('p_app_button'),
+gridPad  = document.getElementsByClassName('grid-pad'),
 appendixes 	 = document.getElementsByClassName('appendixes');
 
 var buttonsClass 			= document.querySelector('.buttons'),
@@ -288,6 +289,10 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 	} else {
 			appendix.style.maxHeight = '100%';
 			appendix.scrollTop=0;
+			for (var i=0; i < gridPad.length; i++) 
+				{
+				gridPad[i].scrollTop=0;
+				}
 			responsiveCirclePosition(circle);
 			appendix.style.webkitTransform = 'scale(1)';
 			appendix.style.transform = 'scale(1)';
@@ -351,18 +356,21 @@ modalButton.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(1)';
 	modalOverlay.style.transform = 'scale(1)';
 	bodyCard.style.position = 'fixed';
+		setTimeout(function(){
+		materialIcons.style.display = 'block';
+	}, 500);
 });
 
 materialIcons.addEventListener('click', function(){
 	modalOverlay.style.opacity = '0';
 	modalOverlay.style.zIndex = '-100';
 	modalOverlay.style.webkitTransform = 'scale(.5)';
-	modalOverlay.style.tansform = 'scale(.5)';
+	modalOverlay.style.transform = 'scale(.5)';
 	bodyCard.style.position = null;
-	if(overlayTitleM.style.backgroundColor === '#D32F2F'){
-	hamburger.classList.toggle("is-active");
-	}
-	overlayTitleM.style.backgroundColor = '#9c061b';
+	setTimeout(function(){
+		materialIcons.style.display = 'none';
+	}, 100);
+	
 });
 
 /*--------------------hamburgers-------------------------*/
@@ -405,7 +413,7 @@ buttonGambur.addEventListener('click', function() {
 var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
 var hr = document.getElementsByTagName('hr');
-
+var highlight = document.querySelector('div.highlight');
 
 if (modalWrap.innerHTML === ""){
 	modalButton.style.display = 'none';
@@ -413,6 +421,11 @@ if (modalWrap.innerHTML === ""){
 }
 if (exampleAnswerHide.innerHTML === ''){
 	exampleAnswerHide.style.display = 'none';
+}
+if (highlight.innerHTML === ''){
+	highlight.style.display = 'none';
+}else{
+		modalButton.style.display = 'block';
 }
 if (unitNumber.innerHTML === ''){
 	unitNumber.innerHTML = '»»»» ♨';

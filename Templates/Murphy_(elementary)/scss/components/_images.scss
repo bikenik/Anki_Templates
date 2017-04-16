@@ -25,13 +25,13 @@ img {
 
 .img_front > img,
 .img_front > div > img {
-	max-width: 910px;
-	@media #{$brk-iPhone6sPlus-wide} {
-		max-width: 665px;
-	}
-	@media #{$brk-iPhone6sPlus-portrait} {
-		max-width: 414px;
-	}
+	max-width: 70%;
+//	@media #{$brk-iPhone6sPlus-wide} {
+//		max-width: 665px;
+//	}
+//	@media #{$brk-iPhone6sPlus-portrait} {
+//		max-width: 414px;
+//	}
 }
 
 .img_ap {

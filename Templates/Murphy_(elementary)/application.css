@@ -2,6 +2,10 @@
 /*==================================== 
    Anki Template v1.0.4 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
+::-webkit-scrollbar {
+  display: none;
+}
+
 .card, .header {
   position: relative;
   margin: 0px auto;
@@ -53,7 +57,14 @@
   /* grid-space to left */
   padding-right: 0px;
   /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+  overflow: auto;
   padding-bottom: 25%;
+  max-height: 500px;
+}
+@media (max-width: 769px) {
+  .grid-pad {
+    max-height: 100%;
+  }
 }
 
 .push-right {
@@ -186,6 +197,10 @@
 /*==================================== 
   Reset
 =====================================*/
+body h1, body h2, body h3, body p, body * {
+  -webkit-font-smoothing: antialiased !important;
+}
+
 html,
 body,
 div,
@@ -331,6 +346,14 @@ del {
   outline: none;
 }
 
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
 /*==================================== 
    Basic card options
 =====================================*/
@@ -426,6 +449,13 @@ a:hover {
   .add-space-for-mobile {
     height: 450px;
   }
+}
+
+.highlight {
+  margin-left: -9%;
+  width: intrinsic;
+  padding: 0 10px;
+  background-color: #fef3e6;
 }
 
 .unit_table {
@@ -571,6 +601,7 @@ a:hover {
   border-width: 1px;
   margin: 2px;
   margin-top: .2em;
+  cursor: pointer;
 }
 
 .choices-box-delimiter {
@@ -582,50 +613,7 @@ a:hover {
   background: #f7deb7;
 }
 
-/*--------------- input type ---------------------- */
-input {
-  max-width: 100%;
-  max-height: 1.5em;
-  border: none;
-  border-bottom: 0.1rem solid #9c061b;
-  border-radius: .3em;
-  -webkit-transition: width .5s;
-  outline: 0;
-}
-
-#typeans {
-  display: inline-block;
-  min-width: 5%;
-  max-width: 99.99% !important;
-  margin: -.25em auto;
-  box-sizing: border-box;
-}
-
-/*--------------- input focus---------------------- */
-#typeans:focus, #typeans1:focus, #typeans2:focus, #typeans3:focus, #typeans4:focus, #typeans5:focus, #typeans6:focus, #typeans7:focus, #typeans8:focus, #typeans9:focus, #typeans10:focus, #typeans11:focus, #typeans12:focus, #typeans13:focus, #typeans14:focus, #typeans15:focus {
-  border-color: #a53f45;
-  outline: 0;
-  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.3);
-  border-bottom: 0.2rem solid #9c061b;
-}
-
 /*--------------- end input focus---------------------- */
-input#typeans {
-  border-radius: .3em;
-  background: transparent;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  vertical-align: text-top;
-}
-
-.win input#typeans {
-  margin-top: 0;
-}
-
-.iphone span[title]:before {
-  content: '✎';
-}
-
 code#typeans {
   background-color: #fff;
   padding: 10px;
@@ -963,7 +951,7 @@ code#typeans {
 
 .content_3 {
   margin-top: 5px;
-  padding-top: 0px;
+  padding-top: 0;
   padding-left: 15px;
   border: none;
   background-color: #E8AD96;
@@ -1156,6 +1144,7 @@ strong {
 .heading {
   position: relative;
   margin-top: 1.3em;
+  margin-bottom: .3em;
   padding: 3px;
   border-radius: 3px;
   border: none;
@@ -1287,6 +1276,56 @@ footer#back {
   text-align: center;
 }
 
+/* ==========================================================================
+// Input Typeans
+// ========================================================================== */
+input {
+  max-width: 100%;
+  max-height: 1.5em;
+  border: none;
+  border-bottom: 0.1rem solid #9c061b;
+  border-radius: .3em;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+  outline: 0;
+}
+
+#typeans {
+  display: inline-block;
+  min-width: 5%;
+  max-width: 99.99% !important;
+  margin: -.25em auto;
+  box-sizing: border-box;
+}
+
+.win .question > div > span > span {
+  margin-top: -5px;
+}
+
+/*--------------- input focus---------------------- */
+#typeans:focus, #typeans1:focus, #typeans2:focus, #typeans3:focus, #typeans4:focus, #typeans5:focus, #typeans6:focus, #typeans7:focus, #typeans8:focus, #typeans9:focus, #typeans10:focus, #typeans11:focus, #typeans12:focus, #typeans13:focus, #typeans14:focus, #typeans15:focus {
+  border-color: #a53f45;
+  outline: 0;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.3);
+  border-bottom: 0.2rem solid #9c061b;
+}
+
+input#typeans {
+  border-radius: .3em;
+  background: transparent;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  vertical-align: text-top;
+}
+
+.win input#typeans {
+  margin-top: 0;
+}
+
+.iphone span[title]:before {
+  content: '✎';
+}
+
 .leftContainer, .rightContainer {
   background-color: transparent;
   border-radius: 40%;
@@ -1389,6 +1428,8 @@ footer#back {
 .img_example {
   font-family: tahoma;
   font-size: 1.5em;
+  text-align: left;
+  line-height: 110%;
 }
 
 /* ------------------------------- Add words Fonts---------------------------------- */
@@ -1639,7 +1680,7 @@ code#typeans {
 
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
-  line-height: 120%;
+  line-height: 130%;
 }
 
 span.close {
@@ -1676,6 +1717,26 @@ span.close {
   .deck {
     font-size: 1.2em;
   }
+}
+
+pre.highlight,
+div.highlight {
+  font-family: "CronosPro-Regular";
+  font-weight: 100;
+  word-spacing: 0px;
+  font-size: 1.3em;
+  line-height: 120%;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+}
+
+.mac pre.highlight,
+.win pre.highlight
+.mac div.highlight,
+.win div.highlight {
+  font-family: "Cronos Pro";
 }
 
 /*==================================== 
@@ -1755,12 +1816,15 @@ span.close {
 .mac .modal__overlay,
 .win .modal__overlay {
   max-height: 100%;
+  -webkit-transition: all 0.55s;
+  transition: all 0.55s;
 }
 
 .modal__overlay {
   width: 100%;
   height: 100%;
   padding: 0;
+  padding-bottom: 1em;
   opacity: 0;
   background: #4e4e4e;
   bottom: 0;
@@ -1770,7 +1834,9 @@ span.close {
   text-align: center;
   top: 0;
   z-index: -100;
-  overflow: hidden;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  /* lets it scroll lazy */
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   -webkit-transition: all 0.95s;
@@ -1816,24 +1882,20 @@ input#modal__trigger {
   top: -1000px;
 }
 
-img {
-  max-width: 1024px;
-  max-height: 2500px;
-}
-
 /*==================================== 
  							ICONS
 =====================================*/
 .material-icons {
-  z-index: 800;
+  display: none;
+  z-index: 1500;
   font-size: 2em;
   line-height: 1.5;
   color: white;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   height: 1.5em;
   width: 1.5em;
-  margin-left: 94%;
+  left: 93%;
   top: .6em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: all 0.5s ease, background-color 0.2s ease, -webkit-transform 0.3s ease;
@@ -1841,10 +1903,14 @@ img {
   transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease;
   transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
+@media (max-width: 438px) {
+  .material-icons {
+    left: 90%;
+  }
+}
 @media (max-width: 321px) {
   .material-icons {
     font-size: 1.5em;
-    margin-left: 92%;
   }
 }
 
@@ -1857,7 +1923,7 @@ img {
           transform: scale(0.8);
   position: absolute;
   height: 1.5em;
-  line-height: 1.5;
+  line-height: 1.3;
   top: 0px;
   left: 0px;
   border-radius: 50%;
@@ -1867,14 +1933,23 @@ img {
 
 .material-icons {
   background-color: #9c061b;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 150%;
 }
 
-.material-icons:hover {
-  color: #9c061b;
+.mac .material-icons,
+.win .material-icons {
+  line-height: 165%;
 }
 
 .material-icons:after {
   border-color: #9c061b;
+}
+
+.material-icons:hover {
+  color: #9c061b;
+  border-color: white;
 }
 
 .material-icons:hover {
@@ -1883,6 +1958,24 @@ img {
           transform: rotate(90deg);
   cursor: pointer;
   box-shadow: none;
+}
+
+/*==================================== 
+ 							HIGHLIGHT
+=====================================*/
+pre.highlight,
+div.highlight {
+  display: block;
+  box-sizing: border-box;
+  margin: 1.5em auto 1em 8%;
+  min-width: 90%;
+  padding: 2em;
+  border-radius: .2em;
+  background: #d2d4d4;
+  overflow-y: auto;
+  -webkit-overflow-y-scrolling: touch;
+  /* lets it scroll lazy */
+  max-height: 70%;
 }
 
 /*==================================== 
@@ -2708,19 +2801,7 @@ img {
 
 .img_front > img,
 .img_front > div > img {
-  max-width: 910px;
-}
-@media (max-width: 737px) {
-  .img_front > img,
-  .img_front > div > img {
-    max-width: 665px;
-  }
-}
-@media (max-width: 438px) {
-  .img_front > img,
-  .img_front > div > img {
-    max-width: 414px;
-  }
+  max-width: 70%;
 }
 
 .img_ap {

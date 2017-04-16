@@ -306,7 +306,7 @@ code#typeans {
 }
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
-	line-height: 120%;
+	line-height: 130%;
 }
 span.close {
 	color: white;
@@ -338,16 +338,22 @@ span.close {
 	}
 }
 
-pre.highlight {
+pre.highlight,
+div.highlight {
 	font-family: "CronosPro-Regular";
 	font-weight: 100;
 	word-spacing: 0px;
 	font-size: 1.3em;
-	line-height: 100%;
+	line-height: 120%;
 	text-align: left;
-	word-wrap: break-word;
+// word-break: break-all;
+word-wrap: break-word;
+white-space: pre;
+white-space: pre-wrap;
 }
 .mac pre.highlight,
-.win pre.highlight {
+.win pre.highlight 
+.mac div.highlight,
+.win div.highlight {
 	font-family: "Cronos Pro";
 }

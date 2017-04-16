@@ -7,9 +7,11 @@ var textbox = document.getElementById("typeans");
 var clozes = document.getElementsByClassName("cloze");
 var skips = document.getElementsByClassName('cloze');
 
+
 /*--------------------comma place-------------------------*/
 var fields = [];
 function updateMain() {
+//"use strict";
 var str = "";
 var previous = "";
 var maxLength = fields.length;
@@ -29,7 +31,6 @@ previous = toAdd;
 textbox.value = str;
 return true;
 }
-
 /*--------------------Dynamic Resizable Typeans-------------------------*/
 function resizable (el, factor) {
   var int = Number(factor) || 7.7;
@@ -88,7 +89,7 @@ span2.style.height = '1.5em';
 //textbox.style.fontFamily = 'Hipsta';
 textbox.style.fontStyle = 'italic';
 textbox.style.fontSize = '1em'; 
-textbox.style.textAlign = 'center';
+textbox.style.textAlign = 'center'; 
 textbox.style.minWidth = typeansWidth;
 //textbox.style.boxShadow = '0 1px 14px rgba(0, 0, 0, 0.12)';
 resizable(textbox,0.42); // change it for different fonts
@@ -158,3 +159,26 @@ if(cloze !== null) {
 }; // End of mungeCloze
 
 mungeCloze();
+resizable(document.getElementById('typeans'),0.42);
+
+/*--------------------Scramble words-------------------------*/
+//var textbox = document.getElementById("typeans");
+//var choice = document.querySelectorAll('.hint')[1];
+//// var choice = document.querySelectorAll('.hint>ul>li>ul>li');
+//if (choice){
+//choice.addEventListener('click', function(event) {
+//  // var choicesContent = event.target.textContent + " ";
+//  if(event.target.tagName === 'LI') {
+//    event.target.style.background = "#f7deb7";
+//    textbox.value += event.target.innerHTML + " ";
+//    textbox.style.width = ((textbox.value.length + 1) * 0.42) + 'em';
+//    cloze.textContent.length + 1;
+//     for ( var i = 0; i < skips.length; i++ ) {
+//      skips[i].innerHTML = "";
+//     }
+//     textbox.removeAttribute('title');
+//  }
+//});
+//}
+
+// ((el.value.length+1) * int) + 'em';

@@ -40,6 +40,12 @@
 	padding-left: 0px; /* grid-space to left */
 	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 	padding-bottom: 25%; //90px
+	overflow: auto;
+	max-height: 500px;
+
+	@media #{$brk-narrow} {
+	max-height: 100%;
+	}
 }
 
 .push-right {

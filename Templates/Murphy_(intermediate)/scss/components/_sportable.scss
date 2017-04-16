@@ -1,0 +1,42 @@
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*    width: 450px;*/
+}
+
+#sortable li {
+  margin: 10px .3em 10px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  // float: left;
+  min-width: 40px;
+  /*height: 30px;*/
+  font-size: 1.2em;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#demo {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.iphone #demo {
+  display: none;
+}
+.red-shadow{
+  box-shadow: 0px 0px 2px red;
+}
+.green-shadow{
+  box-shadow: 0px 0px 2px green;
+}

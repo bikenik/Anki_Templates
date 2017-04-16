@@ -1,0 +1,51 @@
+/* ==========================================================================
+// Input Typeans
+// ========================================================================== */
+
+input {
+  max-width: 100%; 
+  max-height: 1.5em;
+  border: none;
+  border-bottom: .1rem solid $color-sec;
+  border-radius: .3em;
+  transition: width .5s;
+  outline: 0;
+  
+  @media #{$brk-wide} {
+//    border-bottom-width: 0.1em;
+  }
+}
+
+#typeans {
+  display: inline-block;
+  min-width: 5%;
+  max-width: 99.99% !important;
+  margin: -.25em auto;
+//  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+.win .question > div > span > span {
+  margin-top: -5px;
+}
+
+/*--------------- input focus---------------------- */
+//inset 0 1px 1px rgba(0, 0, 0, 0.075), 
+#typeans:focus, #typeans1:focus, #typeans2:focus, #typeans3:focus, #typeans4:focus, #typeans5:focus, #typeans6:focus, #typeans7:focus, #typeans8:focus, #typeans9:focus, #typeans10:focus, #typeans11:focus, #typeans12:focus, #typeans13:focus, #typeans14:focus, #typeans15:focus  {
+  border-color: $color-prim;
+  outline: 0;
+  box-shadow: 0 1px 14px $color-shadow; 
+  border-bottom: .2rem solid $color-sec;
+}
+
+input#typeans {
+  border-radius: .3em;
+  background: transparent;
+  align-content: stretch;
+  vertical-align: text-top;
+}
+.win input#typeans {
+  margin-top: 0;
+}
+.iphone span[title]:before {
+  content: '✎';
+}

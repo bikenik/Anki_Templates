@@ -345,7 +345,6 @@ showAppendix(appendixes[6], buttons[6], buttons[7], overlay[6], mainCircle[6], p
 var modalButton = document.querySelector('.myButt');
 var materialIcons = document.querySelector('.material-icons');
 var modalOverlay = document.querySelector('.modal__overlay');
-var unitNumber = document.querySelector('.th_1');
 
 modalButton.addEventListener('click', function(){
 	if (header.style.maxHeight === '500px'){
@@ -358,6 +357,9 @@ modalButton.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(1)';
 	modalOverlay.style.transform = 'scale(1)';
 	bodyCard.style.position = 'fixed';
+		setTimeout(function(){
+		materialIcons.style.display = 'block';
+	}, 500);
 });
 
 materialIcons.addEventListener('click', function(){
@@ -366,10 +368,10 @@ materialIcons.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(.5)';
 	modalOverlay.style.transform = 'scale(.5)';
 	bodyCard.style.position = null;
-	if(overlayTitleM.style.backgroundColor === '#77A7C4'){
-	hamburger.classList.toggle("is-active");
-	}
-	overlayTitleM.style.backgroundColor = '#2e528d';
+	setTimeout(function(){
+		materialIcons.style.display = 'none';
+	}, 100);
+	
 });
 
 
@@ -410,6 +412,7 @@ buttonGambur.addEventListener('click', function() {
 var addWordsBox1 = document.querySelector('div.add_words1');
 var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');
+var highlight = document.querySelector('div.highlight');
 
 var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
@@ -434,6 +437,13 @@ if (modalWrap.innerHTML === ''){
 	modalButton.style.display = 'none';
 	hr[0].style.marginTop = '50px';
 }
+
+if (highlight.innerHTML === ''){
+	highlight.style.display = 'none';
+}else{
+	modalButton.style.display = 'block';
+}
+
 if (questionAudio.innerHTML === ''){
 	questionAudio.style.display = 'none';
 }

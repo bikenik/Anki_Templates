@@ -82,6 +82,8 @@
 .img_example {
 	font-family: tahoma;
 	font-size: 1.5em;
+	text-align: left;
+	line-height: 110%;
 }
 
 /* ------------------------------- Add words Fonts---------------------------------- */
@@ -314,7 +316,7 @@ code#typeans {
 }
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
-	line-height: 120%;
+	line-height: 130%;
 }
 
 span.close {
@@ -345,4 +347,24 @@ span.close {
 	@media #{$brk-wide} {
 		font-size: 1.2em;
 	}
+}
+
+pre.highlight,
+div.highlight {
+	font-family: "CronosPro-Regular";
+	font-weight: 100;
+	word-spacing: 0px;
+	font-size: 1.3em;
+	line-height: 120%;
+	text-align: left;
+// word-break: break-all;
+word-wrap: break-word;
+white-space: pre;
+white-space: pre-wrap;
+}
+.mac pre.highlight,
+.win pre.highlight 
+.mac div.highlight,
+.win div.highlight {
+	font-family: "Cronos Pro";
 }

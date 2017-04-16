@@ -11,7 +11,7 @@
 
 .content_3{
 	margin-top: 5px;
-	padding-top: 0px;
+	padding-top: 0;
 	padding-left: 15px;
 	border:none;
 	background-color: $background-table;
@@ -204,6 +204,7 @@ strong {
 .heading {
 	position: relative;
 	margin-top: 1.3em;
+	margin-bottom: .3em;
 	padding: 3px;
 	border-radius: 3px;
 	border: none;

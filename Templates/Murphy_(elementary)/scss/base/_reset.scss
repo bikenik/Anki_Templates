@@ -1,6 +1,11 @@
 /*==================================== 
   Reset
 =====================================*/
+
+body h1, body h2, body h3, body p, body * {
+-webkit-font-smoothing: antialiased !important;
+}
+
 html,
 body,
 div,
@@ -128,4 +133,11 @@ del {
 }
 :focus {
 	outline: none;
+}
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }

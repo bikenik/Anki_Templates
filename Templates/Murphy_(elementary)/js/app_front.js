@@ -53,6 +53,7 @@ buttonsFirst = document.getElementsByClassName('circle'),
 mainCircle 	 = document.getElementsByClassName('mainCircle'),
 overlay 		 = document.getElementsByClassName('overlay'),
 p_AppButton  = document.getElementsByClassName('p_app_button'),
+gridPad  = document.getElementsByClassName('grid-pad'),
 appendixes 	 = document.getElementsByClassName('appendixes');
 
 var buttonsClass 			= document.querySelector('.buttons'),
@@ -304,6 +305,10 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) {
 	} else {
 			appendix.style.maxHeight = '100%';
 			appendix.scrollTop=0;
+			for (var i=0; i < gridPad.length; i++) 
+				{
+				gridPad[i].scrollTop=0;
+				}
 			responsiveCirclePosition(circle, beforeEl);
 			appendix.style.webkitTransform = 'scale(1)';
 			appendix.transform = 'scale(1)';
@@ -366,6 +371,9 @@ modalButton.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(1)';
 	modalOverlay.style.transform = 'scale(1)';
 	bodyCard.style.position = 'fixed';
+		setTimeout(function(){
+		materialIcons.style.display = 'block';
+	}, 500);
 });
 
 materialIcons.addEventListener('click', function(){
@@ -374,6 +382,10 @@ materialIcons.addEventListener('click', function(){
 	modalOverlay.style.webkitTransform = 'scale(.5)';
 	modalOverlay.style.transform = 'scale(.5)';
 	bodyCard.style.position = null;
+	setTimeout(function(){
+		materialIcons.style.display = 'none';
+	}, 100);
+	
 });
 
 /*--------------------hamburgers-------------------------*/
@@ -413,6 +425,7 @@ var addWordsBox1 = document.querySelector('div.add_words1');
 var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');
 var layerButton = document.querySelector('.layer');
+var highlight = document.querySelector('div.highlight');
 
 var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
@@ -430,11 +443,11 @@ if (addWordsBox2.textContent === ''){
 	box2None = false;
 	addWordsBox2.style.display = 'none';
 }
+
 if (box1None === true && box2None === true){
 	addWordsBox1.style.width = '47%';
 	addWordsBox2.style.width = '47%';
 }
-
 
 if (modalWrap.innerHTML === ''){
 	modalButton.style.display = 'none';
@@ -442,6 +455,11 @@ if (modalWrap.innerHTML === ''){
 }
 if (exampleAnswerHide.innerHTML === ''){
 	exampleAnswerHide.style.display = 'none';
+}
+if (highlight.innerHTML === ''){
+	highlight.style.display = 'none';
+}else{
+	modalButton.style.display = 'block';
 }
 if (unitNumber.innerHTML === ''){
 	unitNumber.innerHTML = '»»»» ♨';
@@ -483,3 +501,19 @@ if (hint.length > 0) {
   document.querySelector("a.hint").style.display = 'none';
   document.querySelector("div.hint").style.display = 'block';
 }
+
+// /*--------------------Scramble words-------------------------*/
+// var textbox = document.getElementById("typeans");
+// var choice = document.querySelectorAll('.hint')[1];
+// // var choice = document.querySelectorAll('.hint>ul>li>ul>li');
+
+// choice.addEventListener('click', function(event) {
+// 	// var choicesContent = event.target.textContent + " ";
+// 	if(event.target.tagName === 'LI') {
+// 		event.target.style.background = "#f7deb7";
+// 		textbox.value += event.target.textContent + " ";
+// 	}
+// });
+
+// // #f7deb7
+
