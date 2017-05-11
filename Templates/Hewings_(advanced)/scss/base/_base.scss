@@ -15,20 +15,20 @@ html {
 //	backface-visibility: hidden;
 //}
 
-/* --------------------- Additional option ------------------------------ */
-.G 	{ color: gray; }
-.q0 { color: indigo; }
-.q1 { color: black; }
-.q2 { color: darkgreen; }
+/* --------------------- Additional option for Additional Card Fields plugin------------------------------ */
+.G 	{ color: gray; }    
+.q0 { color: indigo; }    /* -- new card -- */
+.q1 { color: black; }    /* -- studied card -- */
+.q2 { color: darkgreen; }    /* -- Repeated card -- */
 
 /* --------------- Center content vertically on page ---------------------- */
 .browserhide {
-
+    
 }
 
 body {
 	z-index: 100;
-	background-image: linear-gradient(top, #f1ffef 0%,#ffffff 100%);
+	background-image: $background-gradient;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding: 0;
@@ -52,7 +52,8 @@ body {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	-webkit-overflow-scrolling: touch;
+//   overflow: auto;
+//	-webkit-overflow-scrolling: touch;
 }
 .mac .card,
 .win .card {
@@ -64,10 +65,10 @@ body {
 }
 
 hr {
-	width: 100%;
+//	width: 100%;
 	height: 2px;
 	border: 0;
-	background: linear-gradient(left, #ffffff 1%,#00803f 50%,#ffffff 100%);
+	background: $hr-gradient;
 	margin-top: -0.2em;
 }
 
@@ -75,24 +76,45 @@ hr {
 	margin: 0 auto;
 }
 
-#copyright {
-	position: absolute;
-	right: 15px;
-	margin-top: -7px;
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+li::before {
+   font-size: 2.5em;
+   content: "∘ ";
+   color: $color-prim;
 }
 
 a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+   color: $link;
+  text-decoration: underline;
+  cursor: auto;
+}
+a:hover {
+   color: $hover-link;
 }
 
-a {
-	color: rgba(255, 0, 0, 0.0);
-	text-decoration: none
+blockquote {
+   font: 14px/22px normal helvetica, sans-serif;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 50px;
+   padding-left: 15px; 
+   border-left: .2em solid $color-prim;
 }
 
 .add-space-for-mobile {
 	@media #{$brk-wide} {
-	height: 450px;
-	}
+	height: 360px;
+    }
+      @media #{$brk-narrow}{
+        height: 270px;
+      }
+      @media #{$brk-iPhone-wide}{
+        height: 165px;
+      }
+      @media #{$brk-extra-narrow}{
+        height: 220px;
+    }
 }

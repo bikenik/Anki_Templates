@@ -71,9 +71,14 @@
 
 %circleContainer {
 	background-color: transparent;
-	border-radius: 40%;
-	height: 10px;
-	width: 10px;
+//	background-color: rgba(255, 255, 255, 0.79);
+border-radius: 50%;
+height: 35px;
+width: 20px;
+	
+	@media #{$brk-narrow} {
+		background-color: transparent;
+	}
 }
 
 

@@ -9,3 +9,7 @@ README_ru.pdf
 *.sublime-workspace
 
 *.sublime-project
+/Templates/Murphy_(base)/com_js/dnb.js
+/Templates/2x2 (ABC-scramble)/
+/Templates/2x2/
+/Templates/Murphy_(base)/scss/components/_sportable.scss

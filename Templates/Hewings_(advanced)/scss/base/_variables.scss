@@ -1,10 +1,11 @@
-
+$arrow         :  url(_arrow_06B13_lines_advanced.png) no-repeat 0 0;
 // Descriptive Color Variables
 
 $white							:#fff;
 $black							:#000;
 $grey								:#878787;
 $red								:#dc322f;
+$St-Tropaz          :#2e528d;
 //red
 $fun-green					:#00803F;
 $japanese-Laurel		:#077a09;
@@ -47,6 +48,14 @@ $color-shadow-input		: rgba($color-prim,.60);
 
 $button-fonts 				: Verdana, serif;
 
+// gradients
+$background-gradient      : linear-gradient(to top, #f1ffef 0%,#ffffff 100%);
+$hr-gradient              : linear-gradient(to left, #ffffff 1%,#00803f 50%,#ffffff 100%);
+
+//link
+$link                  : lighten($St-Tropaz, 20%);
+$hover-link            : $color-prim;
+   
  // Media Query
 $brk-wide   								: '(max-width: 1025px)';
 $brk-wide-appButtons   			: '(max-width: 855px)';

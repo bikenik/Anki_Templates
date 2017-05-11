@@ -40,7 +40,7 @@
 		margin-top: -263px;
 	}
 	@media #{$brk-iPhone6s-portrait} {
-		margin-top: -250px;
+		margin-top: -270px;
 		font-size: .925em;
 	}
 	@media #{$brk-extra-narrow} {
@@ -48,9 +48,18 @@
 		padding-right: .125em;
 		margin-top: -250px;
 	}
+
+	&.active {
+		max-height: 100%;
+		transform: scale(1);
+	}
+	&.active_1 {
+		max-height: 0;
+		transform: scale(0.5);
+	}
 }
 
-.mac .appendixes,
-.win .appendixes {
-		margin-top: -350px;
-	}
+//.mac .appendixes,
+//.win .appendixes {
+//		margin-top: -350px;
+//	}

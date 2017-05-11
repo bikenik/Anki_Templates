@@ -84,7 +84,7 @@ span1.appendChild(span2);
 span2.style.width =  '100%';
 span2.style.height = '1.5em';
 		textbox.style.backgroundColor = 'transparent !important';
-		textbox.style.borderRadius = '2px';
+//		textbox.style.borderRadius = '2px';
 		textbox.style.color = '#00803F';
 //textbox.style.fontFamily = 'Hipsta';
 textbox.style.fontStyle = 'italic';

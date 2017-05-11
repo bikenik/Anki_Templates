@@ -25,11 +25,36 @@
 	@media #{$brk-iPhone6sPlus-portrait}{
 		width: 90%;
 	}
+
+	&.active {
+		max-height: 300px;
+		opacity: 1;
+		
+	@media #{$brk-iPhone6sPlus-portrait} {
+			width: 90%;
+		}
+	}
 }
 
 .un_table{
 	width: 100%;
 }
+.th_1 {
+	width: 10%;
+	background: $color-sec;
+	color: $color-text-light;
+	font-size: 2em;
+	padding-left: 10px;
+	padding-right: 10px
+	}
+
+.th_2 {
+	background: $select-light;
+	width: 90%;
+	border: 0px solid $black;
+	border-radius: 0;
+	border-collapse: collapse;
+	}
 
 .header {
 	@extend %alignBase;
@@ -46,4 +71,27 @@
 	transition-timing-function: ease;
 	width: 70.5%;
 	z-index: 13;
+
+		@media #{$brk-iPhone6sPlus-wide} {
+			width: 80%;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			width: 90%;
+		}
+	&.active_1 {
+		max-height: 500px;
+		width: 70%;
+
+		@media #{$brk-iPhone6sPlus-wide} {
+			width: 80%;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			width: 90%;
+		}
+	}
+	&.active_2 {
+		max-height: 500px;
+		width: 100%;
+		max-width: 100%;
+	}
 }

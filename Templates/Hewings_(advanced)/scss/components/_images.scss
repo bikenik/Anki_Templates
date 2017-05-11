@@ -68,7 +68,7 @@ img {
 	}
 //	@media #{$brk-iPhone6sPlus-portrait} {
 ////	max-width: 98%;
-//	max-width:300px;
+//	max-width:300px; 
 //	}
 }
 
@@ -84,6 +84,13 @@ img {
 	-webkit-transition-duration: 300ms;
 	-webkit-transition-timing-function: ease;
 	-webkit-transition-delay: 100ms;
+
+	&.active {
+		max-height: 600px;
+		opacity: 1;
+		padding: .5em;
+		margin-top: .3em;
+	}
 }
 
 .modal__wrap > img {

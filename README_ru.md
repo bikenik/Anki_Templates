@@ -36,11 +36,11 @@
 - Для тех кто знаком с версткой и методологией SMACSS - GitHub.
 
 ## Тип Карты
-На данный момент представлен один тип карты<br>
+тип карты<br>
  **[Cloze]**
   - Freeform show/hide, question/answer, audio/subtitles fields.<br><br>
 
-####Некоторые необходимые действия для шаблона:
+####Некоторые необходимые действия для установки шаблона:
 >- Анки не импортирует шрифты, так что небходимо установить шрифты вручную на вашу операционку:<br>
 _CronosPro-Bold.ttf<br>
 _CronosPro-Lt.ttf<br>
@@ -69,7 +69,7 @@ _TektonPro-Regular.ttf<br>
 Required
 > **example** - “3.4.9” = (3-unit); (4-exercise); (9-question).
 
-### ✔№ Unit:
+### № Unit:
 Required / optional (скрытое поле под кнопкой)
 
 > **example** - “Unit 3”.
@@ -167,12 +167,16 @@ on the card
 Optional
 >Use it for image.
 
-### ♨ Hint Front
-Optional (скрытое поле под кнопкой)<br>
-> Если это поле используется для скриншота (изображения) - рекомендованная ширина скриншота:  ~ 1000px;  
+### ♨ Hint Front Image (XXL)
+optional (скрытое поле под кнопкой)<br>
+> Если это поле используется для скриншота (изображения) - рекомендованная ширина скриншота:  ~ 1000px
 
 > ![example of screenshot](./readmeImg/example_section_A.png)<br>
 example of screenshot
+
+### ♨ Hint Front Text
+optional (скрытое поле под кнопкой)<br>
+> Используется для вставки текста (html, таблицы, цитаты, список и т.д.)
 
 ### ♫ Hint Front
 Optional (скрытое поле под кнопкой)
@@ -198,3 +202,6 @@ Optional <br>
 
 > ![](./readmeImg/example_sound_hint.png)
 
+### ♨ Hint Back Text
+optional (скрытое поле под кнопкой)<br>
+> Используется для вставки текста (html, таблицы, цитаты, список и т.д.)

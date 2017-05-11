@@ -6,7 +6,7 @@
 .arrow_06B13_line_back {
 	z-index: 0; 
 	display: block;
-	background: url(_arrow_06B13_lines_advanced.png) no-repeat 0 0;
+	background: $arrow;
 	background-size: 100%;
 	position: absolute;
 	top: 14px;
@@ -36,6 +36,7 @@
 button.header-close {
 	z-index: 200;
 	display: block;
+   opacity: 0;
 	position: absolute;
 	border: solid white 3px;
 	border-radius: 50%;
@@ -77,6 +78,13 @@ button.header-close {
 		height: 38px;
 		top: .7em;
 		}
+
+   	&.active {
+		z-index: 200;
+		display: inline-block;
+		opacity: 1;
+		transform: rotate(180deg);
+	}
 }
 
 span.close {
@@ -137,6 +145,10 @@ span.close {
 			width:37px;
 		}
 	@media #{$brk-extra-narrow} {
+		display: none;
+	}
+
+   &.active {
 		display: none;
 	}
 }
@@ -216,6 +228,10 @@ span.close {
 			width: 34px;
 			height: 34px;
 		}
+
+	&.active {
+		background-color: white;
+   }
 }
 
 #overlay_title {
@@ -234,14 +250,16 @@ span.close {
 		width: 48px;
 		height: 48px;
 	}
-
-		@media #{$brk-iPhone6s-wide} {
+	@media #{$brk-iPhone6s-wide} {
 		width: 30px;
 		height: 30px;
-  	}
-		@media #{$brk-iPhone6sPlus-portrait} {
-
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
 		}
+
+	&.active {
+		background-color: $color-bright;
+	}
 }
 
 .spinningContainer_title {
@@ -348,6 +366,10 @@ span.close {
 		@media #{$brk-extra-narrow} {
 			height: 35px;
 		}
+
+	&.active {
+		background-color: white;
+	}
 }
 
 .overlay {
@@ -384,6 +406,10 @@ span.close {
 		@media #{$brk-extra-narrow} {
 			height: 30px;
 		}
+
+	&.active {
+		background-color: $color-bright !important;
+	}
 }
 
 #overlay_title #p_button,
@@ -395,9 +421,16 @@ span.close {
 		background: none;
 		display: inline-block;
 		transition: all .3s;
+      transition: transform 1s;
 		transition-timing-function: ease-in-out;
-	}
 
+	&.active {
+		color: white !important;
+	}
+}
+#p_button.active {
+	transform:rotate(180deg);
+}
 .mainCircle:hover {
 //  background-color: white;
 	transition: all 1s ease-in-out;
@@ -414,6 +447,15 @@ span.close {
 	animation: mymoveR 1s ease-in-out;
 	transition: all 2s;
 	transition-timing-function: cubic-bezier(.18, 1.51, .85, 1.4);
+
+	&.active {
+//		background-color: white;
+//		filter: blur(10px);
+		opacity: .5;
+		transform: scale(1);
+		transition: opacity 4.5s ease-out;
+		animation: mymove 2s cubic-bezier(1, .22, 1, .92);
+	}
 }
 
 .mainCircle:hover .overlay {
@@ -440,19 +482,21 @@ span.close {
 	transition: all .3s ease-in-out;
 }
 
-.mainCircle:hover .spinningContainer {
-	filter: blur(10px);
-	animation: mymove 2s cubic-bezier(1, .22, 1, .92), myscale 4s 1s ease-in-out;
-}
+//.mainCircle:hover .spinningContainer {
+//	filter: blur(10px);
+//	animation: mymove 2s cubic-bezier(1, .22, 1, .92), myscale 4s 1s ease-in-out;
+//}
 
 .leftContainer {
 	@extend %circleContainer;
 	float: left;
+	margin-left: 1px;
 }
 
 .rightContainer {
 	@extend %circleContainer;
 	float: right;
+	margin-right: 1px;
 }
 
 @keyframes mymove {
@@ -475,19 +519,19 @@ span.close {
 
 @keyframes myscale {
 	0% {
-		transform: scaleY(2);
+		transform: scaleY(1.2);
 	}
 	25% {
-		transform: scaleY(2.5);
+		transform: scaleY(1.4);
 	}
 	50% {
-		transform: scaleY(3);
+		transform: scaleY(1.6);
 	}
 	75% {
-		transform: scaleY(3.5);
+		transform: scaleY(1.8);
 	}
 	100% {
-		transform: scaleY(4);
+		transform: scaleY(2);
 	}
 }
 

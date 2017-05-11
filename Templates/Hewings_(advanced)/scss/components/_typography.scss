@@ -104,7 +104,6 @@ font-family: "Cronos Pro";
 	line-height: 1em;
 	
 	@media #{$brk-iPhone6s-wide} {
-
 	}
 }
 
@@ -131,12 +130,12 @@ font-family: "Cronos Pro";
 }
 
 #typeans,#typeans1,#typeans2,#typeans3,#typeans4,#typeans5,#typeans6,#typeans7,#typeans8,
-#typeans9,#typeans10,#typeans11,#typeans12,#typeans13,#typeans14,#typeans15
+#typeans9,#typeans10,#typeans11,#typeans12,#typeans13,#typeans14,#typeans15,#typeans16,#typeans17,#typeans18,#typeans19,#typeans20,#typeans21
 {
 	font-family: "TektonPro-Regular" !important;
 	font-style: normal;
 }
-.win #typeans, .mac #typeans,.win #typeans1,.mac #typeans1,.win #typeans2,.mac #typeans2,.win #typeans3,.mac #typeans3,.win #typeans4,.mac #typeans4,.win #typeans5,.mac #typeans5,.win #typeans6,.mac #typeans6,.win #typeans7 .mac #typeans7,.win #typeans7 .mac #typeans8,.win #typeans7 .mac #typeans9,.win #typeans7 .mac #typeans10,.win #typeans7 .mac #typeans11,.win #typeans7 .mac #typeans12,.win #typeans7 .mac #typeans13,.win #typeans7 .mac #typeans14,.win #typeans7 .mac #typeans15 {
+.win #typeans, .mac #typeans,.win #typeans1,.mac #typeans1,.win #typeans2,.mac #typeans2,.win #typeans3,.mac #typeans3,.win #typeans4,.mac #typeans4,.win #typeans5,.mac #typeans5,.win #typeans6,.mac #typeans6,.win #typeans7 .mac #typeans7,.win #typeans7 .mac #typeans8,.win #typeans9 .mac #typeans9,.win #typeans10 .mac #typeans10,.win #typeans11 .mac #typeans11,.win #typeans12 .mac #typeans12,.win #typeans13 .mac #typeans13,.win #typeans14 .mac #typeans14,.win #typeans15 .mac #typeans15,.win #typeans16 .mac #typeans16,.win #typeans17 .mac #typeans17,.win #typeans18 .mac #typeans18,.win #typeans19 .mac #typeans19,.win #typeans20 .mac #typeans20,.win #typeans21 .mac #typeans21 {
 	font-family:"Tekton Pro" !important;
 	font-style: normal;
 }
@@ -290,7 +289,7 @@ input#typeans {
 }
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
-	line-height: 120%;
+	line-height: 130%;
 }
 
 span.close {
@@ -321,4 +320,27 @@ span.close {
 	@media #{$brk-wide} {
 		font-size: 1.2em;
 	}
+}
+
+/*==================================== 
+ 							HIGHLIGHT
+=====================================*/
+pre.highlight,
+div.highlight {
+	font-family: "CronosPro-Regular";
+	font-weight: 100;
+	word-spacing: 0px;
+	font-size: 1.3em;
+	line-height: 120%;
+	text-align: left;
+// word-break: break-all;
+word-wrap: break-word;
+white-space: pre;
+white-space: pre-wrap;
+}
+.mac pre.highlight,
+.win pre.highlight 
+.mac div.highlight,
+.win div.highlight {
+	font-family: "Cronos Pro";
 }
