@@ -19,7 +19,11 @@
 	border: solid 0px;
 	border-radius: 0.25em;
 	box-sizing: border-box;
-  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.22);
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.22);
+	transition-delay: 120ms;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
 	
 	@media #{$brk-iPhone6sPlus-wide}{
 		border-top-left-radius: 0px;
@@ -38,6 +42,9 @@
 	&.active {
 		margin: 0 auto;
 		border-radius: 0 0 4px 4px;
+		transition-delay: 0ms;
+		transition-duration: 100ms;
+		transition-timing-function: linear;
 	}
 }
 

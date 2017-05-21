@@ -12,8 +12,8 @@
 	max-height: 0;
 	max-width: 910px;
 	opacity: 0;
-	transition-delay: 100ms;
-	transition-duration: 300ms;
+	transition-delay: 0ms;
+	transition-duration: 200ms;
 	transition-property: all;
 	transition-timing-function: ease;
 	width: 70%;
@@ -25,6 +25,8 @@
 	&.active {
 		max-height: 300px;
 		opacity: 1;
+		transition-delay: 200ms;
+		transition-duration: 300ms;
 		
 	@media #{$brk-iPhone6sPlus-portrait} {
 			width: 100%;
@@ -61,8 +63,8 @@
 	max-width: 910px;
 	overflow: hidden;
 	position: relative;
-	transition-delay: 100ms;
-	transition-duration: 300ms;
+	transition-delay: 0ms;
+	transition-duration: 200ms;
 	transition-property: all;
 	transition-timing-function: ease;
 	width: 70%;
@@ -77,6 +79,8 @@
 	&.active_1 {
 		max-height: 500px;
 		width: 70%;
+		transition-delay: 200ms;
+		transition-duration: 300ms;
 
 		@media #{$brk-iPhone6sPlus-wide} {
 			width: 80%;
@@ -89,5 +93,7 @@
 		max-height: 500px;
 		width: 100%;
 		max-width: 100%;
+		transition-delay: 200ms;
+		transition-duration: 300ms;
 	}
 }

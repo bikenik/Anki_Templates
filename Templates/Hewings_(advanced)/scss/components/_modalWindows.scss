@@ -1,6 +1,7 @@
 /*==================================== 
    Modal Window styles
 =====================================*/
+
 .mac .modal__overlay,
 .win .modal__overlay {
 	max-height: 100%;
@@ -10,8 +11,12 @@
 }
 
 .modal__overlay {
+	display: none;
 	width: 100%;
-	height: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 0;
+	//	height: 100%;
 	padding: 0;
 	padding-bottom: 1em;
 	opacity: 0;
@@ -24,26 +29,27 @@
 	top: 0;
 	z-index: -100;
 	transform: scale(0.5);
-	transition: all 0.95s;
+	transition: all 1s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	transition-delay: 100ms;
-	
 	&.active {
-		opacity: 1;	
+		opacity: 1;
 		overflow: auto;
-		-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+		-webkit-overflow-scrolling: touch;
+		/* lets it scroll lazy */
 		z-index: 800;
 		height: 100%;
 		transform: scale(1);
-
 		.modal__wrap {
 			overflow: auto;
-			-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+			-webkit-overflow-scrolling: touch;
+			/* lets it scroll lazy */
 		}
 		pre.highlight,
 		div.highlight {
 			overflow-y: auto;
-			-webkit-overflow-y-scrolling: touch; /* lets it scroll lazy */
+			-webkit-overflow-y-scrolling: touch;
+			/* lets it scroll lazy */
 		}
 	}
 }
@@ -55,10 +61,13 @@
 }
 
 .modal__wrap {
-  position: relative;
-  margin: 1.5em auto 1em 8%;
-  width: 90%;
+	position: relative;
+	margin: 1.5em auto 1em 8%;
+	width: 90%;
 	max-height: 92%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* lets it scroll lazy */
 }
 
 .modal__wrap h2 {
@@ -79,10 +88,11 @@ input#modal__trigger {
 	top: -1000px;
 }
 
-img{
-max-width: 1024px;
-max-height: 2500px;
+img {
+	max-width: 1024px;
+	max-height: 2500px;
 }
+
 
 /*==================================== 
  							ICONS
@@ -102,12 +112,12 @@ max-height: 2500px;
 	top: .6em;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease;
-		@media #{$brk-iPhone6sPlus-portrait} {
-	left: 90%;
+	@media #{$brk-iPhone6sPlus-portrait} {
+		left: 90%;
 	}
-		@media #{$brk-extra-narrow}{
-			font-size: 1.5em;
-		}
+	@media #{$brk-extra-narrow} {
+		font-size: 1.5em;
+	}
 }
 
 .material-icons:after {
@@ -132,9 +142,13 @@ max-height: 2500px;
 	background-position: center;
 	line-height: 150%;
 }
-.mac .material-icons,
-.win .material-icons{
+
+.mac .material-icons {
 	line-height: 165%;
+}
+
+.win .material-icons {
+	line-height: 150%;
 }
 
 .material-icons:hover {
@@ -151,6 +165,8 @@ max-height: 2500px;
 	cursor: pointer;
 	box-shadow: none
 }
+
+
 /*==================================== 
  							HIGHLIGHT
 =====================================*/
@@ -159,7 +175,7 @@ pre.highlight,
 div.highlight {
 	display: block;
 	box-sizing: border-box;
-  margin: 1.5em auto 1em 8%;
+	margin: 1.5em auto 1em 8%;
 	width: 90%;
 	padding: 2em;
 	border-radius: .2em;

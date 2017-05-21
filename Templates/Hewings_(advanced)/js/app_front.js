@@ -36,20 +36,20 @@ var hamburger = document.querySelector('.hamburger--arrowalt-r');
 
 /*--------------------Common Reset to Default-------------------------*/
 var appendixesHideAll = function () {
-   for (var i = 0; i < appendixes.length; i++) {
-      appendixes[i].classList.remove('active');
-   }
+	for (var i = 0; i < appendixes.length; i++) {
+		appendixes[i].classList.remove('active');
+	}
 };
 var buttonsColorDefault = function () {
-   for (var i = 0; i < overlay.length; i++) {
-      overlay[i].classList.remove('active');
-   }
-   for (var z = 0; z < mainCircle.length; z++) {
-      mainCircle[z].classList.remove('active');
-   }
-   for (var y = 0; y < p_AppButton.length; y++) {
-      p_AppButton[y].classList.remove('active');
-   }
+	for (var i = 0; i < overlay.length; i++) {
+		overlay[i].classList.remove('active');
+	}
+	for (var z = 0; z < mainCircle.length; z++) {
+		mainCircle[z].classList.remove('active');
+	}
+	for (var y = 0; y < p_AppButton.length; y++) {
+		p_AppButton[y].classList.remove('active');
+	}
 };
 /*--------------------Hide Header-------------------------*/
 var unitTableDiv = document.querySelector('.unit_table');
@@ -90,16 +90,16 @@ circlePositionerTitle.addEventListener('click', function () {
 });
 /*--------------------show Appendix-------------------------*/
 function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, circleLayout) {
-   /*--------------------Conditions for Responsive drop down appendixes-------------------------*/
-   function app() {
-      function circlePaddingNone() {
-         buttonsFirst[0].style.paddingBottom = "0";
-      }
+	/*--------------------Conditions for Responsive drop down appendixes-------------------------*/
+	function app() {
+		function circlePaddingNone() {
+			buttonsFirst[0].style.paddingBottom = "0";
+		}
 
-      function circlePaddingDone() {
-         buttonsFirst[0].style.paddingBottom = "2em";
-      }
-      /*--------------------Reset with Exceptions-------------------------*/
+		function circlePaddingDone() {
+			buttonsFirst[0].style.paddingBottom = "2em";
+		}
+		/*--------------------Reset with Exceptions-------------------------*/
 		var appendixesHide = function (except) {
 			for (var i = 0; i < appendixes.length; i++) {
 				appendixes[i].classList.remove('active');
@@ -120,62 +120,59 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 				exceptP.classList.add('active');
 			}
 		};
-      /*--------------------Conditions-------------------------*/
-      if (appendix.className === 'appendixes active') {
+		/*--------------------Conditions-------------------------*/
+		if (appendix.className === 'appendixes active') {
 			appendix.classList.toggle('active');
 			targetM.classList.toggle('active');
 			targetL.classList.toggle('active');
 			targetP.classList.toggle('active');
 			header.classList.remove('active_2');
 			buttonAllClose.classList.remove('active');
-         bodyCard.style.position = null;
-         arrowLine.style.opacity = '1';
-         circlePaddingNone();
-         buttonsColorDefault();
-         circleLayout.style.width = null;
-         circlePositionerTitle.classList.remove('active');
-         buttonsClass.insertBefore(circle, beforeEl);
-         if (circle === buttons[13]) {
-            buttonsClass.appendChild(circle);
-         }
-      }
-      else {
-         appendix.scrollTop = 0;
-         for (var i = 0; i < gridPad.length; i++) {
-            gridPad[i].scrollTop = 0;
-         }
-         buttonsClass.insertBefore(circle, buttonsClass.firstChild);
-         circleLayout.style.width = '94%';
-         header.classList.add('active_2');
-         bodyCard.style.position = 'fixed';
-         unitTableDiv.classList.remove('active');
-         appendixesHide(appendix);
-         buttonsColorHide(targetM, targetL, targetP);
-         buttonAllClose.classList.add('active');
-         circlePositionerTitle.classList.add('active');
-         circlePaddingDone();
-         arrowLine.style.opacity = '0';
-      } 
-      
-      /*--------------------Reset button-------------------------*/
-      buttonAllClose.onclick = function () {
-         circlePaddingNone();
-         buttonsClass.insertBefore(circle, beforeEl);
-         if (circle === buttons[13]) {
-            buttonsClass.appendChild(circle);
-         }
-         circleLayout.style.width = null;
-         appendixesHideAll();
-         buttonsColorDefault();
-         hideHeader();
-         if (window.innerWidth > 768) {
-            circlePositionerTitle.classList.remove('active');
-         }
-         bodyCard.style.position = null;
-         buttonAllClose.classList.remove('active');
-      };
-   }
-   circle.addEventListener('click', app);
+			bodyCard.style.position = null;
+			arrowLine.style.opacity = '1';
+			circlePaddingNone();
+			buttonsColorDefault();
+			circleLayout.style.width = null;
+			circlePositionerTitle.classList.remove('active');
+			buttonsClass.insertBefore(circle, beforeEl);
+			if (circle === buttons[13]) {
+				buttonsClass.appendChild(circle);
+			}
+		}
+		else {
+			appendix.scrollTop = 0;
+			for (var i = 0; i < gridPad.length; i++) {
+				gridPad[i].scrollTop = 0;
+			}
+			buttonsClass.insertBefore(circle, buttonsClass.firstChild);
+			circleLayout.style.width = '94%';
+			header.classList.add('active_2');
+			bodyCard.style.position = 'fixed';
+			unitTableDiv.classList.remove('active');
+			appendixesHide(appendix);
+			buttonsColorHide(targetM, targetL, targetP);
+			buttonAllClose.classList.add('active');
+			circlePositionerTitle.classList.add('active');
+			circlePaddingDone();
+			arrowLine.style.opacity = '0';
+		}
+		/*--------------------Reset button-------------------------*/
+		buttonAllClose.onclick = function () {
+			circlePaddingNone();
+			buttonsClass.insertBefore(circle, beforeEl);
+			if (circle === buttons[13]) {
+				buttonsClass.appendChild(circle);
+			}
+			circleLayout.style.width = null;
+			appendixesHideAll();
+			buttonsColorDefault();
+			hideHeader();
+			circlePositionerTitle.classList.remove('active');
+			bodyCard.style.position = null;
+			buttonAllClose.classList.remove('active');
+		};
+	}
+	circle.addEventListener('click', app);
 } // End of function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP)
 /*--------------------Launching app-------------------------*/
 showAppendix(appendixes[0], buttons[0], buttons[1], overlay[0], mainCircle[0], p_AppButton[0], circlePositioner[0]);
@@ -196,23 +193,35 @@ showAppendix(appendixes[13], buttons[13], buttons[14], overlay[13], mainCircle[1
 var modalButton = document.querySelector('.myButt');
 var materialIcons = document.querySelector('.material-icons');
 var modalOverlay = document.querySelector('.modal__overlay');
+var modalWrap = document.querySelector('.modal__wrap');
 modalButton.addEventListener('click', function () {
-   if (header.className === 'header base active_1') {
-      hamburger.classList.toggle("is-active");
-   }
-   hideHeader();
-   modalOverlay.classList.toggle('active');
-   bodyCard.style.position = 'fixed';
-   setTimeout(function () {
-      materialIcons.style.display = 'block';
-   }, 500);
+	if (header.className === 'header base active_1') {
+		hamburger.classList.toggle("is-active");
+	}
+		modalOverlay.style.display = "block";
+		modalOverlay.style.zIndex  = "800";
+	setTimeout(function () {
+		modalOverlay.classList.toggle('active');
+		modalOverlay.scrollTop = 0;
+		modalWrap.scrollTop = 0;
+		modalWrap.scrollLeft = 0;
+		hideHeader();
+	}, 100);
+	bodyCard.style.position = 'fixed';
+	setTimeout(function () {
+		materialIcons.style.display = 'block';
+	}, 1000);
 });
 materialIcons.addEventListener('click', function () {
-   modalOverlay.classList.toggle('active');
-   bodyCard.style.position = null;
-   setTimeout(function () {
-      materialIcons.style.display = 'none';
-   }, 100);
+	modalOverlay.classList.toggle('active');
+	bodyCard.style.position = null;
+	setTimeout(function () {
+			modalOverlay.style.display = null;
+			modalOverlay.style.zIndex  = null;
+	}, 1000);
+	setTimeout(function () {
+		materialIcons.style.display = 'none';
+	}, 100);
 });
 /*--------------------hamburgers-------------------------*/
 var buttonGambur = document.querySelector('.gamb-wrap'); // change for back side add "_back"
@@ -233,7 +242,7 @@ buttonGambur.addEventListener('click', function () {
 		overlayTitleM.classList.toggle('active');
 		overlayTitleL.classList.toggle('active');
 		textP_Title.classList.toggle('active');
-      circlePositionerTitle.classList.remove('active');
+		circlePositionerTitle.classList.remove('active');
 		//		bodyCard.style.position = 'fixed';
 	}
 });
@@ -243,7 +252,6 @@ var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');
 var layerButton = document.querySelector('.layer');
 var highlight = document.querySelector('div.highlight');
-var modalWrap = document.querySelector('.modal__wrap');
 var modalButton = document.querySelector('.myButt');
 var hr = document.getElementsByTagName('hr');
 var box1None = true,
@@ -285,29 +293,29 @@ if (layerButton.innerHTML === '') {
 /*--------------------Choeces Words Fields-------------------------*/
 var hint = document.querySelectorAll(".hint");
 if (hint.length > 0) {
-   hint[0].innerHTML = "Hint";
-   var id = hint[1].getAttribute("id");
-   var choices = hint[1].innerHTML;
-   var boxes = choices.split(" | ");
-   var list = "";
-   for (var j = 0; j < boxes.length; j++) {
-      var arr = boxes[j].split(";");
-      if (j !== 0) {
-         list = list + '<p class="choices-box-delimiter"></p>';
-      }
-      list = list + "<ul>";
-      for (var i = 0; i < arr.length; i++) {
-         list = list + "<li>" + arr[i] + "</li>";
-      }
-      list = list + "</ul>";
-   }
-   document.getElementById(id).innerHTML = list;
-   //  if (arr.length < 5 && boxes.length === 1) {
-   //    document.getElementById("choices").className = "choices_variants";
-   //  } else {
-   document.getElementById("choices").className = "choices_words";
-   //  }
-   // При показе карточки показывать hint раскрытым
-   document.querySelector("a.hint").style.display = 'none';
-   document.querySelector("div.hint").style.display = 'block';
+	hint[0].innerHTML = "Hint";
+	var id = hint[1].getAttribute("id");
+	var choices = hint[1].innerHTML;
+	var boxes = choices.split(" | ");
+	var list = "";
+	for (var j = 0; j < boxes.length; j++) {
+		var arr = boxes[j].split(";");
+		if (j !== 0) {
+			list = list + '<p class="choices-box-delimiter"></p>';
+		}
+		list = list + "<ul>";
+		for (var i = 0; i < arr.length; i++) {
+			list = list + "<li>" + arr[i] + "</li>";
+		}
+		list = list + "</ul>";
+	}
+	document.getElementById(id).innerHTML = list;
+	//  if (arr.length < 5 && boxes.length === 1) {
+	//    document.getElementById("choices").className = "choices_variants";
+	//  } else {
+	document.getElementById("choices").className = "choices_words";
+	//  }
+	// При показе карточки показывать hint раскрытым
+	document.querySelector("a.hint").style.display = 'none';
+	document.querySelector("div.hint").style.display = 'block';
 }

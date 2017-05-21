@@ -300,6 +300,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/app_front-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/app_front-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/app_type-min.js": {
 		"ft": 64,
 		"mi": 1,

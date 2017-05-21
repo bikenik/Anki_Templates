@@ -274,6 +274,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/elementary\/js\/min\/media_query_title-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/elementary\/js\/min\/min\/media_query_title-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/image-ex\/Image_for_Question.jpg": {
 		"ft": 16384,
 		"iS": 88663,

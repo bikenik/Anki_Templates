@@ -1,7 +1,7 @@
 /*--------------------Media Query responsive-------------------------*/
 // media query change 769
-function appendixesChangeName(mqiPad) { // window width is less than 768px
-	if (mqiPad.matches) {
+function appendixesChangeName(mqiPad) {
+	if (mqiPad.matches) {    // window width is less than 768px
 		p_AppButton[0].textContent = '1. Active and passive';
 		p_AppButton[1].textContent = '2. List of irregular verbs (~ Unit 24)';
 		p_AppButton[2].textContent = '3. Irregular verbs in groups';
@@ -13,8 +13,8 @@ function appendixesChangeName(mqiPad) { // window width is less than 768px
 			headingTable[i].style.display = 'none';
 		}
 	}
-	else {
-		p_AppButton[0].textContent = '1'; // window width is at least 768px
+	else {   // window width is at least 768px
+		p_AppButton[0].textContent = '1'; 
 		p_AppButton[1].textContent = '2';
 		p_AppButton[2].textContent = '3';
 		p_AppButton[3].textContent = '4';

@@ -1,5 +1,4 @@
 /* eslint-env browser */
-
 /*jslint devel: true */
 /* jshint browser: true */
 /* global document */
@@ -16,41 +15,39 @@ if (el) {
 		}
 	});
 }
-
 var questionAudio = document.getElementById('question-audio');
 /*--------------------variables-------------------------*/
 var body = document.getElementById(body);
 //var hamburgers = document.querySelectorAll(".hamburger");
 var buttons = document.getElementsByClassName('circle'),
-	buttonsFirst = document.getElementsByClassName('circle'),
-	mainCircle = document.getElementsByClassName('mainCircle'),
-	overlay = document.getElementsByClassName('overlay'),
-	p_AppButton = document.getElementsByClassName('p_app_button'),
-	gridPad = document.getElementsByClassName('grid-pad'),
-	appendixes = document.getElementsByClassName('appendixes');
+		buttonsFirst = document.getElementsByClassName('circle'),
+		mainCircle = document.getElementsByClassName('mainCircle'),
+		overlay = document.getElementsByClassName('overlay'),
+		p_AppButton = document.getElementsByClassName('p_app_button'),
+		gridPad = document.getElementsByClassName('grid-pad'),
+		appendixes = document.getElementsByClassName('appendixes');
 //	headingTable = document.getElementsByClassName('heading');
 //	spinningContainer = document.getElementsByClassName('spinningContainer');
 var buttonsClass = document.querySelector('.buttons'),
-	buttonAllClose = document.querySelector('.header-close'),
-	bodyCard = document.querySelector('.card'),
-	circlePositionerTitle = document.querySelector('.circlePositioner_title'), // change for back side add "_back"
+		buttonAllClose = document.querySelector('.header-close'),
+		bodyCard = document.querySelector('.card'),
+		circlePositionerTitle = document.querySelector('.circlePositioner_title'), // change for back side add "_back"
 	arrowLine = document.querySelector('.arrow_06B13_line'), // change for back side add "_back"
 	overlayTitleM = document.querySelector('#overlay_title'),
-	overlayTitleL = document.querySelector('.mainCircle_title'),
-	header = document.querySelector('.header'),
-	hamburgerMain = document.querySelector('.hamburger--arrowalt-r');
+		overlayTitleL = document.querySelector('.mainCircle_title'),
+		header = document.querySelector('.header'),
+		hamburgerMain = document.querySelector('.hamburger--arrowalt-r');
 var textP_Title = document.getElementById('p_button');
-if (document.querySelector('.arrow_06B13_line_back')){
-    arrowLine = document.querySelector('.arrow_06B13_line_back');
-    window.scrollTo(0, 0);
-    }
-if (document.querySelector('.circlePositioner_title_back')){
-    circlePositionerTitle = document.querySelector('.circlePositioner_title_back');
-    }
-if (document.querySelector('.hamburger--arrowalt')){
-    hamburgerMain = document.querySelector('.hamburger--arrowalt');
-    }
-
+if (document.querySelector('.arrow_06B13_line_back')) {
+	arrowLine = document.querySelector('.arrow_06B13_line_back');
+	window.scrollTo(0, 0);
+}
+if (document.querySelector('.circlePositioner_title_back')) {
+	circlePositionerTitle = document.querySelector('.circlePositioner_title_back');
+}
+if (document.querySelector('.hamburger--arrowalt')) {
+	hamburgerMain = document.querySelector('.hamburger--arrowalt');
+}
 /*--------------------Common Reset to Default-------------------------*/
 bodyCard.style.position = null;
 var appendixesHideAll = function () {
@@ -68,9 +65,9 @@ var buttonsColorDefault = function () {
 	for (var y = 0; y < p_AppButton.length; y++) {
 		p_AppButton[y].classList.remove('active');
 	}
-//	for (var f = 0; f < spinningContainer.length; f++) {
-//		spinningContainer[f].classList.remove('active');
-//	}
+	//	for (var f = 0; f < spinningContainer.length; f++) {
+	//		spinningContainer[f].classList.remove('active');
+	//	}
 };
 /*--------------------Hide Header-------------------------*/
 var unitTableDiv = document.querySelector('.unit_table');
@@ -162,10 +159,10 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) { /
 				p_AppButton[y].classList.remove('active');
 				exceptP.classList.add('active');
 			}
-//			for (var f = 0; f < spinningContainer.length; f++) {
-//				spinningContainer[f].classList.remove('active');
-//				exceptC.classList.add('active');
-//			}
+			//			for (var f = 0; f < spinningContainer.length; f++) {
+			//				spinningContainer[f].classList.remove('active');
+			//				exceptC.classList.add('active');
+			//			}
 		};
 		/*--------------------Conditions-------------------------*/
 		if (appendix.className === 'appendixes active') {
@@ -173,7 +170,7 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) { /
 			targetM.classList.toggle('active');
 			targetL.classList.toggle('active');
 			targetP.classList.toggle('active');
-//			spinning.classList.toggle('active');
+			//			spinning.classList.toggle('active');
 			header.classList.remove('active_2');
 			buttonAllClose.classList.remove('active');
 			bodyCard.style.position = null;
@@ -211,9 +208,9 @@ function showAppendix(appendix, circle, beforeEl, targetM, targetL, targetP) { /
 			appendixesHideAll();
 			buttonsColorDefault();
 			hideHeader();
-//			if (window.innerWidth > 768) {
-				circlePositionerTitle.classList.remove('active');
-//			}
+			//			if (window.innerWidth > 768) {
+			circlePositionerTitle.classList.remove('active');
+			//			}
 			bodyCard.style.position = null;
 			buttonAllClose.classList.remove('active');
 		};
@@ -230,34 +227,44 @@ showAppendix(appendixes[5], buttons[5], buttons[6], overlay[5], mainCircle[5], p
 showAppendix(appendixes[6], buttons[6], buttons[7], overlay[6], mainCircle[6], p_AppButton[6]); // spinningContainer[6]
 /*--------------------Modal Window-------------------------*/
 var modalButton = document.querySelector('.myButt');
+var modalWrap = document.querySelector('.modal__wrap');
 var materialIcons = document.querySelector('.material-icons');
 var modalOverlay = document.querySelector('.modal__overlay');
 modalButton.addEventListener('click', function () {
 	if (header.className === 'header base active_1') {
 		hamburgerMain.classList.toggle("is-active");
 	}
-      modalOverlay.classList.toggle('active');
-   setTimeout(function () {
-      hideHeader();
-      bodyCard.style.position = 'fixed';
-   }, 600);
+	modalOverlay.style.display = "block";
+	modalOverlay.style.zIndex  = "800";
+	setTimeout(function () {
+		modalOverlay.classList.toggle('active');
+		hideHeader();
+		bodyCard.style.position = 'fixed';
+		modalOverlay.scrollTop = 0;
+		modalWrap.scrollTop = 0;
+		modalWrap.scrollLeft = 0;
+	}, 300);
 	setTimeout(function () {
 		materialIcons.style.display = 'block';
-	}, 1000);
+	}, 550);
 });
 materialIcons.addEventListener('click', function () {
 	modalOverlay.classList.toggle('active');
 	bodyCard.style.position = null;
+		setTimeout(function () {
+			modalOverlay.style.display = null;
+			modalOverlay.style.zIndex  = null;
+		}, 1000);
 	setTimeout(function () {
 		materialIcons.style.display = 'none';
 	}, 100);
 });
 /*--------------------hamburgers-------------------------*/
 var buttonGambur = document.querySelector('.gamb-wrap'); // change for back side add "_back"
-if (document.querySelector('.gamb-wrap-back')){
-    buttonGambur = document.querySelector('.gamb-wrap-back');
-   console.log('YEAH');
-    }
+if (document.querySelector('.gamb-wrap-back')) {
+	buttonGambur = document.querySelector('.gamb-wrap-back');
+	console.log('YEAH');
+}
 buttonGambur.addEventListener('click', function () {
 	if (header.style.maxHeight === '500px') {
 		hideHeader();
@@ -280,30 +287,27 @@ buttonGambur.addEventListener('click', function () {
 	}
 });
 /*--------------------Hide Fields-------------------------*/
-
 var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');
 var layerButton = document.querySelector('.layer');
 var highlight = document.querySelector('div.highlight');
-var modalWrap = document.querySelector('.modal__wrap');
 var hr = document.getElementsByTagName('hr');
-var box1None = true,
-		box2None = true;
-if (document.querySelector('div.add_words1')){
-var addWordsBox1 = document.querySelector('div.add_words1');
-
-if (addWordsBox1.textContent === '') {
-	box1None = false;
-	addWordsBox1.style.display = 'none';
-}
-if (addWordsBox2.textContent === '') {
-	box2None = false;
-	addWordsBox2.style.display = 'none';
-}
-if (box1None === true && box2None === true) {
-	addWordsBox1.style.width = '47%';
-	addWordsBox2.style.width = '47%';
-}
+var box1None = true
+	, box2None = true;
+if (document.querySelector('div.add_words1')) {
+	var addWordsBox1 = document.querySelector('div.add_words1');
+	if (addWordsBox1.textContent === '') {
+		box1None = false;
+		addWordsBox1.style.display = 'none';
+	}
+	if (addWordsBox2.textContent === '') {
+		box2None = false;
+		addWordsBox2.style.display = 'none';
+	}
+	if (box1None === true && box2None === true) {
+		addWordsBox1.style.width = '47%';
+		addWordsBox2.style.width = '47%';
+	}
 }
 if (document.getElementById('question-audio') && questionAudio.innerHTML === '') {
 	questionAudio.style.display = 'none';
@@ -358,9 +362,9 @@ if (hint.length > 0) {
 }
 // Если cloze содержит несколько вариантов ответа, то оставляем только один вариант для лучшей читаемости, остальные и так будут показаны при сравнении введенного на клавиатуре ответа.
 var cloze = document.querySelectorAll(".cloze");
-if (document.querySelector('.arrow_06B13_line_back')){
-for (var z = 0; z < cloze.length; z++) {
-	cloze[z].textContent = cloze[z].textContent.replace(/^([^|]*).*$/, "$1");
-	cloze[z].textContent = cloze[z].textContent.replace(/^([^/]*).*$/, "$1");
-}
+if (document.querySelector('.arrow_06B13_line_back')) {
+	for (var z = 0; z < cloze.length; z++) {
+		cloze[z].textContent = cloze[z].textContent.replace(/^([^|]*).*$/, "$1");
+		cloze[z].textContent = cloze[z].textContent.replace(/^([^/]*).*$/, "$1");
+	}
 }
