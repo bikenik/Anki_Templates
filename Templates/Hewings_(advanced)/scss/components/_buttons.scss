@@ -466,7 +466,8 @@ span.close {
 	background-color: $color-sec;
 	transition: all .3s ease-in-out;
 }
-.iphone .mainCircle:hover .overlay {
+.iphone .mainCircle:hover .overlay,
+.mobile .mainCircle:hover .overlay {
 	background-color: $color-sec;
 	transition: all .3s ease-in-out;
 }
@@ -477,7 +478,8 @@ span.close {
 }
 
 .ipad .mainCircle:hover .overlay .p_app_button,
-.iphone .mainCircle:hover .overlay .p_app_button {
+.iphone .mainCircle:hover .overlay .p_app_button,
+.mobile .mainCircle:hover .overlay .p_app_button {
 	color: bisque;
 	transition: all .3s ease-in-out;
 }

@@ -803,6 +803,7 @@ blockquote {
   width: 1.5em; }
 
 .iphone .question > div img,
+.mobile .question > div img,
 .ipad .question > div img {
   max-width: 65px !important;
   min-width: 65px !important;
@@ -818,7 +819,8 @@ blockquote {
   width: 1.5em; }
 
 .iphone .question > div > div img,
-.ipad .question > div > div img {
+.ipad .question > div > div img,
+.mobile .question > div > div img {
   max-width: 65px !important;
   min-width: 65px !important;
   margin-bottom: 9px; }
@@ -832,18 +834,21 @@ blockquote {
   border-bottom: solid 0.1em #00803F; }
 
 .iphone #question-audio img,
-.ipad #question-audio img {
+.ipad #question-audio img,
+.mobile #question-audio img {
   max-width: 128px !important;
   min-width: 128px !important;
   padding: 7px; }
   @media (max-width: 769px) {
     .iphone #question-audio img,
-    .ipad #question-audio img {
+    .ipad #question-audio img,
+    .mobile #question-audio img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone #question-audio img,
-    .ipad #question-audio img {
+    .ipad #question-audio img,
+    .mobile #question-audio img {
       max-width: 65px !important;
       min-width: 65px !important; } }
 
@@ -865,37 +870,44 @@ blockquote {
       margin-left: 5px; } }
 
 .iphone .sound_front img,
-.ipad .sound_front img {
+.ipad .sound_front img,
+.mobile .sound_front img {
   background: #4e4e4e;
   max-width: 128px !important;
   min-width: 128px !important; }
   @media (max-width: 769px) {
     .iphone .sound_front img,
-    .ipad .sound_front img {
+    .ipad .sound_front img,
+    .mobile .sound_front img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone .sound_front img,
-    .ipad .sound_front img {
+    .ipad .sound_front img,
+    .mobile .sound_front img {
       max-width: 50px !important;
       min-width: 50px !important; } }
 
 .iphone .question_answer img,
-.ipad .question_answer img {
+.ipad .question_answer img,
+.mobile .question_answer img {
   max-width: 128px !important;
   min-width: 128px !important; }
   @media (max-width: 769px) {
     .iphone .question_answer img,
-    .ipad .question_answer img {
+    .ipad .question_answer img,
+    .mobile .question_answer img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone .question_answer img,
-    .ipad .question_answer img {
+    .ipad .question_answer img,
+    .mobile .question_answer img {
       max-width: 50px !important;
       min-width: 50px !important; } }
 
-.iphone .question_answer {
+.iphone .question_answer,
+.mobile .question_answer {
   top: 15px; }
 
 /*==================================== 
@@ -1323,7 +1335,8 @@ input#typeans {
 .win input#typeans {
   margin-top: 0; }
 
-.iphone span[title]:before {
+.iphone span[title]:before,
+.mobile span[title]:before {
   content: '✎'; }
 
 .leftContainer, .rightContainer {
@@ -2100,7 +2113,8 @@ button.header-close {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
 
-.iphone .mainCircle:hover .overlay {
+.iphone .mainCircle:hover .overlay,
+.mobile .mainCircle:hover .overlay {
   background-color: #077a09;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
@@ -2111,7 +2125,8 @@ button.header-close {
   transition: all .3s ease-in-out; }
 
 .ipad .mainCircle:hover .overlay .p_app_button,
-.iphone .mainCircle:hover .overlay .p_app_button {
+.iphone .mainCircle:hover .overlay .p_app_button,
+.mobile .mainCircle:hover .overlay .p_app_button {
   color: bisque;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }

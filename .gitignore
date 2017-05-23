@@ -10,8 +10,16 @@ README_ru.pdf
 
 *.sublime-project
 /Templates/Murphy_(base)/com_js/dnb.js
-/Templates/2x2 (ABC-scramble)/
 /Templates/2x2/
 /Templates/Murphy_(base)/scss/components/_sportable.scss
 /Templates/2x2 (ABC-scramble)/scss/_test.scss
 /Backup/
+/Templates/2x2 (ABC-scramble)/coffeescript/
+/Templates/2x2 (ABC-scramble)/bower_components/
+/Templates/2x2 (ABC-scramble)/bower.json
+/Templates/2x2 (ABC-scramble)/.brackets.json
+/Templates/2x2 (ABC-scramble)/front for anki.html
+/Templates/2x2 (ABC-scramble)/index.haml
+/Templates/2x2 (ABC-scramble)/scss/.sass-cache/
+/Templates/2x2 (ABC-scramble)/js/scramble-for-illustrated-card.js
+/Templates/2x2 (ABC-scramble)/js/min/scramble-for-illustrated-card-min.js

@@ -45,6 +45,7 @@ input#typeans {
 .win input#typeans {
   margin-top: 0;
 }
-.iphone span[title]:before {
+.iphone span[title]:before,
+.mobile span[title]:before {
   content: '✎';
 }
