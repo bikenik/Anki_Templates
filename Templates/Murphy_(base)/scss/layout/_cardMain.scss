@@ -5,10 +5,8 @@
 //	background: #ede2dd;
 	position: relative;
 	margin: 1em auto 0 auto;
-	align-items: center;
 	text-align: center;
 	display: block;
-	position: relative;
 	width: 70%;
 	max-width: 910px;
 	color: $color-prim;
@@ -28,7 +26,7 @@
 	@media #{$brk-iPhone6sPlus-wide}{
 		border-top-left-radius: 0px;
 		border-top-right-radius: 0px;
-		margin: 0 10% 0 auto;
+		margin: 0 auto;
 		width: 80%;
 //		margin-right: 1em;
 	}
@@ -57,8 +55,8 @@
 	
 	@media #{$brk-iPhone6sPlus-portrait} {
 		width: 100%;
-      border-radius: 0;
-      margin: 0 auto;
+    border-radius: 0;
+    margin: 0 auto;
 	}
 }
 
@@ -161,31 +159,66 @@
 
 
 
+// .table_answer{
+// 	background-color: $white;
+// 	width: 70%;
+// 	max-width: 910px;
+// 	height: min-content;
+// 	margin: 0 auto;
+// 	box-sizing: border-box;
+// 	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+// 		@media #{$brk-iPhone6sPlus-wide}{
+// 			width: 80%;
+// 	}
+// 		@media #{$brk-iPhone6sPlus-portrait} {
+// 			width: 100%;
+// 		}
+// }
+// .td_back {
+// //	width: 70%;
+// //	max-width: 910px;
+//    padding-top: 10px;
+//    padding-bottom: 5px;
+// 	margin: 0 auto;
+// //	width: intrinsic;
+// //	border: none;
+// }
 .table_answer{
-	background-color: $white;
-	width: 70%;
-	max-width: 910px;
+	display: inline-block;
+	background-color: white;
+//	width: 70%;
+	max-width: 70%;
 	height: min-content;
-	margin: 0 auto;
+	margin: 10px auto 0;
 	box-sizing: border-box;
 	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+	font-weight: 100;
+	font-size: 1.3em;
+	line-height: 120%;
+	text-align: center;
+	white-space: nowrap;
+	overflow-y: hidden;
+	overflow-x: auto;
+	  -webkit-overflow-scrolling: touch; /* lets it scroll lazy */
 		@media #{$brk-iPhone6sPlus-wide}{
-			width: 80%;
-	}
+			max-width: 80%;
+		}
 		@media #{$brk-iPhone6sPlus-portrait} {
-			width: 100%;
+			max-width: 100%;
 		}
 }
 .td_back {
+//	display: inline-block;
+//	overflow-y: auto;
 //	width: 70%;
-//	max-width: 910px;
-   padding-top: 10px;
-   padding-bottom: 5px;
+	max-width: 910px;
+	padding: .5em;
+	padding-bottom: 5px;
 	margin: 0 auto;
+	white-space: nowrap;
 //	width: intrinsic;
 //	border: none;
 }
-
 /*--------------- Audio Buttons ---------------------- */
 .replaybutton {
 	display: block;

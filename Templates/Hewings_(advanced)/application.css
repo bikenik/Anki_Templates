@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*==================================== 
-   Anki Template v1.1.1 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
+   Anki Template v1.1.2 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
 /*==================================== 
 Copyright (c) 2017 by bikeNik (https://github.com/bikenik)
@@ -600,7 +600,7 @@ blockquote {
     .main_table {
       border-top-left-radius: 0px;
       border-top-right-radius: 0px;
-      margin: 0 10% 0 auto;
+      margin: 0 auto;
       width: 80%; } }
   @media (max-width: 438px) {
     .main_table {
@@ -719,26 +719,37 @@ blockquote {
   background: #f7deb7; }
 
 .table_answer {
-  background-color: #fff;
-  width: 70%;
-  max-width: 910px;
+  display: inline-block;
+  background-color: white;
+  max-width: 70%;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 0 auto;
+  margin: 10px auto 0;
   box-sizing: border-box;
-  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+  font-weight: 100;
+  font-size: 1.3em;
+  line-height: 120%;
+  text-align: center;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  /* lets it scroll lazy */ }
   @media (max-width: 737px) {
     .table_answer {
-      width: 80%; } }
+      max-width: 80%; } }
   @media (max-width: 438px) {
     .table_answer {
-      width: 100%; } }
+      max-width: 100%; } }
 
 .td_back {
-  padding-top: 10px;
+  max-width: 910px;
+  padding: .5em;
   padding-bottom: 5px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  white-space: nowrap; }
 
 /*--------------- Audio Buttons ---------------------- */
 .replaybutton {

@@ -10,20 +10,21 @@ var textbox = document.getElementById("typeans");
 var fields = [];
 function updateMain() {
 var str = "";
-var previous = "";
+// var previous = "";
 var maxLength = fields.length;
 for (var i = 0; i < maxLength; i++) {
 //add the comma beforehand instead of afterwards,
 //this avoids the need to explicitly handle consolidating
 //two consecutive fields with the same value.
+// var addComma = (i !== 0 && toAdd !== previous);
 var toAdd = fields[i].value;
-var addComma = (i !== 0 && toAdd !== previous);
-if(addComma) {
-    str += ", ";
+if(i !== 0) {
+  str += ", ";
 }
-if(toAdd === previous) {continue;} //do nothing if the same data is consecutive.
+
+// if(toAdd === previous) {continue;} //do nothing if the same data is consecutive.
 str += toAdd;
-previous = toAdd;
+// previous = toAdd;
 }
 textbox.value = str;
 return true;
@@ -91,7 +92,7 @@ span2.style.textOverflow = 'ellipsis';
     textbox.style.textAlign = 'center';
 span2.style.textAlign = 'center'; // 'left';
 span2.innerHTML = cloze.innerHTML.slice(1,-1);
-span2.style.zIndex = "-1";
+ span2.style.zIndex = "-1";
     span2.setAttribute("title", " "+cloze.innerHTML.slice(1,-1)+" ");
 }/* End span1 and span2 function*/
 

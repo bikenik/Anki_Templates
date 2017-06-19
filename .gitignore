@@ -4,6 +4,7 @@
 
 *.map
 
+*.DS_Store
 
 README_ru.pdf
 *.sublime-workspace

@@ -108,6 +108,15 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/com_js\/app_copy.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/min\/app_copy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/com_js\/app_type.js": {
 		"ft": 64,
 		"mi": 1,
@@ -135,11 +144,29 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/com_js\/min\/app copy-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/min\/min\/app copy-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/com_js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/com_js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/min\/app_copy-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/min\/min\/app_copy-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -363,6 +390,18 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/Murphy-base.sublime-project": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Murphy-base.sublime-project",
+		"oF": 0
+		},
+	"\/Murphy-base.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Murphy-base.sublime-workspace",
+		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_footer.scssc": {
 		"ft": 8192,

@@ -108,7 +108,7 @@ img {
 		max-width:600px;
 	}
 	
-//	@media #{$brk-extra-narrow} {
-//		max-width:350px;
-//	}
+	@media #{$brk-extra-narrow} {
+		max-width:320px;
+	}
 }

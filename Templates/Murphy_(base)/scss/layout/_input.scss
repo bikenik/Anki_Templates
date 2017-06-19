@@ -42,12 +42,24 @@ input#typeans {
 	margin-top: 0;
 }
 
-code#typeans{
-	background-color: $white;
-	padding: 10px;
-	border: none;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
+// code#typeans{
+// 	background-color: $white;
+// 	padding: 10px;
+// 	border: none;
+// 	border-bottom-left-radius: 8px;
+// 	border-bottom-right-radius: 8px;
+// }
+
+code#typeans {
+	display: block;
+  background-color: $white;
+//  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; 
+	white-space: nowrap;
+	word-break: keep-all;
+	tab-size: 4;
 }
 
 .question > div > div > span > span {
