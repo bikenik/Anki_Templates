@@ -201,6 +201,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
+  display: inline-table !important;
 }
 
 // Forms
@@ -379,10 +380,6 @@ th {
 =====================================*/
 ::-webkit-scrollbar{ 
   display: none; 
-}
-body {
-overflow: auto;
--webkit-overflow-scrolling: touch;
 }
 ul {
 -webkit-margin-after: 0;

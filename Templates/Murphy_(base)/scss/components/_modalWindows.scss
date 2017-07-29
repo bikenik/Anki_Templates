@@ -67,6 +67,9 @@
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	/* lets it scroll lazy */
+	@media #{$brk-iPhone6sPlus-portrait}{
+		width: 85%;
+	}
 }
 
 .modal__wrap h2 {

@@ -81,7 +81,7 @@ span1.appendChild(span2);
      "this.style.backgroundColor='default';");
 span2.style.width =  '100%';
 span2.style.height = '1.5em';
-    textbox.style.backgroundColor = 'transparent !important';
+textbox.style.backgroundColor = 'transparent !important';
 textbox.style.fontStyle = 'italic';
 textbox.style.fontSize = '1em'; 
 textbox.style.textAlign = 'center';

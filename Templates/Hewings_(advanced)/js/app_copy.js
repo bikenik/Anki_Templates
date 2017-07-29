@@ -9,12 +9,16 @@ var exampleAnswerHide = document.querySelector('.img_example');
 var el = question;
 if (el) {
 	el.addEventListener('click', function (event) {
-		if (event.target.textContent !== '') {
+		if (event.target.textContent !== '' && 
+			  event.target.textContent !== 'Replay') {
 			exampleAnswerHide.classList.toggle('active');
 			console.log(event.target);
 		}
 	});
 }
+
+
+
 var questionAudio = document.getElementById('question-audio');
 /*--------------------variables-------------------------*/
 var body = document.getElementById(body);

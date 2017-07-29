@@ -8,6 +8,7 @@ input {
   border: none;
   border-bottom: .1rem solid $color-sec;
   transition: width .5s;
+  background: transparent;
   outline: 0;
   
   @media #{$brk-wide} {

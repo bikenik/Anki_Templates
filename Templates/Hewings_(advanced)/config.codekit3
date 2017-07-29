@@ -76,9 +76,19 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_Grammar_remainder_B.jpg": {
+		"ft": 16384,
+		"iS": 1269552,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_Grammar_remainder_C.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 4568880,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_C.jpg",
 		"oF": 0,
@@ -86,9 +96,29 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_Grammar_remainder_D.jpg": {
+		"ft": 16384,
+		"iS": 1094126,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_D.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_Grammar_remainder_E.jpg": {
+		"ft": 16384,
+		"iS": 1427847,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_E.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_Grammar_remainder_F.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 2108914,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_F.jpg",
 		"oF": 0,
@@ -96,9 +126,19 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_Grammar_remainder_G.jpg": {
+		"ft": 16384,
+		"iS": 1475709,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_G.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_Grammar_remainder_H.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 3703055,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_H.jpg",
 		"oF": 0,
@@ -108,7 +148,7 @@
 		},
 	"\/_Grammar_remainder_I.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 6744849,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_I.jpg",
 		"oF": 0,
@@ -116,9 +156,29 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_Grammar_remainder_J.jpg": {
+		"ft": 16384,
+		"iS": 1871467,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_J.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_Grammar_remainder_K.jpg": {
+		"ft": 16384,
+		"iS": 1644677,
+		"oA": 1,
+		"oAP": "\/_Grammar_remainder_K.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_Grammar_remainder_L.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 2143019,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_L.jpg",
 		"oF": 0,
@@ -128,7 +188,7 @@
 		},
 	"\/_Grammar_remainder_M.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 3089293,
 		"oA": 1,
 		"oAP": "\/_Grammar_remainder_M.jpg",
 		"oF": 0,
@@ -142,20 +202,22 @@
 		"oAP": "\/_TektonPro-Regular.ttf",
 		"oF": 0
 		},
-	"\/application.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/application-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/back.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/back.html",
+		"oF": 0
+		},
+	"\/card01-back.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/card01-back.html",
+		"oF": 0
+		},
+	"\/card01-front.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/card01-front.html",
 		"oF": 0
 		},
 	"\/css\/application.css": {
@@ -1538,7 +1600,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/application.css",
+		"oAP": "\/css\/application.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
@@ -1708,6 +1770,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/css\/_modalWindows.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_selectable.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_selectable.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

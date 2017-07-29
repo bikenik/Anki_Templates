@@ -1,0 +1,81 @@
+$arrow         :  url(_arrow_06B13_lines_advanced.png) no-repeat 0 0;
+// Descriptive Color Variables
+$lavender-pink      :#fef3e6;
+
+$Glacier            :#77A7C4;
+$apple-blossom      :#a53f45;
+
+$white              :#fff;
+$black              :#000;
+$grey               :#878787;
+$red                :#dc322f;
+$St-Tropaz          :#2e528d;
+//red
+$fun-green          :#00803F;
+$japanese-Laurel    :#077a09;
+$mountain-meadow    :#1dd16e;
+$Panache            :#e5f3e8;
+$flamingo           :#ed5a3d;
+$celadon            :#a6dd9e;
+//text
+$linen              :#FAF4E5;
+$mine-shaft         :#3b3b3b;
+$golden-grass       :#da9729;
+$givry              :#f7deb7;
+
+$fuscous-gray       :#4e4e4e;
+$buttercup          :#F39814;
+
+// Functional Color Variables
+$color-border-yellow  : $buttercup;
+$color-prim           : $fun-green;
+$color-sec            : $japanese-Laurel;
+$color-bright         : $mountain-meadow;
+$select-light         : $celadon;
+$select-light-main    : $givry;
+
+$background-app       : $fuscous-gray;
+$background-table     : $Panache;
+$background-light     : $Panache;
+
+$color-text-base      : $mine-shaft;
+$color-text-light     : $linen;
+$pink                 : $lavender-pink;
+
+//$color-border-light : $flamingo;
+$color-border-light   : lighten($grey, 25%);
+$color-border-bright  : $mountain-meadow;
+$color-border-red     : $Glacier;
+
+$color-shadow         : rgba($black,.30);
+$color-shadow-text    : rgba($color-sec,.40);
+$color-shadow-input   : rgba($color-prim,.60);
+
+// Font Stacks
+
+$button-fonts         : Verdana, serif;
+
+// gradients
+$background-gradient      : linear-gradient(to bottom, #f1ffef 0%,#ffffff 100%);
+$hr-gradient              : linear-gradient(to left, #ffffff 1%,#00803f 50%,#ffffff 100%);
+
+//link
+$link                  : lighten($St-Tropaz, 20%);
+$hover-link            : $color-prim;
+// baground
+$background-unit          : $mountain-meadow;;
+// Media Query
+$brk-iPadPro                : '(max-width: 1366px)';
+$brk-mac-book-retina       : '(max-width: 1280px)';
+$brk-wide                   : '(max-width: 1025px)';
+$brk-963                    : '(max-width: 963px)';
+$brk-wide-appButtons        : '(max-width: 855px)';
+$brk-narrow                 : '(max-width: 769px)';
+$brk-iPhone6sPlus-wide      : '(max-width: 737px)';
+$brk-iPhone6s-wide          : '(max-width: 668px)';
+$brk-iPhone-wide            : '(max-width: 569px)';
+$brk-iPhone6sPlus-portrait  : '(max-width: 438px)';
+$brk-iPhone6s-portrait      : '(max-width: 376px)';
+$brk-extra-narrow           : '(max-width: 321px)';
+
+$ext-narrow               : '(min-width: 767px)'

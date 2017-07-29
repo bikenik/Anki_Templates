@@ -1,4 +1,4 @@
-/*--------------------Media Query responsive-------------------------*/
+
 // media query change 769
 function appendixesChangeName(mqiPad) {
 	if (mqiPad.matches) {    // window width is less than 768px

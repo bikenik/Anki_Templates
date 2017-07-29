@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*==================================== 
-   Anki Template v1.1.1 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
+   Anki Template v1.2.0 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
 /*==================================== 
 Copyright (c) 2017 by bikeNik (https://github.com/bikenik)
@@ -121,7 +121,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+  display: inline !important; }
 
 button,
 input,
@@ -723,7 +724,7 @@ li::before {
   background: #f7deb7; }
 
 .table_answer {
-  display: inline-block;
+  display: inline-table;
   background-color: white;
   max-width: 70%;
   height: -webkit-min-content;
@@ -933,7 +934,8 @@ input {
   border-bottom: 0.1rem solid #9c061b;
   -webkit-transition: width .5s;
   transition: width .5s;
-  outline: 0; }
+  outline: 0;
+  background: transparent; }
 
 #typeans {
   display: inline-block;
@@ -1834,6 +1836,9 @@ div.highlight {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* lets it scroll lazy */ }
+  @media (max-width: 438px) {
+    .modal__wrap {
+      width: 85%; } }
 
 .modal__wrap h2 {
   margin-bottom: 1em;
@@ -1934,6 +1939,309 @@ div.highlight {
   border-radius: .2em;
   background: #d2d4d4;
   max-height: 70%; }
+
+/*==================================== 
+   Selectable
+=====================================*/
+#feedback {
+  font-size: 1em; }
+
+#selectbox {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 910px;
+  overflow: auto; }
+  @media (max-width: 769px) {
+    #selectbox {
+      width: 70%; } }
+  @media (max-width: 737px) {
+    #selectbox {
+      width: 80%; } }
+  @media (max-width: 438px) {
+    #selectbox {
+      width: 85%;
+      margin: 0; } }
+
+#selectbox.back {
+  display: inline-block;
+  border-collapse: separate;
+  border-spacing: 2px;
+  box-shadow: 0 0 1em #b9f0b7;
+  margin: 10px auto;
+  max-width: 910px;
+  cursor: pointer;
+  -webkit-transition: .15s;
+  transition: .15s; }
+  #selectbox.back.active-selectbox {
+    box-shadow: 0 0 1em #f7d2d5; }
+  @media (max-width: 769px) {
+    #selectbox.back {
+      width: 70%;
+      margin: 10px; } }
+  @media (max-width: 737px) {
+    #selectbox.back {
+      width: 80%; } }
+  @media (max-width: 438px) {
+    #selectbox.back {
+      width: 90%; } }
+
+#selectable {
+  display: block;
+  overflow: auto;
+  box-sizing: border-box;
+  color: #576366;
+  text-decoration: none solid #576366;
+  -webkit-column-rule-color: #576366;
+     -moz-column-rule-color: #576366;
+          column-rule-color: #576366;
+  -webkit-perspective-origin: 165px 160px;
+          perspective-origin: 165px 160px;
+  -webkit-transform-origin: 165px 160px;
+          transform-origin: 165px 160px;
+  caret-color: #576366;
+  border: 0px none #576366;
+  /* style | variant | weight | stretch | size/line-height | family */
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: Helvetica;
+  list-style: none outside none;
+  margin: 0px;
+  outline: #576366 none 0px;
+  padding: 0px;
+  width: 99.99%; }
+
+#selectable li::before {
+  display: none; }
+
+#selectable li {
+  background-color: #F1F2F2;
+  text-decoration: none solid #576366;
+  -webkit-column-rule-color: #576366;
+     -moz-column-rule-color: #576366;
+          column-rule-color: #576366;
+  -webkit-perspective-origin: 165px 40px;
+          perspective-origin: 165px 40px;
+  -webkit-transform-origin: 165px 40px;
+          transform-origin: 165px 40px;
+  caret-color: #576366;
+  border-top: 0px none #3f8abf;
+  border-right: 0px none #3f8abf;
+  border-bottom: 1px solid #E2E4E5;
+  border-left: 0px none #3f8abf;
+  cursor: pointer;
+  text-indent: 0;
+  list-style-type: none !important;
+  outline: #576366 none 0px;
+  margin: 0;
+  padding: 1.8em 1.2em 1.8em 1.2em;
+  font-weight: 100;
+  text-align: left;
+  height: auto;
+  z-index: 100;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s; }
+  @media (max-width: 769px) {
+    #selectable li {
+      padding: 1.5em 1em 1.5em 1em;
+      font-weight: 200; } }
+  #selectable li.active-selecting {
+    background: #fff;
+    border-color: #d4d9dd;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 1px 0 0 inset; }
+    @media (max-width: 438px) {
+      #selectable li.active-selecting {
+        background: #F39814;
+        color: white !important; } }
+  @media (max-width: 438px) {
+    #selectable li.active-selecting > .div-content {
+      color: white; } }
+
+#selectable li.active-wrong > strong.abc {
+  color: #d52834;
+  border-color: #d52834; }
+
+#selectable li.active-right > strong.abc {
+  color: #2bb427;
+  border-color: #2bb427; }
+
+@media (max-width: 438px) {
+  #selectable li.active-wrong {
+    color: white;
+    background-color: #d52834; } }
+
+@media (max-width: 438px) {
+  #selectable li.active-right {
+    color: white;
+    background-color: #2bb427; } }
+
+.ui-selectable {
+  -ms-touch-action: none;
+  touch-action: none; }
+
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black; }
+
+.abc {
+  box-sizing: border-box;
+  color: #7b8b8e;
+  padding: .2em;
+  left: 0;
+  text-align: center;
+  text-decoration: none solid #7b8b8e;
+  width: auto;
+  -webkit-column-rule-color: #7b8b8e;
+     -moz-column-rule-color: #7b8b8e;
+          column-rule-color: #7b8b8e;
+  -webkit-perspective-origin: 20px 20px;
+          perspective-origin: 20px 20px;
+  -webkit-transform-origin: 20px 20px;
+          transform-origin: 20px 20px;
+  caret-color: #7b8b8e;
+  border: 2px solid #E2E4E5;
+  border-radius: 5px 5px 5px 5px;
+  /* style | variant | weight | stretch | size/line-height | family */
+  font-size: 2rem;
+  line-height: 1.8rem;
+  font-family: Helvetica;
+  font-weight: 500;
+  list-style: none outside none;
+  outline: #7b8b8e none 0px;
+  -webkit-transition: color 0.3s ease 0s, border-color 0.3s ease 0s;
+  transition: color 0.3s ease 0s, border-color 0.3s ease 0s; }
+  @media (max-width: 769px) {
+    .abc {
+      font-size: 1.8em;
+      font-weight: 300;
+      padding: .3em; } }
+  @media (max-width: 438px) {
+    .abc {
+      display: none; } }
+  .abc.active-abc {
+    color: #F39814;
+    border-color: #F39814; }
+  .abc.active-right {
+    color: #2bb427;
+    border-color: #2bb427; }
+  .abc.active-wrong {
+    color: #d52834;
+    border-color: #d52834; }
+
+.div-content {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  width: 85%;
+  color: #576366;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none solid #576366;
+  vertical-align: middle;
+  -webkit-column-rule-color: #576366;
+     -moz-column-rule-color: #576366;
+          column-rule-color: #576366;
+  -webkit-perspective-origin: 115px 24.5px;
+          perspective-origin: 115px 24.5px;
+  -webkit-transform-origin: 115px 24.5px;
+          transform-origin: 115px 24.5px;
+  caret-color: #576366;
+  border: 0px none #576366;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  font-family: Helvetica;
+  list-style: none outside none;
+  outline: #576366 none 0px; }
+  @media (max-width: 1025px) {
+    .div-content {
+      font-size: 1.5em;
+      line-height: 1em; } }
+  @media (max-width: 438px) {
+    .div-content {
+      padding-left: 20px; } }
+
+#selectable > li > i,
+#selectable > li > div > i,
+#selectable > li > div > div > i,
+#selectable > li > div > div > div > i {
+  font-style: normal;
+  z-index: 0; }
+
+.ui-selectable-helper {
+  display: none; }
+
+.arrow-main {
+  display: none;
+  right: 15px;
+  float: right;
+  color: black;
+  overflow: hidden;
+  width: 45px; }
+  @media (max-width: 438px) {
+    .arrow-main {
+      display: block; } }
+
+/* Arrow & Hover Animation */
+#more-arrows {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.7);
+  width: 80px;
+  height: 70px;
+  top: 3%;
+  right: 20px;
+  position: relative; }
+  @media (max-width: 569px) {
+    #more-arrows {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      width: 80px;
+      height: 70px;
+      top: 3%;
+      right: 20px;
+      position: relative; } }
+  @media (max-width: 438px) {
+    #more-arrows {
+      -webkit-transform: scale(0.6);
+              transform: scale(0.6);
+      width: 80px;
+      height: 70px;
+      top: 3%;
+      right: 20px;
+      position: relative; } }
+  @media (max-width: 321px) {
+    #more-arrows {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      width: 80px;
+      height: 70px;
+      top: 3%;
+      right: 20px;
+      position: relative; } }
+
+.arrow-main:focus polygon, #more-arrows:focus polygon {
+  fill: #F39814;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
+
+.arrow-main:focus polygon.arrow-bottom, #more-arrows:focus polygon.arrow-bottom {
+  -webkit-transform: translateY(-18px);
+  transform: translateY(-18px); }
+
+.arrow-main:focus polygon.arrow-top, #more-arrows:focus polygon.arrow-top {
+  -webkit-transform: translateY(18px);
+  transform: translateY(18px); }
+
+polygon {
+  fill: #F39814;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
+
+polygon.arrow-middle {
+  opacity: 0.75; }
+
+polygon.arrow-top {
+  opacity: 0.5; }
 
 /*==================================== 
    Buttons
@@ -2662,7 +2970,7 @@ img {
       max-width: 80%; } }
   @media (max-width: 438px) {
     .img_front {
-      max-width: 90%; } }
+      max-width: 100%; } }
 
 .img_front > img,
 .img_front > div > img {
@@ -2693,19 +3001,7 @@ img {
 .img_example > div > img,
 .img_example > img {
   border-radius: 0;
-  max-width: 810px; }
-  @media (max-width: 1025px) {
-    .img_example > div > img,
-    .img_example > img {
-      max-width: 710px; } }
-  @media (max-width: 769px) {
-    .img_example > div > img,
-    .img_example > img {
-      max-width: 530px; } }
-  @media (max-width: 569px) {
-    .img_example > div > img,
-    .img_example > img {
-      max-width: 400px; } }
+  max-width: 170%; }
 
 .img_example {
   display: block;
@@ -2731,23 +3027,15 @@ img {
 
 @media (max-width: 668px) {
   .modal__wrap > img {
-    max-width: 700px; } }
+    max-width: 850px; } }
 
 @media (max-width: 569px) {
   .modal__wrap > img {
-    max-width: 550px; } }
+    max-width: 750px; } }
 
 @media (max-width: 438px) {
   .modal__wrap > img {
     max-width: 550px; } }
-
-@media (max-width: 376px) {
-  .modal__wrap > img {
-    max-width: 600px; } }
-
-@media (max-width: 321px) {
-  .modal__wrap > img {
-    max-width: 320px; } }
 
 /*!
  * Hamburgers

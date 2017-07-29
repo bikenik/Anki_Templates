@@ -16,6 +16,11 @@ if (el) {
 		}
 	});
 }
+var audioInModalW = document.querySelector('.sound_front');
+audioInModalW.innerHTML = audioInModalW.innerHTML.replace(/\<\/div([^<]*)\>/gm, "");
+audioInModalW.innerHTML = audioInModalW.innerHTML.replace(/\<div([^<]*)\>/gm, "<br /><br />");
+
+
 var questionAudio = document.getElementById('question-audio');
 /*--------------------variables-------------------------*/
 var body = document.getElementById(body);
@@ -26,15 +31,15 @@ var buttons = document.getElementsByClassName('circle'),
 		overlay = document.getElementsByClassName('overlay'),
 		p_AppButton = document.getElementsByClassName('p_app_button'),
 		gridPad = document.getElementsByClassName('grid-pad'),
-		appendixes = document.getElementsByClassName('appendixes');
-//	headingTable = document.getElementsByClassName('heading');
+		appendixes = document.getElementsByClassName('appendixes'),
+		headingTable = document.getElementsByClassName('heading');
 //	spinningContainer = document.getElementsByClassName('spinningContainer');
 var buttonsClass = document.querySelector('.buttons'),
 		buttonAllClose = document.querySelector('.header-close'),
 		bodyCard = document.querySelector('.card'),
 		circlePositionerTitle = document.querySelector('.circlePositioner_title'), // change for back side add "_back"
-	arrowLine = document.querySelector('.arrow_06B13_line'), // change for back side add "_back"
-	overlayTitleM = document.querySelector('#overlay_title'),
+		arrowLine = document.querySelector('.arrow_06B13_line'), // change for back side add "_back"
+		overlayTitleM = document.querySelector('#overlay_title'),
 		overlayTitleL = document.querySelector('.mainCircle_title'),
 		header = document.querySelector('.header'),
 		hamburgerMain = document.querySelector('.hamburger--arrowalt-r');
@@ -293,8 +298,7 @@ var unitNumber = document.querySelector('.th_1');
 var layerButton = document.querySelector('.layer');
 var highlight = document.querySelector('div.highlight');
 var hr = document.getElementsByTagName('hr');
-var box1None = true
-	, box2None = true;
+var box1None = true, box2None = true;
 if (document.querySelector('div.add_words1')) {
 	var addWordsBox1 = document.querySelector('div.add_words1');
 	if (addWordsBox1.textContent === '') {

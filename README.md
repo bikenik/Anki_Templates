@@ -24,7 +24,7 @@ Currently was tested only Mac clients (desctop and iPad). But was made responsiv
 Also was tested on the Windows 10 (desctop) last version Anki.
 
 ## Card Types
-There are currently one type of card.<br>
+The type of card.<br>
  **[Cloze]**
   - Freeform show/hide, question/answer, audio/subtitles fields.<br><br>
 
