@@ -159,7 +159,8 @@ input::-moz-focus-inner {
 input {
   line-height: normal; }
 
-* input[type="checkbox"],
+*
+input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
@@ -551,15 +552,12 @@ li::before {
 @media (max-width: 1025px) {
   .add-space-for-mobile {
     height: 360px; } }
-
 @media (max-width: 769px) {
   .add-space-for-mobile {
     height: 270px; } }
-
 @media (max-width: 569px) {
   .add-space-for-mobile {
     height: 165px; } }
-
 @media (max-width: 321px) {
   .add-space-for-mobile {
     height: 220px; } }
@@ -1386,31 +1384,24 @@ footer#back {
 @font-face {
   font-family: "ZiptyDoStd";
   src: url("_ZiptyDoStd.ttf"); }
-
 @font-face {
   font-family: "TektonPro-Regular";
   src: url("_TektonPro-Regular.ttf"); }
-
 @font-face {
   font-family: "CronosPro-Semibold";
   src: url("_CronosPro-Semibold.ttf"); }
-
 @font-face {
   font-family: "CronosPro-Regular";
   src: url("_CronosPro-Regular.ttf"); }
-
 @font-face {
   font-family: "CronosPro-LtIt";
   src: url("_CronosPro-LtIt.ttf"); }
-
 @font-face {
   font-family: "CronosPro-Lt";
   src: url("_CronosPro-Lt.ttf"); }
-
 @font-face {
   font-family: "CronosPro-Bold";
   src: url("_CronosPro-Bold.ttf"); }
-
 .card {
   font-size: 1.125rem; }
   @media (max-width: 1025px) {
@@ -1706,7 +1697,8 @@ div.highlight {
   white-space: pre-wrap; }
 
 .mac pre.highlight,
-.win pre.highlight .mac div.highlight,
+.win pre.highlight
+.mac div.highlight,
 .win div.highlight {
   font-family: "Cronos Pro"; }
 
@@ -2280,7 +2272,6 @@ polygon.arrow-top {
     width: 100%;
     margin: 0 auto;
     padding: 0 .1em; } }
-
 @media (max-width: 321px) {
   .circle {
     width: 100%;
@@ -2711,7 +2702,6 @@ button.header-close {
   100% {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); } }
-
 .mainCircle:hover {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -2799,7 +2789,6 @@ button.header-close {
   to {
     -webkit-transform: rotate(1080deg);
             transform: rotate(1080deg); } }
-
 @-webkit-keyframes mymoveR {
   from {
     -webkit-transform: rotate(1080deg);
@@ -2807,7 +2796,6 @@ button.header-close {
   to {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
-
 @keyframes mymoveR {
   from {
     -webkit-transform: rotate(1080deg);
@@ -2815,7 +2803,6 @@ button.header-close {
   to {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); } }
-
 @-webkit-keyframes myscale {
   0% {
     -webkit-transform: scaleY(1.2);
@@ -2832,7 +2819,6 @@ button.header-close {
   100% {
     -webkit-transform: scaleY(2);
             transform: scaleY(2); } }
-
 @keyframes myscale {
   0% {
     -webkit-transform: scaleY(1.2);
@@ -2849,7 +2835,6 @@ button.header-close {
   100% {
     -webkit-transform: scaleY(2);
             transform: scaleY(2); } }
-
 /*----------- hamburgers ---------------------*/
 .gamb-wrap,
 .gamb-wrap-back {
@@ -3028,11 +3013,9 @@ img {
 @media (max-width: 668px) {
   .modal__wrap > img {
     max-width: 850px; } }
-
 @media (max-width: 569px) {
   .modal__wrap > img {
     max-width: 750px; } }
-
 @media (max-width: 438px) {
   .modal__wrap > img {
     max-width: 550px; } }
@@ -3115,20 +3098,18 @@ img {
         bottom: -8px; } }
 
 /*
-   * Arrow Alt
-   */
+ * Arrow Alt
+ */
 .hamburger--arrowalt .hamburger-inner::before {
   -webkit-transition: top 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1); }
-
 .hamburger--arrowalt .hamburger-inner::after {
   -webkit-transition: bottom 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1); }
-
 .hamburger--arrowalt.is-active .hamburger-inner::before {
   top: 0;
   -webkit-transform: translate3d(-8px, -10px, 0) rotate(-45deg) scale(0.7, 1);
@@ -3141,7 +3122,6 @@ img {
     .hamburger--arrowalt.is-active .hamburger-inner::before {
       -webkit-transform: translate3d(-6px, -7.5px, 0) rotate(-45deg) scale(0.7, 1);
               transform: translate3d(-6px, -7.5px, 0) rotate(-45deg) scale(0.7, 1); } }
-
 .hamburger--arrowalt.is-active .hamburger-inner::after {
   bottom: 0;
   -webkit-transform: translate3d(-8px, 10px, 0) rotate(45deg) scale(0.7, 1);
@@ -3156,20 +3136,18 @@ img {
               transform: translate3d(-6px, 7.5px, 0) rotate(45deg) scale(0.7, 1); } }
 
 /*
-   * Arrow Alt Right
-   */
+ * Arrow Alt Right
+ */
 .hamburger--arrowalt-r .hamburger-inner::before {
   -webkit-transition: top 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: top 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1); }
-
 .hamburger--arrowalt-r .hamburger-inner::after {
   -webkit-transition: bottom 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: bottom 0.1s 0.15s ease, transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.15s cubic-bezier(0.165, 0.84, 0.44, 1); }
-
 .hamburger--arrowalt-r.is-active .hamburger-inner::before {
   top: 0;
   -webkit-transform: translate3d(8px, -10px, 0) rotate(45deg) scale(0.7, 1);
@@ -3182,7 +3160,6 @@ img {
     .hamburger--arrowalt-r.is-active .hamburger-inner::before {
       -webkit-transform: translate3d(6px, -7.5px, 0) rotate(45deg) scale(0.7, 1);
               transform: translate3d(6px, -7.5px, 0) rotate(45deg) scale(0.7, 1); } }
-
 .hamburger--arrowalt-r.is-active .hamburger-inner::after {
   bottom: 0;
   -webkit-transform: translate3d(8px, 10px, 0) rotate(-45deg) scale(0.7, 1);

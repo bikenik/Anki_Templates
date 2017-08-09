@@ -99,51 +99,6 @@
 		"oAP": "\/application.css.map",
 		"oF": 0
 		},
-	"\/com_js\/_app-copy.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/_app-copy-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/_app_type.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/_app_type-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/com_js\/app_copy.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/app_copy-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/app_copy2.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/app_copy2-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/com_js\/app_type.js": {
 		"ft": 64,
 		"mi": 1,
@@ -171,51 +126,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/com_js\/min\/_app-copy-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/com_js\/min\/min\/_app-copy-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/min\/app copy-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/min\/app copy-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/min\/app-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/com_js\/min\/min\/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/min\/app_copy-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/min\/app_copy-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/com_js\/min\/app_copy2-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/com_js\/min\/min\/app_copy2-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/com_js\/min\/app_type-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -223,6 +133,24 @@
 		"oAP": "\/com_js\/min\/min\/app_type-min-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/min\/murphy_app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/min\/min\/murphy_app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/murphy_app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/min\/murphy_app-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/elementary\/_break_down.jpg": {
@@ -604,6 +532,12 @@
 		"oAP": "\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_index.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/1ff6ece04b8f491ee0c8ac53bff38ba6d4fc2aad\/application.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-cache\/1ff6ece04b8f491ee0c8ac53bff38ba6d4fc2aad\/application.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/250edc7ec426cebfc06a996dd0ff571c2deacfca\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -958,6 +892,54 @@
 		"oAP": "\/scss\/.sass-cache\/646dca4f37d7fcfd59353e6b6c054dab63cdb9fb\/application.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_appendixes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_appendixes.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_extended.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_images.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_images.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_index.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_modalWindows.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_modalWindows.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_selectable.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_selectable.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_typography.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/6693d4c3ebac9ba17320e80deab8da8deb2a239a\/_typography.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -980,6 +962,90 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/6e795fcc173df238e4cf1dfaf574036c80bf90dc\/application.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_cardMain.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_cardMain.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_extended.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_footer.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_header.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_header.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_index.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_input.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_input.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_tables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_tables.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_base.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_extended.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_index.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_reset.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_reset.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_simpleGrid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_simpleGrid.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_variables-elementary.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_variables-elementary.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/85c3d22cea28e4d7ef23da5efd43e31339f9a189\/_appendixes.scssc": {
@@ -1058,6 +1124,18 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_tables.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/917b4beefc18aff4defe4899a741c5fe8e09cdd4\/_arrowalt-r.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/917b4beefc18aff4defe4899a741c5fe8e09cdd4\/_arrowalt-r.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/917b4beefc18aff4defe4899a741c5fe8e09cdd4\/_arrowalt.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/917b4beefc18aff4defe4899a741c5fe8e09cdd4\/_arrowalt.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b743de1fe70fb756743d466680f72a26af158f9a\/_appendixes.scssc": {
@@ -1684,6 +1762,24 @@
 		"oAP": "\/scss\/.sass-cache\/e7d6661258b997a3fe4be50d6c55af87f8071341\/_variables.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_base.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_hamburgers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_hamburgers.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_index.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ea07959dfa5fb5215e35cc9db611961dc54e1e67\/_index.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/ec88632c9175b35b4b17c7c4f3fa113b0bd135c8\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -1779,7 +1875,7 @@
 		"oAP": "\/application.css",
 		"oF": 2,
 		"oS": 0,
-		"uL": 1
+		"uL": 0
 		},
 	"\/scss\/base\/_base.scss": {
 		"aP": 1,
@@ -2890,7 +2986,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 6,
-	"esLintEnvironmentsMask": 5,
+	"esLintEnvironmentsMask": 8197,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -3597,7 +3693,7 @@
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
@@ -3853,7 +3949,7 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "headingTable",
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
