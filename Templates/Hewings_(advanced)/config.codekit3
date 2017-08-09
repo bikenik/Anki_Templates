@@ -275,15 +275,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/app_copy.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/app_copy-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/app_front.js": {
 		"ft": 64,
 		"mi": 1,
@@ -307,15 +298,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/app_back-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/min\/app_copy-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/min\/app_copy-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
