@@ -157,37 +157,10 @@
 	background: $select-light;
 }
 
-
-
-// .table_answer{
-// 	background-color: $white;
-// 	width: 70%;
-// 	max-width: 910px;
-// 	height: min-content;
-// 	margin: 0 auto;
-// 	box-sizing: border-box;
-// 	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
-// 		@media #{$brk-iPhone6sPlus-wide}{
-// 			width: 80%;
-// 	}
-// 		@media #{$brk-iPhone6sPlus-portrait} {
-// 			width: 100%;
-// 		}
-// }
-// .td_back {
-// //	width: 70%;
-// //	max-width: 910px;
-//    padding-top: 10px;
-//    padding-bottom: 5px;
-// 	margin: 0 auto;
-// //	width: intrinsic;
-// //	border: none;
-// }
 .table_answer{
-	// display: inline-block;
-	display: inline-table;
+	// display: inline-table;
+	display: inline-block;
 	background-color: white;
-//	width: 70%;
 	max-width: 70%;
 	height: min-content;
 	margin: 10px auto 0;

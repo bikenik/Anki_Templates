@@ -4,18 +4,20 @@ var exampleAnswerHide = document.querySelector('.img_example');
 
 var el = question;
 if (el) {
-  el.addEventListener('click', function (event) {
+  el.onclick = function (event) {
     if (event.target.textContent !== '' && 
         event.target.textContent !== 'Replay') {
       exampleAnswerHide.classList.toggle('active');
       console.log(event.target);
     }
-  });
+  };
 }
 var audioInModalW = document.querySelector('.sound_front');
 audioInModalW.innerHTML = audioInModalW.innerHTML.replace(/\<\/div([^<]*)\>/gm, "");
 audioInModalW.innerHTML = audioInModalW.innerHTML.replace(/\<div([^<]*)\>/gm, "<br /><br />");
-
+// var questionContent = $(".question>div")[0];
+// questionContent.innerHTML = questionContent.innerHTML.replace(/\<\/div([^<]*)\>/gm, "");
+// questionContent.innerHTML = questionContent.innerHTML.replace(/\<div([^<]*)\>/gm, "");
 var questionAudio = document.getElementById('question-audio');
 /*--------------------variables-------------------------*/
 var body = document.getElementById(body);
@@ -84,7 +86,7 @@ function hideHeader() {
   arrowLine.style.opacity = '1';
   textP_Title.classList.remove('active');
 }
-circlePositionerTitle.addEventListener('click', function () {
+circlePositionerTitle.onclick = function () {
   if (header.style.maxHeight === '500px') {
     buttonsColorDefault();
     hideHeader();
@@ -106,7 +108,7 @@ circlePositionerTitle.addEventListener('click', function () {
     textP_Title.classList.toggle('active');
     buttonAllClose.classList.remove('active');
   }
-});
+};
 /*--------------------show Appendix-------------------------*/
 
 function MenuElements(appendix, circle, beforeEl, targetM, targetL, targetP) { // spinning
@@ -233,34 +235,34 @@ button_6 = new MenuElements(appendixes[5], buttons[5], buttons[6], overlay[5], m
 button_7 = new MenuElements(appendixes[6], buttons[6], buttons[7], overlay[6], mainCircle[6], p_AppButton[6]),
 menuElements = [button_1, button_2, button_3, button_4, button_5, button_6, button_7];
 
-button_1.circle.addEventListener('click', function() {
+button_1.circle.onclick =function() {
   menuElements[0].app();
-})
-button_2.circle.addEventListener('click', function() {
+}
+button_2.circle.onclick = function() {
   menuElements[1].app();
-})
-button_3.circle.addEventListener('click', function() {
+}
+button_3.circle.onclick = function() {
   menuElements[2].app();
-})
-button_4.circle.addEventListener('click', function() {
+}
+button_4.circle.onclick = function() {
   menuElements[3].app();
-})
-button_5.circle.addEventListener('click', function() {
+}
+button_5.circle.onclick = function() {
   menuElements[4].app();
-})
-button_6.circle.addEventListener('click', function() {
+}
+button_6.circle.onclick = function() {
   menuElements[5].app();
-})
-button_7.circle.addEventListener('click', function() {
+}
+button_7.circle.onclick = function() {
   menuElements[6].app();
-})
+}
 
 /*--------------------Modal Window-------------------------*/
 var modalButton = document.querySelector('.myButt');
 var modalWrap = document.querySelector('.modal__wrap');
 var materialIcons = document.querySelector('.material-icons');
 var modalOverlay = document.querySelector('.modal__overlay');
-modalButton.addEventListener('click', function () {
+modalButton.onclick = function () {
   if (header.className === 'header base active_1' && hamburgerMain) {
     hamburgerMain.classList.toggle("is-active");
   }
@@ -277,8 +279,8 @@ modalButton.addEventListener('click', function () {
   setTimeout(function () {
     materialIcons.style.display = 'block';
   }, 550);
-});
-materialIcons.addEventListener('click', function () {
+};
+materialIcons.onclick = function () {
   modalOverlay.classList.toggle('active');
   bodyCard.style.position = null;
     setTimeout(function () {
@@ -288,14 +290,14 @@ materialIcons.addEventListener('click', function () {
   setTimeout(function () {
     materialIcons.style.display = 'none';
   }, 100);
-});
+};
 /*--------------------hamburgers-------------------------*/
 var buttonGambur = document.querySelector('.gamb-wrap'); // change for back side add "_back"
 if (document.querySelector('.gamb-wrap-back')) {
   buttonGambur = document.querySelector('.gamb-wrap-back');
   console.log('YEAH');
 }
-buttonGambur.addEventListener('click', function () {
+buttonGambur.onclick = function () {
   if (header.style.maxHeight === '500px') {
     hideHeader();
     bodyCard.style.position = null;
@@ -315,7 +317,7 @@ buttonGambur.addEventListener('click', function () {
     circlePositionerTitle.classList.remove('active');
     //    bodyCard.style.position = 'fixed';
   }
-});
+};
 /*--------------------Hide Fields-------------------------*/
 var addWordsBox2 = document.querySelector('div.add_words2');
 var unitNumber = document.querySelector('.th_1');

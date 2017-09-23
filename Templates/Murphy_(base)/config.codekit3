@@ -9,80 +9,6 @@
 	],
 "creatorBuild": "25813",
 "files": {
-	"\/_arrow_06B13_lines_elementary.png": {
-		"ft": 32768,
-		"iS": 1986,
-		"oA": 1,
-		"oAP": "\/_arrow_06B13_lines_elementary.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_arrow_06B13_lines_intermediate.png": {
-		"ft": 32768,
-		"iS": 1967,
-		"oA": 1,
-		"oAP": "\/_arrow_06B13_lines_intermediate.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_BemboStd.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_BemboStd.ttf",
-		"oF": 0
-		},
-	"\/_close.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/_close.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_CronosPro-Bold.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Bold.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Lt.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Lt.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-LtIt.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-LtIt.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Regular.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Regular.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Semibold.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Semibold.ttf",
-		"oF": 0
-		},
-	"\/_TektonPro-Regular.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_TektonPro-Regular.ttf",
-		"oF": 0
-		},
 	"\/application.css": {
 		"aP": 1,
 		"bl": 0,
@@ -153,129 +79,219 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/elementary\/_break_down.jpg": {
+	"\/com_js\/selectable-js\/back-selectable.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/min\/back-selectable-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/anki_source\/jQuery-v1.5-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/external\/anki_source\/min\/jQuery-v1.5-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/anki_source\/Sizzle-CSS-Selector-Engine-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/external\/anki_source\/min\/Sizzle-CSS-Selector-Engine-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/jquery\/jQuery-Selectable-Scroll-add.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/com_js\/selectable-js\/external\/jquery\/min\/jQuery-Selectable-Scroll-add-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/jquery\/jQuery-UI-1.12.1-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/com_js\/selectable-js\/external\/jquery\/min\/jQuery-UI-1.12.1-min-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/jquery\/jQuery-UI-Touch-Punch-0.2.3-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/com_js\/selectable-js\/external\/jquery\/min\/jQuery-UI-Touch-Punch-0.2.3-min-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/external\/jquery\/jQuery-v1.12.4-min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/com_js\/selectable-js\/external\/jquery\/min\/jQuery-v1.12.4-min-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/front-selectable.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/min\/front-selectable-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/min\/back-selectable-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/min\/min\/back-selectable-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/com_js\/selectable-js\/min\/front-selectable-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/com_js\/selectable-js\/min\/min\/front-selectable-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/elementary\/anki_cards\/card01-back.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/elementary\/anki_cards\/card01-back.html",
+		"oF": 0
+		},
+	"\/elementary\/anki_cards\/card01-front.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/elementary\/anki_cards\/card01-front.html",
+		"oF": 0
+		},
+	"\/elementary\/anki_cards\/selectable-back.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/elementary\/anki_cards\/selectable-back.html",
+		"oF": 0
+		},
+	"\/elementary\/anki_cards\/selectable-front.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/elementary\/anki_cards\/selectable-front.html",
+		"oF": 0
+		},
+	"\/elementary\/img\/_break_down.jpg": {
 		"ft": 16384,
 		"iS": 12563,
 		"oA": 1,
-		"oAP": "\/elementary\/_break_down.jpg",
+		"oAP": "\/elementary\/img\/_break_down.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_carry_on.jpg": {
+	"\/elementary\/img\/_carry_on.jpg": {
 		"ft": 16384,
 		"iS": 18115,
 		"oA": 1,
-		"oAP": "\/elementary\/_carry_on.jpg",
+		"oAP": "\/elementary\/img\/_carry_on.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_fall_over.jpg": {
+	"\/elementary\/img\/_fall_over.jpg": {
 		"ft": 16384,
 		"iS": 7702,
 		"oA": 1,
-		"oAP": "\/elementary\/_fall_over.jpg",
+		"oAP": "\/elementary\/img\/_fall_over.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_fill-in.jpg": {
+	"\/elementary\/img\/_fill-in.jpg": {
 		"ft": 16384,
 		"iS": 22503,
 		"oA": 1,
-		"oAP": "\/elementary\/_fill-in.jpg",
+		"oAP": "\/elementary\/img\/_fill-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_knock-down.jpg": {
+	"\/elementary\/img\/_knock-down.jpg": {
 		"ft": 16384,
 		"iS": 70499,
 		"oA": 1,
-		"oAP": "\/elementary\/_knock-down.jpg",
+		"oAP": "\/elementary\/img\/_knock-down.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_knock-over.jpg": {
+	"\/elementary\/img\/_knock-over.jpg": {
 		"ft": 16384,
 		"iS": 90624,
 		"oA": 1,
-		"oAP": "\/elementary\/_knock-over.jpg",
+		"oAP": "\/elementary\/img\/_knock-over.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_put-out.jpg": {
+	"\/elementary\/img\/_put-out.jpg": {
 		"ft": 16384,
 		"iS": 55592,
 		"oA": 1,
-		"oAP": "\/elementary\/_put-out.jpg",
+		"oAP": "\/elementary\/img\/_put-out.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_take_off.jpg": {
+	"\/elementary\/img\/_take_off.jpg": {
 		"ft": 16384,
 		"iS": 14139,
 		"oA": 1,
-		"oAP": "\/elementary\/_take_off.jpg",
+		"oAP": "\/elementary\/img\/_take_off.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_throw-away.jpg": {
+	"\/elementary\/img\/_throw-away.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 1,
-		"oAP": "\/elementary\/_throw-away.jpg",
+		"oAP": "\/elementary\/img\/_throw-away.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/elementary\/_wash_up.jpg": {
+	"\/elementary\/img\/_wash_up.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 1,
-		"oAP": "\/elementary\/_wash_up.jpg",
+		"oAP": "\/elementary\/img\/_wash_up.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/elementary\/card01-back.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/elementary\/card01-back.html",
-		"oF": 0
-		},
-	"\/elementary\/card01-front.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/elementary\/card01-front.html",
-		"oF": 0
-		},
-	"\/elementary\/elementary-back.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/elementary\/elementary-back.html",
-		"oF": 0
-		},
-	"\/elementary\/elementary-front.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/elementary\/elementary-front.html",
-		"oF": 0
 		},
 	"\/elementary\/js\/media_query_title.js": {
 		"ft": 64,
@@ -286,85 +302,28 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/elementary\/js\/min\/media_query_title-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/elementary\/js\/min\/min\/media_query_title-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/image-ex\/Image_for_Question.jpg": {
-		"ft": 16384,
-		"iS": 88663,
-		"oA": 0,
-		"oAP": "\/image-ex\/Image_for_Question.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/image-ex\/image_hint.jpg": {
-		"ft": 16384,
-		"iS": 126243,
-		"oA": 0,
-		"oAP": "\/image-ex\/image_hint.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/image-ex\/img_example.jpg": {
-		"ft": 16384,
-		"iS": 5350,
-		"oA": 0,
-		"oAP": "\/image-ex\/img_example.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/Image_for_Question.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/Image_for_Question.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/image_hint.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/image_hint.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img_example.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img_example.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/intermediate\/intermediate-back.html": {
+	"\/intermediate\/anki_cards\/card01-back.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/intermediate\/intermediate-back.html",
+		"oAP": "\/intermediate\/anki_cards\/card01-back.html",
 		"oF": 0
 		},
-	"\/intermediate\/intermediate-front.html": {
+	"\/intermediate\/anki_cards\/card01-front.html": {
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/intermediate\/intermediate-front.html",
+		"oAP": "\/intermediate\/anki_cards\/card01-front.html",
+		"oF": 0
+		},
+	"\/intermediate\/anki_cards\/selectable-back.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/intermediate\/anki_cards\/selectable-back.html",
+		"oF": 0
+		},
+	"\/intermediate\/anki_cards\/selectable-front.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/intermediate\/anki_cards\/selectable-front.html",
 		"oF": 0
 		},
 	"\/intermediate\/js\/medea_query_title.js": {
@@ -1046,6 +1005,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_variables-elementary.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_variables-intermediate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/823a0096c700857bfff2a201cc76dfb02fbb8ebd\/_variables-intermediate.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/85c3d22cea28e4d7ef23da5efd43e31339f9a189\/_appendixes.scssc": {

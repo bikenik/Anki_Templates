@@ -9,215 +9,28 @@
 	],
 "creatorBuild": "25813",
 "files": {
-	"\/_Appendix_2.jpg": {
-		"ft": 16384,
-		"iS": 1164890,
-		"oA": 1,
-		"oAP": "\/_Appendix_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_arrow_06B13_lines_advanced.png": {
-		"ft": 32768,
-		"iS": 1974,
-		"oA": 1,
-		"oAP": "\/_arrow_06B13_lines_advanced.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_BemboStd.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_BemboStd.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Bold.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Bold.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Lt.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Lt.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-LtIt.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-LtIt.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Regular.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Regular.ttf",
-		"oF": 0
-		},
-	"\/_CronosPro-Semibold.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_CronosPro-Semibold.ttf",
-		"oF": 0
-		},
-	"\/_Grammar_remainder_A.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_A.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_B.jpg": {
-		"ft": 16384,
-		"iS": 1269552,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_B.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_C.jpg": {
-		"ft": 16384,
-		"iS": 4568880,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_C.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_D.jpg": {
-		"ft": 16384,
-		"iS": 1094126,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_D.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_E.jpg": {
-		"ft": 16384,
-		"iS": 1427847,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_E.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_F.jpg": {
-		"ft": 16384,
-		"iS": 2108914,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_F.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_G.jpg": {
-		"ft": 16384,
-		"iS": 1475709,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_G.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_H.jpg": {
-		"ft": 16384,
-		"iS": 3703055,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_H.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_I.jpg": {
-		"ft": 16384,
-		"iS": 6744849,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_I.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_J.jpg": {
-		"ft": 16384,
-		"iS": 1871467,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_J.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_K.jpg": {
-		"ft": 16384,
-		"iS": 1644677,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_K.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_L.jpg": {
-		"ft": 16384,
-		"iS": 2143019,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_L.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_Grammar_remainder_M.jpg": {
-		"ft": 16384,
-		"iS": 3089293,
-		"oA": 1,
-		"oAP": "\/_Grammar_remainder_M.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/_TektonPro-Regular.ttf": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_TektonPro-Regular.ttf",
-		"oF": 0
-		},
-	"\/back.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/back.html",
-		"oF": 0
-		},
-	"\/card01-back.html": {
+	"\/anki_cards\/card01-back.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/card01-back.html",
+		"oAP": "\/anki_cards\/card01-back.html",
 		"oF": 0
 		},
-	"\/card01-front.html": {
+	"\/anki_cards\/card01-front.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/card01-front.html",
+		"oAP": "\/anki_cards\/card01-front.html",
+		"oF": 0
+		},
+	"\/anki_cards\/selectable-back.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anki_cards\/selectable-back.html",
+		"oF": 0
+		},
+	"\/anki_cards\/selectable-front.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anki_cards\/selectable-front.html",
 		"oF": 0
 		},
 	"\/css\/application.css": {
@@ -230,41 +43,154 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/front.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/front.html",
-		"oF": 0
-		},
-	"\/Image_for_Question.jpg": {
+	"\/img_appendixes\/_Appendix_2.jpg": {
 		"ft": 16384,
-		"iS": 88663,
-		"oA": 0,
-		"oAP": "\/Image_for_Question.jpg",
+		"iS": 1164890,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Appendix_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/image_hint.jpg": {
+	"\/img_appendixes\/_Grammar_remainder_A.jpg": {
 		"ft": 16384,
-		"iS": 126243,
-		"oA": 0,
-		"oAP": "\/image_hint.jpg",
+		"iS": 2180687,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_A.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img_example.jpg": {
+	"\/img_appendixes\/_Grammar_remainder_B.jpg": {
 		"ft": 16384,
-		"iS": 5350,
-		"oA": 0,
-		"oAP": "\/img_example.jpg",
+		"iS": 1269552,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_B.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_C.jpg": {
+		"ft": 16384,
+		"iS": 4568880,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_C.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_D.jpg": {
+		"ft": 16384,
+		"iS": 1094126,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_D.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_E.jpg": {
+		"ft": 16384,
+		"iS": 1427847,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_E.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_F.jpg": {
+		"ft": 16384,
+		"iS": 2108914,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_F.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_G.jpg": {
+		"ft": 16384,
+		"iS": 1475709,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_G.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_H.jpg": {
+		"ft": 16384,
+		"iS": 3703055,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_H.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_I.jpg": {
+		"ft": 16384,
+		"iS": 6744849,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_I.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_J.jpg": {
+		"ft": 16384,
+		"iS": 1871467,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_J.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_K.jpg": {
+		"ft": 16384,
+		"iS": 1644677,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_K.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_L.jpg": {
+		"ft": 16384,
+		"iS": 2143019,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_L.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img_appendixes\/_Grammar_remainder_M.jpg": {
+		"ft": 16384,
+		"iS": 3089293,
+		"oA": 1,
+		"oAP": "\/img_appendixes\/_Grammar_remainder_M.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/_app_front_hewings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/_app_front_hewings-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/app_back.js": {
 		"ft": 64,
@@ -272,7 +198,7 @@
 		"oA": 0,
 		"oAP": "\/js\/min\/app_back-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/app_front.js": {
@@ -281,7 +207,7 @@
 		"oA": 0,
 		"oAP": "\/js\/min\/app_front-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/app_type.js": {
@@ -319,18 +245,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/js\/Murphy-base.sublime-project": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/js\/Murphy-base.sublime-project",
-		"oF": 0
-		},
-	"\/js\/Murphy-base.sublime-workspace": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/js\/Murphy-base.sublime-workspace",
-		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_footer.scssc": {
 		"ft": 8192,
@@ -2258,7 +2172,7 @@
 "projectAttributes": {
 	"creationDate": 516110359,
 	"displayValue": "Hewings_(advanced)",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-angryPicard"
 	},
 "projectSettings": {
@@ -2656,8 +2570,8 @@
 			}
 		},
 	"esLintConfigFileHandlingType": 0,
-	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintECMAVersion": 6,
+	"esLintEnvironmentsMask": 8197,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -3925,7 +3839,7 @@
 		},
 	"jsLintFlags2": {
 		"bitwise": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"browser": {
@@ -3945,11 +3859,11 @@
 			"flagValue": -1
 			},
 		"eval": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"for": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"maxlen": {
@@ -3961,7 +3875,7 @@
 			"flagValue": -1
 			},
 		"this": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"white": {

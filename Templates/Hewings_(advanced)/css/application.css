@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*==================================== 
-   Anki Template v1.2.0 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
+   Anki Template v1.2.1 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
 /*==================================== 
 Copyright (c) 2017 by bikeNik (https://github.com/bikenik)
@@ -716,7 +716,7 @@ blockquote {
   background: #f7deb7; }
 
 .table_answer {
-  display: inline-table;
+  display: inline-block;
   background-color: white;
   max-width: 70%;
   height: -webkit-min-content;
