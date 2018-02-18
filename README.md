@@ -183,4 +183,4 @@ Optional <br>
 ! If them several then - by a new row each sound.
 
 > ![](./readmeImg/example_sound_hint.png)
-
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
