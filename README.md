@@ -1,4 +1,4 @@
-# Anki Theme 
+# Anki Theme  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
 ## Learning English grammar with Anki: Themes for Raymond Murphy’s system books and not only.
 - [Some necessary operations](#some-necessary-operations-for-this-template)
 - [Optional recommended](#optional-recommended)
@@ -183,4 +183,4 @@ Optional <br>
 ! If them several then - by a new row each sound.
 
 > ![](./readmeImg/example_sound_hint.png)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
+
