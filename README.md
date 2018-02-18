@@ -1,9 +1,11 @@
-# Anki Theme  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
+# Anki Theme 
 ## Learning English grammar with Anki: Themes for Raymond Murphy’s system books and not only.
 - [Some necessary operations](#some-necessary-operations-for-this-template)
 - [Optional recommended](#optional-recommended)
 - [Card Fields](#card-fields)
 - [Notes](#notes)
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
 
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
