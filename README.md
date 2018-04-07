@@ -5,8 +5,6 @@
 - [Card Fields](#card-fields)
 - [Notes](#notes)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
-
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
 The template is built in html, javascript and css. Include fields: audio, transcriptions.
@@ -185,4 +183,4 @@ Optional <br>
 ! If them several then - by a new row each sound.
 
 > ![](./readmeImg/example_sound_hint.png)
-
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
