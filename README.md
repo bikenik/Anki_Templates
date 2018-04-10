@@ -1,9 +1,33 @@
-# Anki Theme 
-## Learning English grammar with Anki: Themes for Raymond Murphy’s system books and not only.
-- [Some necessary operations](#some-necessary-operations-for-this-template)
-- [Optional recommended](#optional-recommended)
-- [Card Fields](#card-fields)
-- [Notes](#notes)
+#Anki Theme 
+Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
+
+=================
+
+   * [Some notes from official site.](#some-notes-from-official-site)
+     * [<a href="https://apps.ankiweb.net/docs/manual.html#downloading-shared-decks" rel="nofollow">Self-made versus pre-made</a>](#self-made-versus-pre-made)
+     * [Notes](#notes)
+  * [Card Types](#card-types)
+     * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
+     * [Optional recommended](#optional-recommended)
+  * [Card Fields](#card-fields)
+     * [✔ID:](#id)
+     * [✔№ Unit:](#-unit)
+     * [✔ Unit Name:](#-unit-name)
+     * [✔♞Exercise:](#exercise)
+     * [✔☛ Question:](#-question)
+     * [★ Selectable choices (separate note type)](#-selectable-choices-separate-note-type)
+     * [♫ Answer](#-answer)
+     * [✎ Choices](#-choices)
+     * [✎ Add Words 1 box and ✎ Add Words 2 box](#-add-words-1-box-and--add-words-2-box)
+     * [♫ Question](#-question-1)
+     * [♟ Example](#-example)
+     * [»»♻«« Image for Question](#-image-for-question)
+     * [♨ Hint Front](#-hint-front)
+     * [♫ Hint Front](#-hint-front-1)
+     * [♨ Hint Back](#-hint-back)
+     * [♫ Hint Back](#-hint-back-1)
+ * [Technical note!](#technical-note)
+ * [Donate](#donate)
 
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
@@ -88,6 +112,18 @@ This field is button also. By the tap on this field `♟ Example` field opens
 
 > ![back side view](./readmeImg/sound_into_question.png)
 You can add sound into this field: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}`.
+
+###	★ Selectable choices (separate note type)
+**(available only for [base] type of card)**
+
+Optional
+
+- Choose from the suggested answers.
+- The correct answer can be one or more.
+- if the number of selected fields is more or less than the correct ones, any of the answers is not correct.
+- filling this field must correspond to the following (divide the variants through this character "|"): `variant-1 | <i>variant-2</i> | variant-3`
+
+	![Preview gif](./readmeImg/Selectable_peview.png)
 
 ### ♫ Answer
 Optional (on the back side of card)
@@ -184,3 +220,52 @@ Optional <br>
 
 > ![](./readmeImg/example_sound_hint.png)
 
+### Technical note!
+
+
+There is a little, but noticeable difference in the display of the font (line-height) in comparison with Anki 2.0 and Anki 2.1. 
+
+For 2.1 no changes require. For correct display of button in Anki 2.0 add the following code in the edit mode, in  "Styling" field to the edn of this section.
+
+For templates "Elementary" ang "Intermediate":
+```CSS 
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+```
+For template "Advanced":
+```css
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+.appendixes {
+ margin-top: -340px;
+}
+```
+### Donate
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)

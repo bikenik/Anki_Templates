@@ -1,6 +1,7 @@
 /*==================================== 
-   Anki Template v1.2.1 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
+   Anki Template v1.2.2 / https://github.com/bikenik/Anki_Templates/tree/bikeNik-feature-branch/Templates/Murphy_(elementary)
 =====================================*/
+
 /*==================================== 
 Copyright (c) 2017 by bikeNik (https://github.com/bikenik)
 
@@ -10,16 +11,40 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 =====================================*/
+
+/*==================================== 
+
+!!! A LITTLE SETTINGS FOR DIFFERENT WAYS TO DISPLAY THE "FONT LINE-HEIGHT OF BUTTON"
+
+CHANGE FOR ANKI 2.0*
+paste this code to the end of this section: 
+
+
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+=====================================*/
+
 // Center text
 %centered {
-	text-align: center;
+    text-align: center;
 }
 
 // Align
-
 %alignBase {
-	position: relative;
-	margin: 0px auto;
-	align-items: center;
-	text-align: center;
+    position: relative;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
 }

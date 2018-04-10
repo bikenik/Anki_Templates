@@ -1,165 +1,160 @@
 /*******************************************
  * values of variables from the front side Selectable:
- * 		sequentian, result, 
+ * 		sequentian, result,
  * function from the front side Selectable:
  * 		shuffle()
  *
- * It works only without {{FrontSide}} field on the back template.
+ * ! These variables is available only without "{FrontSide}" tag. on the Back template!
+ * ! Don't care about of this message in edit mode:
+ * "Invalid HTML on card: ReferenceError: shuffle is not defined"
+ * it happens because the variable "shuffle" defined on the front side of the card. And is only available after displaying the front side.
+
+!!!! These rules not been tested on the AnkiDroid !!!!
  ******************************************/
-// var sequential = ["'7'", "<i>7</i>", "Syntax Error", "<i>Nan</i>"]; //to comment for Anki
-// var result = [1]; //to comment for Anki
-/*=================================================
-=            DIVIDE BY ( "|") FOR TEST            =
-=================================================*/
-// var examples = $("#selectbox")[0];
-// var letters = ["A", "B", "C", "D", "E", "F", 'G'];
-// //result.length = sequential.length;
-// function divide(target) {
-// 	var re = /\s*\|\s*/;
-// 	var choices = target.innerHTML;
-// 	// boxes = choices.split(re); //to uncomment for Anki back side
-// 	// boxes = shuffle(boxes);    //to uncomment for Anki back side
-// 	boxes = sequential;
-// 	var list = "";
-// 	list = list + '<ul id="selectable">';
-// 	for (var i = 0; i < boxes.length; i++) {
-// 		list = list + '<li class="ui-widget-content">' + '<strong class="abc">' + letters[i] + '</strong>' + '<div class="div-content">' + boxes[i] + '</div>'+ '</li>';
-// 	}
-// 	list = list + "</ul>";
-// 	target.innerHTML = list;
-// }
-// /*=====  End of DIVIDE BY ( "|") FOR TEST  ======*/
-var title = document.querySelector('.title');
-var rightAnswers = document.querySelector('.right-answers');
-var button = document.getElementsByTagName('button')[0];
 
 /*================================================
-=            DIVIDE BY ( "|") TO ANKI            = to uncomment for Anki back side
+=            DIVIDE BY ( "|") TO ANKI            = 
 ================================================*/
-var examples = $("#selectbox")[0];
-if (!result) {
-	var result = [];
-}
-var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-
 function divide(target) {
-	var re = /\s*\|\s*/;
-	var choices = target.innerHTML;
-	var boxes = choices.split(re);
-	boxes = shuffle(boxes);
-	boxes = sequential;
-	var list = "";
-	list = list + '<ul id="selectable">';
-	for (var i = 0; i < boxes.length; i++) {
-		list = list + '<li class="ui-widget-content">' + '<strong class="abc">' + letters[i] + '</strong>' + '<div class="div-content">' + boxes[i] + '</div>' + '</li>';
+	target.innerHTML = target.innerHTML.replace(
+		/(\s*\/<span class="Apple-tab-span" style="white-space:pre"> <\/span>\s*)/g,
+		''
+	)
+	target.innerHTML = target.innerHTML.replace(/(>\|<)/g, '> | <')
+	target.innerHTML = target.innerHTML.replace(/(&nbsp;\|&nbsp;)/g, ' | ')
+	target.innerHTML = target.innerHTML.replace(/(>\|&nbsp;)/g, '> | ')
+	target.innerHTML = target.innerHTML.replace(/(>\|\s)/g, '> | ')
+	target.innerHTML = target.innerHTML.replace(/(>&nbsp;\|\s)/g, '> | ')
+	target.innerHTML = target.innerHTML.replace(/(\s*\s\|\s\s*)/g, '</div> | ')
+	target.innerHTML = target.innerHTML.replace(
+		/\s*<\/div>\|\/<\/div>s*/g,
+		'</div> | '
+	)
+	var re = /\s*\s\|\s\s*/,
+		choices = target.innerHTML,
+		boxes = choices.split(re)
+		; (boxes = shuffle(boxes)), (boxes = sequential)
+	var list = ''
+	list += '<ul id="selectable">'
+	for (var r = 0; r < boxes.length; r++) {
+		list =
+			list +
+			'<li class="ui-widget-content"><strong class="abc">' +
+			alphabet[r].toUpperCase() +
+			'</strong><div class="div-content">' +
+			boxes[r] +
+			'</div></li>'
 	}
-	list = list + "</ul>";
-	target.innerHTML = list;
+	list += '</ul>'
+	target.innerHTML = list
 }
+
+var examples = document.getElementById('selectbox')
+/**
+ * REGEX: excludes "[A-Z] at the beginning of each line for copy from teamtreehouse.com"
+ */
+var match = examples.innerHTML
+match = match.replace(
+	/([A-Z])(<span\sclass="Apple-tab-span"\sstyle="white-space:pre">\s<\/span>)(.+?)/g,
+	' | $3'
+)
+if (match !== examples.innerHTML) {
+	match = match.replace(/\|/m, '')
+	examples.innerHTML = match
+}
+/*----------  end  ----------*/
+
+var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+divide(examples)
 /*=====  End of DIVIDE BY ( "|") TO ANKI  ======*/
-divide(examples);
-/*----------------------------*/
-window.scrollTo(0, 0);
-if (result !== undefined) {
-	var lengthRe = result.length;
-}
-var value;
-var counter = 0;
-var newResult = [];
-var ok = true;
-for (var z = 0; z < lengthRe; z++) {
-	for (i = 0; i < sequential.length; i++, counter++) {
-		value = result[z];
-		if (value === i) {
-			newResult[i] = i;
-			console.log("hello");
-		}
-		else {
-			console.log("by");
-			if (typeof (newResult[i]) !== "number") {
-				newResult[i] = "";
-			}
-		}
-	}
-}
-divide(examples);
-var correctArr = [];
-var italic;
-var correct = 0;
-var selectbox = $("#selectbox.back");
-var abcGutter = $(".ui-widget-content");
-// var abcGutter = $(".abc");
-var rowsOfSelectbox = $("#selectable li");
-// var abcGutter = $(".ui-widget-content");
-for (var i = 0; i < abcGutter.length; i++) {
-	italic = rowsOfSelectbox[i].innerHTML.match(/\<([\/i]*)\>/);
-	console.log("count");
-	if (italic) {
-		correct++;
-		console.log("italic");
-		correctArr.push(i);
-		if (i === newResult[i]) {
-			abcGutter[newResult[i]].classList.add("active-right");
-			rowsOfSelectbox[newResult[i]].classList.add("active-selecting");
-			// rowsOfSelectbox[newResult[i]].style.backgroundColor = "white";
-			var m = i;
-			ok = false;
-		}
-	}
-	else if (italic === null && abcGutter[newResult[i]] !== undefined) {
-		abcGutter[newResult[i]].classList.add("active-wrong");
-		rowsOfSelectbox[newResult[i]].classList.add("active-selecting");
-		// rowsOfSelectbox[newResult[i]].style.backgroundColor = "white";
-	}
+
+
+window.scrollTo(0, 0)
+/*================================================
+=            Processing of the relult           =
+================================================*/
+// var idTrue = document.getElementById('true'),
+// idFalse = document.getElementById('false')
+var value,
+	counter = 0,
+	newResult = [],
+	ok = true
+
+divide(examples)
+
+var correctArr = [],
+	italic,
+	correct = [],
+	selectbox = document.querySelectorAll('#selectbox.back'),
+	abcGutter = document.getElementsByClassName('ui-widget-content'),
+	rowsOfSelectbox = document.querySelectorAll('#selectable li')
+
+function clearClassName(el) {
+	el.classList.remove('active-right')
+	el.classList.remove('active-wrong')
 }
 
-function sortRightAnwers() {
-	for (var i = 0; i < result.length; i++) {
-		if (result[i] !== correctArr[i] || result.length !== correct) {
-			for (var i = 0; i < result.length; i++) { //ui-widget-content active-right active-selecting active-wrong
-				if (abcGutter[result[i]].classList[1] === "active-right") {
-					abcGutter[result[i]].classList.remove("active-right");
-				}
-				rowsOfSelectbox[result[i]].classList.add("active-selecting");
-				// rowsOfSelectbox[result[i]].style.backgroundColor = "white";
-				abcGutter[result[i]].classList.add("active-wrong");
-			}
-			ok = true;
+for (var i = 0; i < rowsOfSelectbox.length; i++) {
+	var anchor = rowsOfSelectbox[i].innerHTML.match(/\<([\/i]*)\>/)
+	if (anchor !== null) {
+		correct.push(i)
+	}
+	for (var z = 0; z < result.length; z++) {
+		if (anchor !== null && anchor[1] === 'i' && i === result[z]) {
+			abcGutter[i].classList.add('active-right')
+			console.log('right index: ', i)
+		}
+		if (anchor === null && i === result[z]) {
+			abcGutter[i].classList.add('active-wrong')
+			ok = false
 		}
 	}
 }
-if (result) {
-	sortRightAnwers();
+if (correct.length !== result.length || result.length === 0) {
+	ok = false
 }
+if (!ok) {
+	for (var i = 0; i < rowsOfSelectbox.length; i++) {
+		if (abcGutter[i].className === 'ui-widget-content active-right') {
+			abcGutter[i].classList.remove('active-right')
+			abcGutter[i].classList.add('active-wrong')
+		}
+	}
+	// idFalse.classList.add('active')
+	selectbox[0].classList.add('active-selectbox')
 
-if (result && ok) {
-	selectbox[0].classList.add('active-selectbox');
+	/* Additional Quize by click*/
 	selectbox[0].onclick = function () {
-		selectbox[0].style.border = "dashed 0.15em #F39814";
-			if (this.className !== "back"){
-				this.classList.toggle('active-selectbox');
-					for (var i = 0; i < abcGutter.length; i++) {
-						// if (rowsOfSelectbox[i].classList[1] === "active-selecting") {
-							rowsOfSelectbox[i].classList.remove("active-selecting");
-					// }
-						// rowsOfSelectbox[i].style.backgroundColor = null;
-						abcGutter[i].classList.remove("active-wrong");
-				}
-					for (var i = 0; i < correctArr.length; i++) {
-						rowsOfSelectbox[correctArr[i]].classList.add("active-selecting");
-						// rowsOfSelectbox[correctArr[i]].style.backgroundColor = "white";
-						abcGutter[correctArr[i]].classList.toggle("active-right");
-						abcGutter[correctArr[i]].classList.remove("active-wrong");
-				}
-		} 
-		else{
-				for (var i = 0; i < abcGutter.length; i++) {
-						rowsOfSelectbox[i].classList.remove("active-selecting");
-						// rowsOfSelectbox[i].style.backgroundColor = null;
-						abcGutter[i].classList.remove("active-right");
+		selectbox[0].style.border = 'dashed 0.15em #F39814'
+		if (this.className === 'back active-selectbox') {
+			// idFalse.classList.remove('active')
+			// idTrue.classList.add('active')
+			selectbox[0].classList.remove('active-selectbox')
+			for (var i = 0; i < abcGutter.length; i++) {
+				clearClassName(abcGutter[i])
+				for (var cor = 0; cor < correct.length; cor++) {
+					if (i === correct[cor]) {
+						abcGutter[i].classList.add('active-right')
 					}
-				sortRightAnwers();
-				this.classList.toggle('active-selectbox');
+				}
+			}
+		} else {
+			selectbox[0].classList.add('active-selectbox')
+			// idTrue.classList.remove('active')
+			// idFalse.classList.add('active')
+			for (var i = 0; i < abcGutter.length; i++) {
+				clearClassName(abcGutter[i])
+				for (var res = 0; res < result.length; res++) {
+					if (i === result[res]) {
+						abcGutter[i].classList.add('active-wrong')
+					}
+				}
+			}
 		}
-	};
+	}
+}
+
+if (ok) {
+	// idTrue.classList.add('active')
+	selectbox[0].classList.remove('active-selectbox')
 }

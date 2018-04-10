@@ -8,7 +8,7 @@ if (el) {
     if (event.target.textContent !== '' && 
         event.target.textContent !== 'Replay') {
       exampleAnswerHide.classList.toggle('active');
-      console.log(event.target);
+      // console.log(event.target);
     }
   };
 }
@@ -295,7 +295,7 @@ materialIcons.onclick = function () {
 var buttonGambur = document.querySelector('.gamb-wrap'); // change for back side add "_back"
 if (document.querySelector('.gamb-wrap-back')) {
   buttonGambur = document.querySelector('.gamb-wrap-back');
-  console.log('YEAH');
+  // console.log('YEAH');
 }
 buttonGambur.onclick = function () {
   if (header.style.maxHeight === '500px') {

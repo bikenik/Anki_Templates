@@ -7,27 +7,31 @@
 		"uuidString": "A96A6E5F-9B17-4E02-8D78-71754AC51174"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26680",
 "files": {
 	"\/anki_cards\/card01-back.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/anki_cards\/card01-back.html",
 		"oF": 0
 		},
 	"\/anki_cards\/card01-front.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/anki_cards\/card01-front.html",
 		"oF": 0
 		},
 	"\/anki_cards\/selectable-back.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/anki_cards\/selectable-back.html",
 		"oF": 0
 		},
 	"\/anki_cards\/selectable-front.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/anki_cards\/selectable-front.html",
@@ -46,6 +50,7 @@
 	"\/img_appendixes\/_Appendix_2.jpg": {
 		"ft": 16384,
 		"iS": 1164890,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Appendix_2.jpg",
 		"oF": 0,
@@ -56,6 +61,7 @@
 	"\/img_appendixes\/_Grammar_remainder_A.jpg": {
 		"ft": 16384,
 		"iS": 2180687,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_A.jpg",
 		"oF": 0,
@@ -66,6 +72,7 @@
 	"\/img_appendixes\/_Grammar_remainder_B.jpg": {
 		"ft": 16384,
 		"iS": 1269552,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_B.jpg",
 		"oF": 0,
@@ -76,6 +83,7 @@
 	"\/img_appendixes\/_Grammar_remainder_C.jpg": {
 		"ft": 16384,
 		"iS": 4568880,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_C.jpg",
 		"oF": 0,
@@ -86,6 +94,7 @@
 	"\/img_appendixes\/_Grammar_remainder_D.jpg": {
 		"ft": 16384,
 		"iS": 1094126,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_D.jpg",
 		"oF": 0,
@@ -96,6 +105,7 @@
 	"\/img_appendixes\/_Grammar_remainder_E.jpg": {
 		"ft": 16384,
 		"iS": 1427847,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_E.jpg",
 		"oF": 0,
@@ -106,6 +116,7 @@
 	"\/img_appendixes\/_Grammar_remainder_F.jpg": {
 		"ft": 16384,
 		"iS": 2108914,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_F.jpg",
 		"oF": 0,
@@ -116,6 +127,7 @@
 	"\/img_appendixes\/_Grammar_remainder_G.jpg": {
 		"ft": 16384,
 		"iS": 1475709,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_G.jpg",
 		"oF": 0,
@@ -126,6 +138,7 @@
 	"\/img_appendixes\/_Grammar_remainder_H.jpg": {
 		"ft": 16384,
 		"iS": 3703055,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_H.jpg",
 		"oF": 0,
@@ -136,6 +149,7 @@
 	"\/img_appendixes\/_Grammar_remainder_I.jpg": {
 		"ft": 16384,
 		"iS": 6744849,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_I.jpg",
 		"oF": 0,
@@ -146,6 +160,7 @@
 	"\/img_appendixes\/_Grammar_remainder_J.jpg": {
 		"ft": 16384,
 		"iS": 1871467,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_J.jpg",
 		"oF": 0,
@@ -156,6 +171,7 @@
 	"\/img_appendixes\/_Grammar_remainder_K.jpg": {
 		"ft": 16384,
 		"iS": 1644677,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_K.jpg",
 		"oF": 0,
@@ -166,6 +182,7 @@
 	"\/img_appendixes\/_Grammar_remainder_L.jpg": {
 		"ft": 16384,
 		"iS": 2143019,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_L.jpg",
 		"oF": 0,
@@ -176,6 +193,7 @@
 	"\/img_appendixes\/_Grammar_remainder_M.jpg": {
 		"ft": 16384,
 		"iS": 3089293,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img_appendixes\/_Grammar_remainder_M.jpg",
 		"oF": 0,
@@ -183,17 +201,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/js\/_app_front_hewings.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/_app_front_hewings-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/app_back.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/app_back-min.js",
@@ -203,6 +213,7 @@
 		},
 	"\/js\/app_front.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/app_front-min.js",
@@ -212,6 +223,7 @@
 		},
 	"\/js\/app_type.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/app_type-min.js",
@@ -221,6 +233,7 @@
 		},
 	"\/js\/min\/app_back-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/app_back-min-min.js",
@@ -230,6 +243,7 @@
 		},
 	"\/js\/min\/app_front-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/min\/app_front-min-min.js",
@@ -239,6 +253,7 @@
 		},
 	"\/js\/min\/app_type-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/app_type-min-min.js",
@@ -247,1242 +262,1449 @@
 		"tS": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/06efea9fb9f63bc03247369f81a92884c92c70b2\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/0a5cd12dca85be78f8bc626565c0c60a8209648a\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/0a5cd12dca85be78f8bc626565c0c60a8209648a\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/0efa3f2069297880d95c5450896dfdd6e14500ef\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/0efa3f2069297880d95c5450896dfdd6e14500ef\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/140fdd51c281007935a477b1d3db6bd6c9ae38ce\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/16c45ee9486b05b704ba64de22906be8f9b16f63\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/1af03034b0818b27e16a5ff1c10e07a1c51f4105\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/262adcdcb9cd7d46d166d536e5645a0bf4455976\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/39b9470dde4abde2e3fd26e17ce89331d98962f7\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3c0ea9b3158472435d9ca63c010c62821acbc507\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3c0ea9b3158472435d9ca63c010c62821acbc507\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/3fb1fa4ea8265b7fe2bdf7b5cecea0191ceac791\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/40d6cfacfd8944c240cd15aaf5374dfeaa5bf48c\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/40d6cfacfd8944c240cd15aaf5374dfeaa5bf48c\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/_style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/_style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/4349e8390c1e74a6f6f53079e62393803b31c6a3\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/4f5e6183afb2c8b06c51cada78586c7dbe05e14e\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_hamburgers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_hamburgers.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57b5ecebb45c55a8a735533665e092c7a385a018\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/5854a6f0e8f894f02013418182aaae4652fdfa2b\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/6068fa717a2dcce90f54d92adb89da80a86244e9\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/6068fa717a2dcce90f54d92adb89da80a86244e9\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/60c6f32fed4bccea2a7ebdf77524e2a424c093b2\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/60c6f32fed4bccea2a7ebdf77524e2a424c093b2\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/68d7ed1bd198658ad2c4edfc4d9c2a9e5a1536f1\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/6e795fcc173df238e4cf1dfaf574036c80bf90dc\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/6e795fcc173df238e4cf1dfaf574036c80bf90dc\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7cdb0b9d3bac6c1a6eef96ae527dc7d42927bb10\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/86ec26b34123cc19f7c5606f4b045b055267fcc2\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/8cbaea1a446e4ede0372b8782181f8466397c689\/_arrowalt-r.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/8cbaea1a446e4ede0372b8782181f8466397c689\/_arrowalt-r.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/8cbaea1a446e4ede0372b8782181f8466397c689\/_arrowalt.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/8cbaea1a446e4ede0372b8782181f8466397c689\/_arrowalt.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/a3e36c13af21299c5013a2423a78044e06ce777e\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b514674dde9d0072fe0354c4c323ad52f7806c27\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/bc1c7994aedea0e9375a9299b5e32514c972ad1b\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c2f84f255fea6761cc5e3df4050ff69966a8c8af\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c56764d28688f1e240e22c1513a5d854ae83bc3f\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c6ae55cae154153a8a6427a22f141ec8518d4a7c\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c92e20a6a0f8b39fc35719311f451074793915a0\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/cd7ee543d238d9a3df7e7d31cc9b1094470e0c7a\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/cd7ee543d238d9a3df7e7d31cc9b1094470e0c7a\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d55007896106669be64a58ae65bf3f80a154bf3f\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e0ec8900508311b02e57ad5977c66c10209f21a2\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_base.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e20b727d11325fa180e16d92f41fa30570076952\/_variables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e2c5c671536b8b5156a2b6ef54bfe58410fd0c29\/application.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/e2c5c671536b8b5156a2b6ef54bfe58410fd0c29\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_simpleGrid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_simpleGrid.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/e483eb493ea61d544d25c26e17f1333d7a1239af\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_cardMain.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_cardMain.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_input.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_input.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_tables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ea3d67b8af10ee13e735dae2401407b60a9ed254\/_tables.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_appendixes.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_appendixes.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_extended.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_extended.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_images.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_index.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_index.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_modalWindows.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_modalWindows.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_responsive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_responsive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/edea73577662d8ed5c2e18888be9c0b9f7ab8306\/_typography.scssc",
@@ -2173,7 +2395,8 @@
 	"creationDate": 516110359,
 	"displayValue": "Hewings_(advanced)",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-angryPicard"
+	"iconImageName": "meme-angryPicard",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2181,6 +2404,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2577,6 +2801,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -2584,6 +2812,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -2681,6 +2913,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -2697,9 +2933,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -2724,6 +2968,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2757,9 +3005,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2789,6 +3037,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2798,14 +3050,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2828,6 +3072,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -3373,6 +3621,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -3441,6 +3693,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -3480,6 +3736,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -3893,7 +4153,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3926,6 +4187,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3937,6 +4199,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -3967,7 +4230,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3999,13 +4263,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4014,7 +4278,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4034,7 +4299,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4062,7 +4328,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -4109,9 +4376,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

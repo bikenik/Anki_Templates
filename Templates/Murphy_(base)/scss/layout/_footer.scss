@@ -1,23 +1,24 @@
 /*==================================== 
   Footer
 =====================================*/
+
 footer#front {
-	margin-top: .2em;
-	height: auto;
+    margin-top: .2em;
+    height: auto;
 }
 
 footer#back {
-	margin-top: 5%;
-	height: auto;
+    margin-top: 5%;
+    height: auto;
 }
 
 .deck {
-	position: relative;
-	align-items: center;
-	text-align: center;
-	color: $color-border-light;
-//	padding-bottom: 100px;
-	padding-top: 7px;
-	bottom: 4px;
-	text-align: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: $color-border-light;
+    //	padding-bottom: 100px;
+    padding-top: 7px;
+    bottom: 4px;
+    text-align: center;
 }

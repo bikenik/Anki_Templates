@@ -1,9 +1,34 @@
 # Anki Theme 
-## Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
-- [Некоторые необходимые действия](#some-necessary-operations-for-this-template)
-- [Опциональные рекомендации](#optional-recommended)
-- [Поля карты](#card-fields)
-- [Дополнительные примечания](#notes)
+Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
+
+
+=================
+
+  * [Некоторые записи с официального сайта.](#Некоторые-записи-с-официального-сайта)
+  * [Notes](#notes)
+  * [Тип Карты](#Тип-Карты)
+     * [Опциональные рекомендации](#Опциональные-рекомендации)
+  * [Card Fields](#card-fields)
+     * [✔ID:](#id)
+     * [№ Unit:](#-unit)
+     * [✔ Unit Name:](#-unit-name)
+     * [✔♞Exercise:](#exercise)
+     * [✔☛ Question:](#-question)
+     * [★ Selectable choices (отдельный тип записи)](#-selectable-choices-отдельный-тип-записи)
+     * [♫ Answer](#-answer)
+     * [✎ Choices](#-choices)
+     * [✎ Add Words 1 box and ✎ Add Words 2 box](#-add-words-1-box-and--add-words-2-box)
+     * [♫ Question](#-question-1)
+     * [♟ Example](#-example)
+     * [»»♻«« Image for Question](#-image-for-question)
+     * [♨ Hint Front Image (XXL)](#-hint-front-image-xxl)
+     * [♨ Hint Front Text](#-hint-front-text)
+     * [♫ Hint Front](#-hint-front)
+     * [♨ Hint Back](#-hint-back)
+     * [♫ Hint Back](#-hint-back-1)
+     * [♨ Hint Back Text](#-hint-back-text)
+ * [Техническая заметка](#Техническая-заметка)
+ * [Donates](#donates)
 
 Эти шаблоны для Anki сделают ваши колоды по Англйской грамматике немного более эффективными. [Anki метод](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
@@ -11,7 +36,7 @@
 
 
 #### Некоторые записи с официального сайта.
-> #####[Самостоятельно изготовленные колоды лучше полученных готовыми](http://finpapa.ucoz.ru/ankitest-manual.html#adding-material)
+> [Самостоятельно изготовленные колоды лучше полученных готовыми](http://finpapa.ucoz.ru/ankitest-manual.html#adding-material)
 Создание ваших собственных колод карточек является наиболее эффективным путём для заучивания сложного предмета.
 >>Для результативного освоения иностранных языков или точных наук недостаточно простого запоминания — требуется всему находить своё объяснение и свой контекст. Более того, самостоятельный ввод информации позволяет вам найти в ней ключевые моменты, ведущие к лучшему пониманию происходящего.
 
@@ -30,10 +55,12 @@
 Данный шаблон позволяет создавать вам собственные сценарии обучения. 
 
 ### Notes
-> - Каждая версия программы Anki может реализовывать показ карточек различным образом (особенно на разных платформах), поэтому вы должны каждый раз тщательно тестировать поведение карточек в различной среде. Тем не менее.<br>
-На данный момент было протестировано только для Mac clients (desctop and iPad). Но была сделана адаптивная верстка для iPhone версий. Так же протестировалось на Windows 10 (desctop) last version Anki.
-- При определенной практике (используйте хот кеи (shift+command+C и shift+alt+command+C для скрытия слов), ставьте галку на полях “Помнить последние введенные данные”) заполнение карточек из одного юнита не занимает более 20 минут.
-- Для тех кто знаком с версткой и методологией SMACSS - GitHub.
+> - Каждая версия программы Anki может реализовывать показ карточек различным образом (особенно на разных платформах), поэтому вы должны каждый раз тщательно тестировать поведение карточек в различной среде. 
+<br>
+**Тем не менее**: <br>
+На данный момент было протестировано только Mac clients (desctop and iPad) и Windows. Была сделана адаптивная верстка для iPhone версий.
+- Автоматизировать занесение данных из книг (PDF), технически не представляется возможным. Во всяком случае, в том виде под который создавался шаблон. Универсального метода автоматизировать занесение данных, для любой книги по грамматике, не получится. А шаблон задумывался как универсальное решение и не ограничивается только лишь книгами Murphy.
+- При определенной практике (используйте хот кеи (shift+command+C и shift+alt+command+C для скрытия слов), ставьте галку на полях “Помнить последние введенные данные”) заполнение карточек из одного юнита не должно занимать более 10-15 минут, без учета времени на изучение.
 
 ## Тип Карты
 тип карты<br>
@@ -217,3 +244,48 @@ Optional <br>
 ### ♨ Hint Back Text
 optional (скрытое поле под кнопкой)<br>
 > Используется для вставки текста (html, таблицы, цитаты, список и т.д.)
+
+### Техническая заметка!
+Есть небольшое, но заметное различие в отображении высоты выравнивания текста по сравнению с Anki 2.0 и Anki 2.1
+Для 2.1 ничего менять не требуется. Для корректного отображения кнопок в Anki 2.0 в режиме "edit" в поле "Styling" в самом конце вставьте следующий код: 
+
+Для шаблонов - "Elementary" и "Intermediate":
+```CSS 
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+```
+Для шаблона - "Advanced":
+```css
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+.appendixes {
+ margin-top: -340px;
+}
+```
+### Donates
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)

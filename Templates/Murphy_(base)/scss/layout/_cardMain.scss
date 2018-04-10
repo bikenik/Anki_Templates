@@ -158,10 +158,10 @@
 }
 
 .table_answer{
-	// display: inline-table;
-	display: inline-block;
+	display: block;
 	background-color: white;
-	max-width: 70%;
+	width: 70%;
+	max-width: 910px;
 	height: min-content;
 	margin: 10px auto 0;
 	box-sizing: border-box;
@@ -175,17 +175,16 @@
 	overflow-x: auto;
 	  -webkit-overflow-scrolling: touch; /* lets it scroll lazy */
 		@media #{$brk-iPhone6sPlus-wide}{
-			max-width: 80%;
+			width: 80%;
 		}
 		@media #{$brk-iPhone6sPlus-portrait} {
-			max-width: 100%;
+			width: 100%;
 		}
 }
 .td_back {
 //	display: inline-block;
-//	overflow-y: auto;
-//	width: 70%;
-	max-width: 910px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
 	padding: .5em;
 	padding-bottom: 5px;
 	margin: 0 auto;
