@@ -247,8 +247,9 @@ optional (скрытое поле под кнопкой)<br>
 
 ### Техническая заметка!
 Есть небольшое, но заметное различие в отображении высоты выравнивания текста по сравнению с Anki 2.0 и Anki 2.1
-Для корректного отображения кнопок в Anki 2.0 в режиме "edit" в поле "Styling" в самом конце вставьте следующий код: 
+Для 2.1 ничего менять не требуется. Для корректного отображения кнопок в Anki 2.0 в режиме "edit" в поле "Styling" в самом конце вставьте следующий код: 
 
+Для шаблонов - "Elementary" и "Intermediate":
 ```CSS 
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
@@ -263,6 +264,26 @@ optional (скрытое поле под кнопкой)<br>
 .win .material-icons,
 .mac .material-icons {
     line-height: 168%;
+}
+```
+Для шаблона - "Advanced":
+```css
+.win #overlay_title #p_button,
+.mac #overlay_title #p_button {
+  line-height: 120%; 
+}
+
+.mac .overlay .p_app_button,
+.win .overlay .p_app_button {
+   line-height: 180%; 
+}
+
+.win .material-icons,
+.mac .material-icons {
+    line-height: 168%;
+}
+.appendixes {
+ margin-top: -340px;
 }
 ```
 ### Donates
