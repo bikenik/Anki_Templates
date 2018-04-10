@@ -220,6 +220,7 @@ Optional <br>
 
 > ![](./readmeImg/example_sound_hint.png)
 
+<<<<<<< HEAD
 ### Technical note!
 
 
