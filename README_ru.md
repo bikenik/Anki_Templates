@@ -28,7 +28,7 @@ Table of Contents
      * [♫ Hint Back](#-hint-back-1)
      * [♨ Hint Back Text](#-hint-back-text)
  * [Техническая заметка](#Техническая-заметка)
- * [donates](#donates)
+ * [Donates](#Donates)
 
 Эти шаблоны для Anki сделают ваши колоды по Англйской грамматике немного более эффективными. [Anki метод](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
@@ -265,5 +265,5 @@ optional (скрытое поле под кнопкой)<br>
     line-height: 168%;
 }
 ```
-### Donate
+### Donates
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VGQSA6T7M8YD8)
