@@ -1,6 +1,6 @@
 # Anki Theme 
-Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
-
+### Learning English grammar with Anki: 
+Themes for Raymond Murphy’s system books and not only.
 
 =================
 
