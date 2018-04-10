@@ -1,9 +1,34 @@
 # Anki Theme 
 ## Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
-- [Некоторые необходимые действия](#some-necessary-operations-for-this-template)
-- [Опциональные рекомендации](#optional-recommended)
-- [Поля карты](#card-fields)
-- [Дополнительные примечания](#notes)
+
+Table of Contents
+=================
+
+   * [Anki Theme](#anki-theme)
+      * [Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.](#Изучайте-Английскую-грамматику-с-anki-Шаблоны-для-книг-по-системе-murphy-и-не-только)
+            * [Некоторые записи с официального сайта.](#Некоторые-записи-с-официального-сайта)
+         * [Notes](#notes)
+      * [Тип Карты](#Тип-Карты)
+         * [Опциональные рекомендации](#Опциональные-рекомендации)
+      * [Card Fields](#card-fields)
+         * [✔ID:](#id)
+         * [№ Unit:](#-unit)
+         * [✔ Unit Name:](#-unit-name)
+         * [✔♞Exercise:](#exercise)
+         * [✔☛ Question:](#-question)
+         * [★ Selectable choices (отдельный тип записи)](#-selectable-choices-отдельный-тип-записи)
+         * [♫ Answer](#-answer)
+         * [✎ Choices](#-choices)
+         * [✎ Add Words 1 box and ✎ Add Words 2 box](#-add-words-1-box-and--add-words-2-box)
+         * [♫ Question](#-question-1)
+         * [♟ Example](#-example)
+         * [»»♻«« Image for Question](#-image-for-question)
+         * [♨ Hint Front Image (XXL)](#-hint-front-image-xxl)
+         * [♨ Hint Front Text](#-hint-front-text)
+         * [♫ Hint Front](#-hint-front)
+         * [♨ Hint Back](#-hint-back)
+         * [♫ Hint Back](#-hint-back-1)
+         * [♨ Hint Back Text](#-hint-back-text)
 
 Эти шаблоны для Anki сделают ваши колоды по Англйской грамматике немного более эффективными. [Anki метод](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
