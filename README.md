@@ -1,34 +1,34 @@
 # Anki Theme 
-Изучайте Английскую грамматику с Anki: 
-### Шаблоны для книг по системе Murphy и не только.
+### Learning English grammar with Anki: 
+Themes for Raymond Murphy’s system books and not only.
 
 =================
 
-   * [Some notes from official site.](#some-notes-from-official-site)
-     * [<a href="https://apps.ankiweb.net/docs/manual.html#downloading-shared-decks" rel="nofollow">Self-made versus pre-made</a>](#self-made-versus-pre-made)
-     * [Notes](#notes)
-  * [Card Types](#card-types)
-     * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
-     * [Optional recommended](#optional-recommended)
-  * [Card Fields](#card-fields)
-     * [✔ID:](#id)
-     * [✔№ Unit:](#-unit)
-     * [✔ Unit Name:](#-unit-name)
-     * [✔♞Exercise:](#exercise)
-     * [✔☛ Question:](#-question)
-     * [★ Selectable choices (separate note type)](#-selectable-choices-separate-note-type)
-     * [♫ Answer](#-answer)
-     * [✎ Choices](#-choices)
-     * [✎ Add Words 1 box and ✎ Add Words 2 box](#-add-words-1-box-and--add-words-2-box)
-     * [♫ Question](#-question-1)
-     * [♟ Example](#-example)
-     * [»»♻«« Image for Question](#-image-for-question)
-     * [♨ Hint Front](#-hint-front)
-     * [♫ Hint Front](#-hint-front-1)
-     * [♨ Hint Back](#-hint-back)
-     * [♫ Hint Back](#-hint-back-1)
- * [Technical note!](#technical-note)
- * [Donate](#donate)
+  * [Some notes from official site.](#some-notes-from-official-site)
+    * [<a href="https://apps.ankiweb.net/docs/manual.html#downloading-shared-decks" rel="nofollow">Self-made versus pre-made</a>](#self-made-versus-pre-made)
+    * [Notes](#notes)
+* [Card Types](#card-types)
+    * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
+    * [Optional recommended](#optional-recommended)
+* [Card Fields](#card-fields)
+    * [✔ID:](#id)
+    * [✔№ Unit:](#-unit)
+    * [✔ Unit Name:](#-unit-name)
+    * [✔♞Exercise:](#exercise)
+    * [✔☛ Question:](#-question)
+    * [★ Selectable choices (separate note type)](#-selectable-choices-separate-note-type)
+    * [♫ Answer](#-answer)
+    * [✎ Choices](#-choices)
+    * [✎ Add Words 1 box and ✎ Add Words 2 box](#-add-words-1-box-and--add-words-2-box)
+    * [♫ Question](#-question-1)
+    * [♟ Example](#-example)
+    * [»»♻«« Image for Question](#-image-for-question)
+    * [♨ Hint Front](#-hint-front)
+    * [♫ Hint Front](#-hint-front-1)
+    * [♨ Hint Back](#-hint-back)
+    * [♫ Hint Back](#-hint-back-1)
+* [Technical note!](#technical-note)
+* [Donate](#donate)
 
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
