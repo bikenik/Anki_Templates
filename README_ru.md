@@ -1,4 +1,4 @@
-**##Anki Theme 
+##Anki Theme 
 Изучайте Английскую грамматику с Anki: Шаблоны для книг по системе Murphy и не только.
 
 Table of Contents
