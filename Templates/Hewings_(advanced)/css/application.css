@@ -1738,11 +1738,13 @@ code#typeans {
       font-size: 1em; } }
 
 .mac .overlay .p_app_button,
-.win .overlay .p_app_button {
+.win .overlay .p_app_button,
+.ipad .overlay .p_app_button {
   line-height: 150%; }
   @media (max-width: 769px) {
     .mac .overlay .p_app_button,
-    .win .overlay .p_app_button {
+    .win .overlay .p_app_button,
+    .ipad .overlay .p_app_button {
       line-height: 250%; } }
 
 #overlay_title #p_button {
@@ -2509,6 +2511,13 @@ button.header-close {
     max-height: 0;
     -webkit-transform: scale(0.5);
             transform: scale(0.5); }
+
+.ipad .appendixes {
+  margin-top: -340px; }
+  @media (max-width: 769px) {
+    .ipad .appendixes {
+      margin-top: -380px;
+      font-size: 1.2em; } }
 
 /*==================================== 
    Modal Window styles

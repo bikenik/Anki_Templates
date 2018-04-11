@@ -60,7 +60,10 @@
     }
 }
 
-//.mac .appendixes,
-//.win .appendixes {
-//		margin-top: -350px;
-//	}
+.ipad .appendixes {
+    margin-top: -340px;
+    @media #{$brk-narrow} {
+        margin-top: -380px;
+        font-size: 1.2em;
+    }
+}

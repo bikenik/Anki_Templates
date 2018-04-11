@@ -399,7 +399,8 @@ code#typeans {
 }
 
 .mac .overlay .p_app_button,
-.win .overlay .p_app_button {
+.win .overlay .p_app_button,
+.ipad .overlay .p_app_button {
     line-height: 150%;
     @media #{$brk-narrow} {
         line-height: 250%;
