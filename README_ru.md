@@ -129,16 +129,19 @@ B: Yes, but `{{c1::he isn't enjoying / he's not enjoying::(he / not / enjoy)}}` 
 Так же, можно добавить звук в это поле: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}.`
 
 ###	★ Selectable choices (отдельный тип записи)
-**(доступно только для типа карт [base])**
+**(доступно только для типа карт [base])** |
+**(не тестировалось на AnkiDroid и Linux)**
 
 Optional
 
 - Выберите из предлагаемых ответов.
 - Правильные ответы могут быть один, два или все.
 - если количество выбранных полей больше или меньше, чем правильных - любой ответ не защитан.
-- заполнение этого поля должно соответствовать (разделение вариантов через символ "|"): `variant-1 | <i>variant-2</i> | variant-3`
+- заполнение этого поля должно соответствовать (разделение вариантов через символ "|"): 
 
-	![Preview gif](./readmeImg/Selectable_peview.png)
+`variant-1 | <i>variant-2</i> | variant-3`
+
+![Preview gif](./readmeImg/Selectable_peview.png)
 
 ### ♫ Answer
 Optional (для обратной стороны карточки)

@@ -115,16 +115,19 @@ This field is button also. By the tap on this field `♟ Example` field opens
 You can add sound into this field: `7. [sound:rec1491131723.mp3] It isn’t true what they said. {{c1::They’re lying / (b}}`.
 
 ###	★ Selectable choices (separate note type)
-**(available only for [base] type of card)**
+**(available only for [base] type of card)** | 
+**(was not tested in AnkiDroid & Linux)**
 
 Optional
 
 - Choose from the suggested answers.
 - The correct answer can be one or more.
 - if the number of selected fields is more or less than the correct ones, any of the answers is not correct.
-- filling this field must correspond to the following (divide the variants through this character "|"): `variant-1 | <i>variant-2</i> | variant-3`
+- filling this field must correspond to the following (divide the variants through this character "|"): 
 
-	![Preview gif](./readmeImg/Selectable_peview.png)
+`variant-1 | <i>variant-2</i> | variant-3`
+
+![Preview gif](./readmeImg/Selectable_peview.png)
 
 ### ♫ Answer
 Optional (on the back side of card)
@@ -221,15 +224,13 @@ Optional <br>
 
 > ![](./readmeImg/example_sound_hint.png)
 
-<<<<<<< HEAD
 ### Technical note!
-
 
 There is a little, but noticeable difference in the display of the font (line-height) in comparison with Anki 2.0 and Anki 2.1. 
 
-For 2.1 no changes require. For correct display of button in Anki 2.0 add the following code in the edit mode, in  "Styling" field to the edn of this section.
+For 2.1 no changes require. For correct display of button in Anki 2.0 add the following code in the edit mode, in  "Styling" field to the end of this section.
 
-For templates "Elementary" ang "Intermediate":
+For templates "Elementary" and "Intermediate":
 ```CSS 
 .win #overlay_title #p_button,
 .mac #overlay_title #p_button {
