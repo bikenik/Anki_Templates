@@ -263,7 +263,8 @@ For template "Advanced":
 .mac .material-icons {
     line-height: 168%;
 }
-.appendixes {
+.win .appendixes,
+.mac .appendixes {
  margin-top: -340px;
 }
 ```

@@ -33,7 +33,8 @@ paste this code to the end of this section:
 .mac .material-icons {
     line-height: 168%;
 }
-.appendixes {
+.win .appendixes,
+.mac .appendixes {
  margin-top: -340px;
 }
 =====================================*/
@@ -2516,8 +2517,7 @@ button.header-close {
   margin-top: -340px; }
   @media (max-width: 769px) {
     .ipad .appendixes {
-      margin-top: -380px;
-      font-size: 1.2em; } }
+      margin-top: -380px; } }
 
 /*==================================== 
    Modal Window styles
