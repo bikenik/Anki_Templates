@@ -38,6 +38,8 @@ Themes for Raymond Murphy’s system books and not only.
 
 </details>
 
+---
+
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
 The template is built in html, javascript and css. Include fields: audio, transcriptions.
