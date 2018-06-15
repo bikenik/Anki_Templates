@@ -1,6 +1,7 @@
 # Anki Theme 
 ### Learning English grammar with Anki: 
 Themes for Raymond Murphy’s system books and not only.
+*(tested on macOs, AnkiMobile, Windows)*
 
 #### Table of contents
 
