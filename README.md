@@ -33,7 +33,7 @@ Themes for Raymond Murphy’s system books and not only.
     * [♨ Hint Back](#-hint-back)
     * [♫ Hint Back](#-hint-back-1)
 - [Technical note!](#technical-note)
-- [By me a coffee](#By-me-a-coffee)
+- [By me a coffee](#by-me-a-coffee)
 
 <!-- tocstop -->
 
@@ -279,6 +279,7 @@ For template "Advanced":
  margin-top: -340px;
 }
 ```
+
 ### By me a coffee
 
 <a href="https://www.buymeacoffee.com/cLMme6h" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
