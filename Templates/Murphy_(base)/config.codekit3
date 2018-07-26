@@ -441,6 +441,27 @@
 		"oAP": "\/scss\/.sass-cache\/0efa3f2069297880d95c5450896dfdd6e14500ef\/application.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_hamburgers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_hamburgers.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/1308dfa07c0a52a19bbdcf3a4e3d91378cc25a50\/_index.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/137f3cd9f9ddf42ad443c2e363de5768d1efedcf\/_footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -532,6 +553,62 @@
 		"oAP": "\/scss\/.sass-cache\/250edc7ec426cebfc06a996dd0ff571c2deacfca\/_index.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_appendixes.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_appendixes.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_buttons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_images.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_images.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_modalWindows.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_modalWindows.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_selectable.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_selectable.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/28543a1a2201700069a4b1410d3cd177f1f53d01\/_typography.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_appendixes.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -572,6 +649,62 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/2d058d413ec82f4a9d04cbda8f9b6c1308f9f2f6\/_typography.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_appendixes.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_appendixes.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_buttons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_images.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_images.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_modalWindows.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_modalWindows.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_selectable.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_selectable.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/2e27a3d5d70ce86fcbce428fa029783635ee5d59\/_typography.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/2edb8ace7d9869f730bfe33e947ef3e177e2e814\/_arrowalt-r.scssc": {
@@ -854,6 +987,27 @@
 		"oAP": "\/scss\/.sass-cache\/567b7678126a1c386d1f1631a243a17705e4e143\/_tables.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_hamburgers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_hamburgers.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/573c93b136e933dadfdbac2468367fdc8f3ffb1b\/_index.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/5e3e9f208b0554ec06a1be89e31bd825ad8635e2\/_appendixes.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1055,6 +1209,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/6e795fcc173df238e4cf1dfaf574036c80bf90dc\/application.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/7dafb19784611b3bdf1bc9375d6629c4a9cca506\/application.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-cache\/7dafb19784611b3bdf1bc9375d6629c4a9cca506\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80be8cd08fa353359b9dca1d4a3332351eb71de4\/_cardMain 2.scssc": {
@@ -1342,6 +1503,111 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/917b4beefc18aff4defe4899a741c5fe8e09cdd4\/_arrowalt.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_cardMain.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_cardMain.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_footer.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_footer.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_header.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_input.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_input.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_tables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/94dae52ea5f82f6ef1dd28de14c49985b48fddfd\/_tables.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_reset.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_simpleGrid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_simpleGrid.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_variables-elementary.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/b3062860b83bb0a1272d4f544154011c196e6fc5\/_variables-elementary.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/b36ab93c16c95beb45b06ffcb60f3fb5a544dde1\/application.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-cache\/b36ab93c16c95beb45b06ffcb60f3fb5a544dde1\/application.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b743de1fe70fb756743d466680f72a26af158f9a\/_appendixes.scssc": {
@@ -1694,6 +1960,20 @@
 		"oAP": "\/scss\/.sass-cache\/c9fe52bcf3f234b0f641a751028f5f728e93c642\/_typography.scssc",
 		"oF": 0
 		},
+	"\/scss\/.sass-cache\/cfbce1fa735b1e5b706048eceb7d57ebb67a9d94\/_arrowalt-r.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/cfbce1fa735b1e5b706048eceb7d57ebb67a9d94\/_arrowalt-r.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/cfbce1fa735b1e5b706048eceb7d57ebb67a9d94\/_arrowalt.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/cfbce1fa735b1e5b706048eceb7d57ebb67a9d94\/_arrowalt.scssc",
+		"oF": 0
+		},
 	"\/scss\/.sass-cache\/d1c66246d3cfe145012a6aa0e84e4d785d7ffc02\/_cardMain.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1846,6 +2126,69 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/d6b4cb9a957006a120d6fbef6bf9ce777237de51\/_typography.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_cardMain.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_cardMain.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_footer.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_footer.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_header.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_input.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_input.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_tables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/d7d318832e015485defb35bfc5e16b2b84cd8b76\/_tables.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/de3254d5b8f3a8a91eef9d55b0578265fc7a2e23\/_arrowalt-r.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/de3254d5b8f3a8a91eef9d55b0578265fc7a2e23\/_arrowalt-r.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/de3254d5b8f3a8a91eef9d55b0578265fc7a2e23\/_arrowalt.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/de3254d5b8f3a8a91eef9d55b0578265fc7a2e23\/_arrowalt.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/e1b9f30e9c0fe1fdadd5243c186bdca6451968ba\/_arrowalt-r.scssc": {
@@ -2154,6 +2497,62 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/ec88632c9175b35b4b17c7c4f3fa113b0bd135c8\/_variables.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_base.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_extended.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_extended.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_index.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_index.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_reset.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_simpleGrid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_simpleGrid.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_variables-elementary.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_variables-elementary.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_variables-intermediate.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/ecaaee0c6875b109336173889cf0a4e42941dbe1\/_variables-intermediate.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/f9c4a384733c1a1b3a6ac62b94e5f1cc04485e4a\/_cardMain.scssc": {
