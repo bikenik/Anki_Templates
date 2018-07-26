@@ -33,7 +33,7 @@ Themes for Raymond Murphy’s system books and not only.
     * [♨ Hint Back](#-hint-back)
     * [♫ Hint Back](#-hint-back-1)
 - [Technical note!](#technical-note)
-- [Donate](#donate)
+- [By me a coffee](#By-me-a-coffee)
 
 <!-- tocstop -->
 
