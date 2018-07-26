@@ -1,16 +1,21 @@
 # Anki Theme 
 ### Learning English grammar with Anki: 
 Themes for Raymond Murphy’s system books and not only.
+*(tested on macOs, AnkiMobile, Windows)*
 
-=================
+#### Table of contents
 
-  * [Some notes from official site.](#some-notes-from-official-site)
+<details>
+ 
+<!-- toc -->
+
+- [Some notes from official site.](#some-notes-from-official-site)
     * [<a href="https://apps.ankiweb.net/docs/manual.html#downloading-shared-decks" rel="nofollow">Self-made versus pre-made</a>](#self-made-versus-pre-made)
     * [Notes](#notes)
-* [Card Types](#card-types)
+- [Card Types](#card-types)
     * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
     * [Optional recommended](#optional-recommended)
-* [Card Fields](#card-fields)
+- [Card Fields](#card-fields)
     * [✔ID:](#id)
     * [✔№ Unit:](#-unit)
     * [✔ Unit Name:](#-unit-name)
@@ -27,8 +32,14 @@ Themes for Raymond Murphy’s system books and not only.
     * [♫ Hint Front](#-hint-front-1)
     * [♨ Hint Back](#-hint-back)
     * [♫ Hint Back](#-hint-back-1)
-* [Technical note!](#technical-note)
-* [Donate](#donate)
+- [Technical note!](#technical-note)
+- [Donate](#donate)
+
+<!-- tocstop -->
+
+</details>
+
+---
 
 This Anki theme will help make your English decks a little more effectively. [Janki method](https://apps.ankiweb.net/docs/manual.html#spaced-repetition), spaced repetition software is a helpful learning tool for English grammar from beginner to experienced.
 
