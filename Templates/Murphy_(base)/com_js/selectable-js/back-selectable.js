@@ -12,6 +12,8 @@
 !!!! These rules not been tested on the AnkiDroid !!!!
  ******************************************/
 
+/* global sequential shuffle result:true */
+/*global sequential */
 /*================================================
 =            DIVIDE BY ( "|") TO ANKI            = 
 ================================================*/
@@ -30,13 +32,14 @@ function divide(target) {
 		/\s*<\/div>\|\/<\/div>s*/g,
 		'</div> | '
 	)
-	var re = /\s*\s\|\s\s*/,
-		choices = target.innerHTML,
-		boxes = choices.split(re)
-		; (boxes = shuffle(boxes)), (boxes = sequential)
-	var list = ''
-	list += '<ul id="selectable">'
-	for (var r = 0; r < boxes.length; r++) {
+	const re = /\s*\s\|\s\s*/,
+		choices = target.innerHTML;
+	let boxes = choices.split(re);
+	(boxes = shuffle(boxes)),
+		boxes = sequential;
+	let list = '';
+	list += '<ul id="selectable">';
+	for (let r = 0; r < boxes.length; r++) {
 		list =
 			list +
 			'<li class="ui-widget-content"><strong class="abc">' +
@@ -49,11 +52,11 @@ function divide(target) {
 	target.innerHTML = list
 }
 
-var examples = document.getElementById('selectbox')
+const examples = document.getElementById('selectbox')
 /**
  * REGEX: excludes "[A-Z] at the beginning of each line for copy from teamtreehouse.com"
  */
-var match = examples.innerHTML
+let match = examples.innerHTML
 match = match.replace(
 	/([A-Z])(<span\sclass="Apple-tab-span"\sstyle="white-space:pre">\s<\/span>)(.+?)/g,
 	' | $3'
@@ -64,45 +67,39 @@ if (match !== examples.innerHTML) {
 }
 /*----------  end  ----------*/
 
-var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
 divide(examples)
 /*=====  End of DIVIDE BY ( "|") TO ANKI  ======*/
-
 
 window.scrollTo(0, 0)
 /*================================================
 =            Processing of the relult           =
 ================================================*/
-// var idTrue = document.getElementById('true'),
+// let idTrue = document.getElementById('true'),
 // idFalse = document.getElementById('false')
-var value,
-	counter = 0,
-	newResult = [],
-	ok = true
+let ok = true;
 
 divide(examples)
 
-var correctArr = [],
-	italic,
-	correct = [],
+const correct = [],
 	selectbox = document.querySelectorAll('#selectbox.back'),
 	abcGutter = document.getElementsByClassName('ui-widget-content'),
-	rowsOfSelectbox = document.querySelectorAll('#selectable li')
+	rowsOfSelectbox = document.querySelectorAll('#selectable li');
 
 function clearClassName(el) {
 	el.classList.remove('active-right')
 	el.classList.remove('active-wrong')
 }
 
-for (var i = 0; i < rowsOfSelectbox.length; i++) {
-	var anchor = rowsOfSelectbox[i].innerHTML.match(/\<([\/i]*)\>/)
+for (let i = 0; i < rowsOfSelectbox.length; i++) {
+	const anchor = rowsOfSelectbox[i].innerHTML.match(/\<([\/i]*)\>/)
 	if (anchor !== null) {
 		correct.push(i)
 	}
-	for (var z = 0; z < result.length; z++) {
+	for (let z = 0; z < result.length; z++) {
 		if (anchor !== null && anchor[1] === 'i' && i === result[z]) {
 			abcGutter[i].classList.add('active-right')
-			console.log('right index: ', i)
+			// console.log('right index: ', i)
 		}
 		if (anchor === null && i === result[z]) {
 			abcGutter[i].classList.add('active-wrong')
@@ -114,7 +111,7 @@ if (correct.length !== result.length || result.length === 0) {
 	ok = false
 }
 if (!ok) {
-	for (var i = 0; i < rowsOfSelectbox.length; i++) {
+	for (let i = 0; i < rowsOfSelectbox.length; i++) {
 		if (abcGutter[i].className === 'ui-widget-content active-right') {
 			abcGutter[i].classList.remove('active-right')
 			abcGutter[i].classList.add('active-wrong')
@@ -130,9 +127,9 @@ if (!ok) {
 			// idFalse.classList.remove('active')
 			// idTrue.classList.add('active')
 			selectbox[0].classList.remove('active-selectbox')
-			for (var i = 0; i < abcGutter.length; i++) {
+			for (let i = 0; i < abcGutter.length; i++) {
 				clearClassName(abcGutter[i])
-				for (var cor = 0; cor < correct.length; cor++) {
+				for (let cor = 0; cor < correct.length; cor++) {
 					if (i === correct[cor]) {
 						abcGutter[i].classList.add('active-right')
 					}
@@ -142,9 +139,9 @@ if (!ok) {
 			selectbox[0].classList.add('active-selectbox')
 			// idTrue.classList.remove('active')
 			// idFalse.classList.add('active')
-			for (var i = 0; i < abcGutter.length; i++) {
+			for (let i = 0; i < abcGutter.length; i++) {
 				clearClassName(abcGutter[i])
-				for (var res = 0; res < result.length; res++) {
+				for (let res = 0; res < result.length; res++) {
 					if (i === result[res]) {
 						abcGutter[i].classList.add('active-wrong')
 					}
@@ -158,3 +155,13 @@ if (ok) {
 	// idTrue.classList.add('active')
 	selectbox[0].classList.remove('active-selectbox')
 }
+
+/* -----------------------------
+Show/hide some text by <b></b> or <i></i> for front/back sides of card
+------------------------------- */
+// var line = document.querySelector(".question_back").innerHTML;
+// var cloze = line.match(/<i>(.*?)<\/i>/gi)
+// for (var i = 0; i < cloze.length; i++) {
+// 	line = line.replace(cloze[i], "<b>" + cloze[i].replace(/^\[\[|(::[^\]]*)?\]\]$/g, "") + "</b>")
+// }
+// document.querySelector(".question_back").innerHTML = line;

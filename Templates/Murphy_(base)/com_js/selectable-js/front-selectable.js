@@ -1,7 +1,9 @@
+/* exported sequential, arrayNum, shuffle */
+
 window.scrollTo(0, 0)
 /*--------------------DIVIDE BY ( "|")-------------------------*/
-function shuffle(array) {
-	var currentIndex = array.length,
+const shuffle = function (array) {
+	let currentIndex = array.length,
 		temporaryValue,
 		randomIndex
 	// While there remain elements to shuffle...
@@ -16,14 +18,14 @@ function shuffle(array) {
 	}
 	return array
 }
-var sequential
+let sequential
 
-var examples = document.querySelectorAll('#selectbox')[0]
+const examples = document.querySelectorAll('#selectbox')[0]
 /**
  * REGEX: excludes "[A-Z] at the beginning of each line"
  * @type {[type]}
  */
-var match = examples.innerHTML
+let match = examples.innerHTML
 match = match.replace(
 	/([A-Z])(<span\sclass="Apple-tab-span"\sstyle="white-space:pre">\s<\/span>)(.+?)/g,
 	' | $3'
@@ -33,7 +35,7 @@ if (match !== examples.innerHTML) {
 	examples.innerHTML = match
 }
 
-var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
 
 function divide(target) {
 	target.innerHTML = target.innerHTML.replace(
@@ -50,14 +52,14 @@ function divide(target) {
 		/\s*<\/div>\|\/<\/div>s*/g,
 		'</div> | '
 	)
-	var re = /\s*\s\|\s\s*/
-	var choices = target.innerHTML
-	var boxes = choices.split(re)
+	const re = /\s*\s\|\s\s*/
+	const choices = target.innerHTML
+	let boxes = choices.split(re)
 	boxes = shuffle(boxes)
 	sequential = boxes
-	var list = ''
+	let list = ''
 	list = list + '<ul id="selectable" class="selectable-front">'
-	for (var i = 0; i < boxes.length; i++) {
+	for (let i = 0; i < boxes.length; i++) {
 		list =
 			list +
 			'<li class="ui-widget-content"><strong class="abc">' +
@@ -73,9 +75,9 @@ function divide(target) {
 divide(examples)
 
 /*--------------------SELECTABLE-------------------------*/
-var result = []
-var arrayNum
-var myListArray = document.querySelectorAll('#selectable>li')
+const result = []
+let arrayNum
+const myListArray = document.querySelectorAll('#selectable>li')
 document.querySelectorAll('#selectable')[0].onclick = function (e) {
 	// e.preventDefault();
 	// console.log(e.target);
@@ -105,7 +107,7 @@ document.querySelectorAll('#selectable')[0].onclick = function (e) {
 			)
 			break
 	}
-	for (var i = 0; i < myListArray.length; i++) {
+	for (let i = 0; i < myListArray.length; i++) {
 		if (
 			myListArray[i].className === 'ui-widget-content active-selecting' &&
 			myListArray[i].getAttribute('shown') !== 'true'
@@ -118,7 +120,7 @@ document.querySelectorAll('#selectable')[0].onclick = function (e) {
 			myListArray[i].getAttribute('shown') !== 'false'
 		) {
 			myListArray[i].setAttribute('shown', 'false')
-			var index = result.indexOf(i)
+			const index = result.indexOf(i)
 			if (index > -1) {
 				result.splice(index, 1)
 			}
@@ -127,3 +129,13 @@ document.querySelectorAll('#selectable')[0].onclick = function (e) {
 	}
 	// console.log("result: ", result);
 }
+
+/* -----------------------------
+Show/hide some text by <b></b> or <i></i> for front/back sides of card
+------------------------------- */
+// var line = document.querySelector(".question_front").innerHTML;
+// var cloze = line.match(/<i>(.*?)<\/i>/gi)
+// for (var i = 0; i < cloze.length; i++) {
+// 	line = line.replace(cloze[i], " ..... ")
+// }
+// document.querySelector(".question_front").innerHTML = line;

@@ -1,42 +1,13 @@
 *.scssc
 
-*.codekit
-*.codekit3
-
 *.map
 
 *.DS_Store
 
 README_ru.pdf
 *.sublime-workspace
-
 *.sublime-project
+
 /Templates/Murphy_(base)/com_js/dnb.js
+/Backup
 /Templates/2x2/
-/Templates/Murphy_(base)/scss/components/_sportable.scss
-/Templates/2x2 (ABC-scramble)/scss/_test.scss
-/Backup/
-/Templates/2x2 (ABC-scramble)/coffeescript/
-/Templates/2x2 (ABC-scramble)/bower_components/
-/Templates/2x2 (ABC-scramble)/bower.json
-/Templates/2x2 (ABC-scramble)/.brackets.json
-/Templates/2x2 (ABC-scramble)/front for anki.html
-/Templates/2x2 (ABC-scramble)/index.haml
-/Templates/2x2 (ABC-scramble)/scss/.sass-cache/
-/Templates/2x2 (ABC-scramble)/js/scramble-for-illustrated-card.js
-/Templates/2x2 (ABC-scramble)/js/min/scramble-for-illustrated-card-min.js
-Templates/Hewings_(advanced)/js/app_copy.js
-Templates/Hewings_(advanced)/js/app_copy.js
-Templates/Hewings_(advanced)/js/app_copy.js
-Templates/Hewings_(advanced)/js/min/app_copy-min.js
-Templates/Hewings_(advanced)/js/min/app_copy-min.js
-Templates/Hewings_(advanced)/js/app_copy.js
-Templates/Murphy_(base)/com_js/_app-copy.js
-Templates/Murphy_(base)/com_js/min/app_copy2-min.js
-Templates/Murphy_(base)/config.codekit3
-Templates/Murphy_(base)/config.codekit3
-Templates/Murphy_(base)/com_js/min/_app-copy-min.js
-Templates/Murphy_(base)/com_js/app_copy2.js
-Templates/Hewings_(advanced)/config.codekit3
-Decks/Murphy Activities.apkg
-Decks/Murphy Exercises.apkg
