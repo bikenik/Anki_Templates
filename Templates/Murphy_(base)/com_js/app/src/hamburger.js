@@ -1,3 +1,18 @@
+const hamburgers = document.querySelectorAll(".hamburger");
+if (hamburgers.length > 0) {
+	hamburgers.forEach(hamburger => {
+		hamburger.addEventListener("click", function () {
+			this.classList.toggle("is-active");
+		}, false);
+		buttonAllClose.addEventListener("click", function () {
+			hamburger.classList.toggle("is-active");
+		}, false);
+		circlePositionerTitle.addEventListener("click", function () {
+			hamburger.classList.toggle("is-active");
+		}, false);
+	});
+}
+
 buttonGambur.onclick = function () {
 	if (header.style.maxHeight === "500px") {
 		hideHeader();
