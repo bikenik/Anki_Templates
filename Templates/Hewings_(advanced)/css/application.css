@@ -532,7 +532,10 @@ body {
 
 .card {
   width: 100%;
-  max-width: 1440px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
   top: 0;
   left: 0;
   bottom: 0;
