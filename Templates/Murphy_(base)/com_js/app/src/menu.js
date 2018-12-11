@@ -63,6 +63,7 @@ MenuElements.prototype.app = function () {
 		header.classList.remove("active_2");
 		buttonAllClose.classList.remove("active");
 		bodyCard.style.position = null;
+		bodyCard.style["overflow-y"] = "auto"
 		arrowLine.style.opacity = "1";
 		circlePaddingNone();
 		circlePositionerTitle.classList.remove("active");
@@ -78,6 +79,8 @@ MenuElements.prototype.app = function () {
 		responsiveCirclePosition(this.circle, this.beforeEl);
 		header.classList.add("active_2");
 		bodyCard.style.position = "fixed";
+		bodyCard.scrollTop = 0;
+		bodyCard.style["overflow-y"] = "hidden";
 		unitTableDiv.classList.remove("active");
 		appendixesHide(this.appendix);
 		buttonsColorHide(this.targetM, this.targetL, this.targetP); // spinning
@@ -103,5 +106,6 @@ MenuElements.prototype.app = function () {
 		//      }
 		bodyCard.style.position = null;
 		buttonAllClose.classList.remove("active");
+		bodyCard.style["overflow-y"] = "auto"
 	};
 };
