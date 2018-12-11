@@ -41,18 +41,18 @@ paste this code to the end of this section:
 =====================================*/
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 // Center text
 %centered {
-    text-align: center;
+  text-align: center;
 }
 
 // Align
 %alignBase {
-    position: relative;
-    margin: 0px auto;
-    align-items: center;
-    text-align: center;
+  position: relative;
+  margin: 0px auto;
+  align-items: center;
+  text-align: center;
 }
