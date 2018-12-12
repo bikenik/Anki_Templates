@@ -4,93 +4,93 @@
 
 .mac .modal__overlay,
 .win .modal__overlay {
-  max-height: 100%;
-  transition: all 0.55s;
-  max-width: 1440px;
-  margin: 0 auto;
+    max-height: 100%;
+    transition: all 0.55s;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .modal__overlay {
-  display: none;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 0; //	height: 100%;
-  padding: 0;
-  padding-bottom: 1em;
-  opacity: 0;
-  background: $background-app;
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 0;
-  z-index: -100;
-  transform: scale(0.5);
-  transition: all 1s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  &.active {
-    opacity: 1;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    /* lets it scroll lazy */
-    height: 100%;
-    transform: scale(1);
-    .modal__wrap {
-      overflow: auto;
-      -webkit-overflow-scrolling: touch;
-      /* lets it scroll lazy */
+    display: none;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 0; //	height: 100%;
+    padding: 0;
+    padding-bottom: 1em;
+    opacity: 0;
+    background: $background-app;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: -100;
+    transform: scale(0.5);
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    &.active {
+        opacity: 1;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        /* lets it scroll lazy */
+        height: 100%;
+        transform: scale(1);
+        .modal__wrap {
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            /* lets it scroll lazy */
+        }
+        pre.highlight,
+        div.highlight {
+            overflow-y: auto;
+            -webkit-overflow-y-scrolling: touch;
+            /* lets it scroll lazy */
+        }
     }
-    pre.highlight,
-    div.highlight {
-      overflow-y: auto;
-      -webkit-overflow-y-scrolling: touch;
-      /* lets it scroll lazy */
-    }
-  }
 }
 
 .ipad .modal__overlay {
-  @media #{$brk-wide} {
-    height: 100%;
-  }
+    @media #{$brk-wide} {
+        height: 100%;
+    }
 }
 
 .modal__wrap {
-  position: relative;
-  margin: 1.5em auto 1em 8%;
-  width: 90%;
-  max-height: 92%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  /* lets it scroll lazy */
-  @media #{$brk-iPhone6sPlus-portrait} {
-    width: 85%;
-  }
+    position: relative;
+    margin: 1.5em auto 1em 8%;
+    width: 90%;
+    max-height: 92%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    /* lets it scroll lazy */
+    @media #{$brk-iPhone6sPlus-portrait} {
+        width: 85%;
+    }
 }
 
 .modal__wrap h2 {
-  margin-bottom: 1em;
-  text-transform: uppercase;
+    margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 .modal__wrap p {
-  text-align: justify;
+    text-align: justify;
 }
 
 .modal div#modal__trigger:focus~label {
-  ransform: scale(0.97);
+    ransform: scale(0.97);
 }
 
 input#modal__trigger {
-  position: absolute;
-  top: -1000px;
+    position: absolute;
+    top: -1000px;
 }
 
 img {
-  max-width: 1024px;
-  max-height: 2500px;
+    max-width: 1024px;
+    max-height: 2500px;
 }
 
 /*==================================== 
@@ -98,70 +98,70 @@ img {
 =====================================*/
 
 .material-icons {
-  display: none;
-  z-index: 1500;
-  font-size: 2em;
-  line-height: 1.5;
-  color: white;
-  position: fixed;
-  border-radius: 50%;
-  height: 1.5em;
-  width: 1.5em;
-  left: 93%;
-  top: .6em;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease;
-  @media #{$brk-iPhone6sPlus-portrait} {
-    left: 90%;
-  }
-  @media #{$brk-extra-narrow} {
-    font-size: 1.5em;
-  }
+    display: none;
+    z-index: 1500;
+    font-size: 2em;
+    line-height: 1.5;
+    color: white;
+    position: fixed;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    left: 93%;
+    top: .6em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.5s ease, background-color 0.2s ease, transform 0.3s ease;
+    @media #{$brk-iPhone6sPlus-portrait} {
+        left: 90%;
+    }
+    @media #{$brk-extra-narrow} {
+        font-size: 1.5em;
+    }
 }
 
 .material-icons:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  border: solid 2px;
-  transform: scale(0.8);
-  position: absolute;
-  height: 1.5em; // width: 1.5em;
-  line-height: 1.3;
-  top: 0px;
-  left: 0px;
-  border-radius: 50%;
-  transition: all 0.5s ease;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: solid 2px;
+    transform: scale(0.8);
+    position: absolute;
+    height: 1.5em; // width: 1.5em;
+    line-height: 1.3;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
 }
 
 .material-icons {
-  background-color: $color-sec;
-  background-repeat: no-repeat;
-  background-position: center;
-  line-height: 150%;
+    background-color: $color-sec;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 150%;
 }
 
 .mac .material-icons {
-  line-height: 150%;
+    line-height: 150%;
 }
 
 .win .material-icons {
-  line-height: 150%;
+    line-height: 150%;
 }
 
 .material-icons:hover {
-  color: $color-sec;
+    color: $color-sec;
 }
 
 .material-icons:after {
-  border-color: $color-sec;
+    border-color: $color-sec;
 }
 
 .material-icons:hover {
-  background-color: transparent;
-  transform: rotate(90deg);
-  cursor: pointer;
-  box-shadow: none
+    background-color: transparent;
+    transform: rotate(90deg);
+    cursor: pointer;
+    box-shadow: none
 }
 
 /*==================================== 
@@ -170,12 +170,12 @@ img {
 
 pre.highlight,
 div.highlight {
-  display: block;
-  box-sizing: border-box;
-  margin: 1.5em auto 1em 8%;
-  width: 90%;
-  padding: 2em;
-  border-radius: .2em;
-  background: #d2d4d4;
-  max-height: 70%;
+    display: block;
+    box-sizing: border-box;
+    margin: 1.5em auto 1em 8%;
+    width: 90%;
+    padding: 2em;
+    border-radius: .2em;
+    background: #d2d4d4;
+    max-height: 70%;
 }

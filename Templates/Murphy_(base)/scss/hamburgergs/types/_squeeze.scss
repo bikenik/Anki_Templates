@@ -6,27 +6,36 @@
     .hamburger-inner {
       -webkit-transition-duration: 0.1s;
       -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
       &::before {
-        -webkit-transition: top 0.1s 0.14s ease, opacity 0.1s ease;
+        -webkit-transition: top 0.1s 0.14s ease,
+                    opacity 0.1s ease;
       }
+
       &::after {
-        -webkit-transition: bottom 0.1s 0.14s ease, -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        -webkit-transition: bottom 0.1s 0.14s ease,
+                    -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
       }
     }
+
     &.is-active {
       .hamburger-inner {
         -webkit-transform: rotate(45deg);
         -webkit-transition-delay: 0.14s;
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
         &::before {
           top: 0;
           opacity: 0;
-          -webkit-transition: top 0.1s ease, opacity 0.1s 0.14s ease;
+          -webkit-transition: top 0.1s ease,
+                      opacity 0.1s 0.14s ease;
         }
+
         &::after {
           bottom: 0;
           -webkit-transform: rotate(-90deg);
-          -webkit-transition: bottom 0.1s ease, -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+          -webkit-transition: bottom 0.1s ease,
+                      -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
         }
       }
     }

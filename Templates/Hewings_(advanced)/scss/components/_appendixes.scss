@@ -3,66 +3,66 @@
 =====================================*/
 
 .appendixes {
-  background: $background-app;
-  /* rgba(0, 0, 0, .65);*/
-  display: block;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-  /* lets it scroll lazy */
-  width: 100%;
-  max-width: 1440px;
-  position: fixed;
-  margin: 0 auto;
-  z-index: 13;
-  margin-top: -395px;
-  padding-left: 1.250em;
-  padding-right: 1.250em;
-  font-size: 1.3em;
-  line-height: 1.5;
-  max-height: 0;
-  transform: scale(0.5);
-  transition: all 0.95s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  @media #{$brk-narrow} {
-    margin-top: -380px;
-    font-size: 1.2em;
-  }
-  @media #{$brk-iPhone6sPlus-wide} {
-    margin-top: -380px;
-    font-size: 1.1em;
-  }
-  @media #{$brk-iPhone6s-wide} {
-    margin-top: -310px;
-  }
-  @media #{$brk-iPhone-wide} {
-    margin-top: -280px;
-    font-size: 1em;
-  }
-  @media #{$brk-iPhone6sPlus-portrait} {
-    margin-top: -263px;
-  }
-  @media #{$brk-iPhone6s-portrait} {
-    margin-top: -270px;
-    font-size: .925em;
-  }
-  @media #{$brk-extra-narrow} {
-    padding-left: .125em;
-    padding-right: .125em;
-    margin-top: -250px;
-  }
-  &.active {
-    max-height: 100%;
-    transform: scale(1);
-  }
-  &.active_1 {
+    background: $background-app;
+    /* rgba(0, 0, 0, .65);*/
+    display: block;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    /* lets it scroll lazy */
+    width: 100%;
+    max-width: 1440px;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 13;
+    margin-top: -395px;
+    padding-left: 1.250em;
+    padding-right: 1.250em;
+    font-size: 1.3em;
+    line-height: 1.5;
     max-height: 0;
     transform: scale(0.5);
-  }
+    transition: all 0.95s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    @media #{$brk-narrow} {
+        margin-top: -380px;
+        font-size: 1.2em;
+    }
+    @media #{$brk-iPhone6sPlus-wide} {
+        margin-top: -380px;
+        font-size: 1.1em;
+    }
+    @media #{$brk-iPhone6s-wide} {
+        margin-top: -310px;
+    }
+    @media #{$brk-iPhone-wide} {
+        margin-top: -280px;
+        font-size: 1em;
+    }
+    @media #{$brk-iPhone6sPlus-portrait} {
+        margin-top: -263px;
+    }
+    @media #{$brk-iPhone6s-portrait} {
+        margin-top: -270px;
+        font-size: .925em;
+    }
+    @media #{$brk-extra-narrow} {
+        padding-left: .125em;
+        padding-right: .125em;
+        margin-top: -250px;
+    }
+    &.active {
+        max-height: 100%;
+        transform: scale(1);
+    }
+    &.active_1 {
+        max-height: 0;
+        transform: scale(0.5);
+    }
 }
 
 .ipad .appendixes {
-  margin-top: -340px;
-  @media #{$brk-narrow} {
-    margin-top: -380px;
-  }
+    margin-top: -340px;
+    @media #{$brk-narrow} {
+        margin-top: -380px;
+    }
 }

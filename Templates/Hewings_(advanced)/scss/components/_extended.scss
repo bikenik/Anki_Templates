@@ -1,79 +1,85 @@
 // Buttons 
-%CirclePositioner {
-  display: inline-block;
-  position: relative;
-  margin-left: 5px;
-  margin-top: 0px;
-  margin-right: auto;
-  width: 75px;
-  text-align: center;
-  /*  background-color: cadetblue;*/
+
+%CirclePositioner{
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	width: 75px;
+	text-align: center;
+/*  background-color: cadetblue;*/
 }
 
 %mainCircle {
-  /*  background-color: cadetblue;*/
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  opacity: .99;
-  transition: all 1s;
-  transition-timing-function: ease-in-out;
+	/*  background-color: cadetblue;*/
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: .99;
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
 }
 
 %overlay {
-  background-color: $color-sec;
-  height: 70px;
-  width: 70px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -46.5px;
-  border-radius: 50%;
-  transition: all .3s;
-  transition-timing-function: ease-in-out;
+	background-color: $color-sec;
+	height: 70px;
+	width: 70px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -46.5px;
+	border-radius: 50%;
+	transition: all .3s;
+	transition-timing-function: ease-in-out;
 }
 
 %overlay_and_P {
-  position: relative;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  color: bisque;
-  background: none;
-  display: inline-block;
-  font-family: $button-fonts;
-  font-size: 3em;
-  transition: all .3s;
-  transition-timing-function: ease-in-out;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	color: bisque; 
+	background: none;
+	display: inline-block;
+	font-family: $button-fonts;
+	font-size: 3em;
+	transition: all .3s;
+	transition-timing-function: ease-in-out;
 }
 
 %overlay_and_P_resposive {
-  font-size: 1em;
-  margin-bottom: 0;
+		font-size: 1em;
+		margin-bottom: 0;
 }
 
-%spinningContainer {
-  background-color: transparent;
-  border-radius: 30%;
-  height: 24px;
-  width: 100%;
-  margin: 25px 20px 0px auto;
-  position: relative;
-  animation: mymoveR 1s ease-in-out;
-  transition: all 2s;
-  transition-timing-function: cubic-bezier(.18, 1.51, .85, 1.4);
+%spinningContainer{
+	background-color: transparent;
+	border-radius: 30%;
+	height: 24px;
+	width: 100%;
+	margin:25px 20px 0px auto;
+	position: relative;
+	animation: mymoveR 1s ease-in-out;
+	transition: all 2s;
+	transition-timing-function: cubic-bezier(.18, 1.51, .85, 1.4);
 }
 
 %circleContainer {
-  background-color: transparent; //	background-color: rgba(255, 255, 255, 0.79);
-  border-radius: 50%;
-  height: 35px;
-  width: 20px;
-  @media #{$brk-narrow} {
-    background-color: transparent;
-  }
+	background-color: transparent;
+//	background-color: rgba(255, 255, 255, 0.79);
+border-radius: 50%;
+height: 35px;
+width: 20px;
+	
+	@media #{$brk-narrow} {
+		background-color: transparent;
+	}
 }
+
+
+
