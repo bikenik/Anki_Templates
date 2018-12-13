@@ -3,9 +3,9 @@
 =====================================*/
 
 html {
-    //	display: table;
-    height: 100%;
-    width: 100%;
+  //	display: table;
+  height: 100%;
+  width: 100%;
 } //.ipad .card {
 //	position: absolute;
 //	-webkit-font-smoothing: antialiased;
@@ -14,19 +14,19 @@ html {
 /* --------------------- Additional option for Additional Card Fields plugin------------------------------ */
 
 .G {
-    color: gray;
+  color: gray;
 }
 
 .q0 {
-    color: indigo;
+  color: indigo;
 }
 
 .q1 {
-    color: black;
+  color: black;
 }
 
 .q2 {
-    color: darkgreen;
+  color: darkgreen;
 }
 
 /* --------------- Center content vertically on page ---------------------- */
@@ -34,100 +34,102 @@ html {
 .browserhide {}
 
 body {
-    z-index: 100;
-    background-image: $background-gradient;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 0;
-    line-height: 1.5;
-    height: 100%;
-    margin: 0;
-    font-smoothing: subpixel-antialiased !important;
-    backface-visibility: hidden;
+  z-index: 100;
+  background-image: $background-gradient;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  line-height: 1.5;
+  height: 100%;
+  margin: 0;
+  font-smoothing: subpixel-antialiased !important;
+  backface-visibility: hidden;
 }
 
 .card_1 {
-    z-index: 100;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  z-index: 100;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .card {
-    @extend %alignBase;
-    width: 100%;
-    max-width: 1440px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-} 
+  @extend %alignBase;
+  width: 100%;
+  max-width: 1440px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 // .mac .card,
 // .win .card {
 //     overflow-x: hidden;
 // }
 .hr_style {
-    margin-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 hr {
-    //	width: 100%;
-    height: 2px;
-    border: 0;
-    background: $hr-gradient;
+  //	width: 100%;
+  height: 2px;
+  border: 0;
+  background: $hr-gradient;
 }
 
 .normalize {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 a {
-    color: $link;
-    text-decoration: underline;
-    cursor: auto;
+  color: $link;
+  text-decoration: underline;
+  cursor: auto;
 }
 
 a:hover {
-    color: $hover-link;
+  color: $hover-link;
 }
 
 blockquote {
-    font: 14px/22px normal helvetica, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    padding-left: 15px;
-    border-left: .2em solid $color-prim;
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: .2em solid $color-prim;
 }
 
 li {
-    padding-left: 1em;
-    text-indent: -.7em;
+  padding-left: 1em;
+  text-indent: -.7em;
 }
 
 li::before {
-    font-size: 2.5em;
-    content: "∘ ";
-    color: $color-prim;
+  font-size: 2.5em;
+  content: "∘ ";
+  color: $color-prim;
 }
 
 .add-space-for-mobile {
-    @media #{$brk-wide} {
-        height: 360px;
-    }
-    @media #{$brk-narrow} {
-        height: 270px;
-    }
-    @media #{$brk-iPhone-wide} {
-        height: 165px;
-    }
-    @media #{$brk-extra-narrow} {
-        height: 220px;
-    }
+  @media #{$brk-wide} {
+    height: 360px;
+  }
+  @media #{$brk-narrow} {
+    height: 270px;
+  }
+  @media #{$brk-iPhone-wide} {
+    height: 165px;
+  }
+  @media #{$brk-extra-narrow} {
+    height: 220px;
+  }
 }
 
 .highlight {
-    margin-left: -9%;
-    width: intrinsic;
-    padding: 0 10px;
-    background-color: $Panache;;
+  margin-left: -9%;
+  width: intrinsic;
+  padding: 0 10px;
+  background-color: $Panache;
+  ;
 }

@@ -5,12 +5,12 @@ var question = document.querySelector('.question');
 var exampleAnswerHide = document.querySelector('.img_example');
 var el = question;
 if (el) {
-   el.onclick = function (event) {
-      if (event.target.textContent !== '') {
-         exampleAnswerHide.classList.toggle('active');
-         // console.log(event.target);
-      }
-   };
+	el.onclick = function (event) {
+		if (event.target.textContent !== '') {
+			exampleAnswerHide.classList.toggle('active');
+			// console.log(event.target);
+		}
+	};
 }
 var questionAudio = document.getElementById('question-audio');
 
@@ -20,20 +20,20 @@ var questionAudio = document.getElementById('question-audio');
 /*--------------------variables-------------------------*/
 var header = document.querySelector('.header');
 var buttons = document.getElementsByClassName('circle'),
-    buttonsFirst = document.getElementsByClassName('circle'),
-    mainCircle = document.getElementsByClassName('mainCircle'),
-    overlay = document.getElementsByClassName('overlay'),
-    gridPad = document.getElementsByClassName('grid-pad'),
-    p_AppButton = document.getElementsByClassName('p_app_button'),
-    appendixes = document.getElementsByClassName('appendixes'),
-    circlePositioner = document.getElementsByClassName('circlePositioner');
+	buttonsFirst = document.getElementsByClassName('circle'),
+	mainCircle = document.getElementsByClassName('mainCircle'),
+	overlay = document.getElementsByClassName('overlay'),
+	gridPad = document.getElementsByClassName('grid-pad'),
+	p_AppButton = document.getElementsByClassName('p_app_button'),
+	appendixes = document.getElementsByClassName('appendixes'),
+	circlePositioner = document.getElementsByClassName('circlePositioner');
 var buttonsClass = document.querySelector('.buttons'),
-    buttonAllClose = document.querySelector('.header-close'),
-    bodyCard = document.querySelector('.card'),
-    circlePositionerTitle = document.querySelector('.circlePositioner_title'),
-    arrowLine = document.querySelector('.arrow_06B13_line'),
-    overlayTitleM = document.querySelector('#overlay_title'),
-    overlayTitleL = document.querySelector('.mainCircle_title');
+	buttonAllClose = document.querySelector('.header-close'),
+	bodyCard = document.querySelector('.card'),
+	circlePositionerTitle = document.querySelector('.circlePositioner_title'),
+	arrowLine = document.querySelector('.arrow_06B13_line'),
+	overlayTitleM = document.querySelector('#overlay_title'),
+	overlayTitleL = document.querySelector('.mainCircle_title');
 var textP_Title = document.getElementById('p_button');
 var hamburger = document.querySelector('.hamburger--arrowalt-r');
 
@@ -101,15 +101,15 @@ function MenuElements(appendix, circle, beforeEl, targetM, targetL, targetP, cir
 	this.targetP = targetP;
 	this.circleLayout = circleLayout;
 }
-MenuElements.prototype.app = function() {
+MenuElements.prototype.app = function () {
 	/*--------------------Conditions for Responsive drop down appendixes-------------------------*/
-		function circlePaddingNone() {
-			buttonsFirst[0].style.paddingBottom = "0";
-		}
+	function circlePaddingNone() {
+		buttonsFirst[0].style.paddingBottom = "0";
+	}
 
-		function circlePaddingDone() {
-			buttonsFirst[0].style.paddingBottom = "2em";
-		}
+	function circlePaddingDone() {
+		buttonsFirst[0].style.paddingBottom = "2em";
+	}
 	/*--------------------Reset with Exceptions-------------------------*/
 	var appendixesHide = function (except) {
 		for (var i = 0; i < appendixes.length; i++) {
@@ -167,85 +167,85 @@ MenuElements.prototype.app = function() {
 		circlePaddingDone();
 		arrowLine.style.opacity = '0';
 	}
-		/*--------------------Reset button-------------------------*/
-  var circle = this.circle;
-  var beforeEl = this.beforeEl;
-  var circleLayout = this.circleLayout
-		buttonAllClose.onclick = function () {
-			circlePaddingNone();
-			buttonsClass.insertBefore(circle, beforeEl);
-			if (circle === buttons[13]) {
-				buttonsClass.appendChild(circle);
-			}
-			circleLayout.style.width = null;
-			appendixesHideAll();
-			buttonsColorDefault();
-			hideHeader();
-			circlePositionerTitle.classList.remove('active');
-			bodyCard.style.position = null;
-			buttonAllClose.classList.remove('active');
-		};
+	/*--------------------Reset button-------------------------*/
+	var circle = this.circle;
+	var beforeEl = this.beforeEl;
+	var circleLayout = this.circleLayout
+	buttonAllClose.onclick = function () {
+		circlePaddingNone();
+		buttonsClass.insertBefore(circle, beforeEl);
+		if (circle === buttons[13]) {
+			buttonsClass.appendChild(circle);
+		}
+		circleLayout.style.width = null;
+		appendixesHideAll();
+		buttonsColorDefault();
+		hideHeader();
+		circlePositionerTitle.classList.remove('active');
+		bodyCard.style.position = null;
+		buttonAllClose.classList.remove('active');
+	};
 } // End of function app()
 
 /*--------------------Launching app-------------------------*/
 
-var button_1 = new MenuElements(appendixes[0], buttons[0], buttons[1], overlay[0], mainCircle[0], p_AppButton[0],circlePositioner[0]),
-button_2 = new MenuElements(appendixes[1], buttons[1], buttons[2], overlay[1], mainCircle[1], p_AppButton[1], circlePositioner[1]),
-button_3 = new MenuElements(appendixes[2], buttons[2], buttons[3], overlay[2], mainCircle[2], p_AppButton[2], circlePositioner[2]),
-button_4 = new MenuElements(appendixes[3], buttons[3], buttons[4], overlay[3], mainCircle[3], p_AppButton[3], circlePositioner[3]),
-button_5 = new MenuElements(appendixes[4], buttons[4], buttons[5], overlay[4], mainCircle[4], p_AppButton[4], circlePositioner[4]),
-button_6 = new MenuElements(appendixes[5], buttons[5], buttons[6], overlay[5], mainCircle[5], p_AppButton[5], circlePositioner[5]),
-button_7 = new MenuElements(appendixes[6], buttons[6], buttons[7], overlay[6], mainCircle[6], p_AppButton[6], circlePositioner[6]),
-button_8 = new MenuElements(appendixes[7], buttons[7], buttons[8], overlay[7], mainCircle[7], p_AppButton[7], circlePositioner[7]),
-button_9 = new MenuElements(appendixes[8], buttons[8], buttons[9], overlay[8], mainCircle[8], p_AppButton[8], circlePositioner[8]),
-button_10 = new MenuElements(appendixes[9], buttons[9], buttons[10], overlay[9], mainCircle[9], p_AppButton[9], circlePositioner[9]),
-button_11 = new MenuElements(appendixes[10], buttons[10], buttons[11], overlay[10], mainCircle[10], p_AppButton[10], circlePositioner[10]),
-button_12 = new MenuElements(appendixes[11], buttons[11], buttons[12], overlay[11], mainCircle[11], p_AppButton[11], circlePositioner[11]),
-button_13 = new MenuElements(appendixes[12], buttons[12], buttons[13], overlay[12], mainCircle[12], p_AppButton[12], circlePositioner[12]),
-button_14 = new MenuElements(appendixes[13], buttons[13], buttons[14], overlay[13], mainCircle[13], p_AppButton[13], circlePositioner[13]),
-menuElements = [button_1, button_2, button_3, button_4, button_5, button_6, button_7, button_8, button_9, button_10, button_11, button_12, button_13, button_14];
+var button_1 = new MenuElements(appendixes[0], buttons[0], buttons[1], overlay[0], mainCircle[0], p_AppButton[0], circlePositioner[0]),
+	button_2 = new MenuElements(appendixes[1], buttons[1], buttons[2], overlay[1], mainCircle[1], p_AppButton[1], circlePositioner[1]),
+	button_3 = new MenuElements(appendixes[2], buttons[2], buttons[3], overlay[2], mainCircle[2], p_AppButton[2], circlePositioner[2]),
+	button_4 = new MenuElements(appendixes[3], buttons[3], buttons[4], overlay[3], mainCircle[3], p_AppButton[3], circlePositioner[3]),
+	button_5 = new MenuElements(appendixes[4], buttons[4], buttons[5], overlay[4], mainCircle[4], p_AppButton[4], circlePositioner[4]),
+	button_6 = new MenuElements(appendixes[5], buttons[5], buttons[6], overlay[5], mainCircle[5], p_AppButton[5], circlePositioner[5]),
+	button_7 = new MenuElements(appendixes[6], buttons[6], buttons[7], overlay[6], mainCircle[6], p_AppButton[6], circlePositioner[6]),
+	button_8 = new MenuElements(appendixes[7], buttons[7], buttons[8], overlay[7], mainCircle[7], p_AppButton[7], circlePositioner[7]),
+	button_9 = new MenuElements(appendixes[8], buttons[8], buttons[9], overlay[8], mainCircle[8], p_AppButton[8], circlePositioner[8]),
+	button_10 = new MenuElements(appendixes[9], buttons[9], buttons[10], overlay[9], mainCircle[9], p_AppButton[9], circlePositioner[9]),
+	button_11 = new MenuElements(appendixes[10], buttons[10], buttons[11], overlay[10], mainCircle[10], p_AppButton[10], circlePositioner[10]),
+	button_12 = new MenuElements(appendixes[11], buttons[11], buttons[12], overlay[11], mainCircle[11], p_AppButton[11], circlePositioner[11]),
+	button_13 = new MenuElements(appendixes[12], buttons[12], buttons[13], overlay[12], mainCircle[12], p_AppButton[12], circlePositioner[12]),
+	button_14 = new MenuElements(appendixes[13], buttons[13], buttons[14], overlay[13], mainCircle[13], p_AppButton[13], circlePositioner[13]),
+	menuElements = [button_1, button_2, button_3, button_4, button_5, button_6, button_7, button_8, button_9, button_10, button_11, button_12, button_13, button_14];
 
-button_1.circle.onclick =function() {
-  menuElements[0].app();
+button_1.circle.onclick = function () {
+	menuElements[0].app();
 };
-button_2.circle.onclick = function() {
-  menuElements[1].app();
+button_2.circle.onclick = function () {
+	menuElements[1].app();
 };
-button_3.circle.onclick = function() {
-  menuElements[2].app();
+button_3.circle.onclick = function () {
+	menuElements[2].app();
 };
-button_4.circle.onclick = function() {
-  menuElements[3].app();
+button_4.circle.onclick = function () {
+	menuElements[3].app();
 };
-button_5.circle.onclick = function() {
-  menuElements[4].app();
+button_5.circle.onclick = function () {
+	menuElements[4].app();
 };
-button_6.circle.onclick = function() {
-  menuElements[5].app();
+button_6.circle.onclick = function () {
+	menuElements[5].app();
 };
-button_7.circle.onclick = function() {
-  menuElements[6].app();
+button_7.circle.onclick = function () {
+	menuElements[6].app();
 };
-button_8.circle.onclick = function() {
-  menuElements[7].app();
+button_8.circle.onclick = function () {
+	menuElements[7].app();
 };
-button_9.circle.onclick = function() {
-  menuElements[8].app();
+button_9.circle.onclick = function () {
+	menuElements[8].app();
 };
-button_10.circle.onclick = function() {
-  menuElements[9].app();
+button_10.circle.onclick = function () {
+	menuElements[9].app();
 };
-button_11.circle.onclick = function() {
-  menuElements[10].app();
+button_11.circle.onclick = function () {
+	menuElements[10].app();
 };
-button_12.circle.onclick = function() {
-  menuElements[11].app();
+button_12.circle.onclick = function () {
+	menuElements[11].app();
 };
-button_13.circle.onclick = function() {
-  menuElements[12].app();
+button_13.circle.onclick = function () {
+	menuElements[12].app();
 };
-button_14.circle.onclick = function() {
-  menuElements[13].app();
+button_14.circle.onclick = function () {
+	menuElements[13].app();
 };
 /*--------------------Modal Window-------------------------*/
 var modalButton = document.querySelector('.myButt');
@@ -256,8 +256,8 @@ modalButton.onclick = function () {
 	if (header.className === 'header base active_1') {
 		hamburger.classList.toggle("is-active");
 	}
-		modalOverlay.style.display = "block";
-		modalOverlay.style.zIndex  = "800";
+	modalOverlay.style.display = "block";
+	modalOverlay.style.zIndex = "800";
 	setTimeout(function () {
 		modalOverlay.classList.toggle('active');
 		modalOverlay.scrollTop = 0;
@@ -274,8 +274,8 @@ materialIcons.onclick = function () {
 	modalOverlay.classList.toggle('active');
 	bodyCard.style.position = null;
 	setTimeout(function () {
-			modalOverlay.style.display = null;
-			modalOverlay.style.zIndex  = null;
+		modalOverlay.style.display = null;
+		modalOverlay.style.zIndex = null;
 	}, 1000);
 	setTimeout(function () {
 		materialIcons.style.display = 'none';
@@ -313,7 +313,7 @@ var highlight = document.querySelector('div.highlight');
 // var modalButton = document.querySelector('.myButt');
 var hr = document.getElementsByTagName('hr');
 var box1None = true,
-		box2None = true;
+	box2None = true;
 if (addWordsBox1.textContent === '') {
 	box1None = false;
 	addWordsBox1.style.display = 'none';
