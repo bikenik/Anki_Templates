@@ -9,32 +9,60 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/anki_cards/card01-back.html": {
+	"/anki_cards/elementary/card01-back.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/anki_cards/card01-back.html",
+		"oAP": "/anki_cards/elementary/card01-back.html",
 		"oF": 0
 		},
-	"/anki_cards/card01-front.html": {
+	"/anki_cards/elementary/card01-front.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/anki_cards/card01-front.html",
+		"oAP": "/anki_cards/elementary/card01-front.html",
 		"oF": 0
 		},
-	"/anki_cards/selectable-back.html": {
+	"/anki_cards/elementary/selectable-back.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/anki_cards/selectable-back.html",
+		"oAP": "/anki_cards/elementary/selectable-back.html",
 		"oF": 0
 		},
-	"/anki_cards/selectable-front.html": {
+	"/anki_cards/elementary/selectable-front.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/anki_cards/selectable-front.html",
+		"oAP": "/anki_cards/elementary/selectable-front.html",
+		"oF": 0
+		},
+	"/anki_cards/intermediate/card01-back.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/anki_cards/intermediate/card01-back.html",
+		"oF": 0
+		},
+	"/anki_cards/intermediate/card01-front.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/anki_cards/intermediate/card01-front.html",
+		"oF": 0
+		},
+	"/anki_cards/intermediate/selectable-back.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/anki_cards/intermediate/selectable-back.html",
+		"oF": 0
+		},
+	"/anki_cards/intermediate/selectable-front.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/anki_cards/intermediate/selectable-front.html",
 		"oF": 0
 		},
 	"/com_js/app/index.js": {
@@ -571,6 +599,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/scss/.sass-cache/b3062860b83bb0a1272d4f544154011c196e6fc5/_variables-elementary.scssc",
+		"oF": 0
+		},
+	"/scss/.sass-cache/b3062860b83bb0a1272d4f544154011c196e6fc5/_variables-intermediate.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/scss/.sass-cache/b3062860b83bb0a1272d4f544154011c196e6fc5/_variables-intermediate.scssc",
 		"oF": 0
 		},
 	"/scss/.sass-cache/b36ab93c16c95beb45b06ffcb60f3fb5a544dde1/application.scssc": {

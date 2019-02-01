@@ -10,7 +10,7 @@ Regular variables
 ------------------------------- */
 const questionAudio = document.getElementById("question-audio");
 const body = document.getElementById(body);
-//let hamburgers = document.querySelectorAll(".hamburger");
+const hamburgers = document.querySelectorAll(".hamburger");
 const buttons = document.getElementsByClassName("circle"),
 	buttonsFirst = document.getElementsByClassName("circle"),
 	mainCircle = document.getElementsByClassName("mainCircle"),
@@ -23,6 +23,7 @@ const buttons = document.getElementsByClassName("circle"),
 const buttonsClass = document.querySelector(".buttons"),
 	buttonAllClose = document.querySelector(".header-close"),
 	bodyCard = document.querySelector(".card"),
+	// bodyCardMobile = document.querySelector(".card .card"),
 	// bodyCardMobile = document.querySelector(".mobile>body>#qa>.card"),
 	overlayTitleM = document.querySelector("#overlay_title"),
 	overlayTitleL = document.querySelector(".mainCircle_title"),
