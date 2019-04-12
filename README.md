@@ -15,6 +15,7 @@ Themes for Raymond Murphy’s system books and not only.
 - [Card Types](#card-types)
     * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
     * [Optional recommended](#optional-recommended)
+- [Usage (keyboard interface control)](#usage-(keyboard-interface-control))
 - [Card Fields](#card-fields)
     * [✔ID:](#id)
     * [✔№ Unit:](#-unit)
@@ -86,6 +87,14 @@ Repeated card = green<br>
 `.q0 { color: blue; }`<br>
 `.q1 { color: maroon; }`<br>
 `.q2 { color: darkgreen; }`<br>
+
+## Usage (keyboard interface control)
+- <kbd>↑</kbd> - show modal window with theory
+- <kbd>↓</kbd> - show Unit, name of the Unit
+- <kbd>→</kbd> - show similar answer example
+- <kbd>^</kbd> + <kbd>[1-7]</kbd> (numbers) - show corresponding to the number extra. window with gram. rules.
+> pressing these keys again returns the previous
+card display
 
 ## Card Fields
 Fields marked **Optional** fields (♟ ♻ ✎ ♫ ♨) can be left blank and the template will ignore them. **Required** fields (✔) are required in order for a card to be generated.
