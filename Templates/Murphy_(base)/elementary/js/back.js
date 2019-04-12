@@ -1,3 +1,3 @@
-// app/index.js
+// com_js/app/index.js
 // ./elementary-menu-titles.js
-// app/key-navigation.js
+// com_js/app/key-navigation.js

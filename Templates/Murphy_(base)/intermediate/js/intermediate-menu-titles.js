@@ -11,7 +11,7 @@ function appendixesChangeName(mqiPad) {
 		p_AppButton[5].textContent = "6. Spelling";
 		p_AppButton[6].textContent = "7. American English";
 		for (let i = 0; i < headingTable.length; i++) {
-			headingTable[i].style.display = 'none';
+			headingTable[i].style.display = "none";
 		}
 	}
 	else {
@@ -22,9 +22,9 @@ function appendixesChangeName(mqiPad) {
 		p_AppButton[4].textContent = '5';
 		p_AppButton[5].textContent = '6';
 		p_AppButton[6].textContent = '7';
-		//		for (var x = 0; x < headingTable.length; x++) {
-		//			headingTable[x].style.display = 'block';
-		//		}
+		for (let x = 0; x < headingTable.length; x++) {
+			headingTable[x].style.display = "block";
+		}
 	}
 }
 if (matchMedia) {
