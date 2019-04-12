@@ -15,7 +15,7 @@ Themes for Raymond Murphy’s system books and not only.
 - [Card Types](#card-types)
     * [some necessary operations for this template:](#some-necessary-operations-for-this-template)
     * [Optional recommended](#optional-recommended)
-- [Usage (keyboard interface control)](#usage-(keyboard-interface-control))
+- [Usage (keyboard interface control)](#usage-keyboard-interface-control)
 - [Card Fields](#card-fields)
     * [✔ID:](#id)
     * [✔№ Unit:](#-unit)
